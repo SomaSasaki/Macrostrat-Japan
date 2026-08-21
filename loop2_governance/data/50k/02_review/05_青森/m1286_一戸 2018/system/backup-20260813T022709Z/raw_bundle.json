@@ -1,0 +1,752 @@
+{
+  "schema_version": "raw-review-bundle/1.0",
+  "map_id": "1286",
+  "sources": [
+    {
+      "type": "PDF_ABSTRACT",
+      "path": "m1286_abstract.txt",
+      "sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76"
+    },
+    {
+      "type": "PDF_INDEX",
+      "path": "m1286_pdfpages.json",
+      "sha256": "540f19f2077b7f9622a42bbde3081e06415b6f719bedf09fb5ef3acde72b82d6"
+    },
+    {
+      "type": "PUBLICATION",
+      "path": "m1286.json",
+      "sha256": "f68635060e6113135629af57567a7cfbd5d040e5d3e90ada0357c9b7b04fa73f"
+    }
+  ],
+  "review_v2_input": {
+    "unit_rows": [
+      {
+        "unit_id": "m1286_p001",
+        "column_id": "unsplit",
+        "sort_order": 1,
+        "unit_name": "NO_DATA",
+        "t_int": null,
+        "b_int": null,
+        "comments": "No structured unit inventory; PDF unit extraction requires review. COLUMN CHECK: No validated Column proposal is available."
+      }
+    ],
+    "column_rows": [
+      {
+        "col_id": "unsplit",
+        "col_name": "Unsplit candidate",
+        "lng": 141.3714112,
+        "lat": 40.2527666,
+        "status": "CHECK",
+        "ref_ids": "gsj1286",
+        "comments": "No validated Column proposal is available.",
+        "col_type": "column",
+        "axis_type": "age"
+      }
+    ],
+    "evidence_rows": [],
+    "project": {
+      "title": "1:50K GeoMap 'Ichinohe' (2018)",
+      "publication_year": "2018",
+      "shape": {
+        "available": false
+      },
+      "column_split_status": "unresolved_review",
+      "unit_inventory_source": "PDF_PENDING",
+      "column_assignment_basis": "No validated Column proposal is available.",
+      "column_check_units": [
+        "m1286_p001"
+      ]
+    }
+  },
+  "compiled": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-08-12T22:06:55+00:00",
+    "map": {
+      "map_id": "1286",
+      "source_review": null,
+      "metadata": {
+        "title": "1:50K GeoMap 'Ichinohe' (2018)",
+        "publication_year": "2018",
+        "shape": {
+          "available": false
+        },
+        "column_split_status": "unresolved_review",
+        "unit_inventory_source": "PDF_PENDING",
+        "column_assignment_basis": "No validated Column proposal is available.",
+        "column_check_units": [
+          "m1286_p001"
+        ]
+      },
+      "columns": [
+        {
+          "col_id": "unsplit",
+          "col_name": "Unsplit candidate",
+          "lng": 141.3714112,
+          "lat": 40.2527666,
+          "status": "CHECK",
+          "ref_ids": "gsj1286",
+          "comments": "No validated Column proposal is available.",
+          "col_type": "column",
+          "axis_type": "age"
+        }
+      ]
+    },
+    "units": [
+      {
+        "row_key": "m1286_p001::unsplit",
+        "unit_id": "m1286_p001",
+        "column_ids": [
+          "unsplit"
+        ],
+        "review_values": {
+          "unit_id": "m1286_p001",
+          "column_id": "unsplit",
+          "sort_order": 1,
+          "position": null,
+          "section_id": null,
+          "t_pos": null,
+          "unit_name": "NO_DATA",
+          "t_int": null,
+          "b_int": null,
+          "t_age_ma": null,
+          "b_age_ma": null,
+          "t_prop": null,
+          "b_prop": null,
+          "strat_name": null,
+          "environment": null,
+          "unit_description": null,
+          "lithology": null,
+          "minor_lith": null,
+          "min_thickness": null,
+          "max_thickness": null,
+          "basal_surface": null,
+          "lateral_relationship": null,
+          "comments": "No structured unit inventory; PDF unit extraction requires review. COLUMN CHECK: No validated Column proposal is available."
+        },
+        "values": {
+          "unit_id": "m1286_p001",
+          "column_id": "unsplit",
+          "sort_order": 1,
+          "position": null,
+          "section_id": null,
+          "t_pos": null,
+          "unit_name": "NO_DATA",
+          "t_int": null,
+          "b_int": null,
+          "t_age_ma": null,
+          "b_age_ma": null,
+          "t_prop": null,
+          "b_prop": null,
+          "strat_name": null,
+          "environment": null,
+          "unit_description": null,
+          "lithology": null,
+          "minor_lith": null,
+          "min_thickness": null,
+          "max_thickness": null,
+          "basal_surface": null,
+          "lateral_relationship": null,
+          "comments": "No structured unit inventory; PDF unit extraction requires review. COLUMN CHECK: No validated Column proposal is available."
+        },
+        "value_origins": {
+          "unit_id": "review",
+          "column_id": "review",
+          "sort_order": "review",
+          "unit_name": "review",
+          "comments": "review"
+        },
+        "field_resolution": {
+          "lithology": {
+            "state": "unresolved",
+            "method": null,
+            "origin": null,
+            "evidence_ids": [],
+            "requires_review": true,
+            "conflict_count": 0,
+            "reasons": [
+              "no_candidate"
+            ]
+          },
+          "minor_lith": {
+            "state": "unresolved",
+            "method": null,
+            "origin": null,
+            "evidence_ids": [],
+            "requires_review": true,
+            "conflict_count": 0,
+            "reasons": [
+              "no_candidate"
+            ]
+          },
+          "age": {
+            "state": "unresolved",
+            "method": null,
+            "origin": null,
+            "evidence_ids": [],
+            "requires_review": true,
+            "conflict_count": 0,
+            "reasons": [
+              "no_candidate"
+            ]
+          }
+        },
+        "formulas": {},
+        "age_evidence": {
+          "status": "MISSING",
+          "summary": "No supporting evidence",
+          "best_by_field": {},
+          "evidence_ids": [],
+          "conflict_count": 0,
+          "inferred_count": 0
+        },
+        "context_evidence": {
+          "status": "OK",
+          "summary": "No supporting evidence",
+          "best_by_field": {},
+          "evidence_ids": [],
+          "conflict_count": 0,
+          "inferred_count": 0
+        },
+        "physical_evidence": {
+          "status": "MISSING",
+          "summary": "No supporting evidence",
+          "best_by_field": {},
+          "evidence_ids": [],
+          "conflict_count": 0,
+          "inferred_count": 0
+        },
+        "status": "CHECK",
+        "status_reasons": [
+          "missing_optional:environment",
+          "missing_optional:physical_evidence",
+          "unresolved:lithology",
+          "unresolved:minor_lith",
+          "unresolved:chronology"
+        ],
+        "human_status": null
+      }
+    ],
+    "summary": {
+      "unit_count": 1,
+      "column_count": 1,
+      "evidence_count": 0,
+      "orphaned_evidence_count": 0,
+      "orphaned_evidence_ids": [],
+      "status_counts": {
+        "OK": 0,
+        "CHECK": 1,
+        "MISSING": 0
+      },
+      "field_resolution_counts": {
+        "lithology": {
+          "present": 0,
+          "explicitly_absent": 0,
+          "unresolved": 1
+        },
+        "minor_lith": {
+          "present": 0,
+          "explicitly_absent": 0,
+          "unresolved": 1
+        },
+        "age": {
+          "present": 0,
+          "explicitly_absent": 0,
+          "unresolved": 1
+        }
+      },
+      "field_resolution_metrics": {
+        "lithology_present_rate": 0.0,
+        "minor_lith_disposition_rate": 0.0,
+        "age_present_rate": 0.0,
+        "age_interval_pair_rate": 0.0
+      },
+      "unresolved_age_unit_ids": [
+        "m1286_p001"
+      ]
+    }
+  },
+  "evidence": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-08-12T22:06:55+00:00",
+    "map_id": "1286",
+    "source_review": null,
+    "evidence": []
+  },
+  "gaps": [
+    "column split requires PDF stratigraphic interpretation",
+    "environment inference remains a review task when the Abstract is silent",
+    "t_prop, b_prop, position, section_id and t_pos are deferred to submission",
+    "ZFK and Shape unit inventories unavailable; PDF unit inventory requires review"
+  ],
+  "units": [
+    {
+      "unit_id": "m1286_p001",
+      "unit_name": "landslide deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "Landslide deposits occur in the district as young and minor deposits."
+    },
+    {
+      "unit_id": "m1286_p002",
+      "unit_name": "flood-plain and valley-floor deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "Flood-plain and valley-floor deposits occur in the district as young and minor deposits."
+    },
+    {
+      "unit_id": "m1286_p003",
+      "unit_name": "colluvial and alluvial cone deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "Colluvial and alluvial cone deposits occur in the district as young and minor deposits."
+    },
+    {
+      "unit_id": "m1286_p004",
+      "unit_name": "river-bed deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "River-bed deposits occur in the district as young and minor deposits."
+    },
+    {
+      "unit_id": "m1286_p005",
+      "unit_name": "Horino terrace deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Horino terrace deposits are lower lower terrace deposits distributed along the Mabechi River."
+    },
+    {
+      "unit_id": "m1286_p006",
+      "unit_name": "Ibonai terrace deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Ibonai terrace deposits are lower lower terrace deposits distributed along the Setsukinai and Yukiya rivers."
+    },
+    {
+      "unit_id": "m1286_p007",
+      "unit_name": "Maisawa terrace deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Maisawa terrace deposits are higher lower terrace deposits distributed along the Mabechi River."
+    },
+    {
+      "unit_id": "m1286_p008",
+      "unit_name": "Rendaino terrace deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Rendaino terrace deposits are higher lower terrace deposits distributed along the Setsukinai and Yukiya rivers."
+    },
+    {
+      "unit_id": "m1286_p009",
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": null
+    },
+    {
+      "unit_id": "m1286_p010",
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": null
+    },
+    {
+      "unit_id": "m1286_p011",
+      "unit_name": "Kusagi terrace deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Kusagi terrace deposits are middle terrace deposits developed along the Mabechi River."
+    },
+    {
+      "unit_id": "m1286_p012",
+      "unit_name": "Hayawatari terrace deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Hayawatari terrace deposits are middle terrace deposits developed mainly along the Setsukinai River."
+    },
+    {
+      "unit_id": "m1286_p013",
+      "unit_name": "Asanai terrace deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Asanai terrace deposits are higher terrace deposits distributed along the Mabechi River."
+    },
+    {
+      "unit_id": "m1286_p014",
+      "unit_name": "Mukaikawara terrace deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Mukaikawara terrace deposits are higher terrace deposits distributed along the Yukiya River."
+    },
+    {
+      "unit_id": "m1286_p015",
+      "unit_name": "Oritsumedake fan deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Oritsumedake fan deposits unconformably overlies the Esashika Formation and comprises loose gravel and sand beds."
+    },
+    {
+      "unit_id": "m1286_p016",
+      "unit_name": "Nanashigure Volcanic Fan Deposits",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Nanashigure Volcanic Fan Deposits are distributed only in the southwestern corner of this district."
+    },
+    {
+      "unit_id": "m1286_p017",
+      "unit_name": "Esashika Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Esashika Formation is distributed only along the eastern foot of the Oritsume Mountains."
+    },
+    {
+      "unit_id": "m1286_p018",
+      "unit_name": "Toya Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Toya Formation unconformably overlies the Jurassic strata, the Kadonosawa and the Zyūmonzi formations."
+    },
+    {
+      "unit_id": "m1286_p019",
+      "unit_name": "Shitazaki Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Shitazaki Formation conformably overlies the Yanagisawa Formation with erosional surface at its basal part."
+    },
+    {
+      "unit_id": "m1286_p020",
+      "unit_name": "Kamimetoki Sandstone Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Kamimetoki Sandstone Member consists of sandstone beds in the lowermost parts of the Shitazaki Formation."
+    },
+    {
+      "unit_id": "m1286_p021",
+      "unit_name": "Yanagisawa Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Yanagisawa Formation conformably overlies the Zyūmonzi Formation, and is composed of diatomite."
+    },
+    {
+      "unit_id": "m1286_p022",
+      "unit_name": "Kawaguchi Porcelanite Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Kawaguchi Porcelanite Member is composed of diatomite-origined porcelanite within the Yanagisawa Formation."
+    },
+    {
+      "unit_id": "m1286_p023",
+      "unit_name": "Zyūmonzi Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Zyūmonzi Formation overlies the Suenomatuyama Formation with slightly-angular unconformity."
+    },
+    {
+      "unit_id": "m1286_p024",
+      "unit_name": "Hinosawa Conglomerate Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Hinosawa Conglomerate Member is a basal conglomerate within the Zyūmonzi Formation."
+    },
+    {
+      "unit_id": "m1286_p025",
+      "unit_name": "Metoki Coquina Conglomerate Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Metoki Coquina Conglomerate Member is a coquina conglomerate within the Zyūmonzi Formation."
+    },
+    {
+      "unit_id": "m1286_p026",
+      "unit_name": "Shimotomai Volcaniclastic Rock Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Shimotomai Volcaniclastic Rock Member consists of reworked volcaniclastic rocks within the Zyūmonzi Formation."
+    },
+    {
+      "unit_id": "m1286_p027",
+      "unit_name": "Suenomatuyama Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Suenomatuyama Formation conformably / slightly-unconformably overlies the Kadonosawa Formation."
+    },
+    {
+      "unit_id": "m1286_p028",
+      "unit_name": "Anausi Conglomerate Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Anausi Conglomerate Member is a member of the Suenomatuyama Formation."
+    },
+    {
+      "unit_id": "m1286_p029",
+      "unit_name": "Itukamati Sandstone Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Itukamati Sandstone Member is a member of the Suenomatuyama Formation."
+    },
+    {
+      "unit_id": "m1286_p030",
+      "unit_name": "Aikawa Volcanic Rock Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Aikawa Volcanic Rock Member is a member of the Suenomatuyama Formation."
+    },
+    {
+      "unit_id": "m1286_p031",
+      "unit_name": "Nakuidake Volcanic Rock Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Nakuidake Volcanic Rock Member is a member of the Suenomatuyama Formation."
+    },
+    {
+      "unit_id": "m1286_p032",
+      "unit_name": "Mainosawa Sandstone Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Mainosawa Sandstone Member is a member of the Suenomatuyama Formation."
+    },
+    {
+      "unit_id": "m1286_p033",
+      "unit_name": "Kadonosawa Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Kadonosawa Formation conformably overlies the Yotuyaku Formation."
+    },
+    {
+      "unit_id": "m1286_p034",
+      "unit_name": "Tate Sandstone Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Tate Sandstone Member yields numerous littoral marine molluscs, named as 'Kadonosawa Fauna'."
+    },
+    {
+      "unit_id": "m1286_p035",
+      "unit_name": "Sikonai Siltstone Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Sikonai Siltstone Member is the upper member of the Kadonosawa Formation."
+    },
+    {
+      "unit_id": "m1286_p036",
+      "unit_name": "Yotuyaku Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members."
+    },
+    {
+      "unit_id": "m1286_p037",
+      "unit_name": "Matsukura Siliciclastic Rock Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Matsukura Siliciclastic Rock Member is a member of the Yotuyaku Formation."
+    },
+    {
+      "unit_id": "m1286_p038",
+      "unit_name": "Koiwai Mudstone Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Koiwai Mudstone Member yields numerous marine molluscs."
+    },
+    {
+      "unit_id": "m1286_p039",
+      "unit_name": "Keiseitoge Volcanic Rock Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Keiseitoge Volcanic Rock Member is a member of the Yotuyaku Formation."
+    },
+    {
+      "unit_id": "m1286_p040",
+      "unit_name": "Sukohata Siliciclastic Rock Member",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Sukohata Siliciclastic Rock Member is a member of the Yotuyaku Formation."
+    },
+    {
+      "unit_id": "m1286_p041",
+      "unit_name": "Ainoyama Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Ainoyama Formation is composed of dacitic lava and conglomerate."
+    },
+    {
+      "unit_id": "m1286_p042",
+      "unit_name": "Nisatai Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Nisatai Formation is composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate."
+    },
+    {
+      "unit_id": "m1286_p043",
+      "unit_name": "Ichinohe Pluton",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Ichinohe Pluton is lithologically characterised by two facies; monzogabbro and quartz monzonite."
+    },
+    {
+      "unit_id": "m1286_p044",
+      "unit_name": "Tsukanaigawa Pluton",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Tsukanaigawa Pluton is composed of medium-grained biotite hornblende granodiorite."
+    },
+    {
+      "unit_id": "m1286_p045",
+      "unit_name": "Kuzumaki Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Kuzumaki Formation consists mainly of phyllitic mudstone and pelitic mixed rock."
+    },
+    {
+      "unit_id": "m1286_p046",
+      "unit_name": "Kassenba Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Kassenba Formation is characterised by at least two repetitions of chert-clastic sequence."
+    },
+    {
+      "unit_id": "m1286_p047",
+      "unit_name": "Seki Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Seki Formation is characterised by at least three repetitions of chert-clastic sequence."
+    },
+    {
+      "unit_id": "m1286_p048",
+      "unit_name": "Takayashiki Formation",
+      "t_int": null,
+      "b_int": null,
+      "description": "The Takayashiki Formation consists mainly of alternating beds of dismembered sandstone and mudstone."
+    }
+  ],
+  "columns": [
+    {
+      "col_id": "unsplit",
+      "col_name": "Unsplit candidate",
+      "lng": 141.3714112,
+      "lat": 40.2527666,
+      "status": "CHECK",
+      "ref_ids": "gsj1286",
+      "comments": "No validated Column proposal is available.",
+      "col_type": "column",
+      "axis_type": "age"
+    }
+  ],
+  "refs": [
+    {
+      "ref_id": "gsj1286",
+      "title": "1:50K GeoMap 'Ichinohe' (2018)",
+      "authors": "TUZINO Taqumi, KUDO Takashi, NAKAE Satoshi, KONDO Reisuke, NISHIOKA Yoshiharu, UEKI Takeyuki",
+      "publication": "Quadrangle Series, 1:50,000",
+      "compilation": "Geological Survey of Japan 1:50,000 quadrangle compilation",
+      "organization": "Geological Survey of Japan, AIST",
+      "date": "2018",
+      "doi": null,
+      "url": "https://gbank.gsj.jp/ld/resource/publication/map/g050/map1286",
+      "comments": "Official GSJ publication metadata."
+    }
+  ],
+  "images": [
+    {
+      "col_ids": "unsplit",
+      "image_name": "https://gbank.gsj.jp/ld/resource/image/map/gsj_map_1286_legend_1249.jpg",
+      "ref_id": "gsj1286",
+      "page_no": null,
+      "fig_no": "legend-1249",
+      "description": "Geologic map legend",
+      "comments": "Official GSJ image resource."
+    },
+    {
+      "col_ids": "unsplit",
+      "image_name": "https://gbank.gsj.jp/ld/resource/image/map/gsj_map_1286_section_2236.jpg",
+      "ref_id": "gsj1286",
+      "page_no": null,
+      "fig_no": "ABC",
+      "description": "Geologic cross section",
+      "comments": "Official GSJ image resource."
+    },
+    {
+      "col_ids": "unsplit",
+      "image_name": "https://gbank.gsj.jp/ld/resource/image/map/gsj_map_1286_section_2237.jpg",
+      "ref_id": "gsj1286",
+      "page_no": null,
+      "fig_no": "DEF",
+      "description": "Geologic cross section",
+      "comments": "Official GSJ image resource."
+    }
+  ],
+  "project_meta": [
+    {
+      "key": "project_name",
+      "value": "1:50K GeoMap 'Ichinohe' (2018)"
+    },
+    {
+      "key": "organization",
+      "value": "UW Madison - Macrostrat Lab"
+    },
+    {
+      "key": "compiler_name",
+      "value": "Soma Sasaki"
+    },
+    {
+      "key": "col_type",
+      "value": "column"
+    },
+    {
+      "key": "axis_type",
+      "value": "age"
+    },
+    {
+      "key": "position_unit",
+      "value": "meters"
+    },
+    {
+      "key": "time_unit",
+      "value": "Ma"
+    },
+    {
+      "key": "timescale",
+      "value": "international intervals"
+    },
+    {
+      "key": "srid",
+      "value": "EPSG:4326"
+    }
+  ],
+  "gsj_meta": [
+    {
+      "key": "map_id",
+      "value": "1286"
+    },
+    {
+      "key": "title_en",
+      "value": "1:50K GeoMap 'Ichinohe' (2018)"
+    },
+    {
+      "key": "title_ja",
+      "value": "5万分の1地質図幅「一戸」 (2018)"
+    },
+    {
+      "key": "sheet_code",
+      "value": null
+    },
+    {
+      "key": "pub_year",
+      "value": "2018"
+    },
+    {
+      "key": "series",
+      "value": "Quadrangle Series, 1:50,000"
+    },
+    {
+      "key": "publisher",
+      "value": "Geological Survey of Japan, AIST"
+    },
+    {
+      "key": "source_zfk_map",
+      "value": null
+    },
+    {
+      "key": "source_publication",
+      "value": "https://gbank.gsj.jp/ld/resource/publication/map/g050/map1286"
+    }
+  ],
+  "source_evidence": []
+}

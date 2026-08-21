@@ -1,0 +1,130 @@
+{
+  "schema_version": "pdf-environment-analysis/1.0",
+  "stage": "pdf_environment_multimodal",
+  "prompt_version": "body-figure-environment-v2",
+  "status": "complete",
+  "job_id": "penv_45663f3bbe265afa4f3f",
+  "model": "gemini-3.6-flash",
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "prompt_sha256": "54f78c62446c221bbdf6d807f832a4bd6e3a369fba70d00eb026095969c6d8b9",
+  "target_sha256": "d9fa38064d02778b02676df26c2f964a87c1d7fc2679c72a08ce8507fedd0272",
+  "image_sha256s": [
+    "80d9d736714462b93dbaec468fcda53c9c02c83363316d3a7c89e4b8f12808df",
+    "f3ee9a7980661d203bdefb0d3112db777cbc77bf45f99d731b2dfeb3d9047f52",
+    "737bbfc74cb28e900d7c4d48ae5aa7ad8775efc1035e366af93fe2b6ce6e6cdc"
+  ],
+  "completed_at": "2026-08-10T19:21:45+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1286_p017",
+      "column_ids": [
+        "western"
+      ],
+      "field": "environment",
+      "candidate": "deep-water indet.",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 text explains that the diatomite and its diagenetically altered hard shale (porcellanite) were deposited in a bathyal/deep-water environment (漸深海) with minimal terrigenous sediment input.",
+      "reason": "Combining the text identifying the unit as the hard shale member of the Yanagisawa Formation with Figure 1 confirms a bathyal/deep-water depositional setting.",
+      "features": [
+        "porcellanite",
+        "hard shale"
+      ],
+      "alternatives": [
+        "offshore"
+      ],
+      "context": {
+        "context_id": "ctx_m1286_p017_fdc19126cab6",
+        "section": null,
+        "pdf_page": 102,
+        "printed_page": 92
+      }
+    }
+  ],
+  "dropped": [
+    {
+      "unit_id": "m1286_p005",
+      "reason": "not_applicable_requires_verified_quote"
+    },
+    {
+      "unit_id": "m1286_p006",
+      "reason": "not_applicable_requires_verified_quote"
+    },
+    {
+      "unit_id": "m1286_p008",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p014",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p019",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p021",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p023",
+      "reason": "no_verified_text_or_figure_evidence"
+    }
+  ],
+  "unresolved": [
+    {
+      "unit_id": "m1286_p001",
+      "column_ids": [
+        "eastern"
+      ],
+      "reason": "The source text notes that the Jurassic Takayashiki Formation forms the unconformable basement beneath terrace deposits, but provides insufficient details to establish its depositional environment."
+    },
+    {
+      "unit_id": "m1286_p003",
+      "column_ids": [
+        "central",
+        "eastern"
+      ],
+      "reason": "The text describes structural folding and fault relationships without providing evidence for the depositional environment."
+    },
+    {
+      "unit_id": "m1286_p004",
+      "column_ids": [
+        "central",
+        "western"
+      ],
+      "reason": "The text only mentions the homoclinal structural style of the formation, which is insufficient to determine a depositional environment."
+    },
+    {
+      "unit_id": "m1286_p013",
+      "column_ids": [
+        "western"
+      ],
+      "reason": "The text only notes the structural fault contact of this conglomerate member without giving evidence regarding its depositional environment."
+    },
+    {
+      "unit_id": "m1286_p015",
+      "column_ids": [
+        "western"
+      ],
+      "reason": "The text describes the unit as reworked volcaniclastic rocks without providing specific setting evidence to establish the depositional environment."
+    },
+    {
+      "unit_id": "m1286_p016",
+      "column_ids": [
+        "western"
+      ],
+      "reason": "The text discusses tectonic tilting of the sequence without providing depositional setting details for the unit."
+    }
+  ],
+  "estimated_tokens": 42311,
+  "usage_tokens": 42910
+}

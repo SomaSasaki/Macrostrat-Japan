@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"ai_roles","type":"text","text":"# AI協調体制と役割分担マトリクス\n\n- **Antigravity (Gemini 3.7 Flash / 秘書・報告)**: 研究者との対話、タスク仕様書 (specs/TASK.md) の策定、知見の整理・要約報告。\n- **Claude Code (Opus/Sonnet / 重推論・Vision)**: 長文PDF深層抽出、柱状図幾何検出、不変条件違反の自律修復。\n- **Codex (高速実装・テスト保守)**: 決定論的アルゴリズム実装、パイプライン最適化、pytest 回帰テスト保守。","x":-300,"y":-450,"width":1200,"height":200},
+		{"id":"loop1","type":"text","text":"# 第1ループ: AI自律計算エンジン (統語論・計算)\n\n**担当**: Claude Code / Codex\n\n1. `pdf_context_router.py`: PDF章節スライス (トークン90%削減)\n2. `local_abstract_science.py`: 英文要約からの高速属性抽出\n3. `local_japanese_science.py`: 日本語本文からの層厚・境界抽出\n4. `column_vision.py`: 柱状図地域区分検出 & 座標アンカリング\n5. `age_resolution.py`: 5段階年代解決ソルバー (単調性検証)\n6. `pytest tests/`: 決定論的不変条件の自動テスト合格\n\n*成果物: Review Sheet (Excel) & column_map.png*","x":-400,"y":-180,"width":360,"height":440},
+		{"id":"loop2","type":"text","text":"# 第2ループ: 研究者ガバナンス (意味論・検証)\n\n**担当**: 研究者 (soma / PI) + Antigravity (秘書)\n\n1. **手動作成正解データ (Ground Truth) との比較照合**\n2. **Review Sheet (Excel) のセルコメント (原典引用) 点検**\n3. **カラム配置図 (column_map.png) の地域妥当性評価**\n4. **判定と意思決定**:\n   - 一致・妥当 -> 第3ループ (GitHub公開) へ昇格承認\n   - 不一致・課題 -> `specs/TASK.md` へのフィードバック指示","x":100,"y":-180,"width":380,"height":440},
+		{"id":"loop3","type":"text","text":"# 第3ループ: 学術合意 & GitHub公開 (語用論・普及)\n\n**担当**: 共同研究者 (地質学者) + Macrostrat公式 + GitHub\n\n1. **GitHub 公開領域の同期** (`docs/LOOP3_GITHUB_SPEC.md`):\n   - `README.md` / `README.ja.md` (公式論文概要)\n   - `docs/HOW_M1286_WAS_BUILT.md` (パイプライン解剖書)\n   - `data/50k/03_submission/` (承認済み提出用データ)\n2. **国際共同研究者による査読・原典突合**\n3. **Macrostrat 公式データベースへの本登録**","x":600,"y":-180,"width":380,"height":440},
+		{"id":"memory_system","type":"text","text":"# 永続記憶・知見継承システム (knowledge/memory_vault/)\n\n- `specs/MEMORY.md`: 全AIが常時ロードする最新課題・不変条件\n- `knowledge/memory_vault/DESIGN_RATIONALE.md`: 設計判断理由と失敗知識 (Negative Evidence)\n- `knowledge/memory_vault/GROUND_TRUTH_METHODOLOGY.md`: 手動正解データの作成・照合基準\n- `knowledge/memory_vault/AGENT_ARCHIVES.md`: 各AIが提案した知見・アルゴリズム集","x":-300,"y":300,"width":1200,"height":200}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"ai_roles","fromSide":"bottom","toNode":"loop1","toSide":"top"},
+		{"id":"e2","fromNode":"loop1","fromSide":"right","toNode":"loop2","toSide":"left"},
+		{"id":"e3","fromNode":"loop2","fromSide":"right","toNode":"loop3","toSide":"left"},
+		{"id":"e4","fromNode":"loop2","fromSide":"bottom","toNode":"memory_system","toSide":"top"}
+	]
+}

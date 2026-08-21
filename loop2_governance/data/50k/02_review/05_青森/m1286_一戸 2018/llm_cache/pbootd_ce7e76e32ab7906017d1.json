@@ -1,0 +1,38 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "b178049fdac8e86129717ab31cc9a8f3034c7682361e92cbe9b7989fa8e8c44b",
+  "job_id": "pbootd_ce7e76e32ab7906017d1",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:40:46+00:00",
+  "units": [
+    {
+      "unit_name": "Landslide deposits"
+    },
+    {
+      "unit_name": "Floodplain and valley-floor deposits"
+    },
+    {
+      "unit_name": "Colluvial and alluvial cone deposits"
+    },
+    {
+      "unit_name": "River bed deposits"
+    },
+    {
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits"
+    },
+    {
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits"
+    },
+    {
+      "unit_name": "Horino terrace deposits"
+    },
+    {
+      "unit_name": "Rendaino terrace deposits"
+    }
+  ]
+}

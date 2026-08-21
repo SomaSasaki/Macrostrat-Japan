@@ -1,0 +1,46 @@
+{
+  "schema_version": "pdf-environment-figure-candidates/1.0",
+  "status": "candidate_review",
+  "pdf": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_D.pdf",
+  "pdf_sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+  "selection_policy": "ranked stratigraphic/correlation pages; bibliography and text-only English abstract pages excluded; complete-page render; no LLM",
+  "candidates": [
+    {
+      "pdf_page": 86,
+      "score": 53,
+      "matched_terms": [
+        "stratigraphy",
+        "summaryofthegeology"
+      ],
+      "negative_terms": [],
+      "text_excerpt": "Fig1SummaryofthegeologyoftheTowadadistrictF:FormationPFD:PyroclacticflowdepositsTS:terracedepositsTG:TephraGroupKA:K-AragaFT:FissontrackageST:AgeestimatedfromstratigraphyC:14CageQUATERNARYTheEarlytoMiddlePleistoceneconsistsofthefollowingsediments:TakamoriyamaFormationandNohejiFormationandpyroclasticflowdepositsfromtheH",
+      "image_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\environment_analysis\\figures\\page_0086_candidate.png",
+      "image_sha256": "c1424e4c07e8fe9a27936a70e5af7bfd05acb5257c69656481107de8f8d7f7ce"
+    },
+    {
+      "pdf_page": 62,
+      "score": 46,
+      "matched_terms": [
+        "層序",
+        "柱状図",
+        "対比"
+      ],
+      "negative_terms": [],
+      "text_excerpt": "狗岱火山灰(天狗岱テフラ群)の区分については従来通418第四紀降下テフラ群(地質図では省略)りに東北地方第四紀研究グル-プ(1969)及び大池中川(1979)に従い本研究ではWPよりも下位に存在本図幅地域を含む上北平野には西方に位置する十和するすべてのテフラを古期テフラ群とした田火山及び八甲田火山起源の多数の降下テフラ層が分布模式地十和田市清瀬の第4-16地点(付図4)するこれらのテフラ層の調査研究としては大池ほ分布古いテフラ群のため保存露出が非常に悪くか(1966)東北地方第四紀研究グル-プ(1969)大池分布は局所的である模式地で見られるほかに高森山(1972)大池中川(1979)岩崎(1983)早川付近及び十和田市横道付近で認",
+      "image_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\environment_analysis\\figures\\page_0062_candidate.png",
+      "image_sha256": "d23fbc68ff2eafed80da46b23c06a8e669a74a5435024e3830bcceeed559327f"
+    },
+    {
+      "pdf_page": 48,
+      "score": 40,
+      "matched_terms": [
+        "層序",
+        "柱状図"
+      ],
+      "negative_terms": [],
+      "text_excerpt": "第48図八甲田第2期火砕流堆積物と十和田八戸火砕流堆積物の層序関係十和田八戸火砕流堆積物が八甲田第2期火砕流堆積物を覆う露頭の高さは約15m八甲田第2期火砕流堆積物の上部に見られる縞状構造は地下水の影響によるものであり堆積構造を示すものではない砂土路川沿い十和田市小田道の第4-18地点(付図3)第410図八甲田TE-1テフラの層序を示す柱状図と露頭写真露頭位置は十和田市清瀬の第4-16地点(付図4)第2期火砕流堆積物と似た岩相を示すしかし八甲田高峠火砕流堆積物の方が基質の色が暗色であり結晶サイズがより大きい傾向があるこれらの点から八甲田カルデラ起源の3つの火砕流堆積物を岩相で区別することが可能である第49図八甲田第2期火砕流堆積物の",
+      "image_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\environment_analysis\\figures\\page_0048_candidate.png",
+      "image_sha256": "6853ad1583893e6d9c54848985f720ab811237782e358d48a3684e4c8ee3b318"
+    }
+  ]
+}

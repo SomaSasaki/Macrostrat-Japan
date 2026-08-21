@@ -1,0 +1,74 @@
+{
+  "schema_version": "bootstrap-gold-fixture/1.0",
+  "map_id": "1286",
+  "gold_snapshot_manifest": "claude_work/gold_snapshots/m1286/v1/manifest.json",
+  "source_workbook": "claude_work/reports/Ichinohe_reference_GOLD.xlsx",
+  "source_workbook_sha256": "db7663006b7cb7c0ca270374ab2261fa56aca7fef24ff88eee0574a7e4f16cbb",
+  "abstract_file": "references/m1286_abstract.txt",
+  "abstract_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "compiled_file": "system/compiled.json",
+  "compiled_sha256": "5ceadc991d74ef99a2de3fb276fbf07aad1c0a456de363330b9fb5cd1f6575b7",
+  "cases": [
+    {
+      "case_id": "bootstrap_single_formation",
+      "source_segments": [
+        "The Takayashiki Formation consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with\nsmall amount of chert, siliceous mudstone, and mafic rocks. The thickness of this formation attains 3,500 km within the district."
+      ],
+      "expected_units": [
+        {
+          "unit_name": "Takayashiki Formation",
+          "workbook_range": "units!I43"
+        }
+      ]
+    },
+    {
+      "case_id": "bootstrap_two_plutons",
+      "source_segments": [
+        "The Ichinohe Pluton is lithologically characterised by two facies; monzogabbro and quartz\nmonzonite.",
+        "The Tsukanaigawa Pluton is composed of medium-grained biotite hornblende granodiorite."
+      ],
+      "expected_units": [
+        {
+          "unit_name": "Ichinohe Pluton",
+          "workbook_range": "units!I19"
+        },
+        {
+          "unit_name": "Tsukanaigawa Pluton",
+          "workbook_range": "units!I40"
+        }
+      ]
+    },
+    {
+      "case_id": "bootstrap_shared_terrace_suffix",
+      "source_segments": [
+        "The higher terrace deposits are subdivided into the Asanai and the Mukaikawara terrace\ndeposits. The former is distributed along the Mabechi River, and the latter is along the Yukiya River. The both comprise gravel, sand\nand silt beds."
+      ],
+      "expected_units": [
+        {
+          "unit_name": "Asanai terrace deposits",
+          "workbook_range": "units!I9"
+        },
+        {
+          "unit_name": "Mukaikawara terrace deposits",
+          "workbook_range": "units!I34"
+        }
+      ]
+    },
+    {
+      "case_id": "bootstrap_wrapped_pyroclastic_names",
+      "source_segments": [
+        "The pyroclastic flow deposits, derived from Towada volcano, are subdivided into two deposits, namely Towada-Ofudo and Towada-\nHachinohe Pyroclastic Flow Deposits. These deposits are intercalated between the middle and lower terrace deposits."
+      ],
+      "expected_units": [
+        {
+          "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+          "workbook_range": "units!I7"
+        },
+        {
+          "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+          "workbook_range": "units!I6"
+        }
+      ]
+    }
+  ]
+}

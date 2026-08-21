@@ -1,0 +1,88 @@
+{
+  "schema_version": "column-geography/1.0",
+  "status": "verified",
+  "shape": null,
+  "shape_warnings": [],
+  "geocode_context": "m1286_一戸 2018, 05_青森, Japan",
+  "geocodes": [],
+  "columns": [
+    {
+      "col_id": "western",
+      "col_name": "Western Area",
+      "region_quote": "",
+      "constraints": [
+        {
+          "kind": "map_direction",
+          "direction": "west"
+        }
+      ],
+      "selected": {
+        "lng": 141.30890944,
+        "lat": 40.25277773,
+        "score": 0.0,
+        "inside_assigned_region": false,
+        "major_code": null,
+        "unit_name": null,
+        "assignment_method": "PDF-direction anchor in GSJ map extent",
+        "reasons": [
+          "Source summary figure assigns this Column to the west map area"
+        ]
+      },
+      "alternatives": [],
+      "candidate_count": 1,
+      "coordinate_verified": true
+    },
+    {
+      "col_id": "central",
+      "col_name": "Central Area",
+      "region_quote": "",
+      "constraints": [
+        {
+          "kind": "map_direction",
+          "direction": "central"
+        }
+      ],
+      "selected": {
+        "lng": 141.37138071,
+        "lat": 40.25277773,
+        "score": 0.0,
+        "inside_assigned_region": false,
+        "major_code": null,
+        "unit_name": null,
+        "assignment_method": "PDF-direction anchor in GSJ map extent",
+        "reasons": [
+          "Source summary figure assigns this Column to the central map area"
+        ]
+      },
+      "alternatives": [],
+      "candidate_count": 1,
+      "coordinate_verified": true
+    },
+    {
+      "col_id": "eastern",
+      "col_name": "Eastern Area",
+      "region_quote": "",
+      "constraints": [
+        {
+          "kind": "map_direction",
+          "direction": "east"
+        }
+      ],
+      "selected": {
+        "lng": 141.43385198,
+        "lat": 40.25277773,
+        "score": 0.0,
+        "inside_assigned_region": false,
+        "major_code": null,
+        "unit_name": null,
+        "assignment_method": "PDF-direction anchor in GSJ map extent",
+        "reasons": [
+          "Source summary figure assigns this Column to the east map area"
+        ]
+      },
+      "alternatives": [],
+      "candidate_count": 1,
+      "coordinate_verified": true
+    }
+  ]
+}

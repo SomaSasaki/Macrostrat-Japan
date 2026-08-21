@@ -1,0 +1,42 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "fc045f811bbda377388406de74f4dde5aa9079836c44e509c5a10500fa75b60a",
+  "job_id": "pbootd_d6a160a864d028c86bca",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:40:47+00:00",
+  "units": [
+    {
+      "unit_name": "Maisawa terrace deposits"
+    },
+    {
+      "unit_name": "Ibonai terrace deposits"
+    },
+    {
+      "unit_name": "Asanai terrace deposits"
+    },
+    {
+      "unit_name": "Mukaikawara terrace deposits"
+    },
+    {
+      "unit_name": "Kusagi terrace deposits"
+    },
+    {
+      "unit_name": "Hayawatari terrace deposits"
+    },
+    {
+      "unit_name": "Oritsumedake fan deposits",
+      "lithology": "gravel and sand",
+      "lith_quote": "comprises loose gravel and sand beds"
+    },
+    {
+      "unit_name": "Esashika Formation",
+      "lithology": "gravel bed",
+      "lith_quote": "mainly composed of gravel bed"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "5a01cfb9048da4ac78d0a9ea18264fb36dc8dce35e6527dec0da3a8a46a42421",
+  "job_id": "pbootd_3dc2396fdbd10cd136b0",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:27:23+00:00",
+  "units": [
+    {
+      "unit_name": "Zyūmonzi Formation",
+      "b_age_ma": 15,
+      "t_age_ma": 12,
+      "age_quote": "the Zyūmonzi: 15–12 Ma",
+      "lithology": "sandstone",
+      "lith_quote": "shallow marine sandstone",
+      "environment": "sublittoral",
+      "env_quote": "shallow marine sandstone",
+      "basal_surface": "slightly-angular unconformity",
+      "basal_quote": "overlies the Suenomatuyama Formation with slightly-angular unconformity",
+      "lateral_relationship": "interfingering",
+      "lat_quote": "partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member), coquina conglomerate (Metoki Coquina Conglomerate Member), and reworked volcaniclastic rocks (Shimotomai Volcaniclastic Rock Member)"
+    },
+    {
+      "unit_name": "Suenomatuyama Formation",
+      "b_age_ma": 16.5,
+      "t_age_ma": 15,
+      "age_quote": "the Suenomatuyama: 16.5–15 Ma",
+      "lithology": "siliciclastic",
+      "lith_quote": "marine deposits",
+      "environment": "sublittoral",
+      "env_quote": "marine deposits",
+      "basal_surface": "conformable / slightly-unconformable",
+      "basal_quote": "conformably / slightly-unconformably overlies the Kadonosawa Formation"
+    },
+    {
+      "unit_name": "Kadonosawa Formation",
+      "b_age_ma": 16.5,
+      "t_age_ma": 16.5,
+      "age_quote": "the Kadonosawa: ca. 16.5 Ma",
+      "lithology": "siliciclastic",
+      "lith_quote": "marine deposits",
+      "environment": "bay to subbathyal",
+      "env_quote": "reflect the change of depositional environments from shallow marine to subbathyal",
+      "basal_surface": "conformably",
+      "basal_quote": "conformably overlies the Yotuyaku Formation and unconformably overlies the Jurassic, the Cretaceous and the Nisatai Formation"
+    },
+    {
+      "unit_name": "Yotuyaku Formation",
+      "b_age_ma": 18,
+      "t_age_ma": 16.5,
+      "age_quote": "the Yotuyaku: 18–16.5 Ma",
+      "lithology": "siliciclastic",
+      "lith_quote": "mainly deposited on land",
+      "environment": "subaerial",
+      "env_quote": "mainly deposited on land",
+      "basal_surface": "unconformably",
+      "basal_quote": "unconformably overlies the previous rocks"
+    },
+    {
+      "unit_name": "Ainoyama Formation",
+      "b_age_ma": 20,
+      "t_age_ma": 20,
+      "age_quote": "the Ainoyama: ca. 20 Ma",
+      "lithology": "dacitic lava and conglomerate",
+      "lith_quote": "composed of dacitic lava and conglomerate"
+    },
+    {
+      "unit_name": "Nisatai Formation",
+      "b_age_ma": 23,
+      "t_age_ma": 22,
+      "age_quote": "the Nisatai: 22–23 Ma",
+      "lithology": "welded rhyolitic pumice lapilli tuff and conglomerate, sandstone, and mudstone",
+      "lith_quote": "composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate, sandstone, and mudstone",
+      "environment": "subaerial",
+      "env_quote": "non-marine deposits",
+      "basal_surface": "unconformable",
+      "basal_quote": "unconformably covers the Jurassic strata and the Cretaceous plutonic rocks"
+    },
+    {
+      "unit_name": "Ichinohe Pluton",
+      "b_age_ma": 145.5,
+      "t_age_ma": 145.5,
+      "age_quote": "Cretaceous plutonic rocks",
+      "lithology": "monzogabbro and quartz monzonite",
+      "lith_quote": "lithologically characterised by two facies; monzogabbro and quartz monzonite"
+    },
+    {
+      "unit_name": "Tsukanaigawa Pluton",
+      "b_age_ma": 145.5,
+      "t_age_ma": 145.5,
+      "age_quote": "Cretaceous plutonic rocks",
+      "lithology": "biotite hornblende granodiorite",
+      "lith_quote": "composed of medium-grained biotite hornblende granodiorite"
+    }
+  ]
+}

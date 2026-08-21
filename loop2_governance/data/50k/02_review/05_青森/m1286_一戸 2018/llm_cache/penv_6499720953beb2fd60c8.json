@@ -1,0 +1,120 @@
+{
+  "schema_version": "pdf-environment-analysis/1.0",
+  "stage": "pdf_environment_multimodal",
+  "prompt_version": "body-figure-environment-v2",
+  "status": "complete",
+  "job_id": "penv_6499720953beb2fd60c8",
+  "model": "gemini-3.5-flash",
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "prompt_sha256": "b720b1ae51f39595714f39140d44299a39b1ce3e5fc4b8be5f0aaf608685aaa2",
+  "target_sha256": "37d65329af39750e3335caa269f1764bf7841493ecee54b2b7e3760028e40fe9",
+  "image_sha256s": [
+    "80d9d736714462b93dbaec468fcda53c9c02c83363316d3a7c89e4b8f12808df",
+    "f3ee9a7980661d203bdefb0d3112db777cbc77bf45f99d731b2dfeb3d9047f52",
+    "737bbfc74cb28e900d7c4d48ae5aa7ad8775efc1035e366af93fe2b6ce6e6cdc"
+  ],
+  "completed_at": "2026-08-10T23:17:27+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1286_p003",
+      "column_ids": [
+        "unsplit"
+      ],
+      "field": "environment",
+      "candidate": "inferred marine",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_3"
+      ],
+      "figure_observation": "The stratigraphic column for the Kassenba Formation (Cs1-Cs3) features repeated sequences of marine chert and siliceous mudstone.",
+      "reason": "The unit represents a Jurassic accretionary prism sequence dominated by chert, siliceous mudstone, and slaty mudstone with characteristic imbricate accretionary structures, demonstrating a marine environment.",
+      "features": [
+        "chert",
+        "siliceous mudstone",
+        "imbricate structure"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1286_p003_064727fcf121",
+        "section": null,
+        "pdf_page": 21,
+        "printed_page": 11
+      }
+    },
+    {
+      "unit_id": "m1286_p001",
+      "column_ids": [
+        "unsplit"
+      ],
+      "field": "environment",
+      "candidate": "inferred marine",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_2"
+      ],
+      "figure_observation": "The stratigraphic columns (T1 to T3) of the Takayashiki Formation show dominant slate, siliceous mudstone, and chert beds.",
+      "reason": "Lithologies shown in the stratigraphic section, including chert, siliceous mudstone, slate, and basaltic rocks, are typical of pelagic-to-hemipelagic marine environments in an accretionary prism setting.",
+      "features": [
+        "chert",
+        "siliceous mudstone",
+        "slate"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1286_p001_296055f11461",
+        "section": null,
+        "pdf_page": 120,
+        "printed_page": 110
+      }
+    }
+  ],
+  "dropped": [
+    {
+      "unit_id": "m1286_p016",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p006",
+      "reason": "not_applicable_requires_verified_quote"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "reason": "not_applicable_requires_verified_quote"
+    },
+    {
+      "unit_id": "m1286_p004",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p021",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p028",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p030",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p029",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p031",
+      "reason": "no_verified_text_or_figure_evidence"
+    }
+  ],
+  "unresolved": [],
+  "estimated_tokens": 36156,
+  "usage_tokens": 31741
+}

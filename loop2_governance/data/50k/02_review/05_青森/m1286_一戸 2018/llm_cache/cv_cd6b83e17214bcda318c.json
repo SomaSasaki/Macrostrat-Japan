@@ -1,0 +1,730 @@
+{
+  "schema_version": "column-vision/1.0",
+  "stage": "column_geography_vision",
+  "prompt_version": "column-geography-age-v3",
+  "job_id": "cv_cd6b83e17214bcda318c",
+  "model": "gemini-3.6-flash",
+  "pdf_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "image_sha256": "8bf974b7df7341ef1ec3b35e2ad9f4de22f58eca066e8525075a34a7fa622af5",
+  "source_text_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "689b98af274547a4897364854e78a19207d7b37ec152dc9c464935030e1c16a3",
+  "status": "complete",
+  "completed_at": "2026-08-11T13:02:05+00:00",
+  "proposal": {
+    "schema_version": "column-vision/1.0",
+    "status": "rejected_review_required",
+    "assignment_ready": false,
+    "columns": [
+      {
+        "column_id": "western",
+        "column_name": "Western Area",
+        "region_description": "Western area occupied by the hills of Ichinohe Town and Ninohe City.",
+        "region_quote": "This district is occupied in the central area by the Oritsume Mountains, in the eastern area by the hills of Kunohe Village and Karumai Town, and the western area by the hills of Ichinohe Town and Ninohe City.",
+        "quote_verified": true,
+        "pdf_page": 168,
+        "printed_page": 158,
+        "figure_pdf_page": 0,
+        "figure_printed_page": null,
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "west",
+            "place_name": null
+          },
+          {
+            "kind": "near_place",
+            "direction": null,
+            "place_name": "Ichinohe Town"
+          },
+          {
+            "kind": "near_place",
+            "direction": null,
+            "place_name": "Ninohe City"
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "column_id": "central",
+        "column_name": "Central Area",
+        "region_description": "Central area occupied by the Oritsume Mountains.",
+        "region_quote": "This district is occupied in the central area by the Oritsume Mountains, in the eastern area by the hills of Kunohe Village and Karumai Town, and the western area by the hills of Ichinohe Town and Ninohe City.",
+        "quote_verified": true,
+        "pdf_page": 168,
+        "printed_page": 158,
+        "figure_pdf_page": 0,
+        "figure_printed_page": null,
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "central",
+            "place_name": null
+          },
+          {
+            "kind": "near_place",
+            "direction": null,
+            "place_name": "Oritsume Mountains"
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "column_id": "eastern",
+        "column_name": "Eastern Area",
+        "region_description": "Eastern area occupied by the hills of Kunohe Village and Karumai Town.",
+        "region_quote": "This district is occupied in the central area by the Oritsume Mountains, in the eastern area by the hills of Kunohe Village and Karumai Town, and the western area by the hills of Ichinohe Town and Ninohe City.",
+        "quote_verified": true,
+        "pdf_page": 168,
+        "printed_page": 158,
+        "figure_pdf_page": 0,
+        "figure_printed_page": null,
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "east",
+            "place_name": null
+          },
+          {
+            "kind": "near_place",
+            "direction": null,
+            "place_name": "Kunohe Village"
+          },
+          {
+            "kind": "near_place",
+            "direction": null,
+            "place_name": "Karumai Town"
+          }
+        ],
+        "confidence": "C"
+      }
+    ],
+    "units": [
+      {
+        "unit_id": "m1286_p042",
+        "unit_name": "flood-plain and valley-floor deposits",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 2
+          },
+          {
+            "column_id": "eastern",
+            "sort_order": 2
+          }
+        ],
+        "age": {
+          "t_int": "Holocene",
+          "b_int": "Holocene",
+          "visual_label": "Holocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p044",
+        "unit_name": "river-bed deposits",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 1
+          },
+          {
+            "column_id": "eastern",
+            "sort_order": 1
+          }
+        ],
+        "age": {
+          "t_int": "Holocene",
+          "b_int": "Holocene",
+          "visual_label": "Holocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p045",
+        "unit_name": "Horino terrace deposits",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 3
+          }
+        ],
+        "age": {
+          "t_int": "Holocene",
+          "b_int": "Holocene",
+          "visual_label": "Holocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p026",
+        "unit_name": "Ibonai terrace deposits",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 3
+          }
+        ],
+        "age": {
+          "t_int": "Holocene",
+          "b_int": "Holocene",
+          "visual_label": "Holocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p046",
+        "unit_name": "Maisawa terrace deposits",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 4
+          }
+        ],
+        "age": {
+          "t_int": "Late Pleistocene",
+          "b_int": "Late Pleistocene",
+          "visual_label": "Late Pleistocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p025",
+        "unit_name": "Rendaino terrace deposits",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 4
+          }
+        ],
+        "age": {
+          "t_int": "Late Pleistocene",
+          "b_int": "Late Pleistocene",
+          "visual_label": "Late Pleistocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p047",
+        "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 5
+          },
+          {
+            "column_id": "eastern",
+            "sort_order": 5
+          }
+        ],
+        "age": {
+          "t_int": "Late Pleistocene",
+          "b_int": "Late Pleistocene",
+          "visual_label": "Late Pleistocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p048",
+        "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 6
+          }
+        ],
+        "age": {
+          "t_int": "Late Pleistocene",
+          "b_int": "Late Pleistocene",
+          "visual_label": "Late Pleistocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p049",
+        "unit_name": "Kusagi terrace deposits",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 7
+          }
+        ],
+        "age": {
+          "t_int": "Late Pleistocene",
+          "b_int": "Late Pleistocene",
+          "visual_label": "Late Pleistocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p024",
+        "unit_name": "Hayawatari terrace deposits",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 6
+          }
+        ],
+        "age": {
+          "t_int": "Late Pleistocene",
+          "b_int": "Late Pleistocene",
+          "visual_label": "Late Pleistocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p050",
+        "unit_name": "Asanai terrace deposits",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 8
+          }
+        ],
+        "age": {
+          "t_int": "Middle Pleistocene",
+          "b_int": "Middle Pleistocene",
+          "visual_label": "Middle Pleistocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p023",
+        "unit_name": "Mukaikawara terrace deposits",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 7
+          }
+        ],
+        "age": {
+          "t_int": "Middle Pleistocene",
+          "b_int": "Middle Pleistocene",
+          "visual_label": "Middle Pleistocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p027",
+        "unit_name": "Oritsumedake fan deposits",
+        "memberships": [
+          {
+            "column_id": "central",
+            "sort_order": 1
+          }
+        ],
+        "age": {
+          "t_int": "Holocene",
+          "b_int": "Late Pleistocene",
+          "visual_label": "Late Pleistocene - Holocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p022",
+        "unit_name": "Nanashigure Volcanic Fan Deposits",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 9
+          }
+        ],
+        "age": {
+          "t_int": "Middle Pleistocene",
+          "b_int": "Early Pleistocene",
+          "visual_label": "Early - Middle Pleistocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p021",
+        "unit_name": "Esashika Formation",
+        "memberships": [
+          {
+            "column_id": "central",
+            "sort_order": 2
+          }
+        ],
+        "age": {
+          "t_int": "Middle Pleistocene",
+          "b_int": "Early Pleistocene",
+          "visual_label": "Early - Middle Pleistocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p020",
+        "unit_name": "Toya Formation",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 8
+          }
+        ],
+        "age": {
+          "t_int": null,
+          "b_int": "Late Miocene",
+          "visual_label": "Late Miocene - Early Pliocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p018",
+        "unit_name": "Shitazaki Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 10
+          }
+        ],
+        "age": {
+          "t_int": "Late Miocene",
+          "b_int": "Late Miocene",
+          "visual_label": "Late Miocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p016",
+        "unit_name": "Yanagisawa Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 11
+          }
+        ],
+        "age": {
+          "t_int": "Late Miocene",
+          "b_int": "Middle Miocene",
+          "visual_label": "Middle - Late Miocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p012",
+        "unit_name": "Zyūmonzi Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 12
+          }
+        ],
+        "age": {
+          "t_int": "Middle Miocene",
+          "b_int": "Middle Miocene",
+          "visual_label": "Middle Miocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p011",
+        "unit_name": "Suenomatuyama Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 13
+          }
+        ],
+        "age": {
+          "t_int": "Middle Miocene",
+          "b_int": "Early Miocene",
+          "visual_label": "Early - Middle Miocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p010",
+        "unit_name": "Kadonosawa Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 14
+          }
+        ],
+        "age": {
+          "t_int": "Middle Miocene",
+          "b_int": "Early Miocene",
+          "visual_label": "Early - Middle Miocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p009",
+        "unit_name": "Yotuyaku Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 15
+          }
+        ],
+        "age": {
+          "t_int": "Early Miocene",
+          "b_int": "Early Miocene",
+          "visual_label": "Early Miocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p008",
+        "unit_name": "Ainoyama Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 16
+          }
+        ],
+        "age": {
+          "t_int": "Early Miocene",
+          "b_int": "Early Miocene",
+          "visual_label": "Early Miocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p007",
+        "unit_name": "Nisatai Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 17
+          }
+        ],
+        "age": {
+          "t_int": "Early Miocene",
+          "b_int": "Early Miocene",
+          "visual_label": "Early Miocene"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p005",
+        "unit_name": "Ichinohe Pluton",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 18
+          }
+        ],
+        "age": {
+          "t_int": "Early Cretaceous",
+          "b_int": "Early Cretaceous",
+          "visual_label": "Early Cretaceous"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p006",
+        "unit_name": "Tsukanaigawa Pluton",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 9
+          }
+        ],
+        "age": {
+          "t_int": "Early Cretaceous",
+          "b_int": "Early Cretaceous",
+          "visual_label": "Early Cretaceous"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p004",
+        "unit_name": "Kuzumaki Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 19
+          },
+          {
+            "column_id": "central",
+            "sort_order": 5
+          }
+        ],
+        "age": {
+          "t_int": "Middle Jurassic",
+          "b_int": "Early Jurassic",
+          "visual_label": "Early - Middle Jurassic"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p003",
+        "unit_name": "Kassenba Formation",
+        "memberships": [
+          {
+            "column_id": "central",
+            "sort_order": 4
+          }
+        ],
+        "age": {
+          "t_int": "Late Jurassic",
+          "b_int": "Middle Jurassic",
+          "visual_label": "Middle - Late Jurassic"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p002",
+        "unit_name": "Seki Formation",
+        "memberships": [
+          {
+            "column_id": "central",
+            "sort_order": 3
+          }
+        ],
+        "age": {
+          "t_int": "Late Jurassic",
+          "b_int": "Late Jurassic",
+          "visual_label": "Late Jurassic"
+        },
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p001",
+        "unit_name": "Takayashiki Formation",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 10
+          }
+        ],
+        "age": {
+          "t_int": "Jurassic",
+          "b_int": "Jurassic",
+          "visual_label": "Jurassic"
+        },
+        "confidence": "C"
+      }
+    ],
+    "validation": {
+      "canonical_units": 48,
+      "matched_units": 30,
+      "columns": 3,
+      "verified_region_quotes": 3
+    }
+  },
+  "dropped": [
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p041",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p043",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit_age",
+      "unit_id": "m1286_p020",
+      "field": "t_int",
+      "reason": "interval_not_in_controlled_list",
+      "candidate": "Early Pliocene"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p019",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p017",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p013",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p014",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p015",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p028",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p029",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p030",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p031",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p032",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p034",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p035",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p037",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p038",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p039",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p040",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit_coverage",
+      "reason": "response did not return every canonical unit",
+      "missing": [
+        "m1286_p013",
+        "m1286_p014",
+        "m1286_p015",
+        "m1286_p017",
+        "m1286_p019",
+        "m1286_p028",
+        "m1286_p029",
+        "m1286_p030",
+        "m1286_p031",
+        "m1286_p032",
+        "m1286_p034",
+        "m1286_p035",
+        "m1286_p037",
+        "m1286_p038",
+        "m1286_p039",
+        "m1286_p040",
+        "m1286_p041",
+        "m1286_p043"
+      ]
+    }
+  ],
+  "usage_tokens": 25657
+}

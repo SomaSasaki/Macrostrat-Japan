@@ -1,0 +1,601 @@
+{
+  "schema_version": "pilot-review-input/1.0",
+  "map_id": "1050",
+  "units": [
+    {
+      "unit_id": "m1050_u001",
+      "column_id": "1, 2",
+      "sort_order": 1,
+      "unit_name": "Present river bed deposits",
+      "t_int": "Holocene",
+      "b_int": "Holocene",
+      "t_age_ma": 0,
+      "b_age_ma": 0.0117,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u002",
+      "column_id": "1, 2",
+      "sort_order": 1,
+      "unit_name": "Talus deposits",
+      "t_int": "Holocene",
+      "b_int": "Holocene",
+      "t_age_ma": 0,
+      "b_age_ma": 0.0117,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": "COLUMN CHECK: Talus deposits are absent from Fig. 1; the provisional shared assignment is retained from Shape distribution and the implementation crosscheck.",
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u003",
+      "column_id": "1, 2",
+      "sort_order": 2,
+      "unit_name": "Akedo Terrace Deposits",
+      "t_int": "Holocene",
+      "b_int": "Holocene",
+      "t_age_ma": 0,
+      "b_age_ma": 0.0117,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u004",
+      "column_id": "1, 2",
+      "sort_order": 3,
+      "unit_name": "Shimokirida Terrace Deposits",
+      "t_int": "Holocene",
+      "b_int": "Holocene",
+      "t_age_ma": 0,
+      "b_age_ma": 0.0117,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u005",
+      "column_id": "1, 2",
+      "sort_order": 4,
+      "unit_name": "Towada Terrace Deposits",
+      "t_int": "Late Pleistocene",
+      "b_int": "Late Pleistocene",
+      "t_age_ma": 0.0117,
+      "b_age_ma": 0.129,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u006",
+      "column_id": "1, 2",
+      "sort_order": 5,
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+      "t_int": "Late Pleistocene",
+      "b_int": "Late Pleistocene",
+      "t_age_ma": 0.0117,
+      "b_age_ma": 0.129,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u007",
+      "column_id": "1, 2",
+      "sort_order": 6,
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+      "t_int": "Late Pleistocene",
+      "b_int": "Late Pleistocene",
+      "t_age_ma": 0.0117,
+      "b_age_ma": 0.129,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u008",
+      "column_id": "1",
+      "sort_order": 7,
+      "unit_name": "Towada-Okuse Pyroclastic Flow Deposits",
+      "t_int": "Late Pleistocene",
+      "b_int": "Late Pleistocene",
+      "t_age_ma": 0.0117,
+      "b_age_ma": 0.129,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u009",
+      "column_id": "2",
+      "sort_order": 8,
+      "unit_name": "Shichinohe Terrace Deposits",
+      "t_int": "Late Pleistocene",
+      "b_int": "Late Pleistocene",
+      "t_age_ma": 0.0117,
+      "b_age_ma": 0.129,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u010",
+      "column_id": "1",
+      "sort_order": 9,
+      "unit_name": "Urushihata Terrace Deposits",
+      "t_int": "Late Pleistocene",
+      "b_int": "Early Pleistocene",
+      "t_age_ma": null,
+      "b_age_ma": null,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": null,
+      "t_prop": null
+    },
+    {
+      "unit_id": "m1050_u011",
+      "column_id": "1, 2",
+      "sort_order": 10,
+      "unit_name": "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+      "t_int": "Chibanian",
+      "b_int": "Chibanian",
+      "t_age_ma": 0.129,
+      "b_age_ma": null,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.57984496124031,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u012",
+      "column_id": "2",
+      "sort_order": 11,
+      "unit_name": "Noheji Formation",
+      "t_int": "Chibanian",
+      "b_int": "Early Pleistocene",
+      "t_age_ma": 0.129,
+      "b_age_ma": null,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": null,
+      "t_prop": null
+    },
+    {
+      "unit_id": "m1050_u013",
+      "column_id": "1",
+      "sort_order": 12,
+      "unit_name": "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+      "t_int": "Chibanian",
+      "b_int": "Chibanian",
+      "t_age_ma": 0.129,
+      "b_age_ma": null,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.021705426356589164,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u014",
+      "column_id": "1",
+      "sort_order": 13,
+      "unit_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+      "t_int": "Chibanian",
+      "b_int": "Calabrian",
+      "t_age_ma": 0.129,
+      "b_age_ma": null,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.7894736842105263,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u015",
+      "column_id": "1, 2",
+      "sort_order": 14,
+      "unit_name": "Takamoriyama Formation",
+      "t_int": "Chibanian",
+      "b_int": "Early Pleistocene",
+      "t_age_ma": 0.129,
+      "b_age_ma": null,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": "COLUMN CHECK: The Fig. 1 box straddles the west/east divider and is flanked by question marks, so a shared assignment is provisional.",
+      "b_prop": null,
+      "t_prop": null
+    },
+    {
+      "unit_id": "m1050_u016",
+      "column_id": "1",
+      "sort_order": 15,
+      "unit_name": "Horyo-kita Lava",
+      "t_int": "Pliocene",
+      "b_int": "Pliocene",
+      "t_age_ma": 2.58,
+      "b_age_ma": 5.333,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u017",
+      "column_id": "2",
+      "sort_order": 16,
+      "unit_name": "Togawa Formation",
+      "t_int": "Pliocene",
+      "b_int": "Pliocene",
+      "t_age_ma": 2.58,
+      "b_age_ma": 5.333,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u018",
+      "column_id": "1",
+      "sort_order": 17,
+      "unit_name": "Tsukihiyama Volcanics",
+      "t_int": "Late Miocene",
+      "b_int": "Late Miocene",
+      "t_age_ma": 5.333,
+      "b_age_ma": 11.63,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u019",
+      "column_id": "1",
+      "sort_order": 18,
+      "unit_name": "Tsukihiyama Volcanics",
+      "t_int": "Late Miocene",
+      "b_int": "Late Miocene",
+      "t_age_ma": 5.333,
+      "b_age_ma": 11.63,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u020",
+      "column_id": "2",
+      "sort_order": 19,
+      "unit_name": "Komasuzawa Formation",
+      "t_int": "Late Miocene",
+      "b_int": "Late Miocene",
+      "t_age_ma": 5.333,
+      "b_age_ma": 11.63,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": "COLUMN CHECK: Fig. 1 places the formation in the Eastern Area and shows interfingering with western Tsukihiyama Volcanics; the legacy Review assigned both columns.",
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u021",
+      "column_id": "1, 2",
+      "sort_order": 20,
+      "unit_name": "Dochi Formation",
+      "t_int": "Late Miocene",
+      "b_int": "Late Miocene",
+      "t_age_ma": 5.333,
+      "b_age_ma": 11.63,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u022",
+      "column_id": "1, 2",
+      "sort_order": 21,
+      "unit_name": "Wadagawa Formation",
+      "t_int": "Middle Miocene",
+      "b_int": "Middle Miocene",
+      "t_age_ma": 11.63,
+      "b_age_ma": 15.98,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": null,
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    },
+    {
+      "unit_id": "m1050_u023",
+      "column_id": "1, 2",
+      "sort_order": 22,
+      "unit_name": "Itadome Formation",
+      "t_int": "Middle Miocene",
+      "b_int": "Middle Miocene",
+      "t_age_ma": 11.63,
+      "b_age_ma": 15.98,
+      "unit_description": null,
+      "lithology": null,
+      "minor_lith": null,
+      "environment": null,
+      "comments": "COLUMN CHECK: Fig. 1 spans both columns, while the Abstract says the outcrop is local in the southwest; keep the diagram-based shared assignment visible for review.",
+      "b_prop": 0.0,
+      "t_prop": 1.0
+    }
+  ],
+  "columns": [
+    {
+      "col_id": "1",
+      "column_key": "west",
+      "col_name": "Towada-west",
+      "display_name": "Western Area",
+      "sort_order": 1,
+      "lng": 141.05707612,
+      "lat": 40.52520445,
+      "status": "CHECK",
+      "comments": "Representative point is a machine candidate; confirm with PDF and KML.",
+      "candidate_point": {
+        "lng": 141.05707612,
+        "lat": 40.52520445,
+        "status": "candidate",
+        "method": "largest assigned Shape polygon interior point",
+        "inside_assigned_region": true
+      },
+      "ref_ids": "kudo2005",
+      "col_type": "column",
+      "axis_type": "age",
+      "region_basis": "The western part of the map area comprising the eastern margin of the Ōu Backbone Range. PDF quote: \"The western part of the map area consists of the eastern margin of the Ōu Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.\"",
+      "coordinate_evidence": "PDF-constrained GSJ Shape interior point. Selected score 7.9398. inside assigned GSJ Shape polygon exclusive-unit polygon PDF map direction west: +3.94"
+    },
+    {
+      "col_id": "2",
+      "column_key": "east",
+      "col_name": "Towada-east",
+      "display_name": "Eastern Area",
+      "sort_order": 2,
+      "lng": 141.18892204,
+      "lat": 40.55043763,
+      "status": "CHECK",
+      "comments": "Representative point is a machine candidate; confirm with PDF and KML.",
+      "candidate_point": {
+        "lng": 141.19616705,
+        "lat": 40.61280103,
+        "status": "candidate",
+        "method": "largest assigned Shape polygon interior point",
+        "inside_assigned_region": true
+      },
+      "ref_ids": "kudo2005",
+      "col_type": "column",
+      "axis_type": "age",
+      "region_basis": "The eastern part of the map area characterized by hill and terrace surface topography. PDF quote: \"The western part of the map area consists of the eastern margin of the Ōu Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.\"",
+      "coordinate_evidence": "PDF-constrained GSJ Shape interior point. Selected score 7.0133. inside assigned GSJ Shape polygon exclusive-unit polygon PDF map direction east: +3.84"
+    }
+  ],
+  "refs": [
+    {
+      "ref_id": "kudo2005",
+      "title": "1:50K GeoMap 'Towada' (2005)",
+      "authors": "KUDO Takashi",
+      "publication": "Quadrangle Series, 1:50,000",
+      "compilation": "Geological Survey of Japan 1:50,000 quadrangle compilation",
+      "organization": "Geological Survey of Japan, AIST",
+      "date": "2005",
+      "doi": null,
+      "url": "https://gbank.gsj.jp/ld/resource/publication/map/g050/map1050",
+      "comments": "Official GSJ publication metadata."
+    }
+  ],
+  "images": [
+    {
+      "col_ids": "1, 2",
+      "image_name": "https://gbank.gsj.jp/ld/resource/image/map/gsj_map_1050_legend_405.jpg",
+      "ref_id": "kudo2005",
+      "page_no": null,
+      "fig_no": "legend-405",
+      "description": "Geologic map legend",
+      "comments": "Official GSJ image resource."
+    },
+    {
+      "col_ids": "1, 2",
+      "image_name": "https://gbank.gsj.jp/ld/resource/image/map/gsj_map_1050_section_468.jpg",
+      "ref_id": "kudo2005",
+      "page_no": null,
+      "fig_no": "AB",
+      "description": "Geologic cross section",
+      "comments": "Official GSJ image resource."
+    },
+    {
+      "col_ids": "1, 2",
+      "image_name": "https://gbank.gsj.jp/ld/resource/image/map/gsj_map_1050_section_469.jpg",
+      "ref_id": "kudo2005",
+      "page_no": null,
+      "fig_no": "CD",
+      "description": "Geologic cross section",
+      "comments": "Official GSJ image resource."
+    },
+    {
+      "col_ids": "1, 2",
+      "image_name": "https://gbank.gsj.jp/ld/resource/image/map/gsj_map_1050_section_470.jpg",
+      "ref_id": "kudo2005",
+      "page_no": null,
+      "fig_no": "EF",
+      "description": "Geologic cross section",
+      "comments": "Official GSJ image resource."
+    }
+  ],
+  "project_meta": [
+    {
+      "key": "project_name",
+      "value": "1:50K GeoMap 'Towada' (2005)"
+    },
+    {
+      "key": "organization",
+      "value": "UW Madison - Macrostrat Lab"
+    },
+    {
+      "key": "compiler_name",
+      "value": "Soma Sasaki"
+    },
+    {
+      "key": "col_type",
+      "value": "column"
+    },
+    {
+      "key": "axis_type",
+      "value": "age"
+    },
+    {
+      "key": "position_unit",
+      "value": "meters"
+    },
+    {
+      "key": "time_unit",
+      "value": "Ma"
+    },
+    {
+      "key": "timescale",
+      "value": "international intervals"
+    },
+    {
+      "key": "srid",
+      "value": "EPSG:4326"
+    },
+    {
+      "key": "pipeline_scope",
+      "value": "GSJ 1:50,000 map m1050"
+    },
+    {
+      "key": "source_priority",
+      "value": "ZFK > Shapefile > PDF/LLM"
+    },
+    {
+      "key": "llm_model",
+      "value": "gemini-3.6-flash"
+    },
+    {
+      "key": "llm_external_calls",
+      "value": 0
+    },
+    {
+      "key": "llm_cache_hits",
+      "value": 1
+    },
+    {
+      "key": "interval_normalizations",
+      "value": 3
+    },
+    {
+      "key": "review_instruction",
+      "value": "Confirm yellow candidate cells and all CHECK rows before submission."
+    }
+  ],
+  "gsj_meta": [
+    {
+      "key": "map_id",
+      "value": "1050"
+    },
+    {
+      "key": "title_en",
+      "value": "1:50K GeoMap 'Towada' (2005)"
+    },
+    {
+      "key": "title_ja",
+      "value": "5万分の1地質図幅「十和田」 (2005)"
+    },
+    {
+      "key": "sheet_code",
+      "value": "G50_05_031"
+    },
+    {
+      "key": "pub_year",
+      "value": "2005"
+    },
+    {
+      "key": "series",
+      "value": "Quadrangle Series, 1:50,000"
+    },
+    {
+      "key": "publisher",
+      "value": "Geological Survey of Japan, AIST"
+    },
+    {
+      "key": "source_zfk_map",
+      "value": "https://gbank.gsj.jp/ld/resource/zfk/maps/m1050"
+    },
+    {
+      "key": "source_publication",
+      "value": "https://gbank.gsj.jp/ld/resource/publication/map/g050/map1050"
+    }
+  ]
+}

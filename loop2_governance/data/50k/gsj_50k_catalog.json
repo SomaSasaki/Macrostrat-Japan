@@ -1,0 +1,6151 @@
+{
+  "metadata": {
+    "source": "GSJ 5万分の1地質図幅カタログ",
+    "url": "https://www.gsj.jp/Map/JP/geology4.html",
+    "scraped_at": "2026-08-11T21:12:03",
+    "total_sheets": 757,
+    "total_with_vector": 438,
+    "hokkaido_sheets": 264,
+    "honshu_etc_sheets": 493
+  },
+  "region_summary": {
+    "1": {
+      "name": "網走",
+      "count": 60,
+      "error": false
+    },
+    "2": {
+      "name": "釧路",
+      "count": 72,
+      "error": false
+    },
+    "3": {
+      "name": "旭川",
+      "count": 48,
+      "error": false
+    },
+    "4": {
+      "name": "札幌",
+      "count": 84,
+      "error": false
+    },
+    "5": {
+      "name": "青森",
+      "count": 35,
+      "error": false
+    },
+    "6": {
+      "name": "秋田",
+      "count": 58,
+      "error": false
+    },
+    "7": {
+      "name": "新潟",
+      "count": 46,
+      "error": false
+    },
+    "8": {
+      "name": "東京",
+      "count": 54,
+      "error": false
+    },
+    "9": {
+      "name": "八丈島・小笠原諸島",
+      "count": 7,
+      "error": false
+    },
+    "10": {
+      "name": "金沢",
+      "count": 58,
+      "error": false
+    },
+    "11": {
+      "name": "京都",
+      "count": 74,
+      "error": false
+    },
+    "12": {
+      "name": "岡山",
+      "count": 42,
+      "error": false
+    },
+    "13": {
+      "name": "高知",
+      "count": 30,
+      "error": false
+    },
+    "14": {
+      "name": "福岡",
+      "count": 30,
+      "error": false
+    },
+    "15": {
+      "name": "鹿児島",
+      "count": 46,
+      "error": false
+    },
+    "16": {
+      "name": "種子島・奄美大島・那覇・宮古島",
+      "count": 13,
+      "error": false
+    }
+  },
+  "sheets": [
+    {
+      "id": "01001",
+      "code": "01-001",
+      "name": "目梨泊 **",
+      "year": 1961,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01002",
+      "code": "01-002",
+      "name": "枝幸 *01-002発行年：1962販売価格：¥770",
+      "year": 1962,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01002",
+      "code": "01-003",
+      "name": "乙忠部 *01-003発行年：1961販売価格：¥770",
+      "year": 1961,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01004",
+      "code": "01-004",
+      "name": "音標 *01-004発行年：1959販売価格：¥770",
+      "year": 1959,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01005",
+      "code": "01-005",
+      "name": "仁宇布 *01-005発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01006",
+      "code": "01-006",
+      "name": "雄武 **01-006発行年：1966在庫切",
+      "year": 1966,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01007",
+      "code": "01-007",
+      "name": "沢木 **01-007発行年：1964在庫切",
+      "year": 1964,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01008",
+      "code": "01-008",
+      "name": "サンル *01-008発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01009",
+      "code": "01-009",
+      "name": "上興部 *01-009発行年：1969販売価格：¥770",
+      "year": 1969,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01010",
+      "code": "01-010",
+      "name": "興部 **01-010発行年：1974在庫切",
+      "year": 1974,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01011",
+      "code": "01-011",
+      "name": "紋別 **01-011発行年：1968在庫切",
+      "year": 1968,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01012",
+      "code": "01-012",
+      "name": "下川 *01-012発行年：1955在庫切",
+      "year": 1955,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01013",
+      "code": "01-013",
+      "name": "西興部 **01-013発行年：1980在庫切",
+      "year": 1980,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01014",
+      "code": "01-014",
+      "name": "滝上 **01-014発行年：2003販売価格：（財）山の手博物館Webサイトへ",
+      "year": 2003,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01015",
+      "code": "01-015",
+      "name": "上渚滑 **01-015発行年：2003在庫切",
+      "year": 2003,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01016",
+      "code": "01-016",
+      "name": "中湧別 *01-016発行年：1962販売価格：¥770",
+      "year": 1962,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01017",
+      "code": "01-017",
+      "name": "サロマ湖及び三里番屋 *",
+      "year": 1964,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01018",
+      "code": "01-018",
+      "name": "ルシャ川 *",
+      "year": 1965,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01019",
+      "code": "01-019",
+      "name": "知床岬 *01-019発行年：1971販売価格：¥770",
+      "year": 1971,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01020",
+      "code": "01-020",
+      "name": "奥士別 *",
+      "year": 1952,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01021",
+      "code": "01-021",
+      "name": "渚滑岳 **01-021発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01022",
+      "code": "01-022",
+      "name": "立牛 **01-022発行年：2008販売価格：（財）山の手博物館Webサイトへ",
+      "year": 2008,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01023",
+      "code": "01-023",
+      "name": "丸瀬布北部 **01-023発行年：1988在庫切",
+      "year": 1988,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01024",
+      "code": "01-024",
+      "name": "遠軽 **01-024発行年：1990 / 説明書：1991在庫切",
+      "year": 1990,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01027",
+      "code": "01-027",
+      "name": "網走（旧地形図区画）01-027発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01028",
+      "code": "01-028",
+      "name": "宇登呂 *01-028発行年：1961販売価格：¥770",
+      "year": 1961,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01029",
+      "code": "01-029",
+      "name": "羅臼（附 知円別） *01-029, 030発行年：1970販売価格：¥1,350",
+      "year": 1970,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01031",
+      "code": "01-031",
+      "name": "愛別 **01-031発行年：1964在庫切",
+      "year": 1964,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01032",
+      "code": "01-032",
+      "name": "上川 *01-032発行年：1970販売価格：¥935",
+      "year": 1970,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01033",
+      "code": "01-033",
+      "name": "白滝 *01-033発行年：1964販売価格：¥770",
+      "year": 1964,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01034",
+      "code": "01-034",
+      "name": "丸瀬布 *",
+      "year": 1967,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01035",
+      "code": "01-035",
+      "name": "生田原 *01-035発行年：1963販売価格：¥770",
+      "year": 1963,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01036",
+      "code": "01-036",
+      "name": "端野 *01-036発行年：1968販売価格：¥770",
+      "year": 1968,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01038",
+      "code": "01-038",
+      "name": "小清水01-038発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01039",
+      "code": "01-039",
+      "name": "斜里 **01-039発行年：1960販売価格：（財）山の手博物館Webサイトへ",
+      "year": 1960,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01040",
+      "code": "01-040",
+      "name": "峰浜 *01-040発行年：1962販売価格：¥770",
+      "year": 1962,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01041",
+      "code": "01-041",
+      "name": "春苅古丹 *",
+      "year": 1963,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01042",
+      "code": "01-042",
+      "name": "当麻 *01-042発行年：1966販売価格：¥770",
+      "year": 1966,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01043",
+      "code": "01-043",
+      "name": "大雪山 *01-043発行年：1966在庫切",
+      "year": 1966,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01044",
+      "code": "01-044",
+      "name": "上支湧別 *01-044発行年：1961販売価格：¥770",
+      "year": 1961,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01045",
+      "code": "01-045",
+      "name": "北見富士 *",
+      "year": 1964,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01046",
+      "code": "01-046",
+      "name": "留辺蘂 *01-046発行年：1965販売価格：¥770",
+      "year": 1965,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01047",
+      "code": "01-047",
+      "name": "北見01-047発行年：1968在庫切",
+      "year": 1968,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01048",
+      "code": "01-048",
+      "name": "美幌01-048発行年：1970在庫切",
+      "year": 1970,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01049",
+      "code": "01-049",
+      "name": "藻琴山 *01-049発行年：1963販売価格：¥770",
+      "year": 1963,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01050",
+      "code": "01-050",
+      "name": "斜里岳 *01-050発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01051",
+      "code": "01-051",
+      "name": "武佐岳 **01-051発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01052",
+      "code": "01-052",
+      "name": "薫別 *01-052発行年：1961販売価格：¥770",
+      "year": 1961,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01053",
+      "code": "01-053",
+      "name": "志比内 *01-053発行年：1968 / 説明書：1970販売価格：¥770",
+      "year": 1968,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01054",
+      "code": "01-054",
+      "name": "旭岳 *01-054発行年：1968在庫切",
+      "year": 1968,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01055",
+      "code": "01-055",
+      "name": "石狩岳 *01-055発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01056",
+      "code": "01-056",
+      "name": "常元 *01-056発行年：1964販売価格：¥770",
+      "year": 1964,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01057",
+      "code": "01-057",
+      "name": "小利別 *01-057発行年：1963販売価格：¥770",
+      "year": 1963,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01058",
+      "code": "01-058",
+      "name": "本岐01-058発行年：1965在庫切",
+      "year": 1965,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01059",
+      "code": "01-059",
+      "name": "上里01-059発行年：1966在庫切",
+      "year": 1966,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01060",
+      "code": "01-060",
+      "name": "屈斜路湖 *01-060発行年：1962販売価格：¥770",
+      "year": 1962,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01061",
+      "code": "01-061",
+      "name": "摩周湖 *01-061発行年：1962在庫切",
+      "year": 1962,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01062",
+      "code": "01-062",
+      "name": "中標津 *01-062発行年：1967販売価格：¥770",
+      "year": 1967,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01063",
+      "code": "01-063",
+      "name": "標津 **01-063発行年：1967備考：説明書は「野付崎」と共通在庫切",
+      "year": 1967,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "01064",
+      "code": "01-064",
+      "name": "野付崎 **01-064発行年：1967備考：説明書は「標津」と共通在庫切",
+      "year": 1967,
+      "region_num": 1,
+      "has_vector": false
+    },
+    {
+      "id": "02001",
+      "code": "02-001",
+      "name": "十勝岳 *02-001発行年：1963--->販売価格：¥770",
+      "year": 1963,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02002",
+      "code": "02-002",
+      "name": "十勝川上流 *02-002発行年：1957在庫切",
+      "year": 1957,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02003",
+      "code": "02-003",
+      "name": "糠平 **02-003発行年：1976在庫切",
+      "year": 1976,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02004",
+      "code": "02-004",
+      "name": "芽登温泉 *02-004発行年：1970販売価格：¥935",
+      "year": 1970,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02005",
+      "code": "02-005",
+      "name": "陸別 *02-005発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02006",
+      "code": "02-006",
+      "name": "上足寄 *02-006発行年：1964販売価格：¥770",
+      "year": 1964,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02007",
+      "code": "02-007",
+      "name": "阿寒湖02-007発行年：1965在庫切",
+      "year": 1965,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02008",
+      "code": "02-008",
+      "name": "弟子屈 *02-008発行年：1967販売価格：¥935",
+      "year": 1967,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02009",
+      "code": "02-009",
+      "name": "磯分内 *02-009発行年：1965販売価格：¥770",
+      "year": 1965,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02010",
+      "code": "02-010",
+      "name": "計根別02-010発行年：1988販売価格：¥2,420",
+      "year": 1988,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02010",
+      "code": "02-010",
+      "name": "計根別 **02-010発行年：1979 / 説明書：1978販売価格：（財）山の手博物館Webサイトへ",
+      "year": 1979,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02011",
+      "code": "02-011",
+      "name": "西別 **",
+      "year": 1972,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02012",
+      "code": "02-012",
+      "name": "別海 **02-012発行年：1962 / 説明書：1963在庫切",
+      "year": 1962,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02013",
+      "code": "02-013",
+      "name": "根室北部 **02-013発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02014",
+      "code": "02-014",
+      "name": "納沙布 **02-014発行年：1958/1959在庫切",
+      "year": 1958,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02015",
+      "code": "02-015",
+      "name": "西達布 *02-015発行年：1968販売価格：¥770",
+      "year": 1968,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02016",
+      "code": "02-016",
+      "name": "佐幌岳 *02-016発行年：1971販売価格：¥935",
+      "year": 1971,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02017",
+      "code": "02-017",
+      "name": "然別湖 **02-017発行年：1982在庫切",
+      "year": 1982,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02018",
+      "code": "02-018",
+      "name": "上士幌 **02-018発行年：1975 / 説明書：1976在庫切",
+      "year": 1975,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02019",
+      "code": "02-019",
+      "name": "足寄太 *",
+      "year": 1958,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02020",
+      "code": "02-020",
+      "name": "ウコタキヌプリ山 *02-020発行年：1962販売価格：¥935",
+      "year": 1962,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02021",
+      "code": "02-021",
+      "name": "雄別 *",
+      "year": 1960,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02022",
+      "code": "02-022",
+      "name": "鶴居02-022発行年：1976販売価格：¥1,320",
+      "year": 1976,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02023",
+      "code": "02-023",
+      "name": "標茶 *02-023発行年：1963販売価格：¥770",
+      "year": 1963,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02024",
+      "code": "02-024",
+      "name": "茶内原野02-024発行年：1985販売価格：¥2,310",
+      "year": 1985,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02025",
+      "code": "02-025",
+      "name": "姉別 **02-025発行年：1972 / 説明書：1973在庫切",
+      "year": 1972,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02026",
+      "code": "02-026",
+      "name": "厚床（附 落石岬） **",
+      "year": 1962,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02027",
+      "code": "02-027",
+      "name": "根室南部 **02-027発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02028",
+      "code": "02-028",
+      "name": "落合 *02-028発行年：1967販売価格：¥935",
+      "year": 1967,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02029",
+      "code": "02-029",
+      "name": "新得 * 02-029発行年：1969販売価格：¥935",
+      "year": 1969,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02030",
+      "code": "02-030",
+      "name": "中士幌 **02-030発行年：1984 / 説明書：1986在庫切",
+      "year": 1984,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02031",
+      "code": "02-031",
+      "name": "高島 **02-031発行年：1982在庫切",
+      "year": 1982,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02032",
+      "code": "02-032",
+      "name": "本別 *02-032発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02033",
+      "code": "02-033",
+      "name": "上茶路 *02-033発行年：1961販売価格：¥935",
+      "year": 1961,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02034",
+      "code": "02-034",
+      "name": "阿寒 *02-034発行年：1963在庫切",
+      "year": 1963,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02035",
+      "code": "02-035",
+      "name": "大楽毛 *02-035発行年：1966 / 説明書：1967在庫切",
+      "year": 1966,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02036",
+      "code": "02-036",
+      "name": "尾幌 *02-036発行年：1965販売価格：¥935",
+      "year": 1965,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02037",
+      "code": "02-037",
+      "name": "厚岸 *02-037発行年：1961販売価格：¥770",
+      "year": 1961,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02038",
+      "code": "02-038",
+      "name": "霧多布 *02-038発行年：1966販売価格：¥770",
+      "year": 1966,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02040",
+      "code": "02-040",
+      "name": "千呂露 **",
+      "year": 1962,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02041",
+      "code": "02-041",
+      "name": "御影 **02-041発行年：1954在庫切",
+      "year": 1954,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02042",
+      "code": "02-042",
+      "name": "帯広02-042発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02043",
+      "code": "02-043",
+      "name": "十勝池田02-043発行年：2000販売価格：¥3,740",
+      "year": 2000,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02044",
+      "code": "02-044",
+      "name": "常室 *02-044発行年：1959販売価格：¥770",
+      "year": 1959,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02045",
+      "code": "02-045",
+      "name": "音別 *02-045発行年：1957販売価格：¥770",
+      "year": 1957,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02046",
+      "code": "02-046",
+      "name": "白糠 *02-046発行年：1958販売価格：¥770",
+      "year": 1958,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02047",
+      "code": "02-047",
+      "name": "釧路 *02-047発行年：1962販売価格：¥770",
+      "year": 1962,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02048",
+      "code": "02-048",
+      "name": "昆布森02-048発行年：1956販売価格：¥550",
+      "year": 1956,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02049",
+      "code": "02-049",
+      "name": "床潭 **02-049発行年：1962 / 説明書：1963在庫切",
+      "year": 1962,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02050",
+      "code": "02-050",
+      "name": "幌尻岳 **02-050発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02051",
+      "code": "02-051",
+      "name": "札内岳 **02-051発行年：1953在庫切",
+      "year": 1953,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02052",
+      "code": "02-052",
+      "name": "大正02-052発行年：1979販売価格：¥1,650",
+      "year": 1979,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02053",
+      "code": "02-053",
+      "name": "糠内02-053発行年：1989販売価格：¥3,080",
+      "year": 1989,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02054",
+      "code": "02-054",
+      "name": "浦幌 *02-054発行年：1965販売価格：¥770",
+      "year": 1965,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02055",
+      "code": "02-055",
+      "name": "厚内 *02-055発行年：1961販売価格：¥770",
+      "year": 1961,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02056",
+      "code": "02-056",
+      "name": "イドンナップ岳 *02-056発行年：1961販売価格：¥935",
+      "year": 1961,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02057",
+      "code": "02-057",
+      "name": "札内川上流 **02-057発行年：1963在庫切",
+      "year": 1963,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02058",
+      "code": "02-058",
+      "name": "上札内 **02-058発行年：1979在庫切",
+      "year": 1979,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02059",
+      "code": "02-059",
+      "name": "忠類02-059発行年：2003販売価格：¥3,960",
+      "year": 2003,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02060",
+      "code": "02-060",
+      "name": "湧洞沼 *02-060発行年：1962販売価格：¥550",
+      "year": 1962,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02061",
+      "code": "02-061",
+      "name": "農屋 *02-061発行年：1962在庫切",
+      "year": 1962,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02062",
+      "code": "02-062",
+      "name": "神威岳 *02-062発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02063",
+      "code": "02-063",
+      "name": "上豊似 **02-063発行年：1975在庫切",
+      "year": 1975,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02064",
+      "code": "02-064",
+      "name": "大樹02-064発行年：1974在庫切",
+      "year": 1974,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02065",
+      "code": "02-065",
+      "name": "三石 **02-065発行年：1992在庫切",
+      "year": 1992,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02066",
+      "code": "02-066",
+      "name": "西舎02-066発行年：1986販売価格：¥3,190",
+      "year": 1986,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02067",
+      "code": "02-067",
+      "name": "楽古岳 *02-067発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02068",
+      "code": "02-068",
+      "name": "広尾 *02-068発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02069",
+      "code": "02-069",
+      "name": "浦河02-069発行年：2002販売価格：¥3,190",
+      "year": 2002,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02070",
+      "code": "02-070",
+      "name": "幌泉",
+      "year": 1955,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02071",
+      "code": "02-071",
+      "name": "猿留",
+      "year": 1957,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "02072",
+      "code": "02-072",
+      "name": "襟裳岬02-072発行年：1956販売価格：¥550",
+      "year": 1956,
+      "region_num": 2,
+      "has_vector": false
+    },
+    {
+      "id": "03001",
+      "code": "03-001",
+      "name": "宗谷（附 宗谷岬） **",
+      "year": 1959,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03002",
+      "code": "03-002",
+      "name": "礼文島 *（北部・南部）",
+      "year": 1963,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03003",
+      "code": "03-003",
+      "name": "稚内 **03-003発行年：1954在庫切",
+      "year": 1954,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03005",
+      "code": "03-005",
+      "name": "知来別 *",
+      "year": 1957,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03007",
+      "code": "03-007",
+      "name": "利尻島 *03-007発行年：1966 / 説明書：1967在庫切",
+      "year": 1966,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03008",
+      "code": "03-008",
+      "name": "抜海 *03-008発行年：1965販売価格：¥770",
+      "year": 1965,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03009",
+      "code": "03-009",
+      "name": "沼川 *03-009発行年：1968販売価格：¥935",
+      "year": 1968,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03010",
+      "code": "03-010",
+      "name": "鬼志別 *03-010発行年：1964販売価格：¥770",
+      "year": 1964,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03011",
+      "code": "03-011",
+      "name": "浅茅野台地 **03-011発行年：1965販売価格：（財）山の手博物館Webサイトへ",
+      "year": 1965,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03014",
+      "code": "03-014",
+      "name": "稚咲内 **03-014発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03015",
+      "code": "03-015",
+      "name": "豊富 **03-015発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03016",
+      "code": "03-016",
+      "name": "上猿払03-016発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03017",
+      "code": "03-017",
+      "name": "浜頓別 *03-017発行年：1967販売価格：¥935",
+      "year": 1967,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03020",
+      "code": "03-020",
+      "name": "敏音知03-020発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03021",
+      "code": "03-021",
+      "name": "中頓別 *03-021発行年：1963販売価格：¥770",
+      "year": 1963,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03022",
+      "code": "03-022",
+      "name": "遠別03-022発行年：1969在庫切",
+      "year": 1969,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03023",
+      "code": "03-023",
+      "name": "天塩中川 **03-023発行年：1962在庫切",
+      "year": 1962,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03024",
+      "code": "03-024",
+      "name": "音威子府 *03-024発行年：1962在庫切",
+      "year": 1962,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03025",
+      "code": "03-025",
+      "name": "初浦",
+      "year": 1961,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03026",
+      "code": "03-026",
+      "name": "共和 *03-026発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03027",
+      "code": "03-027",
+      "name": "恩根内 *03-027発行年：1965販売価格：¥935",
+      "year": 1965,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03028",
+      "code": "03-028",
+      "name": "焼尻島03-028発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03029",
+      "code": "03-029",
+      "name": "羽幌03-029発行年：1955販売価格：¥550",
+      "year": 1955,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03030",
+      "code": "03-030",
+      "name": "築別炭砿 *",
+      "year": 1960,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03031",
+      "code": "03-031",
+      "name": "蕗之台 *",
+      "year": 1971,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03032",
+      "code": "03-032",
+      "name": "名寄 **03-032発行年：1955 / 説明書：1956在庫切",
+      "year": 1955,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03033",
+      "code": "03-033",
+      "name": "苫前03-033発行年：1954販売価格：¥550",
+      "year": 1954,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03034",
+      "code": "03-034",
+      "name": "三渓03-034発行年：1963在庫切",
+      "year": 1963,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03035",
+      "code": "03-035",
+      "name": "添牛内 *03-035発行年：1965在庫切",
+      "year": 1965,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03036",
+      "code": "03-036",
+      "name": "士別 **03-036発行年：1970在庫切",
+      "year": 1970,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03037",
+      "code": "03-037",
+      "name": "鬼鹿",
+      "year": 1956,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03038",
+      "code": "03-038",
+      "name": "達布03-038発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03039",
+      "code": "03-039",
+      "name": "幌加内03-039発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03040",
+      "code": "03-040",
+      "name": "剣渕 **",
+      "year": 1977,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03041",
+      "code": "03-041",
+      "name": "留萌03-041発行年：1954販売価格：¥550",
+      "year": 1954,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03042",
+      "code": "03-042",
+      "name": "恵比島03-042発行年：1995販売価格：¥3,080",
+      "year": 1995,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03043",
+      "code": "03-043",
+      "name": "上江丹別 *",
+      "year": 1953,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03044",
+      "code": "03-044",
+      "name": "比布 *03-044発行年：1957販売価格：¥770",
+      "year": 1957,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03045",
+      "code": "03-045",
+      "name": "雄冬03-045発行年：1963在庫切",
+      "year": 1963,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03046",
+      "code": "03-046",
+      "name": "国領",
+      "year": 1965,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03047",
+      "code": "03-047",
+      "name": "妹背牛03-047発行年：1969在庫切",
+      "year": 1969,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03048",
+      "code": "03-048",
+      "name": "深川 *03-048発行年：1953在庫切",
+      "year": 1953,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03049",
+      "code": "03-049",
+      "name": "旭川 *03-049発行年：1956 / 説明書：1955在庫切",
+      "year": 1956,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03050",
+      "code": "03-050",
+      "name": "浜益03-050発行年：1957販売価格：¥550",
+      "year": 1957,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03051",
+      "code": "03-051",
+      "name": "西徳富",
+      "year": 1963,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03052",
+      "code": "03-052",
+      "name": "滝川 *03-052発行年：1956 / 説明書：1957在庫切",
+      "year": 1956,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03053",
+      "code": "03-053",
+      "name": "歌志内 *",
+      "year": 1956,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "03054",
+      "code": "03-054",
+      "name": "美瑛 *03-054発行年：1964販売価格：¥770",
+      "year": 1964,
+      "region_num": 3,
+      "has_vector": false
+    },
+    {
+      "id": "04001",
+      "code": "04-001",
+      "name": "余別および積丹岬 **",
+      "year": 1979,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04002",
+      "code": "04-002",
+      "name": "古平（附 幌武意） *",
+      "year": 1955,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04003",
+      "code": "04-003",
+      "name": "厚田04-003発行年：1956販売価格：¥550",
+      "year": 1956,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04004",
+      "code": "04-004",
+      "name": "月形04-004発行年：1959 / 説明書：1958販売価格：¥550",
+      "year": 1959,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04005",
+      "code": "04-005",
+      "name": "砂川04-005発行年：1965在庫切",
+      "year": 1965,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04006",
+      "code": "04-006",
+      "name": "上芦別 *04-006発行年：1953在庫切",
+      "year": 1953,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04007",
+      "code": "04-007",
+      "name": "下富良野 *",
+      "year": 1955,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04010",
+      "code": "04-010",
+      "name": "小樽西部 *04-010発行年：1954在庫切",
+      "year": 1954,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04011",
+      "code": "04-011",
+      "name": "小樽東部 **04-011発行年：1956 / 説明書：1957在庫切",
+      "year": 1956,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04012",
+      "code": "04-012",
+      "name": "石狩04-012発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04013",
+      "code": "04-013",
+      "name": "當別04-013発行年：1957 / 説明書：1956在庫切",
+      "year": 1957,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04014",
+      "code": "04-014",
+      "name": "岩見沢 *04-014発行年：1964在庫切",
+      "year": 1964,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04015",
+      "code": "04-015",
+      "name": "幾春別岳 *04-015発行年：1955在庫切",
+      "year": 1955,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04016",
+      "code": "04-016",
+      "name": "山部 *04-016発行年：1953在庫切",
+      "year": 1953,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04017",
+      "code": "04-017",
+      "name": "神恵内 **04-017発行年：1980在庫切",
+      "year": 1980,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04018",
+      "code": "04-018",
+      "name": "茅沼 *04-018発行年：1952在庫切",
+      "year": 1952,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04019",
+      "code": "04-019",
+      "name": "仁木 *04-019発行年：1954在庫切",
+      "year": 1954,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04020",
+      "code": "04-020",
+      "name": "銭函 *04-020発行年：1953在庫切",
+      "year": 1953,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04021",
+      "code": "04-021",
+      "name": "札幌 **04-021発行年：1954 / 説明書：1956在庫切",
+      "year": 1954,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04022",
+      "code": "04-022",
+      "name": "江別 **04-022発行年：1971在庫切",
+      "year": 1971,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04023",
+      "code": "04-023",
+      "name": "夕張 *04-023発行年：1964 / 説明書：1965在庫切",
+      "year": 1964,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04024",
+      "code": "04-024",
+      "name": "大夕張 *",
+      "year": 1954,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04025",
+      "code": "04-025",
+      "name": "石狩金山 *04-025発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04026",
+      "code": "04-026",
+      "name": "島古丹 **04-026発行年：1976在庫切",
+      "year": 1976,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04027",
+      "code": "04-027",
+      "name": "岩内04-027発行年：1955在庫切",
+      "year": 1955,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04028",
+      "code": "04-028",
+      "name": "倶知安 *04-028発行年：1956在庫切",
+      "year": 1956,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04029",
+      "code": "04-029",
+      "name": "定山渓 *04-029発行年：1953在庫切",
+      "year": 1953,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04030",
+      "code": "04-030",
+      "name": "石山 **04-030発行年：1955 / 説明書：1956在庫切",
+      "year": 1955,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04031",
+      "code": "04-031",
+      "name": "恵庭 *04-031発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04032",
+      "code": "04-032",
+      "name": "追分 *04-032発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04033",
+      "code": "04-033",
+      "name": "紅葉山 **04-033発行年：2002在庫切",
+      "year": 2002,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04034",
+      "code": "04-034",
+      "name": "日高 ** 04-034発行年：1985 / 説明書：1986在庫切",
+      "year": 1985,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04035",
+      "code": "04-035",
+      "name": "原歌及び狩場山 **04-035, 046発行年：1987在庫切",
+      "year": 1987,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04036",
+      "code": "04-036",
+      "name": "寿都 **04-036発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04037",
+      "code": "04-037",
+      "name": "歌棄 **04-037発行年：1984在庫切",
+      "year": 1984,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04038",
+      "code": "04-038",
+      "name": "狩太 **",
+      "year": 1961,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04039",
+      "code": "04-039",
+      "name": "留寿都 *04-039発行年：1956在庫切",
+      "year": 1956,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04040",
+      "code": "04-040",
+      "name": "壮渓珠 *",
+      "year": 1954,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04041",
+      "code": "04-041",
+      "name": "樽前山 *04-041発行年：1957在庫切",
+      "year": 1957,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04042",
+      "code": "04-042",
+      "name": "千歳04-042発行年：1980 （2刷，複製：2002）在庫切",
+      "year": 1980,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04043",
+      "code": "04-043",
+      "name": "早来 *04-043発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04044",
+      "code": "04-044",
+      "name": "穂別 **04-044発行年：1987在庫切",
+      "year": 1987,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04045",
+      "code": "04-045",
+      "name": "岩知志 **04-045発行年：1977 / 説明書：1978在庫切",
+      "year": 1977,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04047",
+      "code": "04-047",
+      "name": "大平山 **04-047発行年：1990 / 説明書：1993在庫切",
+      "year": 1990,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04048",
+      "code": "04-048",
+      "name": "長万部04-048発行年：1983販売価格：¥2,420",
+      "year": 1983,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04049",
+      "code": "04-049",
+      "name": "豊浦 *04-049発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04050",
+      "code": "04-050",
+      "name": "虻田",
+      "year": 1956,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04051",
+      "code": "04-051",
+      "name": "徳舜瞥",
+      "year": 1954,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04052",
+      "code": "04-052",
+      "name": "白老 **04-052発行年：1953在庫切",
+      "year": 1953,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04053",
+      "code": "04-053",
+      "name": "苫小牧 *04-053発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04054",
+      "code": "04-054",
+      "name": "鵡川04-054発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04055",
+      "code": "04-055",
+      "name": "富川 *04-055発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04056",
+      "code": "04-056",
+      "name": "比宇 *",
+      "year": 1959,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04057",
+      "code": "04-057",
+      "name": "瀬棚 *04-057発行年：1968 / 説明書：1970販売価格：¥935",
+      "year": 1968,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04059",
+      "code": "04-059",
+      "name": "国縫04-059発行年：1983販売価格：¥1,650",
+      "year": 1983,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04060",
+      "code": "04-060",
+      "name": "西紋鼈 *",
+      "year": 1955,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04061",
+      "code": "04-061",
+      "name": "登別温泉 **04-061発行年：1953 / 説明書：1954在庫切",
+      "year": 1953,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04062",
+      "code": "04-062",
+      "name": "門別04-062発行年：1958販売価格：¥550",
+      "year": 1958,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04063",
+      "code": "04-063",
+      "name": "静内 *04-063発行年：1958販売価格：¥770",
+      "year": 1958,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04064",
+      "code": "04-064",
+      "name": "奥尻島北部及び南部",
+      "year": 1982,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04066",
+      "code": "04-066",
+      "name": "久遠04-066発行年：1973在庫切",
+      "year": 1973,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04067",
+      "code": "04-067",
+      "name": "遊楽部岳04-067発行年：1981販売価格：¥1,980",
+      "year": 1981,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04068",
+      "code": "04-068",
+      "name": "八雲04-068発行年：1978在庫切",
+      "year": 1978,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04069",
+      "code": "04-069",
+      "name": "室蘭 **04-069発行年：1953在庫切",
+      "year": 1953,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04070",
+      "code": "04-070",
+      "name": "春立",
+      "year": 1960,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04073",
+      "code": "04-073",
+      "name": "熊石04-073発行年：1974 / 説明書：1975在庫切",
+      "year": 1974,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04074",
+      "code": "04-074",
+      "name": "相沼04-074発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04075",
+      "code": "04-075",
+      "name": "濁川 **04-075発行年：1973在庫切",
+      "year": 1973,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04076",
+      "code": "04-076",
+      "name": "駒ヶ岳 **04-076発行年：1986 （2刷，複製：2002）在庫切",
+      "year": 1986,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04077",
+      "code": "04-077",
+      "name": "鹿部 *04-077発行年：1966 / 説明書：1967販売価格：¥770",
+      "year": 1966,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04078",
+      "code": "04-078",
+      "name": "江差 *04-078発行年：1969 / 説明書：1970販売価格：¥935",
+      "year": 1969,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04079",
+      "code": "04-079",
+      "name": "館04-079発行年：1976 / 説明書：1975在庫切",
+      "year": 1976,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04080",
+      "code": "04-080",
+      "name": "大沼公園 **04-080発行年：1966在庫切",
+      "year": 1966,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04081",
+      "code": "04-081",
+      "name": "東海 *",
+      "year": 1969,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04082",
+      "code": "04-082",
+      "name": "尾札部 *04-082発行年：1967販売価格：¥770",
+      "year": 1967,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04084",
+      "code": "04-084",
+      "name": "木古内04-084発行年：1979在庫切",
+      "year": 1979,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04085",
+      "code": "04-085",
+      "name": "函館 **04-085発行年：1965販売価格：（財）山の手博物館Webサイトへ",
+      "year": 1965,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04086",
+      "code": "04-086",
+      "name": "五稜郭 **04-086発行年：1964在庫切",
+      "year": 1964,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04087",
+      "code": "04-087",
+      "name": "恵山 **04-087発行年：1969在庫切",
+      "year": 1969,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04088",
+      "code": "04-088",
+      "name": "渡島大島04-088発行年：1970在庫切",
+      "year": 1970,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04090",
+      "code": "04-090",
+      "name": "知内04-090発行年：1978在庫切",
+      "year": 1978,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04091",
+      "code": "04-091",
+      "name": "渡島小島",
+      "year": 1965,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04092",
+      "code": "04-092",
+      "name": "松前04-092発行年：1990販売価格：¥2,970",
+      "year": 1990,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "04093",
+      "code": "04-093",
+      "name": "渡島福島04-093発行年：1977在庫切",
+      "year": 1977,
+      "region_num": 4,
+      "has_vector": false
+    },
+    {
+      "id": "05001",
+      "code": "05-001",
+      "name": "大間05-001発行年：1962備考：説明書は「佐井」と共通在庫切",
+      "year": 1962,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05002",
+      "code": "05-002",
+      "name": "佐井05-002発行年：1962備考：説明書は「大間」と共通在庫切",
+      "year": 1962,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05003",
+      "code": "05-003",
+      "name": "大畑05-003発行年：1957販売価格：¥550",
+      "year": 1957,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05004",
+      "code": "05-004",
+      "name": "尻屋崎05-004発行年：1977販売価格：¥1,430",
+      "year": 1977,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05005",
+      "code": "05-005",
+      "name": "三厩",
+      "year": 1957,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05006",
+      "code": "05-006",
+      "name": "母衣月",
+      "year": 1958,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05007",
+      "code": "05-007",
+      "name": "陸奥川内05-007発行年：1975販売価格：¥1,540",
+      "year": 1975,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05009",
+      "code": "05-009",
+      "name": "近川05-009発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05010",
+      "code": "05-010",
+      "name": "小泊05-010発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05011",
+      "code": "05-011",
+      "name": "蟹田05-011発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05012",
+      "code": "05-012",
+      "name": "脇野沢05-012発行年：1976販売価格：¥990",
+      "year": 1976,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05014",
+      "code": "05-014",
+      "name": "金木05-014発行年：1966在庫切",
+      "year": 1966,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05015",
+      "code": "05-015",
+      "name": "油川05-015発行年：1981販売価格：¥1,980",
+      "year": 1981,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05016",
+      "code": "05-016",
+      "name": "浅虫05-016発行年：1983販売価格：¥1,980",
+      "year": 1983,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05020",
+      "code": "05-020",
+      "name": "鰺ヶ沢05-020発行年：1985販売価格：¥3,190",
+      "year": 1985,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05021",
+      "code": "05-021",
+      "name": "五所川原05-021発行年：1970在庫切",
+      "year": 1970,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05022",
+      "code": "05-022",
+      "name": "青森西部05-022発行年：2013販売価格：¥1,760",
+      "year": 2013,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05026",
+      "code": "05-026",
+      "name": "深浦05-026発行年：1968在庫切",
+      "year": 1968,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05028",
+      "code": "05-028",
+      "name": "弘前05-028発行年：1962在庫切",
+      "year": 1962,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05029",
+      "code": "05-029",
+      "name": "黒石05-029発行年：1990販売価格：¥3,740",
+      "year": 1990,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05030",
+      "code": "05-030",
+      "name": "八甲田山05-030発行年：2004販売価格：¥4,400",
+      "year": 2004,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05031",
+      "code": "05-031",
+      "name": "十和田05-031発行年：2005販売価格：¥3,960",
+      "year": 2005,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05034",
+      "code": "05-034",
+      "name": "岩館05-034発行年：1963在庫切",
+      "year": 1963,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05035",
+      "code": "05-035",
+      "name": "中浜05-035発行年：1983販売価格：¥2,640",
+      "year": 1983,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05036",
+      "code": "05-036",
+      "name": "太良鉱山",
+      "year": 1962,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05038",
+      "code": "05-038",
+      "name": "十和田湖05-038発行年：2019販売価格：¥2,200",
+      "year": 2019,
+      "region_num": 5,
+      "has_vector": false
+    },
+    {
+      "id": "05043",
+      "code": "05-043",
+      "name": "能代05-043発行年：1984販売価格：¥3,190",
+      "year": 1984,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05044",
+      "code": "05-044",
+      "name": "鷹巣05-044発行年：1963在庫切",
+      "year": 1963,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05048",
+      "code": "05-048",
+      "name": "一戸05-048発行年：2018販売価格：¥2,310",
+      "year": 2018,
+      "region_num": 5,
+      "has_vector": false
+    },
+    {
+      "id": "05049",
+      "code": "05-049",
+      "name": "陸中大野05-049発行年：1987販売価格：¥2,860",
+      "year": 1987,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05051",
+      "code": "05-051",
+      "name": "羽後浜田05-051発行年：1985販売価格：¥2,640",
+      "year": 1985,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05052",
+      "code": "05-052",
+      "name": "森岳05-052発行年：1985販売価格：¥3,080",
+      "year": 1985,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05053",
+      "code": "05-053",
+      "name": "米内沢05-053発行年：1973在庫切",
+      "year": 1973,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "05058",
+      "code": "05-058",
+      "name": "陸中関05-058発行年：2021正誤表（PDF/ 268 KB）販売価格：¥2,200",
+      "year": 2021,
+      "region_num": 5,
+      "has_vector": false
+    },
+    {
+      "id": "05059",
+      "code": "05-059",
+      "name": "陸中野田05-059発行年：1962在庫切",
+      "year": 1962,
+      "region_num": 5,
+      "has_vector": true
+    },
+    {
+      "id": "06001",
+      "code": "06-001",
+      "name": "戸賀及び船川 （第2版）06-001，002発行年：2011（初版 戸賀：1959，船川：1959）販売価格：¥4,290",
+      "year": 2011,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06003",
+      "code": "06-003",
+      "name": "五城目06-003発行年：1970在庫切",
+      "year": 1970,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06004",
+      "code": "06-004",
+      "name": "阿仁合 （第2版）06-004発行年：2012（初版：1955）販売価格：¥3,520",
+      "year": 2012,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06005",
+      "code": "06-005",
+      "name": "森吉山06-005発行年：1957販売価格：¥550",
+      "year": 1957,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06006",
+      "code": "06-006",
+      "name": "八幡平06-006発行年：1964在庫切",
+      "year": 1964,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06009",
+      "code": "06-009",
+      "name": "門06-009発行年：2025販売価格：¥2,970",
+      "year": 2025,
+      "region_num": 6,
+      "has_vector": false
+    },
+    {
+      "id": "06011",
+      "code": "06-011",
+      "name": "秋田06-011発行年：1977 （2刷，複製：1998）販売価格：¥1,980",
+      "year": 1977,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06012",
+      "code": "06-012",
+      "name": "太平山06-012発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06013",
+      "code": "06-013",
+      "name": "田沢湖 （北半部）06-013発行年：1958販売価格：¥550",
+      "year": 1958,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06014",
+      "code": "06-014",
+      "name": "雫石06-014発行年：1987販売価格：¥2,640",
+      "year": 1987,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06016",
+      "code": "06-016",
+      "name": "外山06-016発行年：2024販売価格：¥3,080",
+      "year": 2024,
+      "region_num": 6,
+      "has_vector": false
+    },
+    {
+      "id": "06018",
+      "code": "06-018",
+      "name": "田老06-018発行年：1970在庫切",
+      "year": 1970,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06019",
+      "code": "06-019",
+      "name": "羽後和田06-019発行年：1976在庫切",
+      "year": 1976,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06020",
+      "code": "06-020",
+      "name": "刈和野06-020発行年：1994販売価格：¥2,530",
+      "year": 1994,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06021",
+      "code": "06-021",
+      "name": "角館06-021発行年：2020販売価格：¥1,760",
+      "year": 2020,
+      "region_num": 6,
+      "has_vector": false
+    },
+    {
+      "id": "06024",
+      "code": "06-024",
+      "name": "早池峰山06-024発行年：2013販売価格：¥1,870",
+      "year": 2013,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06026",
+      "code": "06-026",
+      "name": "宮古06-026発行年：1984販売価格：¥1,980",
+      "year": 1984,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06028",
+      "code": "06-028",
+      "name": "本荘06-028発行年：1977在庫切",
+      "year": 1977,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06033",
+      "code": "06-033",
+      "name": "大迫06-033発行年：1956販売価格：¥550",
+      "year": 1956,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06034",
+      "code": "06-034",
+      "name": "土淵06-034発行年：1956販売価格：¥550",
+      "year": 1956,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06035",
+      "code": "06-035",
+      "name": "大槌06-035発行年：1964備考：説明書は「霞露岳」と共通在庫切",
+      "year": 1964,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06036",
+      "code": "06-036",
+      "name": "霞露岳",
+      "year": 1964,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06037",
+      "code": "06-037",
+      "name": "象潟06-037発行年：1982在庫切",
+      "year": 1982,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06038",
+      "code": "06-038",
+      "name": "矢島06-038発行年：1988販売価格：¥2,970",
+      "year": 1988,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06039",
+      "code": "06-039",
+      "name": "浅舞06-039発行年：1979在庫切",
+      "year": 1979,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06041",
+      "code": "06-041",
+      "name": "川尻06-041発行年：1971在庫切",
+      "year": 1971,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06043",
+      "code": "06-043",
+      "name": "人首06-043発行年：1955 / 説明書：1954販売価格：¥550",
+      "year": 1955,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06045",
+      "code": "06-045",
+      "name": "釜石06-045発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06047",
+      "code": "06-046",
+      "name": "鳥海山及び吹浦06-046，047発行年：1992正誤表（PDF / 85KB）販売価格：¥3,850",
+      "year": 1992,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06048",
+      "code": "06-048",
+      "name": "湯沢06-048発行年：1979在庫切",
+      "year": 1979,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06050",
+      "code": "06-050",
+      "name": "焼石岳06-050発行年：1965在庫切",
+      "year": 1965,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06054",
+      "code": "06-054",
+      "name": "綾里06-054発行年：2004販売価格：¥3,410",
+      "year": 2004,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06055",
+      "code": "06-055",
+      "name": "酒田06-055発行年：1979在庫切",
+      "year": 1979,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06056",
+      "code": "06-056",
+      "name": "大沢06-056発行年：1989販売価格：¥3,190",
+      "year": 1989,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06057",
+      "code": "06-057",
+      "name": "羽前金山06-057発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06061",
+      "code": "06-061",
+      "name": "千廐06-061発行年：2002販売価格：¥3,190",
+      "year": 2002,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06062",
+      "code": "06-062",
+      "name": "気仙沼06-062発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06064",
+      "code": "06-064",
+      "name": "鶴岡06-064発行年：1984販売価格：¥2,640",
+      "year": 1984,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06065",
+      "code": "06-065",
+      "name": "清川06-065発行年：1986販売価格：¥2,750",
+      "year": 1986,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06068",
+      "code": "06-068",
+      "name": "岩ヶ崎06-068発行年：1997販売価格：¥4,730",
+      "year": 1997,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06069",
+      "code": "06-069",
+      "name": "若柳06-069発行年：1967在庫切",
+      "year": 1967,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06070",
+      "code": "06-070",
+      "name": "志津川06-070発行年：1996販売価格：¥4,510",
+      "year": 1996,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06071",
+      "code": "06-071",
+      "name": "津谷06-071発行年：1993販売価格：¥2,860",
+      "year": 1993,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06075",
+      "code": "06-075",
+      "name": "尾花沢06-075発行年：1958販売価格：¥550",
+      "year": 1958,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06077",
+      "code": "06-077",
+      "name": "古川06-077発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06078",
+      "code": "06-078",
+      "name": "涌谷06-078発行年：1969在庫切",
+      "year": 1969,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06079",
+      "code": "06-079",
+      "name": "登米06-079発行年：1990販売価格：¥3,410",
+      "year": 1990,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06080",
+      "code": "06-080",
+      "name": "大須06-080発行年：1992販売価格：¥2,530",
+      "year": 1992,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06081",
+      "code": "06-081",
+      "name": "粟島06-081発行年：1981販売価格：¥1,430",
+      "year": 1981,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06088",
+      "code": "06-088",
+      "name": "吉岡06-088発行年：1983在庫切",
+      "year": 1983,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06089",
+      "code": "06-089",
+      "name": "松島06-089発行年：1982販売価格：¥2,750",
+      "year": 1982,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06090",
+      "code": "06-090",
+      "name": "石巻06-090発行年：1984在庫切",
+      "year": 1984,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06091",
+      "code": "06-091",
+      "name": "寄磯06-091発行年：1987販売価格：¥2,530",
+      "year": 1987,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06095",
+      "code": "06-095",
+      "name": "荒砥06-095発行年：2024正誤表（PDF / 155KB）販売価格：¥2,970",
+      "year": 2024,
+      "region_num": 6,
+      "has_vector": false
+    },
+    {
+      "id": "06098",
+      "code": "06-098",
+      "name": "仙台06-098発行年：1986 （3刷，複製：2002）在庫切",
+      "year": 1986,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06099",
+      "code": "06-099",
+      "name": "塩竃06-099発行年：1983販売価格：¥2,860",
+      "year": 1983,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06100",
+      "code": "06-100",
+      "name": "金華山06-100発行年：1974在庫切",
+      "year": 1974,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "06108",
+      "code": "06-108",
+      "name": "岩沼06-108発行年：1975在庫切",
+      "year": 1975,
+      "region_num": 6,
+      "has_vector": true
+    },
+    {
+      "id": "07009",
+      "code": "07-008",
+      "name": "新潟及び内野07-008, 009発行年：2016販売価格：¥2,420",
+      "year": 2016,
+      "region_num": 7,
+      "has_vector": false
+    },
+    {
+      "id": "07011",
+      "code": "07-011",
+      "name": "飯豊山 07-011発行年：1996販売価格：¥3,300",
+      "year": 1996,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07012",
+      "code": "07-012",
+      "name": "玉庭 07-012発行年：1998販売価格：¥4,730",
+      "year": 1998,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07016",
+      "code": "07-016",
+      "name": "角田07-016発行年：1988販売価格：¥3,080",
+      "year": 1988,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07022",
+      "code": "07-022",
+      "name": "吾妻山07-022発行年：2018販売価格：¥1,870",
+      "year": 2018,
+      "region_num": 7,
+      "has_vector": false
+    },
+    {
+      "id": "07025",
+      "code": "07-025",
+      "name": "相馬中村07-025発行年：1996販売価格：¥5,610",
+      "year": 1996,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07026",
+      "code": "07-026",
+      "name": "出雲崎 07-026発行年：1993販売価格：¥3,520",
+      "year": 1993,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07027",
+      "code": "07-027",
+      "name": "三条07-027発行年：2001 / 説明書：2002販売価格：¥4,510",
+      "year": 2001,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07028",
+      "code": "07-028",
+      "name": "加茂07-028発行年：2011販売価格：¥4,620",
+      "year": 2011,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07031",
+      "code": "07-031",
+      "name": "喜多方07-031発行年：2006販売価格：¥3,850",
+      "year": 2006,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07032",
+      "code": "07-032",
+      "name": "磐梯山07-032発行年：2023販売価格：¥3,080",
+      "year": 2023,
+      "region_num": 7,
+      "has_vector": false
+    },
+    {
+      "id": "07033",
+      "code": "07-033",
+      "name": "二本松07-033発行年：1995販売価格：¥3,190",
+      "year": 1995,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07034",
+      "code": "07-034",
+      "name": "川俣07-034発行年：2015正誤表（PDF/ 49 KB）販売価格：¥1,430",
+      "year": 2015,
+      "region_num": 7,
+      "has_vector": false
+    },
+    {
+      "id": "07035",
+      "code": "07-035",
+      "name": "原町及び大甕07-035, 036発行年：1990販売価格：¥4,290",
+      "year": 1990,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07037",
+      "code": "07-037",
+      "name": "柏崎07-037発行年：1995販売価格：¥4,620",
+      "year": 1995,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07038",
+      "code": "07-038",
+      "name": "長岡07-038発行年：1991 （2刷，複製：2010）販売価格：¥4,400",
+      "year": 1991,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07041",
+      "code": "07-041",
+      "name": "宮下07-041発行年：2004販売価格：¥3,960",
+      "year": 2004,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07042",
+      "code": "07-042",
+      "name": "若松07-042発行年：1992販売価格：¥2,860",
+      "year": 1992,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07046",
+      "code": "07-046",
+      "name": "浪江及び磐城富岡07-046. 047発行年：1994販売価格：¥3,630",
+      "year": 1994,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07048",
+      "code": "07-048",
+      "name": "柿崎07-048発行年：1996販売価格：¥3,630",
+      "year": 1996,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07049",
+      "code": "07-049",
+      "name": "岡野町07-049発行年：1989販売価格：¥3,520",
+      "year": 1989,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07050",
+      "code": "07-050",
+      "name": "小千谷07-050発行年：1986 （2刷，複製：2006）販売価格：¥4,840",
+      "year": 1986,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07051",
+      "code": "07-051",
+      "name": "須原07-051発行年：2004販売価格：¥4,290",
+      "year": 2004,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07054",
+      "code": "07-054",
+      "name": "田島07-054発行年：1999販売価格：¥3,850",
+      "year": 1999,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07058",
+      "code": "07-058",
+      "name": "川前及び井出07-058, 059発行年：2002販売価格：¥6,600",
+      "year": 2002,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07060",
+      "code": "07-060",
+      "name": "高田西部07-060発行年：1989販売価格：¥3,300",
+      "year": 1989,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07061",
+      "code": "07-061",
+      "name": "高田東部07-061発行年：1994販売価格：¥3,190",
+      "year": 1994,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07062",
+      "code": "07-062",
+      "name": "松之山温泉07-062発行年：2000販売価格：¥4,070",
+      "year": 2000,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07063",
+      "code": "07-063",
+      "name": "十日町07-063発行年：1985 （2刷，複製：2006）販売価格：¥4,180",
+      "year": 1985,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07064",
+      "code": "07-064",
+      "name": "八海山07-064発行年：1992販売価格：¥2,970",
+      "year": 1992,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07070",
+      "code": "07-070",
+      "name": "竹貫07-070発行年：1973在庫切",
+      "year": 1973,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07071",
+      "code": "07-071",
+      "name": "平07-071発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07073",
+      "code": "07-073",
+      "name": "飯山07-073発行年：2000 / 説明書：2001販売価格：¥6,050",
+      "year": 2000,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07074",
+      "code": "07-074",
+      "name": "苗場山07-074発行年：1993正誤表（PDF / 233 KB）販売価格：¥2,970",
+      "year": 1993,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07075",
+      "code": "07-075",
+      "name": "越後湯沢07-075発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07077",
+      "code": "07-077",
+      "name": "燧岳",
+      "year": 1956,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07084",
+      "code": "07-084",
+      "name": "戸隠07-084発行年：2003販売価格：¥4,620",
+      "year": 2003,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07085",
+      "code": "07-085",
+      "name": "中野07-085発行年：1992販売価格：¥2,750",
+      "year": 1992,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07089",
+      "code": "07-089",
+      "name": "男体山07-089発行年：1956 / 説明書：1955在庫切",
+      "year": 1956,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07093",
+      "code": "07-093",
+      "name": "大子07-093発行年：2026販売価格：¥3,080",
+      "year": 2026,
+      "region_num": 7,
+      "has_vector": false
+    },
+    {
+      "id": "07096",
+      "code": "07-096",
+      "name": "長野07-096発行年：1986 （2刷，複製：2002）販売価格：¥3,630",
+      "year": 1986,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07097",
+      "code": "07-097",
+      "name": "須坂07-097発行年：1955在庫切",
+      "year": 1955,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07098",
+      "code": "07-098",
+      "name": "草津07-098発行年：1957在庫切",
+      "year": 1957,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07100",
+      "code": "07-100",
+      "name": "沼田07-100発行年：1954 / 説明書：1953在庫切",
+      "year": 1954,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07101",
+      "code": "07-101",
+      "name": "足尾07-101発行年：1954 / 説明書：1955在庫切",
+      "year": 1954,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "07103",
+      "code": "07-103",
+      "name": "宇都宮07-103発行年：2010正誤表 [2020. 2.20 更新]（PDF / 521 KB）販売価格：¥3,410",
+      "year": 2010,
+      "region_num": 7,
+      "has_vector": true
+    },
+    {
+      "id": "08001",
+      "code": "08-001",
+      "name": "坂城08-001発行年：1980在庫切",
+      "year": 1980,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08004",
+      "code": "08-004",
+      "name": "榛名山08-004発行年：2012販売価格：¥3,190",
+      "year": 2012,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08006",
+      "code": "08-006",
+      "name": "桐生及足利08-006発行年：2022販売価格：¥2,860",
+      "year": 2022,
+      "region_num": 8,
+      "has_vector": false
+    },
+    {
+      "id": "08007",
+      "code": "08-007",
+      "name": "栃木08-007発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08011",
+      "code": "08-011",
+      "name": "那珂湊",
+      "year": 1972,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08013",
+      "code": "08-013",
+      "name": "小諸08-013発行年：1979在庫切",
+      "year": 1979,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08020",
+      "code": "08-020",
+      "name": "真壁08-020発行年：1996販売価格：¥3,960",
+      "year": 1996,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08021",
+      "code": "08-021",
+      "name": "石岡08-021発行年：1981販売価格：¥1,980",
+      "year": 1981,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08022",
+      "code": "08-022",
+      "name": "磯浜08-022発行年：1975販売価格：¥1,430",
+      "year": 1975,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08023",
+      "code": "08-023",
+      "name": "諏訪08-023発行年：1954 / 説明書：1953在庫切",
+      "year": 1954,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08024",
+      "code": "08-024",
+      "name": "蓼科山08-024発行年：1975 / 説明書：1974在庫切",
+      "year": 1975,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08026",
+      "code": "08-026",
+      "name": "万場08-026発行年：1969在庫切",
+      "year": 1969,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08027",
+      "code": "08-027",
+      "name": "寄居08-027発行年：1992販売価格：¥3,300",
+      "year": 1992,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08029",
+      "code": "08-029",
+      "name": "鴻巣08-029発行年：2014販売価格：¥2,090",
+      "year": 2014,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08034",
+      "code": "08-034",
+      "name": "高遠08-034発行年：1996販売価格：¥4,620",
+      "year": 1996,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08035",
+      "code": "08-035",
+      "name": "八ガ岳",
+      "year": 1977,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08037",
+      "code": "08-037",
+      "name": "三峰08-037発行年：2010販売価格：¥3,960",
+      "year": 2010,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08039",
+      "code": "08-039",
+      "name": "川越08-039発行年：2023販売価格：¥3,630",
+      "year": 2023,
+      "region_num": 8,
+      "has_vector": false
+    },
+    {
+      "id": "08040",
+      "code": "08-040",
+      "name": "大宮08-040発行年：2002販売価格：¥3,190",
+      "year": 2002,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08041",
+      "code": "08-041",
+      "name": "野田08-041発行年：2011販売価格：¥2,860",
+      "year": 2011,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08045",
+      "code": "08-045",
+      "name": "市野瀬08-045発行年：1983 （2刷，複製：2002）販売価格：¥2,640",
+      "year": 1983,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08047",
+      "code": "08-047",
+      "name": "御岳昇仙峡08-047発行年：1984在庫切",
+      "year": 1984,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08049",
+      "code": "08-049",
+      "name": "五日市08-049発行年：1987販売価格：¥2,640",
+      "year": 1987,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08050",
+      "code": "08-050",
+      "name": "青梅08-050発行年：2007販売価格：¥4,070",
+      "year": 2007,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08057",
+      "code": "08-057",
+      "name": "大河原08-057発行年：2025販売価格：¥3,410",
+      "year": 2025,
+      "region_num": 8,
+      "has_vector": false
+    },
+    {
+      "id": "08059",
+      "code": "08-059",
+      "name": "甲府08-059発行年：1956在庫切",
+      "year": 1956,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08062",
+      "code": "08-062",
+      "name": "八王子08-062発行年：2013正誤表（PDF/ 416 KB）販売価格：¥1,870",
+      "year": 2013,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08063",
+      "code": "08-063",
+      "name": "東京西南部08-063発行年：1984 （2刷：1995）販売価格：¥3,630",
+      "year": 1984,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08069",
+      "code": "08-069",
+      "name": "身延08-069発行年：2018販売価格：¥2,530",
+      "year": 2018,
+      "region_num": 8,
+      "has_vector": false
+    },
+    {
+      "id": "08073",
+      "code": "08-073",
+      "name": "藤沢08-073発行年：1979 （3刷，複製：2010）販売価格：¥2,640",
+      "year": 1979,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08074",
+      "code": "08-074",
+      "name": "横浜08-074発行年：1982 （3刷，複製：2010）販売価格：¥2,530",
+      "year": 1982,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08075",
+      "code": "08-075",
+      "name": "木更津08-075発行年：2004販売価格：¥3,080",
+      "year": 2004,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08076",
+      "code": "08-076",
+      "name": "姉崎08-076発行年：1984 （2刷：1997）販売価格：¥3,740",
+      "year": 1984,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08077",
+      "code": "08-077",
+      "name": "茂原08-077発行年：2016正誤表（PDF/ 988 KB）［2026.07.23］販売価格：¥2,200",
+      "year": 2016,
+      "region_num": 8,
+      "has_vector": false
+    },
+    {
+      "id": "08079",
+      "code": "08-079",
+      "name": "南部08-079発行年：2014販売価格：¥2,640",
+      "year": 2014,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08084",
+      "code": "08-084",
+      "name": "横須賀08-084発行年：1998販売価格：¥2,970",
+      "year": 1998,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08085",
+      "code": "08-085",
+      "name": "富津08-085発行年：2005販売価格：¥6,930",
+      "year": 2005,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08086",
+      "code": "08-086",
+      "name": "大多喜08-086発行年：2026正誤表（PDF/ 193 KB）［2026.06.04］販売価格：地質図・説明書を個別に購入できます。　地質図 ¥2,420　説明書 ¥4,070",
+      "year": 2026,
+      "region_num": 8,
+      "has_vector": false
+    },
+    {
+      "id": "08087",
+      "code": "08-087",
+      "name": "上総大原08-087発行年：2019販売価格：¥2,530",
+      "year": 2019,
+      "region_num": 8,
+      "has_vector": false
+    },
+    {
+      "id": "08089",
+      "code": "08-089",
+      "name": "清水08-089発行年：1990販売価格：¥2,970",
+      "year": 1990,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08092",
+      "code": "08-092",
+      "name": "熱海08-092発行年：2011販売価格：¥2,970",
+      "year": 2011,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08093",
+      "code": "08-093",
+      "name": "三崎08-093発行年：1980販売価格：¥1,430",
+      "year": 1980,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08094",
+      "code": "08-094",
+      "name": "那古08-094発行年：1990販売価格：¥1,980",
+      "year": 1990,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08095",
+      "code": "08-095",
+      "name": "鴨川08-095発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08098",
+      "code": "08-098",
+      "name": "静岡08-098発行年：1982（2刷，複製：2006）販売価格：¥1,980",
+      "year": 1982,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08100",
+      "code": "08-100",
+      "name": "修善寺08-100発行年：1956（2刷，複製：1978） / 説明書：1955在庫切",
+      "year": 1956,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08101",
+      "code": "08-101",
+      "name": "伊東08-101発行年：1970（3刷，複製：1998）備考：説明書は設定されていません。販売価格：¥990",
+      "year": 1970,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08102",
+      "code": "08-102",
+      "name": "館山08-102発行年：2006販売価格：¥3,850",
+      "year": 2006,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08105",
+      "code": "08-105",
+      "name": "下田08-105発行年：1970（2刷，複製：1978）在庫切",
+      "year": 1970,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08106",
+      "code": "08-106",
+      "name": "稲取08-106発行年：1959 （2刷，複製：1978）販売価格：¥1,430",
+      "year": 1959,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08107",
+      "code": "08-107",
+      "name": "大島08-107発行年：1984在庫切",
+      "year": 1984,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08108",
+      "code": "08-108",
+      "name": "御前崎08-108発行年：1988販売価格：¥2,860",
+      "year": 1988,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08109",
+      "code": "08-109",
+      "name": "神子元島08-109発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "08110",
+      "code": "08-110",
+      "name": "利島08-110発行年：1978販売価格：¥1,540",
+      "year": 1978,
+      "region_num": 8,
+      "has_vector": true
+    },
+    {
+      "id": "09001",
+      "code": "09-001",
+      "name": "新島09-001発行年：1987販売価格：¥2,530",
+      "year": 1987,
+      "region_num": 9,
+      "has_vector": true
+    },
+    {
+      "id": "09002",
+      "code": "09-002",
+      "name": "神津島09-002発行年：1982販売価格：¥2,310",
+      "year": 1982,
+      "region_num": 9,
+      "has_vector": true
+    },
+    {
+      "id": "09003",
+      "code": "09-003",
+      "name": "三宅島09-003発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 9,
+      "has_vector": true
+    },
+    {
+      "id": "09004",
+      "code": "09-004",
+      "name": "御蔵島09-004発行年：1980販売価格：¥1,320",
+      "year": 1980,
+      "region_num": 9,
+      "has_vector": false
+    },
+    {
+      "id": "09005",
+      "code": "09-005",
+      "name": "八丈島09-005発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 9,
+      "has_vector": false
+    },
+    {
+      "id": "20002",
+      "code": "20-002",
+      "name": "父島列島20-002発行年：2006 / 説明書：2007正誤表（PDF / 54 KB）販売価格：¥3,410",
+      "year": 2006,
+      "region_num": 20,
+      "has_vector": false
+    },
+    {
+      "id": "20003",
+      "code": "20-003",
+      "name": "母島列島20-003発行年：2016正誤表（PDF / 242 KB）販売価格：¥1,760",
+      "year": 2016,
+      "region_num": 20,
+      "has_vector": false
+    },
+    {
+      "id": "10003",
+      "code": "10-003",
+      "name": "珠洲岬，能登飯田及び宝立山10-003, 004, 006, 007発行年：2002販売価格：¥4,840",
+      "year": 2002,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10013",
+      "code": "10-013",
+      "name": "小口瀬戸10-013発行年：1965販売価格：¥550",
+      "year": 1965,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10014",
+      "code": "10-014",
+      "name": "糸魚川10-014発行年：2018販売価格：¥1,870",
+      "year": 2018,
+      "region_num": 10,
+      "has_vector": false
+    },
+    {
+      "id": "10015",
+      "code": "10-015",
+      "name": "邑知潟10-015発行年：1967 / 説明書：1966備考：説明書は「虻ガ島」と共通在庫切",
+      "year": 1967,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10016",
+      "code": "10-016",
+      "name": "虻ガ島10-016発行年：1967 / 説明書：1966備考：説明書は「邑知潟」と共通在庫切",
+      "year": 1967,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10017",
+      "code": "10-017",
+      "name": "三日市10-017発行年：1967在庫切",
+      "year": 1967,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10018",
+      "code": "10-018",
+      "name": "泊10-018発行年：2017販売価格：¥2,090",
+      "year": 2017,
+      "region_num": 10,
+      "has_vector": false
+    },
+    {
+      "id": "10019",
+      "code": "10-019",
+      "name": "小滝10-019発行年：2010販売価格：¥4,400",
+      "year": 2010,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10020",
+      "code": "10-020",
+      "name": "津幡10-020発行年：1978販売価格：¥1,650",
+      "year": 1978,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10021",
+      "code": "10-021",
+      "name": "石動10-021発行年：1989販売価格：¥3,520",
+      "year": 1989,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10022",
+      "code": "10-022",
+      "name": "富山10-022発行年：1963在庫切",
+      "year": 1963,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10023",
+      "code": "10-023",
+      "name": "魚津10-023発行年：1972 / 説明書：1973在庫切",
+      "year": 1972,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10025",
+      "code": "10-025",
+      "name": "白馬岳10-025発行年：2002正誤表（PDF / 321KB）販売価格：¥3,960",
+      "year": 2002,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10026",
+      "code": "10-026",
+      "name": "金沢10-026発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10027",
+      "code": "10-027",
+      "name": "城端10-027発行年：1964在庫切",
+      "year": 1964,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10028",
+      "code": "10-028",
+      "name": "八尾10-028発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10029",
+      "code": "10-029",
+      "name": "五百石10-029発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10030",
+      "code": "10-030",
+      "name": "立山10-030発行年：2000販売価格：¥5,170",
+      "year": 2000,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10031",
+      "code": "10-031",
+      "name": "大町10-031発行年：1989 （2刷，複製：1999）販売価格：¥3,080",
+      "year": 1989,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10035",
+      "code": "10-035",
+      "name": "白木峰10-035発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10036",
+      "code": "10-036",
+      "name": "東茂住",
+      "year": 1959,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10037",
+      "code": "10-037",
+      "name": "槍ヶ岳10-037発行年：1991販売価格：¥3,190",
+      "year": 1991,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10038",
+      "code": "10-038",
+      "name": "信濃池田10-038発行年：1983在庫切",
+      "year": 1983,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10043",
+      "code": "10-043",
+      "name": "飛騨古川10-043発行年：1975在庫切",
+      "year": 1975,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10044",
+      "code": "10-044",
+      "name": "船津10-044発行年：1957在庫切",
+      "year": 1957,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10045",
+      "code": "10-045",
+      "name": "上高地10-045発行年：1990 （2刷，複製：2007）販売価格：¥3,850",
+      "year": 1990,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10046",
+      "code": "10-046",
+      "name": "松本10-046発行年：2009販売価格：¥3,740",
+      "year": 2009,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10047",
+      "code": "10-047",
+      "name": "福井10-047発行年：2007販売価格：¥4,070",
+      "year": 2007,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10051",
+      "code": "10-051",
+      "name": "三日町10-051発行年：1982在庫切",
+      "year": 1982,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10052",
+      "code": "10-052",
+      "name": "高山10-052発行年：1985 （2刷，複製：2002）販売価格：¥3,300",
+      "year": 1985,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10053",
+      "code": "10-053",
+      "name": "乗鞍岳10-053発行年：1995販売価格：¥3,520",
+      "year": 1995,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10054",
+      "code": "10-054",
+      "name": "塩尻10-054発行年：1964在庫切",
+      "year": 1964,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10058",
+      "code": "10-058",
+      "name": "荒島岳10-058発行年：1958 / 説明書：1957在庫切",
+      "year": 1958,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10060",
+      "code": "10-060",
+      "name": "萩原10-060発行年：1988販売価格：¥2,640",
+      "year": 1988,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10061",
+      "code": "10-061",
+      "name": "御嶽山10-061発行年：1988販売価格：¥2,970",
+      "year": 1988,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10062",
+      "code": "10-062",
+      "name": "木曽福島10-062発行年：1998販売価格：¥4,400",
+      "year": 1998,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10063",
+      "code": "10-063",
+      "name": "伊那10-063発行年：1962在庫切",
+      "year": 1962,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10065",
+      "code": "10-065",
+      "name": "冠島10-065発行年：1958 / 説明書：1957販売価格：¥550",
+      "year": 1958,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10066",
+      "code": "10-066",
+      "name": "今庄及び竹波10-066, 067発行年：2013販売価格：¥1,980",
+      "year": 2013,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10068",
+      "code": "10-068",
+      "name": "冠山10-068発行年：2015販売価格：¥1,980",
+      "year": 2015,
+      "region_num": 10,
+      "has_vector": false
+    },
+    {
+      "id": "10069",
+      "code": "10-069",
+      "name": "根尾",
+      "year": 1964,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10070",
+      "code": "10-070",
+      "name": "八幡10-070発行年：1984在庫切",
+      "year": 1984,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10071",
+      "code": "10-071",
+      "name": "下呂10-071発行年：1994販売価格：¥2,970",
+      "year": 1994,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10072",
+      "code": "10-072",
+      "name": "加子母10-072発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10073",
+      "code": "10-073",
+      "name": "上松10-073発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10074",
+      "code": "10-074",
+      "name": "赤穂10-074発行年：1958 / 説明書：1957在庫切",
+      "year": 1958,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10075",
+      "code": "10-075",
+      "name": "宮津10-075発行年：1960在庫切",
+      "year": 1960,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10076",
+      "code": "10-076",
+      "name": "丹後由良10-076発行年：1958販売価格：¥550",
+      "year": 1958,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10077",
+      "code": "10-077",
+      "name": "鋸崎10-077発行年：1957販売価格：¥550",
+      "year": 1957,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10078",
+      "code": "10-078",
+      "name": "西津10-078発行年：2002販売価格：¥4,510",
+      "year": 2002,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10079",
+      "code": "10-079",
+      "name": "敦賀10-079発行年：1999販売価格：¥3,960",
+      "year": 1999,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10080",
+      "code": "10-080",
+      "name": "横山10-080発行年：2000販売価格：¥4,070",
+      "year": 2000,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10081",
+      "code": "10-081",
+      "name": "谷汲10-081発行年：1991販売価格：¥2,420",
+      "year": 1991,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10082",
+      "code": "10-082",
+      "name": "美濃10-082発行年：1995販売価格：¥2,640",
+      "year": 1995,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10083",
+      "code": "10-083",
+      "name": "金山10-083発行年：1992販売価格：¥3,410",
+      "year": 1992,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10084",
+      "code": "10-084",
+      "name": "付知10-084発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10085",
+      "code": "10-085",
+      "name": "妻籠10-085発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "10086",
+      "code": "10-086",
+      "name": "飯田10-086発行年：1958 / 説明書：1957在庫切",
+      "year": 1958,
+      "region_num": 10,
+      "has_vector": true
+    },
+    {
+      "id": "11001",
+      "code": "11-001",
+      "name": "大江山 11-001発行年：1965在庫切",
+      "year": 1965,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11002",
+      "code": "11-002",
+      "name": "舞鶴11-002発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11003",
+      "code": "11-003",
+      "name": "小浜11-003発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11004",
+      "code": "11-004",
+      "name": "熊川11-004発行年：1998販売価格：¥3,960",
+      "year": 1998,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11005",
+      "code": "11-005",
+      "name": "竹生島11-005発行年：2001販売価格：¥3,080",
+      "year": 2001,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11006",
+      "code": "11-006",
+      "name": "近江長浜",
+      "year": 1957,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11007",
+      "code": "11-007",
+      "name": "大垣11-007発行年：1955在庫切",
+      "year": 1955,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11008",
+      "code": "11-008",
+      "name": "岐阜11-008発行年：1999販売価格：¥4,070",
+      "year": 1999,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11013",
+      "code": "11-013",
+      "name": "福知山11-013発行年：1990 （2刷，複製：2007）販売価格：¥3,520",
+      "year": 1990,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11014",
+      "code": "11-014",
+      "name": "綾部11-014発行年：1989 （2刷，複製：2008）販売価格：¥3,740",
+      "year": 1989,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11015",
+      "code": "11-015",
+      "name": "四ツ谷11-015発行年：1994販売価格：¥2,750",
+      "year": 1994,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11016",
+      "code": "11-016",
+      "name": "北小松11-016発行年：2001販売価格：¥4,180",
+      "year": 2001,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11017",
+      "code": "11-017",
+      "name": "彦根西部11-017発行年：1984販売価格：¥3,080",
+      "year": 1984,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11018",
+      "code": "11-018",
+      "name": "彦根東部11-018発行年：1976在庫切",
+      "year": 1976,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11019",
+      "code": "11-019",
+      "name": "津島11-019発行年：1979在庫切",
+      "year": 1979,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11020",
+      "code": "11-020",
+      "name": "名古屋北部11-020発行年：1984販売価格：¥1,980",
+      "year": 1984,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11022",
+      "code": "11-022",
+      "name": "明智11-022発行年：2020販売価格：¥1,980",
+      "year": 2020,
+      "region_num": 11,
+      "has_vector": false
+    },
+    {
+      "id": "11025",
+      "code": "11-025",
+      "name": "篠山11-025発行年：1993販売価格：¥3,190",
+      "year": 1993,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11026",
+      "code": "11-026",
+      "name": "園部11-026発行年：1991 （2刷，複製：2007）販売価格：¥3,190",
+      "year": 1991,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11027",
+      "code": "11-027",
+      "name": "京都西北部11-027発行年：1989 （2刷：1996）在庫切",
+      "year": 1989,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11028",
+      "code": "11-028",
+      "name": "京都東北部11-028発行年：1998 （2刷，複製：2009）販売価格：¥4,070",
+      "year": 1998,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11029",
+      "code": "11-029",
+      "name": "近江八幡11-029発行年：2003販売価格：¥4,400",
+      "year": 2003,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11030",
+      "code": "11-030",
+      "name": "御在所山11-030発行年：1989 （2刷，複製：1999）販売価格：¥3,520",
+      "year": 1989,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11031",
+      "code": "11-031",
+      "name": "桑名11-031発行年：1991販売価格：¥3,520",
+      "year": 1991,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11032",
+      "code": "11-032",
+      "name": "名古屋南部11-032発行年：1986販売価格：¥1,980",
+      "year": 1986,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11033",
+      "code": "11-033",
+      "name": "豊田11-033発行年：2021販売価格：¥1,870",
+      "year": 2021,
+      "region_num": 11,
+      "has_vector": false
+    },
+    {
+      "id": "11034",
+      "code": "11-034",
+      "name": "足助11-034発行年：2012販売価格：¥1,760",
+      "year": 2012,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11037",
+      "code": "11-037",
+      "name": "三田11-037発行年：1988販売価格：¥3,190",
+      "year": 1988,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11038",
+      "code": "11-038",
+      "name": "広根11-038発行年：1995販売価格：¥3,850",
+      "year": 1995,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11039",
+      "code": "11-039",
+      "name": "京都西南部11-039発行年：2005販売価格：¥4,730",
+      "year": 2005,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11040",
+      "code": "11-040",
+      "name": "京都東南部11-040発行年：2013正誤表（PDF / 15 KB）販売価格：¥1,650",
+      "year": 2013,
+      "region_num": 11,
+      "has_vector": false
+    },
+    {
+      "id": "11041",
+      "code": "11-041",
+      "name": "水口11-041発行年：2003販売価格：¥4,510",
+      "year": 2003,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11042",
+      "code": "11-042",
+      "name": "亀山11-042発行年：1981販売価格：¥2,860",
+      "year": 1981,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11043",
+      "code": "11-043",
+      "name": "四日市11-043発行年：1984（2刷，複製：1997）販売価格：¥2,970",
+      "year": 1984,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11044",
+      "code": "11-044",
+      "name": "半田11-044発行年：1986在庫切",
+      "year": 1986,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11046",
+      "code": "11-046",
+      "name": "御油11-046発行年：2008販売価格：¥3,520",
+      "year": 2008,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11047",
+      "code": "11-047",
+      "name": "三河大野11-047発行年：1952 / 説明書：1955在庫切",
+      "year": 1952,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11048",
+      "code": "11-048",
+      "name": "秋葉山",
+      "year": 1955,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11049",
+      "code": "11-049",
+      "name": "神戸11-049発行年：1983 （3刷：1995）販売価格：3,300",
+      "year": 1983,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11050",
+      "code": "11-050",
+      "name": "大阪西北部11-050発行年：1982 （2刷：1995）販売価格：¥2,310",
+      "year": 1982,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11051",
+      "code": "11-051",
+      "name": "大阪東北部11-051発行年：2001正誤表（PDF / 1.0 MB）販売価格：¥4,180",
+      "year": 2001,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11052",
+      "code": "11-052",
+      "name": "奈良11-052発行年：2000販売価格：¥4,070",
+      "year": 2000,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11053",
+      "code": "11-053",
+      "name": "上野11-053発行年：1996販売価格：¥4,400",
+      "year": 1996,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11054",
+      "code": "11-054",
+      "name": "津西部11-054発行年：1995販売価格：¥4,510",
+      "year": 1995,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11055",
+      "code": "11-055",
+      "name": "津東部11-055発行年：1987販売価格：¥1,980",
+      "year": 1987,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11056",
+      "code": "11-056",
+      "name": "師崎11-056発行年：1987販売価格：¥2,310",
+      "year": 1987,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11058",
+      "code": "11-058",
+      "name": "豊橋及び田原11-058, 070発行年：2008販売価格：¥3,850",
+      "year": 2008,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11059",
+      "code": "11-059",
+      "name": "浜松11-059発行年：1972 （2刷，複製：1999）販売価格：¥2,640",
+      "year": 1972,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11060",
+      "code": "11-060",
+      "name": "見付",
+      "year": 1957,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11061",
+      "code": "11-061",
+      "name": "須磨11-061発行年：1984 （2刷：1997）販売価格：¥2,310",
+      "year": 1984,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11062",
+      "code": "11-062",
+      "name": "大阪西南部11-062発行年：1985販売価格：¥2,310",
+      "year": 1985,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11063",
+      "code": "11-063",
+      "name": "大阪東南部11-063発行年：1998 （2刷，複製：2009）販売価格：¥3,740",
+      "year": 1998,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11064",
+      "code": "11-064",
+      "name": "桜井11-064発行年：2001販売価格：¥4,400",
+      "year": 2001,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11065",
+      "code": "11-065",
+      "name": "名張11-065発行年：1998販売価格：¥3,520",
+      "year": 1998,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11069",
+      "code": "11-069",
+      "name": "伊良湖岬11-069発行年：2010販売価格：¥3,300",
+      "year": 2010,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11071",
+      "code": "11-071",
+      "name": "掛塚11-071発行年：1957備考：説明書は「見付」と共通在庫切",
+      "year": 1957,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11080",
+      "code": "11-072",
+      "name": "和歌山及び尾崎11-072, 080発行年：1993販売価格：¥2,530",
+      "year": 1993,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11073",
+      "code": "11-073",
+      "name": "岸和田11-073発行年：1986（2刷：1995）販売価格：¥4,070",
+      "year": 1986,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11075",
+      "code": "11-075",
+      "name": "吉野山11-075発行年：1958 / 説明書：1957在庫切",
+      "year": 1958,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11076",
+      "code": "11-076",
+      "name": "高見山11-076発行年：2025販売価格：¥3,190",
+      "year": 2025,
+      "region_num": 11,
+      "has_vector": false
+    },
+    {
+      "id": "11079",
+      "code": "11-079",
+      "name": "鳥羽11-079発行年：2017正誤表（PDF / 1.8 MB）販売価格：¥1,980",
+      "year": 2017,
+      "region_num": 11,
+      "has_vector": false
+    },
+    {
+      "id": "11081",
+      "code": "11-081",
+      "name": "粉河11-081発行年：2004販売価格：¥4,840",
+      "year": 2004,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11082",
+      "code": "11-082",
+      "name": "高野山11-082発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11083",
+      "code": "11-083",
+      "name": "山上ヶ岳11-083発行年：1989販売価格：¥3,190",
+      "year": 1989,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11088",
+      "code": "11-088",
+      "name": "海南11-088発行年：1956在庫切",
+      "year": 1956,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11089",
+      "code": "11-089",
+      "name": "動木11-089発行年：1956在庫切",
+      "year": 1956,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11096",
+      "code": "11-096",
+      "name": "龍神11-096発行年：1981在庫切",
+      "year": 1981,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11102",
+      "code": "11-102",
+      "name": "栗栖川11-102発行年：1979在庫切",
+      "year": 1979,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11103",
+      "code": "11-103",
+      "name": "新宮11-103発行年：1955 / 説明書：1954備考：説明書は「阿田和」と共通在庫切",
+      "year": 1955,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11104",
+      "code": "11-104",
+      "name": "阿田和11-104発行年：1955 / 説明書：1954備考：説明書は「新宮」と共通在庫切",
+      "year": 1955,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11106",
+      "code": "11-106",
+      "name": "江住11-106発行年：1979在庫切",
+      "year": 1979,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11107",
+      "code": "11-107",
+      "name": "那智",
+      "year": 1957,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11108",
+      "code": "11-108",
+      "name": "田並11-108発行年：1965 / 説明書：1964在庫切",
+      "year": 1965,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "11109",
+      "code": "11-109",
+      "name": "串本11-109発行年：1965在庫切",
+      "year": 1965,
+      "region_num": 11,
+      "has_vector": true
+    },
+    {
+      "id": "12001",
+      "code": "12-001",
+      "name": "西郷12-001発行年：2010 / 説明書：2009正誤表（PDF / 91 KB）販売価格：¥4,180",
+      "year": 2010,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12002",
+      "code": "12-002",
+      "name": "浦郷12-002発行年：2000販売価格：¥3,520",
+      "year": 2000,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12006",
+      "code": "12-006",
+      "name": "恵曇12-006発行年：1986販売価格：¥2,310",
+      "year": 1986,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12007",
+      "code": "12-007",
+      "name": "境港12-007発行年：1985販売価格：¥2,640",
+      "year": 1985,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12008",
+      "code": "12-008",
+      "name": "美保関12-008発行年：1985販売価格：¥1,980",
+      "year": 1985,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12009",
+      "code": "12-009",
+      "name": "赤碕12-009発行年：1962備考：説明書は「大山」と共通在庫切",
+      "year": 1962,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12010",
+      "code": "12-010",
+      "name": "青谷12-010発行年：1961備考：説明書は「倉吉」と共通在庫切",
+      "year": 1961,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12011",
+      "code": "12-011",
+      "name": "鳥取北部12-011発行年：1963備考：説明書は「鳥取南部」と共通在庫切",
+      "year": 1963,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12012",
+      "code": "12-012",
+      "name": "浜坂12-012発行年：2026販売価格：地質図・説明書を個別に購入できます。　地質図 ¥2,420　説明書 ¥5,720",
+      "year": 2026,
+      "region_num": 12,
+      "has_vector": false
+    },
+    {
+      "id": "12015",
+      "code": "12-015",
+      "name": "大社12-015発行年：1989販売価格：¥2,420",
+      "year": 1989,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12016",
+      "code": "12-016",
+      "name": "今市12-016発行年：1991販売価格：¥3,190",
+      "year": 1991,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12017",
+      "code": "12-017",
+      "name": "松江12-017発行年：1994販売価格：¥3,630",
+      "year": 1994,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12018",
+      "code": "12-018",
+      "name": "米子（第2版）12-018発行年：2025（初版：1962）販売価格：¥3,410",
+      "year": 2025,
+      "region_num": 12,
+      "has_vector": false
+    },
+    {
+      "id": "12019",
+      "code": "12-019",
+      "name": "大山12-019発行年：1962備考：説明書は「赤碕」と共通在庫切",
+      "year": 1962,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12020",
+      "code": "12-020",
+      "name": "倉吉12-020発行年：1961備考：説明書は「青谷」と共通在庫切",
+      "year": 1961,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12021",
+      "code": "12-021",
+      "name": "鳥取南部12-021発行年：1963備考：説明書は「鳥取北部」と共通在庫切",
+      "year": 1963,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12022",
+      "code": "12-022",
+      "name": "若桜12-022発行年：1979在庫切",
+      "year": 1979,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12026",
+      "code": "12-025",
+      "name": "石見大田及び大浦12-025, 026発行年：1998販売価格：¥4,180",
+      "year": 1998,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12027",
+      "code": "12-027",
+      "name": "木次12-027発行年：2005販売価格：¥4,070",
+      "year": 2005,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12029",
+      "code": "12-029",
+      "name": "根雨12-029発行年：1964在庫切",
+      "year": 1964,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12030",
+      "code": "12-030",
+      "name": "湯本 （北半部）12-030発行年：1962在庫切",
+      "year": 1962,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12031",
+      "code": "12-031",
+      "name": "奥津 （北半部）12-031発行年：1961在庫切",
+      "year": 1961,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12032",
+      "code": "12-032",
+      "name": "智頭12-032発行年：1966在庫切",
+      "year": 1966,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12034",
+      "code": "12-034",
+      "name": "大屋市場12-034発行年：1954販売価格：¥550",
+      "year": 1954,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12035",
+      "code": "12-035",
+      "name": "但馬竹田12-035発行年：1954販売価格：¥550",
+      "year": 1954,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12037",
+      "code": "12-036",
+      "name": "温泉津及び江津12-036, 037発行年：2001販売価格：¥4,620",
+      "year": 2001,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12038",
+      "code": "12-038",
+      "name": "三瓶山12-038発行年：1983在庫切",
+      "year": 1983,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12040",
+      "code": "12-040",
+      "name": "多里12-040発行年：1977在庫切",
+      "year": 1977,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12041",
+      "code": "12-041",
+      "name": "上石見12-041発行年：1978販売価格：¥1,980",
+      "year": 1978,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12044",
+      "code": "12-044",
+      "name": "津山東部12-044発行年：1958 / 説明書：1957販売価格：¥550",
+      "year": 1958,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12045",
+      "code": "12-045",
+      "name": "佐用12-045発行年：1963在庫切",
+      "year": 1963,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12046",
+      "code": "12-046",
+      "name": "山崎12-046発行年：2002販売価格：¥3,850",
+      "year": 2002,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12047",
+      "code": "12-047",
+      "name": "生野12-047発行年：2005販売価格：¥3,520",
+      "year": 2005,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12050",
+      "code": "12-050",
+      "name": "赤名12-050発行年：1990販売価格：¥2,970",
+      "year": 1990,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12056",
+      "code": "12-056",
+      "name": "周匝12-056発行年：1965在庫切",
+      "year": 1965,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12057",
+      "code": "12-057",
+      "name": "上郡12-057発行年：1980在庫切",
+      "year": 1980,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12058",
+      "code": "12-058",
+      "name": "龍野12-058発行年：2000販売価格：¥3,740",
+      "year": 2000,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12059",
+      "code": "12-059",
+      "name": "北条12-059発行年：1995販売価格：¥4,400",
+      "year": 1995,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12068",
+      "code": "12-068",
+      "name": "和気12-068発行年：2022販売価格：¥2,970",
+      "year": 2022,
+      "region_num": 12,
+      "has_vector": false
+    },
+    {
+      "id": "12069",
+      "code": "12-069",
+      "name": "播州赤穂12-069発行年：2016販売価格：¥1,760",
+      "year": 2016,
+      "region_num": 12,
+      "has_vector": false
+    },
+    {
+      "id": "12071",
+      "code": "12-071",
+      "name": "高砂12-071発行年：2003販売価格：¥4,620",
+      "year": 2003,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "12083",
+      "code": "12-083",
+      "name": "明石12-083発行年：1990（2刷：1995）販売価格：¥2,640",
+      "year": 1990,
+      "region_num": 12,
+      "has_vector": true
+    },
+    {
+      "id": "13001",
+      "code": "13-001",
+      "name": "津田13-001発行年：1989販売価格：¥2,750",
+      "year": 1989,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13002",
+      "code": "13-002",
+      "name": "広島13-002発行年：1991販売価格：¥1,650",
+      "year": 1991,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13003",
+      "code": "13-003",
+      "name": "海田市13-003発行年：1999販売価格：¥2,970",
+      "year": 1999,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13011",
+      "code": "13-011",
+      "name": "洲本13-011発行年：1992販売価格：¥2,860",
+      "year": 1992,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13012",
+      "code": "13-012",
+      "name": "大竹13-012発行年：1986販売価格：¥3,080",
+      "year": 1986,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13013",
+      "code": "13-013",
+      "name": "厳島13-013発行年：1999販売価格：¥2,640",
+      "year": 1999,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13014",
+      "code": "13-014",
+      "name": "呉13-014発行年：1985販売価格：¥3,080",
+      "year": 1985,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13015",
+      "code": "13-015",
+      "name": "三津13-015発行年：2001販売価格：¥2,750",
+      "year": 2001,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13024",
+      "code": "13-024",
+      "name": "岩国13-024発行年：1983販売価格：¥2,750",
+      "year": 1983,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13025",
+      "code": "13-025",
+      "name": "倉橋島及び柱島13-025, 026発行年：1997販売価格：¥3,190",
+      "year": 1997,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13027",
+      "code": "13-027",
+      "name": "今治西部13-027発行年：1965販売価格：¥550",
+      "year": 1965,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13030",
+      "code": "13-030",
+      "name": "観音寺13-030発行年：2017販売価格：¥1,980",
+      "year": 2017,
+      "region_num": 13,
+      "has_vector": false
+    },
+    {
+      "id": "13031",
+      "code": "13-031",
+      "name": "池田13-031発行年：2021正誤表（PDF/ 25 MB）販売価格：¥2,200",
+      "year": 2021,
+      "region_num": 13,
+      "has_vector": false
+    },
+    {
+      "id": "13040",
+      "code": "13-040",
+      "name": "新居浜13-040発行年：2013販売価格：¥2,640",
+      "year": 2013,
+      "region_num": 13,
+      "has_vector": false
+    },
+    {
+      "id": "13041",
+      "code": "13-041",
+      "name": "三島",
+      "year": 1964,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13042",
+      "code": "13-042",
+      "name": "川口13-042発行年：1966販売価格：¥660",
+      "year": 1966,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13052",
+      "code": "13-052",
+      "name": "日比原13-052発行年：2009販売価格：¥3,630",
+      "year": 2009,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13053",
+      "code": "13-053",
+      "name": "本山13-053発行年：2019販売価格：¥2,090",
+      "year": 2019,
+      "region_num": 13,
+      "has_vector": false
+    },
+    {
+      "id": "13055",
+      "code": "13-055",
+      "name": "北川13-055発行年：2014販売価格：¥1,540",
+      "year": 2014,
+      "region_num": 13,
+      "has_vector": false
+    },
+    {
+      "id": "13058",
+      "code": "13-058",
+      "name": "伊予長浜13-058発行年：2024販売価格：¥3,080",
+      "year": 2024,
+      "region_num": 13,
+      "has_vector": false
+    },
+    {
+      "id": "13059",
+      "code": "13-059",
+      "name": "大洲13-059発行年：2010販売価格：¥3,410",
+      "year": 2010,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13062",
+      "code": "13-062",
+      "name": "伊野",
+      "year": 2007,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13065",
+      "code": "13-065",
+      "name": "馬路13-065発行年：2020販売価格：¥1,760",
+      "year": 2020,
+      "region_num": 13,
+      "has_vector": false
+    },
+    {
+      "id": "13067",
+      "code": "13-067",
+      "name": "伊予三崎13-067発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13068",
+      "code": "13-068",
+      "name": "八幡浜13-068発行年：1957 / 説明書：1956備考：説明書は「伊予高山」と共通販売価格：¥660",
+      "year": 1957,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13076",
+      "code": "13-076",
+      "name": "伊予高山 （北半部）13-076発行年：1957 / 説明書：1956備考：説明書は「八幡浜」と共通販売価格：¥660",
+      "year": 1957,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13077",
+      "code": "13-077",
+      "name": "宇和島13-077発行年：1986販売価格：¥3,960",
+      "year": 1986,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13087",
+      "code": "13-087",
+      "name": "鶴御崎13-087発行年：1988販売価格：¥1,980",
+      "year": 1988,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13088",
+      "code": "13-088",
+      "name": "伊予鹿島13-088発行年：1980備考：説明書は「宿毛」と共通販売価格：¥2,640",
+      "year": 1980,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "13089",
+      "code": "13-089",
+      "name": "宿毛13-089発行年：1980備考：説明書は「伊予鹿島」と共通販売価格：¥2,640",
+      "year": 1980,
+      "region_num": 13,
+      "has_vector": true
+    },
+    {
+      "id": "14003",
+      "code": "14-003",
+      "name": "仁位",
+      "year": 1961,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14015",
+      "code": "14-015",
+      "name": "仙崎14-015発行年：2005 / 説明書：2006販売価格：¥4,950",
+      "year": 2005,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14030",
+      "code": "14-030",
+      "name": "勝本14-030発行年：1958備考：説明書は「郷ノ浦（二神島含む）」「芦辺」と共通販売価格：¥660",
+      "year": 1958,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14033",
+      "code": "14-033",
+      "name": "折尾14-033発行年：1993販売価格：¥3,300",
+      "year": 1993,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14034",
+      "code": "14-034",
+      "name": "小倉14-034発行年：1998販売価格：¥4,070",
+      "year": 1998,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14035",
+      "code": "14-035",
+      "name": "宇部14-035発行年：1956販売価格：¥550",
+      "year": 1956,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14036",
+      "code": "14-036",
+      "name": "宇部東部14-036発行年：1955 / 説明書：1956販売価格：¥550",
+      "year": 1955,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14039",
+      "code": "14-039",
+      "name": "郷ノ浦 （二神島含む）",
+      "year": 1958,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14040",
+      "code": "14-040",
+      "name": "芦辺",
+      "year": 1958,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14046",
+      "code": "14-046",
+      "name": "姫島14-046発行年：1997販売価格：¥2,860",
+      "year": 1997,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14049",
+      "code": "14-049",
+      "name": "呼子14-049発行年：1955販売価格：¥550",
+      "year": 1955,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14051",
+      "code": "14-051",
+      "name": "福岡14-051発行年：1994販売価格：¥4,070",
+      "year": 1994,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14058",
+      "code": "14-058",
+      "name": "平戸14-058発行年：1955販売価格：¥550",
+      "year": 1955,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14059",
+      "code": "14-059",
+      "name": "唐津14-059発行年：1956在庫切",
+      "year": 1956,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14065",
+      "code": "14-065",
+      "name": "豊岡14-065発行年：1993販売価格：¥2,640",
+      "year": 1993,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14066",
+      "code": "14-066",
+      "name": "豊後杵築14-066発行年：2005販売価格：¥4,290",
+      "year": 2005,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14068",
+      "code": "14-068",
+      "name": "佐世保14-068発行年：1989販売価格：¥3,080",
+      "year": 1989,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14069",
+      "code": "14-069",
+      "name": "伊万里14-069発行年：1959 / 説明書：1958在庫切",
+      "year": 1959,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14071",
+      "code": "14-071",
+      "name": "佐賀14-071発行年：2010販売価格：¥3,520",
+      "year": 2010,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14075",
+      "code": "14-075",
+      "name": "別府14-075発行年：1988販売価格：¥2,750",
+      "year": 1988,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14076",
+      "code": "14-076",
+      "name": "大分14-076発行年：1997販売価格：¥4,180",
+      "year": 1997,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14077",
+      "code": "14-077",
+      "name": "佐賀関14-077発行年：1994販売価格：¥2,860",
+      "year": 1994,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14078",
+      "code": "14-078",
+      "name": "肥前江ノ島",
+      "year": 1972,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14079",
+      "code": "14-079",
+      "name": "蛎ノ浦",
+      "year": 1958,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14080",
+      "code": "14-080",
+      "name": "早岐14-080発行年：1982販売価格：¥2,420",
+      "year": 1982,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14082",
+      "code": "14-082",
+      "name": "大牟田14-082発行年：2008販売価格：¥2,970",
+      "year": 2008,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14085",
+      "code": "14-085",
+      "name": "宮原14-085発行年：1997正誤表（PDF/ 197 KB）販売価格：¥4,950",
+      "year": 1997,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14086",
+      "code": "14-086",
+      "name": "久住14-086発行年：1963在庫切",
+      "year": 1963,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14087",
+      "code": "14-087",
+      "name": "犬飼14-087発行年：1992販売価格：¥3,740",
+      "year": 1992,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "14088",
+      "code": "14-088",
+      "name": "臼杵14-088発行年：1968在庫切",
+      "year": 1968,
+      "region_num": 14,
+      "has_vector": true
+    },
+    {
+      "id": "15002",
+      "code": "15-002",
+      "name": "小値賀島15-002発行年：1990備考：説明書は「肥前平島」と共通販売価格：¥2,420",
+      "year": 1990,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15003",
+      "code": "15-003",
+      "name": "肥前平島",
+      "year": 1974,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15008",
+      "code": "15-008",
+      "name": "福江15-008発行年：1994販売価格：¥2,860",
+      "year": 1994,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15011",
+      "code": "15-011",
+      "name": "富江15-011発行年：1977販売価格：¥1,320",
+      "year": 1977,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15013",
+      "code": "15-012",
+      "name": "男女群島北部及南部（含･肥前鳥ノ島）",
+      "year": 1974,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15016",
+      "code": "15-016",
+      "name": "神浦15-016発行年：1993販売価格：¥3,080",
+      "year": 1993,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15017",
+      "code": "15-017",
+      "name": "大村15-017発行年：1966在庫切",
+      "year": 1966,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15023",
+      "code": "15-023",
+      "name": "竹田15-023発行年：1977在庫切",
+      "year": 1977,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15024",
+      "code": "15-024",
+      "name": "三重町15-024発行年：1993販売価格：¥3,520",
+      "year": 1993,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15025",
+      "code": "15-025",
+      "name": "佐伯15-025発行年：1990販売価格：¥3,300",
+      "year": 1990,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15033",
+      "code": "15-033",
+      "name": "三田井15-033発行年：1958在庫切",
+      "year": 1958,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15034",
+      "code": "15-034",
+      "name": "熊田15-034発行年：1998販売価格：¥3,630",
+      "year": 1998,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15035",
+      "code": "15-035",
+      "name": "蒲江15-035発行年：1985販売価格：¥2,640",
+      "year": 1985,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15037",
+      "code": "15-036",
+      "name": "肥前高島 付野母崎",
+      "year": 1962,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15041",
+      "code": "15-041",
+      "name": "砥用15-041発行年：2005正誤表（PDF/ 280 KB）販売価格：¥6,490",
+      "year": 2005,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15042",
+      "code": "15-042",
+      "name": "鞍岡15-042発行年：1958 / 説明書：1957販売価格：¥550",
+      "year": 1958,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15043",
+      "code": "15-043",
+      "name": "諸塚山15-043発行年：1982在庫切",
+      "year": 1982,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15044",
+      "code": "15-044",
+      "name": "延岡15-044発行年：2010販売価格：¥3,190",
+      "year": 2010,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15049",
+      "code": "15-049",
+      "name": "日奈久15-049発行年：1964在庫切",
+      "year": 1964,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15051",
+      "code": "15-051",
+      "name": "椎葉村15-051発行年：1996販売価格：¥4,730",
+      "year": 1996,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15052",
+      "code": "15-052",
+      "name": "神門15-052発行年：1979販売価格：¥1,980",
+      "year": 1979,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15053",
+      "code": "15-053",
+      "name": "富高",
+      "year": 1956,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15055",
+      "code": "15-054",
+      "name": "魚貫崎及び牛深15-054, 055発行年：1982販売価格：¥2,640",
+      "year": 1982,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15059",
+      "code": "15-059",
+      "name": "村所15-059発行年：2009販売価格：¥3,520",
+      "year": 2009,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15060",
+      "code": "15-060",
+      "name": "尾鈴山15-060発行年：1991正誤表（PDF / 1.1 MB）販売価格：¥3,850",
+      "year": 1991,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15061",
+      "code": "15-061",
+      "name": "都農15-061発行年：1956販売価格：¥550",
+      "year": 1956,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15068",
+      "code": "15-068",
+      "name": "妻及び高鍋15-068, 069発行年：1986販売価格：¥3,960",
+      "year": 1986,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15071",
+      "code": "15-071",
+      "name": "西方15-071発行年：1963販売価格：¥550",
+      "year": 1963,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15074",
+      "code": "15-074",
+      "name": "霧島山15-074発行年：1958 / 説明書：1957在庫切",
+      "year": 1958,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15075",
+      "code": "15-075",
+      "name": "野尻15-075発行年：1976在庫切",
+      "year": 1976,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15076",
+      "code": "15-076",
+      "name": "宮崎15-076発行年：1984在庫切",
+      "year": 1984,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15078",
+      "code": "15-078",
+      "name": "中甑15-078発行年：1982販売価格：¥2,530",
+      "year": 1982,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15079",
+      "code": "15-079",
+      "name": "羽島15-079発行年：1971販売価格：¥660",
+      "year": 1971,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15080",
+      "code": "15-080",
+      "name": "川内 （北半部）15-080発行年：1971在庫切",
+      "year": 1971,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15081",
+      "code": "15-081",
+      "name": "加治木 （北半部）",
+      "year": 1967,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15082",
+      "code": "15-082",
+      "name": "国分 （北半部）15-082発行年：1957 / 説明書：1956販売価格：¥550",
+      "year": 1957,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15083",
+      "code": "15-083",
+      "name": "都城15-083発行年：1977在庫切",
+      "year": 1977,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15084",
+      "code": "15-084",
+      "name": "日向青島15-084発行年：1959 / 説明書：1958販売価格：¥550",
+      "year": 1959,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15090",
+      "code": "15-090",
+      "name": "末吉15-090発行年：1994販売価格：¥3,410",
+      "year": 1994,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15091",
+      "code": "15-091",
+      "name": "飫肥15-091発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15094",
+      "code": "15-094",
+      "name": "垂水15-094発行年：1964在庫切",
+      "year": 1964,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15095",
+      "code": "15-095",
+      "name": "鹿屋15-095発行年：1965在庫切",
+      "year": 1965,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15096",
+      "code": "15-096",
+      "name": "志布志15-096発行年：1965在庫切",
+      "year": 1965,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15097",
+      "code": "15-097",
+      "name": "都井岬15-097発行年：1959在庫切",
+      "year": 1959,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15100",
+      "code": "15-100",
+      "name": "開聞岳15-100発行年：2005販売価格：¥4,070",
+      "year": 2005,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "15102",
+      "code": "15-102",
+      "name": "内之浦15-102発行年：1967販売価格：¥660",
+      "year": 1967,
+      "region_num": 15,
+      "has_vector": true
+    },
+    {
+      "id": "16002",
+      "code": "16-002",
+      "name": "薩摩硫黄島16-002発行年：1982販売価格：¥2,640",
+      "year": 1982,
+      "region_num": 16,
+      "has_vector": false
+    },
+    {
+      "id": "16009",
+      "code": "16-009",
+      "name": "屋久島西南部16-009発行年：1979販売価格：¥1,540",
+      "year": 1979,
+      "region_num": 16,
+      "has_vector": false
+    },
+    {
+      "id": "17006",
+      "code": "17-006",
+      "name": "湯湾17-006発行年：1993販売価格：¥3,520",
+      "year": 1993,
+      "region_num": 17,
+      "has_vector": false
+    },
+    {
+      "id": "17013",
+      "code": "17-013",
+      "name": "伊平屋島及び伊是名島17-013, 18-001発行年：2000販売価格：¥1,980",
+      "year": 2000,
+      "region_num": 17,
+      "has_vector": false
+    },
+    {
+      "id": "18001",
+      "code": "17-013",
+      "name": "伊平屋島及び伊是名島17-013, 18-001発行年：2000販売価格：¥1,980",
+      "year": 2000,
+      "region_num": 18,
+      "has_vector": false
+    },
+    {
+      "id": "18013",
+      "code": "18-013",
+      "name": "那覇及び沖縄市南部18-013, 014発行年：2006販売価格：¥3,740",
+      "year": 2006,
+      "region_num": 18,
+      "has_vector": false
+    },
+    {
+      "id": "18015",
+      "code": "18-015",
+      "name": "糸満及び久高島18-015, 016発行年：2006販売価格：¥3,630",
+      "year": 2006,
+      "region_num": 18,
+      "has_vector": false
+    },
+    {
+      "id": "19002",
+      "code": "19-002",
+      "name": "伊良部島 19-002発行年：1978販売価格：¥1,210",
+      "year": 1978,
+      "region_num": 19,
+      "has_vector": false
+    },
+    {
+      "id": "19003",
+      "code": "19-003",
+      "name": "宮古島北部19-003発行年：1979販売価格：¥1,650",
+      "year": 1979,
+      "region_num": 19,
+      "has_vector": false
+    },
+    {
+      "id": "19004",
+      "code": "19-004",
+      "name": "宮古島19-004発行年：1980販売価格：¥2,420",
+      "year": 1980,
+      "region_num": 19,
+      "has_vector": false
+    },
+    {
+      "id": "19005",
+      "code": "19-005",
+      "name": "多良間島19-005発行年：1977販売価格：¥1,100",
+      "year": 1977,
+      "region_num": 19,
+      "has_vector": false
+    },
+    {
+      "id": "19006",
+      "code": "19-006",
+      "name": "石垣島東北部19-006発行年：2003販売価格：¥2,640",
+      "year": 2003,
+      "region_num": 19,
+      "has_vector": false
+    },
+    {
+      "id": "19007",
+      "code": "19-007",
+      "name": "与那国島19-007発行年：1982販売価格：¥2,310",
+      "year": 1982,
+      "region_num": 19,
+      "has_vector": false
+    }
+  ]
+}

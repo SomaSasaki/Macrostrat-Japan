@@ -1,0 +1,417 @@
+{
+  "schema_version": "column-vision/1.0",
+  "stage": "column_geography_vision",
+  "prompt_version": "column-geography-v2",
+  "job_id": "cv_360fcde1cd23f13b84f2",
+  "model": "gemini-3.6-flash",
+  "pdf_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "image_sha256": "fe1071414724f95064828dbcde49f689ba91081854900fa286f94c58bdc703a1",
+  "source_text_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "142775eb1a3e540b4273d351b9450e820f04b5e0a3dba8b6075353daeca90ec7",
+  "status": "complete",
+  "completed_at": "2026-08-09T15:51:46+00:00",
+  "proposal": {
+    "schema_version": "column-vision/1.0",
+    "status": "candidate_review",
+    "assignment_ready": true,
+    "columns": [
+      {
+        "column_id": "western",
+        "column_name": "Western Area",
+        "region_description": "Hills of Ichinohe Town and Ninohe City in the western area",
+        "region_quote": "This district is occupied in the central area by the Oritsume Mountains, in the eastern area by the hills of Kunohe Village and Karumai Town, and the western area by the hills of Ichinohe Town and Ninohe City.",
+        "quote_verified": true,
+        "pdf_page": 168,
+        "printed_page": 158,
+        "figure_pdf_page": 143,
+        "figure_printed_page": null,
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "west",
+            "place_name": null
+          },
+          {
+            "kind": "near_place",
+            "direction": null,
+            "place_name": "Ichinohe Town"
+          },
+          {
+            "kind": "near_place",
+            "direction": null,
+            "place_name": "Ninohe City"
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "column_id": "central",
+        "column_name": "Central Area",
+        "region_description": "Oritsume Mountains in the central area",
+        "region_quote": "This district is occupied in the central area by the Oritsume Mountains, in the eastern area by the hills of Kunohe Village and Karumai Town, and the western area by the hills of Ichinohe Town and Ninohe City.",
+        "quote_verified": true,
+        "pdf_page": 168,
+        "printed_page": 158,
+        "figure_pdf_page": 143,
+        "figure_printed_page": null,
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "central",
+            "place_name": null
+          },
+          {
+            "kind": "near_place",
+            "direction": null,
+            "place_name": "Oritsume Mountains"
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "column_id": "eastern",
+        "column_name": "Eastern Area",
+        "region_description": "Hills of Kunohe Village and Karumai Town in the eastern area",
+        "region_quote": "This district is occupied in the central area by the Oritsume Mountains, in the eastern area by the hills of Kunohe Village and Karumai Town, and the western area by the hills of Ichinohe Town and Ninohe City.",
+        "quote_verified": true,
+        "pdf_page": 168,
+        "printed_page": 158,
+        "figure_pdf_page": 143,
+        "figure_printed_page": null,
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "east",
+            "place_name": null
+          },
+          {
+            "kind": "near_place",
+            "direction": null,
+            "place_name": "Kunohe Village"
+          },
+          {
+            "kind": "near_place",
+            "direction": null,
+            "place_name": "Karumai Town"
+          }
+        ],
+        "confidence": "C"
+      }
+    ],
+    "units": [
+      {
+        "unit_id": "m1286_p001",
+        "unit_name": "Takayashiki Formation",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 9
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p002",
+        "unit_name": "Seki Formation",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 8
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p003",
+        "unit_name": "Kassenba Formation",
+        "memberships": [
+          {
+            "column_id": "central",
+            "sort_order": 3
+          },
+          {
+            "column_id": "eastern",
+            "sort_order": 7
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p004",
+        "unit_name": "Kuzumaki Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 16
+          },
+          {
+            "column_id": "central",
+            "sort_order": 4
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p005",
+        "unit_name": "Ichinohe Pluton",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 15
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p006",
+        "unit_name": "Tsukanaigawa Pluton",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 6
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p007",
+        "unit_name": "Nisatai Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 14
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p008",
+        "unit_name": "Ainoyama Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 13
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p009",
+        "unit_name": "Yotuyaku Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 12
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p010",
+        "unit_name": "Kadonosawa Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 11
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p011",
+        "unit_name": "Suenomatuyama Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 10
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p012",
+        "unit_name": "Zyūmonzi Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 6
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p013",
+        "unit_name": "Hinosawa Conglomerate Member",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 7
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p014",
+        "unit_name": "Metoki Coquina Conglomerate Member",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 8
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p015",
+        "unit_name": "Shimotomai Volcaniclastic Rock Member",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 9
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p016",
+        "unit_name": "Yanagisawa Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 4
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p017",
+        "unit_name": "Kawaguchi Porcelanite Member",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 5
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p018",
+        "unit_name": "Shitazaki Formation",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 2
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p019",
+        "unit_name": "Kamimetoki Sandstone Member",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 3
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p020",
+        "unit_name": "Toya Formation",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 5
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p021",
+        "unit_name": "Esashika Formation",
+        "memberships": [
+          {
+            "column_id": "central",
+            "sort_order": 2
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p022",
+        "unit_name": "Nanashigure Volcanic Fan Deposits",
+        "memberships": [
+          {
+            "column_id": "western",
+            "sort_order": 1
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p023",
+        "unit_name": "Mukaikawara terrace deposits",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 4
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p024",
+        "unit_name": "Hayawatari terrace deposits",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 3
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p025",
+        "unit_name": "Rendaino terrace deposits",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 2
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p026",
+        "unit_name": "Ibonai terrace deposits",
+        "memberships": [
+          {
+            "column_id": "eastern",
+            "sort_order": 1
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1286_p027",
+        "unit_name": "Oritsumedake fan deposits",
+        "memberships": [
+          {
+            "column_id": "central",
+            "sort_order": 1
+          }
+        ],
+        "confidence": "C"
+      }
+    ],
+    "validation": {
+      "canonical_units": 27,
+      "matched_units": 27,
+      "columns": 3,
+      "verified_region_quotes": 3
+    }
+  },
+  "dropped": [],
+  "usage_tokens": 21080
+}

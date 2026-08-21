@@ -1,0 +1,372 @@
+{
+  "schema_version": "column-vision/1.0",
+  "stage": "column_geography_vision",
+  "prompt_version": "column-geography-v2",
+  "job_id": "cv_e4803a0b65dfa31243e6",
+  "model": "gemini-3.6-flash",
+  "pdf_sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+  "image_sha256": "c1424e4c07e8fe9a27936a70e5af7bfd05acb5257c69656481107de8f8d7f7ce",
+  "source_text_sha256": "f7aae26d50a9996d71287c9fffa9dc540fe26f2a0b2de28bc4d484d367bdc6dd",
+  "prompt_sha256": "5b703c91f3cb987617a7ffe6c7d5fbcf192cee5ff4df8024d8b9687376edc8f4",
+  "status": "complete",
+  "completed_at": "2026-08-09T14:36:36+00:00",
+  "proposal": {
+    "schema_version": "column-vision/1.0",
+    "status": "rejected_review_required",
+    "assignment_ready": false,
+    "columns": [
+      {
+        "column_id": "1",
+        "column_name": "Western Area",
+        "region_description": "The western part of the map area comprising the eastern margin of the Ōu Backbone Range.",
+        "region_quote": "The western part of the map area consists of the eastern margin of the Ōu Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.",
+        "quote_verified": true,
+        "pdf_page": 85,
+        "printed_page": 77,
+        "figure_pdf_page": 86,
+        "figure_printed_page": 78,
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "west",
+            "place_name": null
+          },
+          {
+            "kind": "margin_of",
+            "direction": "east",
+            "place_name": "Ōu Backbone Range"
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "column_id": "2",
+        "column_name": "Eastern Area",
+        "region_description": "The eastern part of the map area characterized by hill and terrace surface topography.",
+        "region_quote": "The western part of the map area consists of the eastern margin of the Ōu Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.",
+        "quote_verified": true,
+        "pdf_page": 85,
+        "printed_page": 77,
+        "figure_pdf_page": 86,
+        "figure_printed_page": 78,
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "east",
+            "place_name": null
+          }
+        ],
+        "confidence": "C"
+      }
+    ],
+    "units": [
+      {
+        "unit_id": "m1050_u001",
+        "unit_name": "Present river bed deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 1
+          },
+          {
+            "column_id": "2",
+            "sort_order": 1
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u003",
+        "unit_name": "Akedo Terrace Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 2
+          },
+          {
+            "column_id": "2",
+            "sort_order": 2
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u004",
+        "unit_name": "Shimokirida Terrace Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 3
+          },
+          {
+            "column_id": "2",
+            "sort_order": 3
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u005",
+        "unit_name": "Towada Terrace Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 4
+          },
+          {
+            "column_id": "2",
+            "sort_order": 4
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u006",
+        "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 5
+          },
+          {
+            "column_id": "2",
+            "sort_order": 5
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u007",
+        "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 6
+          },
+          {
+            "column_id": "2",
+            "sort_order": 6
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u008",
+        "unit_name": "Towada-Okuse Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 7
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u009",
+        "unit_name": "Shichinohe Terrace Deposits",
+        "memberships": [
+          {
+            "column_id": "2",
+            "sort_order": 7
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u010",
+        "unit_name": "Urushihata Terrace Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 8
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u011",
+        "unit_name": "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 9
+          },
+          {
+            "column_id": "2",
+            "sort_order": 8
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u012",
+        "unit_name": "Noheji Formation",
+        "memberships": [
+          {
+            "column_id": "2",
+            "sort_order": 9
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u013",
+        "unit_name": "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 10
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u014",
+        "unit_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 11
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u015",
+        "unit_name": "Takamoriyama Formation",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 12
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u016",
+        "unit_name": "Horyo-kita Lava",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 13
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u017",
+        "unit_name": "Togawa Formation",
+        "memberships": [
+          {
+            "column_id": "2",
+            "sort_order": 10
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u018",
+        "unit_name": "Tsukihiyama Volcanics",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 14
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u019",
+        "unit_name": "Tsukihiyama Volcanics",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 14
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u020",
+        "unit_name": "Komasuzawa Formation",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 15
+          },
+          {
+            "column_id": "2",
+            "sort_order": 11
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u021",
+        "unit_name": "Dochi Formation",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 16
+          },
+          {
+            "column_id": "2",
+            "sort_order": 12
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u022",
+        "unit_name": "Wadagawa Formation",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 17
+          },
+          {
+            "column_id": "2",
+            "sort_order": 13
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u023",
+        "unit_name": "Itadome Formation",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 18
+          },
+          {
+            "column_id": "2",
+            "sort_order": 14
+          }
+        ],
+        "confidence": "C"
+      }
+    ],
+    "validation": {
+      "canonical_units": 23,
+      "matched_units": 22,
+      "columns": 2,
+      "verified_region_quotes": 2
+    }
+  },
+  "dropped": [
+    {
+      "kind": "unit",
+      "unit_id": "m1050_u002",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit_coverage",
+      "reason": "response did not return every canonical unit",
+      "missing": [
+        "m1050_u002"
+      ]
+    }
+  ],
+  "usage_tokens": 13322
+}

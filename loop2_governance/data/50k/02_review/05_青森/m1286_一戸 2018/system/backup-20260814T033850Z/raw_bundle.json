@@ -1,0 +1,425 @@
+{
+  "schema_version": "raw-review-bundle/1.0",
+  "map_id": "1286",
+  "sources": [
+    {
+      "type": "PDF_ABSTRACT",
+      "path": "m1286_abstract.txt",
+      "sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76"
+    },
+    {
+      "type": "PDF_INDEX",
+      "path": "m1286_pdfpages.json",
+      "sha256": "540f19f2077b7f9622a42bbde3081e06415b6f719bedf09fb5ef3acde72b82d6"
+    },
+    {
+      "type": "PUBLICATION",
+      "path": "m1286.json",
+      "sha256": "f68635060e6113135629af57567a7cfbd5d040e5d3e90ada0357c9b7b04fa73f"
+    }
+  ],
+  "review_v2_input": {
+    "unit_rows": [
+      {
+        "unit_id": "m1286_p001",
+        "column_id": "unsplit",
+        "sort_order": 1,
+        "unit_name": "NO_DATA",
+        "t_int": null,
+        "b_int": null,
+        "comments": "No structured unit inventory; PDF unit extraction requires review. COLUMN CHECK: No validated Column proposal is available."
+      }
+    ],
+    "column_rows": [
+      {
+        "col_id": "unsplit",
+        "col_name": "Unsplit candidate",
+        "lng": 141.3714112,
+        "lat": 40.2527666,
+        "status": "CHECK",
+        "ref_ids": "gsj1286",
+        "comments": "No validated Column proposal is available.",
+        "col_type": "column",
+        "axis_type": "age"
+      }
+    ],
+    "evidence_rows": [],
+    "project": {
+      "title": "1:50K GeoMap 'Ichinohe' (2018)",
+      "publication_year": "2018",
+      "shape": {
+        "available": false
+      },
+      "column_split_status": "unresolved_review",
+      "unit_inventory_source": "PDF_PENDING",
+      "column_assignment_basis": "No validated Column proposal is available.",
+      "column_check_units": [
+        "m1286_p001"
+      ]
+    }
+  },
+  "compiled": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-08-14T03:36:58+00:00",
+    "map": {
+      "map_id": "1286",
+      "source_review": null,
+      "metadata": {
+        "title": "1:50K GeoMap 'Ichinohe' (2018)",
+        "publication_year": "2018",
+        "shape": {
+          "available": false
+        },
+        "column_split_status": "unresolved_review",
+        "unit_inventory_source": "PDF_PENDING",
+        "column_assignment_basis": "No validated Column proposal is available.",
+        "column_check_units": [
+          "m1286_p001"
+        ]
+      },
+      "columns": [
+        {
+          "col_id": "unsplit",
+          "col_name": "Unsplit candidate",
+          "lng": 141.3714112,
+          "lat": 40.2527666,
+          "status": "CHECK",
+          "ref_ids": "gsj1286",
+          "comments": "No validated Column proposal is available.",
+          "col_type": "column",
+          "axis_type": "age"
+        }
+      ]
+    },
+    "units": [
+      {
+        "row_key": "m1286_p001::unsplit",
+        "unit_id": "m1286_p001",
+        "column_ids": [
+          "unsplit"
+        ],
+        "review_values": {
+          "unit_id": "m1286_p001",
+          "column_id": "unsplit",
+          "sort_order": 1,
+          "position": null,
+          "section_id": null,
+          "t_pos": null,
+          "unit_name": "NO_DATA",
+          "t_int": null,
+          "b_int": null,
+          "t_age_ma": null,
+          "b_age_ma": null,
+          "t_prop": null,
+          "b_prop": null,
+          "strat_name": null,
+          "environment": null,
+          "unit_description": null,
+          "lithology": null,
+          "minor_lith": null,
+          "min_thickness": null,
+          "max_thickness": null,
+          "basal_surface": null,
+          "lateral_relationship": null,
+          "comments": "No structured unit inventory; PDF unit extraction requires review. COLUMN CHECK: No validated Column proposal is available."
+        },
+        "values": {
+          "unit_id": "m1286_p001",
+          "column_id": "unsplit",
+          "sort_order": 1,
+          "position": null,
+          "section_id": null,
+          "t_pos": null,
+          "unit_name": "NO_DATA",
+          "t_int": null,
+          "b_int": null,
+          "t_age_ma": null,
+          "b_age_ma": null,
+          "t_prop": null,
+          "b_prop": null,
+          "strat_name": null,
+          "environment": null,
+          "unit_description": null,
+          "lithology": null,
+          "minor_lith": null,
+          "min_thickness": null,
+          "max_thickness": null,
+          "basal_surface": null,
+          "lateral_relationship": null,
+          "comments": "No structured unit inventory; PDF unit extraction requires review. COLUMN CHECK: No validated Column proposal is available."
+        },
+        "value_origins": {
+          "unit_id": "review",
+          "column_id": "review",
+          "sort_order": "review",
+          "unit_name": "review",
+          "comments": "review"
+        },
+        "field_resolution": {
+          "lithology": {
+            "state": "unresolved",
+            "method": null,
+            "origin": null,
+            "evidence_ids": [],
+            "requires_review": true,
+            "conflict_count": 0,
+            "reasons": [
+              "no_candidate"
+            ]
+          },
+          "minor_lith": {
+            "state": "unresolved",
+            "method": null,
+            "origin": null,
+            "evidence_ids": [],
+            "requires_review": true,
+            "conflict_count": 0,
+            "reasons": [
+              "no_candidate"
+            ]
+          },
+          "age": {
+            "state": "unresolved",
+            "method": null,
+            "origin": null,
+            "evidence_ids": [],
+            "requires_review": true,
+            "conflict_count": 0,
+            "reasons": [
+              "no_candidate"
+            ]
+          }
+        },
+        "formulas": {},
+        "age_evidence": {
+          "status": "MISSING",
+          "summary": "No supporting evidence",
+          "best_by_field": {},
+          "evidence_ids": [],
+          "conflict_count": 0,
+          "inferred_count": 0
+        },
+        "context_evidence": {
+          "status": "OK",
+          "summary": "No supporting evidence",
+          "best_by_field": {},
+          "evidence_ids": [],
+          "conflict_count": 0,
+          "inferred_count": 0
+        },
+        "physical_evidence": {
+          "status": "MISSING",
+          "summary": "No supporting evidence",
+          "best_by_field": {},
+          "evidence_ids": [],
+          "conflict_count": 0,
+          "inferred_count": 0
+        },
+        "status": "CHECK",
+        "status_reasons": [
+          "missing_optional:environment",
+          "missing_optional:physical_evidence",
+          "unresolved:lithology",
+          "unresolved:minor_lith",
+          "unresolved:chronology"
+        ],
+        "human_status": null
+      }
+    ],
+    "summary": {
+      "unit_count": 1,
+      "column_count": 1,
+      "evidence_count": 0,
+      "orphaned_evidence_count": 0,
+      "orphaned_evidence_ids": [],
+      "status_counts": {
+        "OK": 0,
+        "CHECK": 1,
+        "MISSING": 0
+      },
+      "field_resolution_counts": {
+        "lithology": {
+          "present": 0,
+          "explicitly_absent": 0,
+          "unresolved": 1
+        },
+        "minor_lith": {
+          "present": 0,
+          "explicitly_absent": 0,
+          "unresolved": 1
+        },
+        "age": {
+          "present": 0,
+          "explicitly_absent": 0,
+          "unresolved": 1
+        }
+      },
+      "field_resolution_metrics": {
+        "lithology_present_rate": 0.0,
+        "minor_lith_disposition_rate": 0.0,
+        "age_present_rate": 0.0,
+        "age_interval_pair_rate": 0.0
+      },
+      "unresolved_age_unit_ids": [
+        "m1286_p001"
+      ]
+    }
+  },
+  "evidence": {
+    "schema_version": "1.0.0",
+    "generated_at": "2026-08-14T03:36:58+00:00",
+    "map_id": "1286",
+    "source_review": null,
+    "evidence": []
+  },
+  "gaps": [
+    "column split requires PDF stratigraphic interpretation",
+    "environment inference remains a review task when the Abstract is silent",
+    "t_prop, b_prop, position, section_id and t_pos are deferred to submission",
+    "ZFK and Shape unit inventories unavailable; PDF unit inventory requires review"
+  ],
+  "units": [
+    {
+      "unit_id": "m1286_p001",
+      "column_id": "unsplit",
+      "sort_order": 1,
+      "unit_name": "NO_DATA",
+      "t_int": null,
+      "b_int": null,
+      "comments": "No structured unit inventory; PDF unit extraction requires review. COLUMN CHECK: No validated Column proposal is available."
+    }
+  ],
+  "columns": [
+    {
+      "col_id": "unsplit",
+      "col_name": "Unsplit candidate",
+      "lng": 141.3714112,
+      "lat": 40.2527666,
+      "status": "CHECK",
+      "ref_ids": "gsj1286",
+      "comments": "No validated Column proposal is available.",
+      "col_type": "column",
+      "axis_type": "age"
+    }
+  ],
+  "refs": [
+    {
+      "ref_id": "gsj1286",
+      "title": "1:50K GeoMap 'Ichinohe' (2018)",
+      "authors": "TUZINO Taqumi, KUDO Takashi, NAKAE Satoshi, KONDO Reisuke, NISHIOKA Yoshiharu, UEKI Takeyuki",
+      "publication": "Quadrangle Series, 1:50,000",
+      "compilation": "Geological Survey of Japan 1:50,000 quadrangle compilation",
+      "organization": "Geological Survey of Japan, AIST",
+      "date": "2018",
+      "doi": null,
+      "url": "https://gbank.gsj.jp/ld/resource/publication/map/g050/map1286",
+      "comments": "Official GSJ publication metadata."
+    }
+  ],
+  "images": [
+    {
+      "col_ids": "unsplit",
+      "image_name": "https://gbank.gsj.jp/ld/resource/image/map/gsj_map_1286_legend_1249.jpg",
+      "ref_id": "gsj1286",
+      "page_no": null,
+      "fig_no": "legend-1249",
+      "description": "Geologic map legend",
+      "comments": "Official GSJ image resource."
+    },
+    {
+      "col_ids": "unsplit",
+      "image_name": "https://gbank.gsj.jp/ld/resource/image/map/gsj_map_1286_section_2236.jpg",
+      "ref_id": "gsj1286",
+      "page_no": null,
+      "fig_no": "ABC",
+      "description": "Geologic cross section",
+      "comments": "Official GSJ image resource."
+    },
+    {
+      "col_ids": "unsplit",
+      "image_name": "https://gbank.gsj.jp/ld/resource/image/map/gsj_map_1286_section_2237.jpg",
+      "ref_id": "gsj1286",
+      "page_no": null,
+      "fig_no": "DEF",
+      "description": "Geologic cross section",
+      "comments": "Official GSJ image resource."
+    }
+  ],
+  "project_meta": [
+    {
+      "key": "project_name",
+      "value": "1:50K GeoMap 'Ichinohe' (2018)"
+    },
+    {
+      "key": "organization",
+      "value": "UW Madison - Macrostrat Lab"
+    },
+    {
+      "key": "compiler_name",
+      "value": "Soma Sasaki"
+    },
+    {
+      "key": "col_type",
+      "value": "column"
+    },
+    {
+      "key": "axis_type",
+      "value": "age"
+    },
+    {
+      "key": "position_unit",
+      "value": "meters"
+    },
+    {
+      "key": "time_unit",
+      "value": "Ma"
+    },
+    {
+      "key": "timescale",
+      "value": "international intervals"
+    },
+    {
+      "key": "srid",
+      "value": "EPSG:4326"
+    }
+  ],
+  "gsj_meta": [
+    {
+      "key": "map_id",
+      "value": "1286"
+    },
+    {
+      "key": "title_en",
+      "value": "1:50K GeoMap 'Ichinohe' (2018)"
+    },
+    {
+      "key": "title_ja",
+      "value": "5万分の1地質図幅「一戸」 (2018)"
+    },
+    {
+      "key": "sheet_code",
+      "value": null
+    },
+    {
+      "key": "pub_year",
+      "value": "2018"
+    },
+    {
+      "key": "series",
+      "value": "Quadrangle Series, 1:50,000"
+    },
+    {
+      "key": "publisher",
+      "value": "Geological Survey of Japan, AIST"
+    },
+    {
+      "key": "source_zfk_map",
+      "value": null
+    },
+    {
+      "key": "source_publication",
+      "value": "https://gbank.gsj.jp/ld/resource/publication/map/g050/map1286"
+    }
+  ],
+  "source_evidence": []
+}

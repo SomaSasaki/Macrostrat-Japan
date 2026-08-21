@@ -1,0 +1,11 @@
+読み込み: C:\Users\somas\OneDrive\デスクトップ\summer research 2026\MacroStrat\data\02_review\05_青森\m1050_十和田 2005\candidate\m1050_review.building.xlsx
+  prop: 年代から計算 65 件 / 手入力を尊重 0 件 / 未入力 5 件
+  未入力（任意項目・空欄のままで提出できます）: lithology 未入力 7 / t_age_ma 未入力 1 / b_age_ma 未入力 4 / min_thickness 未入力 24 / max_thickness 未入力 13 / environment 未入力 24
+
+--- 警告 4 件（出力は続行します） ---
+  [warn] col '1': sort_order に欠番があります -> [8, 11, 16, 19]
+  [warn] col '1': sort_order が重複しています -> [1] （意図的な「重なり合うユニット」ならこの警告は無視して構いません）
+  [warn] col '2': sort_order に欠番があります -> [7, 9, 12, 13, 15, 17, 18]
+  [warn] col '2': sort_order が重複しています -> [1] （意図的な「重なり合うユニット」ならこの警告は無視して構いません）
+
+(--check-only のため出力はしていません)

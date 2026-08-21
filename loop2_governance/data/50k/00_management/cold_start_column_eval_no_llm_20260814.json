@@ -1,0 +1,112 @@
+{
+  "schema_version": "cold-start-column-evaluation/1.0",
+  "map_id": "1286",
+  "candidate": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\column_vision\\column_proposal.json",
+  "gold_snapshot": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\claude_work\\gold_snapshots\\m1286\\v1\\compiled.json",
+  "boundary": {
+    "gold_used_after_generation_only": true,
+    "candidate_validated_before_gold_open": true,
+    "candidate_outside_gold_snapshot": true
+  },
+  "column_detection": {
+    "actual": 3,
+    "expected": 3,
+    "matched": 3,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "mapping": [
+      {
+        "candidate_column_id": "central",
+        "gold_column_id": "ichinohe-central",
+        "semantic_key": "direction:central"
+      },
+      {
+        "candidate_column_id": "eastern",
+        "gold_column_id": "ichinohe-east",
+        "semantic_key": "direction:east"
+      },
+      {
+        "candidate_column_id": "western",
+        "gold_column_id": "ichinohe-west",
+        "semantic_key": "direction:west"
+      }
+    ],
+    "extra_columns": [],
+    "missing_columns": []
+  },
+  "memberships": {
+    "actual": 42,
+    "expected": 42,
+    "matched": 42,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "exact": true,
+    "missing": [],
+    "extra": []
+  },
+  "per_column": [
+    {
+      "gold_column_id": "ichinohe-west",
+      "candidate_column_id": "western",
+      "membership": {
+        "actual": 19,
+        "expected": 19,
+        "matched": 19,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact": true
+      },
+      "order": {
+        "shared_memberships": 19,
+        "comparable_pairs": 170,
+        "concordant_pairs": 170,
+        "pairwise_accuracy": 1.0,
+        "exact_pairwise_order": true
+      }
+    },
+    {
+      "gold_column_id": "ichinohe-central",
+      "candidate_column_id": "central",
+      "membership": {
+        "actual": 8,
+        "expected": 8,
+        "matched": 8,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact": true
+      },
+      "order": {
+        "shared_memberships": 8,
+        "comparable_pairs": 27,
+        "concordant_pairs": 27,
+        "pairwise_accuracy": 1.0,
+        "exact_pairwise_order": true
+      }
+    },
+    {
+      "gold_column_id": "ichinohe-east",
+      "candidate_column_id": "eastern",
+      "membership": {
+        "actual": 15,
+        "expected": 15,
+        "matched": 15,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact": true
+      },
+      "order": {
+        "shared_memberships": 15,
+        "comparable_pairs": 105,
+        "concordant_pairs": 105,
+        "pairwise_accuracy": 1.0,
+        "exact_pairwise_order": true
+      }
+    }
+  ]
+}

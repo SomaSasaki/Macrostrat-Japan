@@ -1,0 +1,25 @@
+{
+  "schema_version": "llm-qualification-policy/1.0",
+  "probe_max_age_days": 14,
+  "gold_max_age_days": 90,
+  "default_policy": {
+    "min_cases": 3,
+    "min_expected_items": 3,
+    "min_validator_pass_rate": 1.0,
+    "min_precision": 1.0,
+    "min_recall": 0.85,
+    "max_critical_failures": 0
+  },
+  "stages": {
+    "column_geography_vision": {
+      "prompt_version": "column-detection-closed-v1+column-membership-batched-v2",
+      "validator_version": "closed-world-vision-validator-v2",
+      "required_probe_capability": "vision"
+    },
+    "pdf_environment_multimodal": {
+      "prompt_version": "environment-unit-closed-v1",
+      "validator_version": "closed-world-vision-validator-v2",
+      "required_probe_capability": "multi_image"
+    }
+  }
+}

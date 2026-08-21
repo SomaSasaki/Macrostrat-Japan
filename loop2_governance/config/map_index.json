@@ -1,0 +1,3817 @@
+[
+  {
+    "map_id": "1496",
+    "name_en": "Hamasaka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1495",
+    "name_en": "Otaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1494",
+    "name_en": "Daigo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1488",
+    "name_en": "Yonago (2025)",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1487",
+    "name_en": "Takami Yama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1486",
+    "name_en": "Ogawara",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1485",
+    "name_en": "Kado",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1482",
+    "name_en": "Sotoyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1481",
+    "name_en": "Iyo Nagahama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1471",
+    "name_en": "Arato",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1473",
+    "name_en": "Bandai San",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1472",
+    "name_en": "Kawagoe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1430",
+    "name_en": "Kiryu &amp; Ashikaga",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1426",
+    "name_en": "Wake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1423",
+    "name_en": "Toyota",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1352",
+    "name_en": "Ikeda",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1348",
+    "name_en": "Rikuchu-Seki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1353",
+    "name_en": "Umaji",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1351",
+    "name_en": "Akechi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1349",
+    "name_en": "Kakunodate",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1350",
+    "name_en": "Kazusa-Ohara",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1293",
+    "name_en": "Motoyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1285",
+    "name_en": "Towadako",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1289",
+    "name_en": "Itoigawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1288",
+    "name_en": "Minobu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1287",
+    "name_en": "Azumayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1286",
+    "name_en": "Ichinohe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1284",
+    "name_en": "Abashiri",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1292",
+    "name_en": "Kanonji",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1291",
+    "name_en": "Toba",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1290",
+    "name_en": "Tomari",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1283",
+    "name_en": "banshu-ako",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1279",
+    "name_en": "Hahajima-Retto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1278",
+    "name_en": "mobara",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1277",
+    "name_en": "Niigata & Uchino",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1262",
+    "name_en": "Kanmuriyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1259",
+    "name_en": "Kawamata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1263",
+    "name_en": "Kitagawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1261",
+    "name_en": "Nanbu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1260",
+    "name_en": "Konosu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1201",
+    "name_en": "Niihama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1200",
+    "name_en": "Kyoto-ES",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1199",
+    "name_en": "Imajo & Takenami",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1198",
+    "name_en": "Hachioji",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1197",
+    "name_en": "Hayachinesan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1196",
+    "name_en": "Aomori-W",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1208",
+    "name_en": "Asuke",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1157",
+    "name_en": "Harunasan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1154",
+    "name_en": "Aniai (2012)",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1160",
+    "name_en": "Atami",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1159",
+    "name_en": "Noda",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1155",
+    "name_en": "Kamo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1153",
+    "name_en": "Toga-Funakawa (2011)",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1182",
+    "name_en": "Nobeoka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1167",
+    "name_en": "Saga",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1166",
+    "name_en": "Ozu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1164",
+    "name_en": "Saigo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1163",
+    "name_en": "Iragomisaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1161",
+    "name_en": "Kotaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1158",
+    "name_en": "Mitsumine",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1156",
+    "name_en": "Utsunomiya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1168",
+    "name_en": "Murasho",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1165",
+    "name_en": "Hibihara",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1162",
+    "name_en": "Matsumoto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1146",
+    "name_en": "Omuta",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1143",
+    "name_en": "Toyohashi & Tahara",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1142",
+    "name_en": "Goyu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1137",
+    "name_en": "Tatsuushi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1150",
+    "name_en": "Chichijima-Retto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1144",
+    "name_en": "Ino",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1140",
+    "name_en": "Fukui",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1139",
+    "name_en": "Ome",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1149",
+    "name_en": "Itoman & Kudaka-Jima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1148",
+    "name_en": "Naha & Okinawashi-S",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1092",
+    "name_en": "Kitakata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1013",
+    "name_en": "Tateyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1147",
+    "name_en": "Kaimondake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1145",
+    "name_en": "Senzaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1141",
+    "name_en": "Kyoto-WS",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1065",
+    "name_en": "Tomochi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1064",
+    "name_en": "Bungo-Kitsuki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1062",
+    "name_en": "Ikuno",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1061",
+    "name_en": "Kisuki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1050",
+    "name_en": "Towada",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1014",
+    "name_en": "Futtsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1060",
+    "name_en": "Kokawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1055",
+    "name_en": "Kisarazu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1053",
+    "name_en": "Suhara",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1052",
+    "name_en": "Miyashita",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1051",
+    "name_en": "Ryori",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1049",
+    "name_en": "Hakkodasan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1066",
+    "name_en": "Ishigakijima-EN",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1063",
+    "name_en": "Takasago",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1059",
+    "name_en": "Minakuchi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1058",
+    "name_en": "Omihachman",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1054",
+    "name_en": "Togakushi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "767",
+    "name_en": "Churui",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1056",
+    "name_en": "Suzumisaki & Noto-Iida & Horyuzan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "776",
+    "name_en": "Yamasaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "775",
+    "name_en": "Nishizu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "774",
+    "name_en": "Shiroumadake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "773",
+    "name_en": "Omiya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "771",
+    "name_en": "Senmaya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "769",
+    "name_en": "Momijiyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "768",
+    "name_en": "Urakawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "765",
+    "name_en": "Kamishokotsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "764",
+    "name_en": "Takinoue",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "432",
+    "name_en": "Kawamae & Ide (2001)",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1057",
+    "name_en": "Kitakomatsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "772",
+    "name_en": "Sanjo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "724",
+    "name_en": "Iheyajima & Izenajima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "641",
+    "name_en": "Mitsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "622",
+    "name_en": "Yunotsu & Gotsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "581",
+    "name_en": "Sakurai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "570",
+    "name_en": "Osaka-EN",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "543",
+    "name_en": "Chikubujima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "631",
+    "name_en": "Tatsuno",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "599",
+    "name_en": "Urago",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "571",
+    "name_en": "Nara",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "532",
+    "name_en": "Yokoyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "503",
+    "name_en": "Tateyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "440",
+    "name_en": "Iiyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "435",
+    "name_en": "Matsunoyama-Onsen",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "179",
+    "name_en": "Tokachiikeda",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "639",
+    "name_en": "Itsukushima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "636",
+    "name_en": "Kaitaichi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "546",
+    "name_en": "Gifu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "531",
+    "name_en": "Tsuruga",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "431",
+    "name_en": "Tajima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "691",
+    "name_en": "Kumata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "657",
+    "name_en": "Kokura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "614",
+    "name_en": "Iwami-Oda & Oura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "582",
+    "name_en": "Nabari",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "580",
+    "name_en": "Osaka-ES",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "557",
+    "name_en": "Kyoto-EN",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "542",
+    "name_en": "Kumagawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "519",
+    "name_en": "Kiso-Fukushima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "472",
+    "name_en": "Yokosuka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "418",
+    "name_en": "Tamaniwa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "676",
+    "name_en": "Miyanoharu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "671",
+    "name_en": "Oita",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "662",
+    "name_en": "Himeshima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "643",
+    "name_en": "Kurahashijima & Hashirajima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "399",
+    "name_en": "Iwagasaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "696",
+    "name_en": "Shiibamura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "572",
+    "name_en": "Ueno",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "462",
+    "name_en": "Takato",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "455",
+    "name_en": "Makabe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "428",
+    "name_en": "Kakizaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "420",
+    "name_en": "Somanakamura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "417",
+    "name_en": "Iidesan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "401",
+    "name_en": "Shizugawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "632",
+    "name_en": "Hojo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "573",
+    "name_en": "Tsu-W",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "562",
+    "name_en": "Hirone",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "534",
+    "name_en": "Mino",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "514",
+    "name_en": "Norikuradake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "424",
+    "name_en": "Kashiwazaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "422",
+    "name_en": "Nihonmatsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "241",
+    "name_en": "Ebishima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "714",
+    "name_en": "Sueyoshi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "682",
+    "name_en": "Fukue",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "672",
+    "name_en": "Saganoseki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "664",
+    "name_en": "Fukuoka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "608",
+    "name_en": "Matsue",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "549",
+    "name_en": "Yotsuya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "524",
+    "name_en": "Gero",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "434",
+    "name_en": "Takada-E",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "427",
+    "name_en": "Namie & Iwaki-Tomioka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "378",
+    "name_en": "Kariwano",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "723",
+    "name_en": "Yuwan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "688",
+    "name_en": "Miemachi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "685",
+    "name_en": "Konoura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "667",
+    "name_en": "Toyooka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "656",
+    "name_en": "Orio",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "584",
+    "name_en": "Wakayama & Ozaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "441",
+    "name_en": "Naebayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "421",
+    "name_en": "Izumozaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "402",
+    "name_en": "Tsuya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "296",
+    "name_en": "Obirayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "678",
+    "name_en": "Inukai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "637",
+    "name_en": "Sumoto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "554",
+    "name_en": "Sasayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "535",
+    "name_en": "Kanayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "461",
+    "name_en": "Yorii",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "444",
+    "name_en": "Nakano",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "437",
+    "name_en": "Hakkaisan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "426",
+    "name_en": "Wakamatsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "407",
+    "name_en": "Osu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "390",
+    "name_en": "Chokaisan & Fukura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "200",
+    "name_en": "Mitsuishi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "700",
+    "name_en": "Osuzuyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "635",
+    "name_en": "Hiroshima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "607",
+    "name_en": "Imaichi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "559",
+    "name_en": "Kuwana",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "555",
+    "name_en": "Sonobe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "533",
+    "name_en": "Tanigumi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "507",
+    "name_en": "Yarigatake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "425",
+    "name_en": "Nagaoka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "102",
+    "name_en": "Engaru",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "689",
+    "name_en": "Saiki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "681",
+    "name_en": "Ojika-Jima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "633",
+    "name_en": "Akashi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "628",
+    "name_en": "Akana",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "547",
+    "name_en": "Fukuchiyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "511",
+    "name_en": "Kamikochi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "475",
+    "name_en": "Nago",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "473",
+    "name_en": "Shimizu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "423",
+    "name_en": "Haramachi & Omika",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "406",
+    "name_en": "Toyoma",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "355",
+    "name_en": "Kuroishi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "335",
+    "name_en": "Matsumae",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "189",
+    "name_en": "Nukanai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "668",
+    "name_en": "Sasebo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "634",
+    "name_en": "Tsuta",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "606",
+    "name_en": "Taisha",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "588",
+    "name_en": "Sanjogatake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "558",
+    "name_en": "Gozaishoyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "556",
+    "name_en": "Kyoto-WN",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "548",
+    "name_en": "Ayabe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "504",
+    "name_en": "Omachi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "496",
+    "name_en": "Isurugi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "433",
+    "name_en": "Takada-W",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "429",
+    "name_en": "Okanomachi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "394",
+    "name_en": "Osawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "670",
+    "name_en": "Beppu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "651",
+    "name_en": "Tsurumisaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "561",
+    "name_en": "Sanda",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "518",
+    "name_en": "Ontakesan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "517",
+    "name_en": "Hagiwara",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "483",
+    "name_en": "Omaezaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "419",
+    "name_en": "Kakuta",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "385",
+    "name_en": "Yashima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "148",
+    "name_en": "Kenebetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "101",
+    "name_en": "Maruseppu-N",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "575",
+    "name_en": "Morozaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "574",
+    "name_en": "Tsu-E",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "486",
+    "name_en": "Niijima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "466",
+    "name_en": "Itsukaichi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "412",
+    "name_en": "Yoriiso",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "375",
+    "name_en": "Shizukuishi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "361",
+    "name_en": "Rikuchu-Ono",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "285",
+    "name_en": "Harauta & Karibayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "702",
+    "name_en": "Tsuma & Takanabe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "650",
+    "name_en": "Uwajima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "638",
+    "name_en": "Otake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "600",
+    "name_en": "Etomo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "585",
+    "name_en": "Kishiwada",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "565",
+    "name_en": "Handa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "560",
+    "name_en": "Nagoya-S",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "446",
+    "name_en": "Nagano",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "430",
+    "name_en": "Ojiya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "413",
+    "name_en": "Sendai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "398",
+    "name_en": "Kiyokawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "321",
+    "name_en": "Komagatake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "284",
+    "name_en": "Hidaka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "201",
+    "name_en": "Nishicha",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "167",
+    "name_en": "Nakashihoro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "692",
+    "name_en": "Kamae",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "640",
+    "name_en": "Kure",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "602",
+    "name_en": "Mihonoseki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "601",
+    "name_en": "Sakaiminato",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "579",
+    "name_en": "Osaka-WS",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "513",
+    "name_en": "Takayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "436",
+    "name_en": "Tokamachi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "363",
+    "name_en": "Moritake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "362",
+    "name_en": "Ugo-Hamada",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "351",
+    "name_en": "Ajigasawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "162",
+    "name_en": "Chanaigenya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "706",
+    "name_en": "Miyazaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "578",
+    "name_en": "Suma",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "564",
+    "name_en": "Yokkaichi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "553",
+    "name_en": "Nagoya-N",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "550",
+    "name_en": "Hikone-W",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "523",
+    "name_en": "Hachiman",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "482",
+    "name_en": "Oshima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "471",
+    "name_en": "Anesaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "468",
+    "name_en": "Tokyo-WS",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "465",
+    "name_en": "Mitake-Shosenkyo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "411",
+    "name_en": "Ishinomaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "397",
+    "name_en": "Tsuruoka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "379",
+    "name_en": "Miyako",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "359",
+    "name_en": "Noshiro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "294",
+    "name_en": "Hobetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "287",
+    "name_en": "Utasutsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "642",
+    "name_en": "Iwakuni",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "623",
+    "name_en": "Sambesan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "568",
+    "name_en": "Kobe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "508",
+    "name_en": "Shinano-Ikeda",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "464",
+    "name_en": "Ichinose",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "414",
+    "name_en": "Shiogama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "409",
+    "name_en": "Yoshioka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "357",
+    "name_en": "Nakahama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "350",
+    "name_en": "Asamushi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "307",
+    "name_en": "Kunnui",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "297",
+    "name_en": "Oshamambe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "729",
+    "name_en": "Yonagunishima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "721",
+    "name_en": "Satsuma-Iojima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "707",
+    "name_en": "Nakakoshiki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "699",
+    "name_en": "Onikizaki & Ushibuka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "694",
+    "name_en": "Morotsukayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "675",
+    "name_en": "Haiki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "569",
+    "name_en": "Osaka-WN",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "512",
+    "name_en": "Mikkamachi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "487",
+    "name_en": "Kozushima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "477",
+    "name_en": "Shizuoka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "470",
+    "name_en": "Yokohama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "410",
+    "name_en": "Matsushima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "384",
+    "name_en": "Kisakata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "312",
+    "name_en": "Okushirito-Hokubu & Nambu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "168",
+    "name_en": "Takashima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "155",
+    "name_en": "Shikaribetsuko",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "591",
+    "name_en": "Ryujin",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "563",
+    "name_en": "Kameyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "505",
+    "name_en": "Shirokimine",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "476",
+    "name_en": "Kamogawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "456",
+    "name_en": "Ishioka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "442",
+    "name_en": "Echigo-Yuzawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "408",
+    "name_en": "Awashima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "404",
+    "name_en": "Furukawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "373",
+    "name_en": "Taiheizan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "349",
+    "name_en": "Aburakawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "319",
+    "name_en": "Ainuma",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "314",
+    "name_en": "Yurappudake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "286",
+    "name_en": "Suttsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "215",
+    "name_en": "Wakkasakanai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "178",
+    "name_en": "Obihiro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "100",
+    "name_en": "Shokotsudake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "727",
+    "name_en": "Miyakojima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "653",
+    "name_en": "Sukumo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "652",
+    "name_en": "Iyo-Kashima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "630",
+    "name_en": "Kamigori",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "489",
+    "name_en": "Mikurajima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "474",
+    "name_en": "Misaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "451",
+    "name_en": "Sakaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "292",
+    "name_en": "Chitose",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "268",
+    "name_en": "Kamoenai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "94",
+    "name_en": "Nshiokoppe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1181",
+    "name_en": "Kenebrtsu (GSH)",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "726",
+    "name_en": "Miyakojima-N",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "722",
+    "name_en": "Yakushima-WS",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "697",
+    "name_en": "Mikado",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "613",
+    "name_en": "Wakasa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "595",
+    "name_en": "Esumi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "592",
+    "name_en": "Kurisugawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "552",
+    "name_en": "Tsushima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "469",
+    "name_en": "Fujisawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "454",
+    "name_en": "Komoro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "393",
+    "name_en": "Sakata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "391",
+    "name_en": "Yuzawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "386",
+    "name_en": "Asamai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "328",
+    "name_en": "Kikonai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "254",
+    "name_en": "Shakotanmisaki & Yobetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "194",
+    "name_en": "Kamisatsunai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "188",
+    "name_en": "Taisho",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "725",
+    "name_en": "Irabujima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "625",
+    "name_en": "Kamiiwami",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "495",
+    "name_en": "Tubata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "485",
+    "name_en": "Toshima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "333",
+    "name_en": "Shiriuchi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "315",
+    "name_en": "Yakumo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "728",
+    "name_en": "Taramashima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "712",
+    "name_en": "Miyakonojo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "687",
+    "name_en": "Takeda",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "683",
+    "name_en": "Tomie",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "624",
+    "name_en": "Tari",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "463",
+    "name_en": "Yatsugatake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "380",
+    "name_en": "Honjo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "372",
+    "name_en": "Akita",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "340",
+    "name_en": "Shiriyazaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "336",
+    "name_en": "Oshima-Fukushima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "295",
+    "name_en": "Iwachishi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "239",
+    "name_en": "Kenbuchi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "705",
+    "name_en": "Nojiri",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "551",
+    "name_en": "Hikone-E",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "377",
+    "name_en": "Ugo-Wada",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "347",
+    "name_en": "Wakinosawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "324",
+    "name_en": "Tate",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "277",
+    "name_en": "Shimakotan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "160",
+    "name_en": "Tsurui",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "141",
+    "name_en": "Nukabira",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "509",
+    "name_en": "Hida-Furukawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "459",
+    "name_en": "Tateshinayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "457",
+    "name_en": "Isohama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "416",
+    "name_en": "Iwanuma",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "343",
+    "name_en": "Mutsukawauchi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "198",
+    "name_en": "Kamitoyoni",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "156",
+    "name_en": "Kamishihoro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "684",
+    "name_en": "Danjo-Gunto Hokubu & Nambu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "680",
+    "name_en": "Hizen-Hirashima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "415",
+    "name_en": "Kinkasan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "318",
+    "name_en": "Kumaishi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "199",
+    "name_en": "Taiki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "91",
+    "name_en": "Okoppe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "615",
+    "name_en": "Yokota",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "438",
+    "name_en": "Takanuki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "364",
+    "name_en": "Yonaizawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "320",
+    "name_en": "Nigorikawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "313",
+    "name_en": "Kudo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "766",
+    "name_en": "Anebetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "673",
+    "name_en": "Hizen-Enoshima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "576",
+    "name_en": "Hamamatsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "498",
+    "name_en": "Uozu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "453",
+    "name_en": "Nakaminato",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "149",
+    "name_en": "Nishibetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "709",
+    "name_en": "Sendai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "708",
+    "name_en": "Hashima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "387",
+    "name_en": "Kawashiri",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "273",
+    "name_en": "Ebetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "230",
+    "name_en": "Fukinodai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "154",
+    "name_en": "Sahorodake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "98",
+    "name_en": "Shiretokomisaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "480",
+    "name_en": "Shimoda",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "479",
+    "name_en": "Ito",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "376",
+    "name_en": "Taro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "368",
+    "name_en": "Gojome",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "352",
+    "name_en": "Goshogawara",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "332",
+    "name_en": "Oshima-Oshima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "235",
+    "name_en": "Shibetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "142",
+    "name_en": "Metoonsen",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "122",
+    "name_en": "Bihoro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "107",
+    "name_en": "Kamikawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "105",
+    "name_en": "Rausu & Chienbetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "460",
+    "name_en": "Mamba",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "405",
+    "name_en": "Wakuya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "331",
+    "name_en": "Esan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "326",
+    "name_en": "Tokai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "323",
+    "name_en": "Esashi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "246",
+    "name_en": "Moseushi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "221",
+    "name_en": "Embetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "166",
+    "name_en": "Shintoku",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "90",
+    "name_en": "Kamiokoppe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "679",
+    "name_en": "Usuki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "353",
+    "name_en": "Fukaura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "306",
+    "name_en": "Setana",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "216",
+    "name_en": "Toyotomi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "212",
+    "name_en": "Numakawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "153",
+    "name_en": "Nishitappu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "128",
+    "name_en": "Asahidake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "127",
+    "name_en": "Shibinai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "121",
+    "name_en": "Kitami",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "111",
+    "name_en": "Tanno",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "92",
+    "name_en": "Monbetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "720",
+    "name_en": "Uchinoura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "710",
+    "name_en": "Kajiki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "494",
+    "name_en": "Mikkaichi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "493",
+    "name_en": "Abugashima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "492",
+    "name_en": "Ochigata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "400",
+    "name_en": "Wakayanagi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "327",
+    "name_en": "Osatsube",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "218",
+    "name_en": "Hamatombetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "165",
+    "name_en": "Ochiai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "146",
+    "name_en": "Teshikaga",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "138",
+    "name_en": "Nokkezaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "137",
+    "name_en": "Shibetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "136",
+    "name_en": "Nakashibetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "109",
+    "name_en": "Maruseppu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "686",
+    "name_en": "Omura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "646",
+    "name_en": "Kawaguchi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "619",
+    "name_en": "Chizu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "491",
+    "name_en": "Koguchiseto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "348",
+    "name_en": "Kanagi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "325",
+    "name_en": "Onumakoen",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "322",
+    "name_en": "Shikabe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "210",
+    "name_en": "Rishirito",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "175",
+    "name_en": "Kiritappu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "172",
+    "name_en": "Otanoshike",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "133",
+    "name_en": "Kamisato",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "117",
+    "name_en": "Taisetsuzan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "116",
+    "name_en": "Toma",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "87",
+    "name_en": "Omu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "718",
+    "name_en": "Shibushi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "717",
+    "name_en": "Kanoya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "644",
+    "name_en": "Imabari-W",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "629",
+    "name_en": "Susai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "598",
+    "name_en": "Kushimoto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "539",
+    "name_en": "Oeyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "392",
+    "name_en": "Yakeishidake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "334",
+    "name_en": "Oshima-Kojima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "329",
+    "name_en": "Hakodate",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "258",
+    "name_en": "Sunagawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "234",
+    "name_en": "Soeushinai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "226",
+    "name_en": "Onnenai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "214",
+    "name_en": "Asajinodaichi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "211",
+    "name_en": "Bakkai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "190",
+    "name_en": "Urahoro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "173",
+    "name_en": "Oboro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "147",
+    "name_en": "Isobunnai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "145",
+    "name_en": "Akanko",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "132",
+    "name_en": "Honki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "120",
+    "name_en": "Rubeshibe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "97",
+    "name_en": "Rushagawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "770",
+    "name_en": "Otsuchi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "695",
+    "name_en": "Hinagu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "645",
+    "name_en": "Mishima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "616",
+    "name_en": "Neu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "597",
+    "name_en": "Tanami",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "522",
+    "name_en": "Neo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "515",
+    "name_en": "Shiojiri",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "500",
+    "name_en": "Johana",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "383",
+    "name_en": "Karodake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "371",
+    "name_en": "Hachimantai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "330",
+    "name_en": "Goryokaku",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "274",
+    "name_en": "Yubari",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "265",
+    "name_en": "Iwamizawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "253",
+    "name_en": "Biei",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "245",
+    "name_en": "Kokuryo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "213",
+    "name_en": "Onishibetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "144",
+    "name_en": "Kamiashoro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "130",
+    "name_en": "Tsunemoto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "119",
+    "name_en": "Kitamifuji",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "108",
+    "name_en": "Shirataki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "106",
+    "name_en": "Aibetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "96",
+    "name_en": "Saromako & Sanribanya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "88",
+    "name_en": "Sawaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "958",
+    "name_en": "Rebunto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "716",
+    "name_en": "Tarumizu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "703",
+    "name_en": "Nishikata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "677",
+    "name_en": "Kuju",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "627",
+    "name_en": "Sayo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "612",
+    "name_en": "Tottori-S",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "605",
+    "name_en": "Tottori-N",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "497",
+    "name_en": "Toyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "360",
+    "name_en": "Takanosu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "356",
+    "name_en": "Iwadate",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "250",
+    "name_en": "Nishitoppu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "244",
+    "name_en": "Ofuyu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "233",
+    "name_en": "Sankei",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "220",
+    "name_en": "Nakatombetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "193",
+    "name_en": "Satsunaigawa-Joryu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "185",
+    "name_en": "Tokotan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "171",
+    "name_en": "Akan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "161",
+    "name_en": "Shibecha",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "139",
+    "name_en": "Tokachidake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "131",
+    "name_en": "Shotoshibetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "123",
+    "name_en": "Mokotoyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "115",
+    "name_en": "Shunkarikotan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "110",
+    "name_en": "Ikutawara",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "693",
+    "name_en": "Hizentakashima & Nomozaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "617",
+    "name_en": "Yumoto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "610",
+    "name_en": "Daisen",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "609",
+    "name_en": "Yonago",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "603",
+    "name_en": "Akasaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "520",
+    "name_en": "Ina",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "367",
+    "name_en": "Funakawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "366",
+    "name_en": "Toga",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "365",
+    "name_en": "Rikuchu-Noda",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "358",
+    "name_en": "Dairakozan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "354",
+    "name_en": "Hirosaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "338",
+    "name_en": "Sai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "337",
+    "name_en": "Oma",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "223",
+    "name_en": "Otoineppu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "222",
+    "name_en": "Teshionakagawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "196",
+    "name_en": "Noya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "195",
+    "name_en": "Yudonuma",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "176",
+    "name_en": "Chiroro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "163",
+    "name_en": "Attoko & Ochiishimisaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "158",
+    "name_en": "Ukotakinupuriyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "150",
+    "name_en": "Bekkai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "135",
+    "name_en": "Mashuko",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "134",
+    "name_en": "Kutcharoko",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "114",
+    "name_en": "Minehama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "95",
+    "name_en": "Nakayubetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "83",
+    "name_en": "Esashi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "1138",
+    "name_en": "Kawamae & Ide (1961)",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "654",
+    "name_en": "Nii",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "618",
+    "name_en": "Okuzu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "611",
+    "name_en": "Kurayoshi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "604",
+    "name_en": "Aoya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "540",
+    "name_en": "Maizuru",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "536",
+    "name_en": "Tsukechi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "525",
+    "name_en": "Kashimo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "452",
+    "name_en": "Tochigi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "439",
+    "name_en": "Taira",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "396",
+    "name_en": "Kesennuma",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "395",
+    "name_en": "Uzen-Kaneyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "344",
+    "name_en": "Chikagawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "288",
+    "name_en": "Kaributo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "224",
+    "name_en": "Hatsuura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "217",
+    "name_en": "Kamisarufutsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "192",
+    "name_en": "Idonnappu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "191",
+    "name_en": "Atsunai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "186",
+    "name_en": "Poroshiridake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "183",
+    "name_en": "Kushiro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "174",
+    "name_en": "Akkeshi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "170",
+    "name_en": "Kamicharo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "126",
+    "name_en": "Kunbetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "118",
+    "name_en": "Kamishiyubetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "104",
+    "name_en": "Utoro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "103",
+    "name_en": "Abashiri",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "84",
+    "name_en": "Otchube",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "82",
+    "name_en": "Menashidomari",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "528",
+    "name_en": "Miyazu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "502",
+    "name_en": "Gohyakkoku",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "501",
+    "name_en": "Yatsuo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "488",
+    "name_en": "Miyakejima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "389",
+    "name_en": "Kamaishi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "317",
+    "name_en": "Harutachi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "303",
+    "name_en": "Mukawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "293",
+    "name_en": "Hayakita",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "283",
+    "name_en": "Oiwake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "229",
+    "name_en": "Chikubetsutanko",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "227",
+    "name_en": "Yagishirito",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "225",
+    "name_en": "Kyowa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "203",
+    "name_en": "Hiroo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "159",
+    "name_en": "Yubetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "143",
+    "name_en": "Rikubetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "129",
+    "name_en": "Ishikaridake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "125",
+    "name_en": "Musadake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "113",
+    "name_en": "Syari",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "89",
+    "name_en": "Sanru",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "86",
+    "name_en": "Niupu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "719",
+    "name_en": "Toinomisaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "715",
+    "name_en": "Obi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "713",
+    "name_en": "Hyuga-Aoshima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "647",
+    "name_en": "Iyo-Misaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "587",
+    "name_en": "Koyasan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "506",
+    "name_en": "Higashimozumi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "499",
+    "name_en": "Kanazawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "490",
+    "name_en": "Hachijojima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "481",
+    "name_en": "Inatori",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "346",
+    "name_en": "Kanita",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "345",
+    "name_en": "Kodomari",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "305",
+    "name_en": "Biu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "302",
+    "name_en": "Tomakomai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "282",
+    "name_en": "Eniwa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "257",
+    "name_en": "Tsukigata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "219",
+    "name_en": "Pinneshiri",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "208",
+    "name_en": "Soya & Soyamisaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "202",
+    "name_en": "Rakkodake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "180",
+    "name_en": "Tokomuro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "169",
+    "name_en": "Honbetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "152",
+    "name_en": "Nosappu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "151",
+    "name_en": "Nemuro-N",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "124",
+    "name_en": "Syaridake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "112",
+    "name_en": "Koshimizu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "85",
+    "name_en": "Otoshibetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "777",
+    "name_en": "Kuraoka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "704",
+    "name_en": "Kirishimayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "690",
+    "name_en": "Mitai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "674",
+    "name_en": "Kakinoura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "669",
+    "name_en": "Imari",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "661",
+    "name_en": "Ashibe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "660",
+    "name_en": "Gonoura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "655",
+    "name_en": "Katsumoto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "626",
+    "name_en": "Tsuyama-E",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "586",
+    "name_en": "Yoshinoyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "541",
+    "name_en": "Obama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "538",
+    "name_en": "Iida",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "537",
+    "name_en": "Tsumago",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "529",
+    "name_en": "Tango-Yura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "527",
+    "name_en": "Akaho",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "526",
+    "name_en": "Agematsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "521",
+    "name_en": "Kammurijima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "516",
+    "name_en": "Arashimadake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "484",
+    "name_en": "Mikomotojima",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "403",
+    "name_en": "Obanazawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "374",
+    "name_en": "Tazawako",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "311",
+    "name_en": "Shizunai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "310",
+    "name_en": "Mombetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "298",
+    "name_en": "Toyoura",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "276",
+    "name_en": "Ishikarikinzan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "263",
+    "name_en": "Ishikari",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "238",
+    "name_en": "Horokanai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "237",
+    "name_en": "Tappu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "197",
+    "name_en": "Kamuidake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "182",
+    "name_en": "Shiranuka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "164",
+    "name_en": "Nemuro-S",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "157",
+    "name_en": "Ashorobuto",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "711",
+    "name_en": "Kokubu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "649",
+    "name_en": "Iyo-Takayama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "648",
+    "name_en": "Yawatahama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "596",
+    "name_en": "Nachi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "583",
+    "name_en": "Kakezuka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "577",
+    "name_en": "Mitsuke",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "544",
+    "name_en": "Omi-Nagahama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "530",
+    "name_en": "Nokogirizaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "510",
+    "name_en": "Funatsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "448",
+    "name_en": "Kusatsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "370",
+    "name_en": "Moriyoshizan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "342",
+    "name_en": "Horozuki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "341",
+    "name_en": "Mimmaya",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "339",
+    "name_en": "Ohata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "304",
+    "name_en": "Tomikawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "291",
+    "name_en": "Tarumaizan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "264",
+    "name_en": "Tobetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "262",
+    "name_en": "Otaru-E",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "249",
+    "name_en": "Hamamasu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "243",
+    "name_en": "Pippu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "209",
+    "name_en": "Chiraibetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "205",
+    "name_en": "Saruru",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "181",
+    "name_en": "Ombetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "140",
+    "name_en": "Tokachigawa-Joryu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "701",
+    "name_en": "Tsuno",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "698",
+    "name_en": "Tomitaka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "666",
+    "name_en": "Karatsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "658",
+    "name_en": "Ube",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "590",
+    "name_en": "Todoroki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "589",
+    "name_en": "Kainan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "478",
+    "name_en": "Shuzenji",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "467",
+    "name_en": "Kofu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "445",
+    "name_en": "Nantaisan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "443",
+    "name_en": "Hiuchidake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "382",
+    "name_en": "Tsuchibuchi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "381",
+    "name_en": "Ohazama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "299",
+    "name_en": "Abuta",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "289",
+    "name_en": "Rusuttsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "281",
+    "name_en": "Ishiyama",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "279",
+    "name_en": "Kutchian",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "272",
+    "name_en": "Sapporo",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "256",
+    "name_en": "Atsuta",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "252",
+    "name_en": "Utashinai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "251",
+    "name_en": "Takikawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "248",
+    "name_en": "Asahikawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "236",
+    "name_en": "Onishika",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "231",
+    "name_en": "Nayoro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "206",
+    "name_en": "Erimomisaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "184",
+    "name_en": "Kombumori",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "665",
+    "name_en": "Hirado",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "663",
+    "name_en": "Yobuko",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "659",
+    "name_en": "Ube-E",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "594",
+    "name_en": "Atawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "593",
+    "name_en": "Shingu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "567",
+    "name_en": "Akihasan",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "545",
+    "name_en": "Ogaki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "447",
+    "name_en": "Suzaka",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "388",
+    "name_en": "Hitokabe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "369",
+    "name_en": "Aniai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "308",
+    "name_en": "Nishimombetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "278",
+    "name_en": "Iwanai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "266",
+    "name_en": "Ikushumbetsudake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "260",
+    "name_en": "Shimofurano",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "255",
+    "name_en": "Furubira & Horomui",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "228",
+    "name_en": "Haboro",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "204",
+    "name_en": "Horoizumi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "93",
+    "name_en": "Shimokawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "621",
+    "name_en": "Tajima-Takeda",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "620",
+    "name_en": "Oyaichiba",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "458",
+    "name_en": "Suwa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "450",
+    "name_en": "Ashio",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "449",
+    "name_en": "Numata",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "300",
+    "name_en": "Tokushumbetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "290",
+    "name_en": "Sokeishu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "275",
+    "name_en": "Oyubari",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "270",
+    "name_en": "Niki",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "261",
+    "name_en": "Otaru-W",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "240",
+    "name_en": "Rumoi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "232",
+    "name_en": "Tomamae",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "207",
+    "name_en": "Wakkanai",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "177",
+    "name_en": "Mikage",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "316",
+    "name_en": "Muroran",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "309",
+    "name_en": "Noboribetsu-Onsen",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "301",
+    "name_en": "Shiraoi",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "280",
+    "name_en": "Jozankei",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "271",
+    "name_en": "Zenibako",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "267",
+    "name_en": "Yamabe",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "259",
+    "name_en": "Kamiashibetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "247",
+    "name_en": "Fukagawa",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "242",
+    "name_en": "Kamietambetsu",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "187",
+    "name_en": "Satsunaidake",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "566",
+    "name_en": "Mikawa-Ono",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "269",
+    "name_en": "Kayanuma",
+    "region_folder": "Unknown_Region"
+  },
+  {
+    "map_id": "99",
+    "name_en": "Okushibetsu",
+    "region_folder": "Unknown_Region"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "schema_version": "pdf-field-enrichment/1.0",
+  "stage": "pdf_body_field_enrichment",
+  "status": "complete",
+  "job_id": "pfe_c64c382d752ebf90ffdb",
+  "prompt_version": "japanese-body-fields-v2-lithology-roles",
+  "validator_version": "pdf-field-enrichment/1.0",
+  "prompt_sha256": "b9345a322699890ddf5db36a99144957a7c1f51de6d6c9729e6ef0f6f88eba38",
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "provider": "revalidated_prior_cache_bundle",
+  "requested_model": "source-bound-cache",
+  "actual_model": "source-bound-cache",
+  "model": "source-bound-cache",
+  "accepted": [
+    {
+      "unit_id": "m1286_p024",
+      "field": "environment",
+      "candidate": "fluvial indet.",
+      "quote": "早渡段丘堆積物",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p024_296055f11461"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "environment",
+      "candidate": "fluvial indet.",
+      "quote": "蓮台野段丘堆積物",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p025_04814311973d"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "environment",
+      "candidate": "fluvial indet.",
+      "quote": "伊保内段丘堆積物",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p026_440cf3f4220e"
+    }
+  ],
+  "dropped": [
+    {
+      "unit_id": "m1286_p024",
+      "field": "strat_name",
+      "reason": "not_a_lithostratigraphic_parent_name"
+    }
+  ],
+  "migrated_from_job_id": null,
+  "migrated_from_job_ids": [
+    "pfe_1423ddd73dd19e98a66e",
+    "pfe_229b0ec904b7e9ceb710",
+    "pfe_39a3de2b219f40c8534c",
+    "pfe_596fe8992f0160eabb64",
+    "pfe_ada9f333c8ef564ea4f6"
+  ],
+  "compatible_cache_migration": true,
+  "completed_at": "2026-08-14T07:03:20+00:00",
+  "estimated_tokens": 0
+}

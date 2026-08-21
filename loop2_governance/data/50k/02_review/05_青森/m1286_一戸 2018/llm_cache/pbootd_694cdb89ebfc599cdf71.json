@@ -1,0 +1,85 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "3c7ce617d0272a900b05d977b51062c54ffa2abf3a858789ee0cd273ef0b04c7",
+  "job_id": "pbootd_694cdb89ebfc599cdf71",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:35:36+00:00",
+  "units": [
+    {
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+      "lithology": "pyroclastic flow deposits",
+      "lith_quote": "pyroclastic flow deposits"
+    },
+    {
+      "unit_name": "Toya Formation",
+      "b_age_ma": 6,
+      "t_age_ma": 5,
+      "age_quote": "the Toya: 6–5 Ma",
+      "lithology": "pyroclastic flow deposits, conglomerate, sandstone and mudstone",
+      "lith_quote": "composed of pyroclastic flow deposits, conglomerate, sandstone and mudstone",
+      "environment": "subaerial",
+      "env_quote": "Subaerial"
+    },
+    {
+      "unit_name": "Shitazaki Formation",
+      "b_age_ma": 10.5,
+      "t_age_ma": 8.5,
+      "age_quote": "the Shitazaki: 10.5–8.5 Ma",
+      "lithology": "siltstone",
+      "lith_quote": "mainly composed of sublittoral siltstone",
+      "environment": "shelf",
+      "env_quote": "Shelf"
+    },
+    {
+      "unit_name": "Yanagisawa Formation",
+      "b_age_ma": 12,
+      "t_age_ma": 10.5,
+      "age_quote": "the Yanagisawa: 12–10.5 Ma",
+      "lithology": "diatomite and diatomite-origined porcelanite",
+      "lith_quote": "composed of diatomite and diatomite-origined porcelanite (Kawaguchi Porcelanite Member)"
+    },
+    {
+      "unit_name": "Zyūmonzi Formation",
+      "b_age_ma": 15,
+      "t_age_ma": 12,
+      "age_quote": "the Zyūmonzi: 15–12 Ma",
+      "lithology": "sandstone",
+      "lith_quote": "characterised by shallow marine sandstone",
+      "environment": "sublittoral",
+      "env_quote": "Sublittoral"
+    },
+    {
+      "unit_name": "Suenomatuyama Formation",
+      "b_age_ma": 16.5,
+      "t_age_ma": 15,
+      "age_quote": "the Suenomatuyama: 16.5–15 Ma",
+      "lithology": "conglomerate, sandstone, volcanic rock",
+      "lith_quote": "subdivided into the five members, namely the Anausi Conglomerate, the Itukamati Sandstone, the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock, and Mainosawa Sandstone members",
+      "environment": "sublittoral",
+      "env_quote": "Sublittoral"
+    },
+    {
+      "unit_name": "Kadonosawa Formation",
+      "b_age_ma": 16.5,
+      "t_age_ma": 15,
+      "age_quote": "the Kadonosawa: ca. 16.5 Ma",
+      "lithology": "sandstone, siltstone",
+      "lith_quote": "subdivided into the Tate Sandstone and Sikonai Siltstone members",
+      "environment": "bay to subbathyal",
+      "env_quote": "Bay to subbathyal"
+    },
+    {
+      "unit_name": "Yotuyaku Formation",
+      "b_age_ma": 18,
+      "t_age_ma": 16.5,
+      "age_quote": "the Yotuyaku: 18–16.5 Ma",
+      "lithology": "siliciclastic rock, mudstone, volcanic rock",
+      "lith_quote": "unconformably overlies the previous rocks, and can be subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members"
+    }
+  ]
+}

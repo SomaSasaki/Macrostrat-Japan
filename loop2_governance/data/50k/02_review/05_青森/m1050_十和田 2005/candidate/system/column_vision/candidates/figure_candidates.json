@@ -1,0 +1,21 @@
+{
+  "schema_version": "pdf-figure-candidates/1.0",
+  "status": "candidate_review",
+  "pdf": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_D.pdf",
+  "pdf_sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+  "selection_policy": "ranked cached page text; complete-page render; no LLM",
+  "candidates": [
+    {
+      "pdf_page": 86,
+      "score": 53,
+      "matched_terms": [
+        "stratigraphy",
+        "summaryofthegeology"
+      ],
+      "negative_terms": [],
+      "text_excerpt": "Fig1SummaryofthegeologyoftheTowadadistrictF:FormationPFD:PyroclacticflowdepositsTS:terracedepositsTG:TephraGroupKA:K-AragaFT:FissontrackageST:AgeestimatedfromstratigraphyC:14CageQUATERNARYTheEarlytoMiddlePleistoceneconsistsofthefollowingsediments:TakamoriyamaFormationandNohejiFormationandpyroclasticflowdepositsfromtheH",
+      "image_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\column_vision\\candidates\\page_0086_candidate.png",
+      "image_sha256": "c1424e4c07e8fe9a27936a70e5af7bfd05acb5257c69656481107de8f8d7f7ce"
+    }
+  ]
+}

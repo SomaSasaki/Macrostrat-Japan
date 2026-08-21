@@ -1,0 +1,122 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "poly_id": "cell_1",
+      "symbol": "Q3_al",
+      "formationAge_en": "Cenozoic Quaternary Holocene",
+      "lithology_en": "sand & gravel",
+      "group_en": "Quaternary Sediments",
+      "formationAge_ja": "完新世",
+      "lithology_ja": "砂礫",
+      "group_ja": "第四紀堆積物"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            135.0,
+            34.6666
+          ],
+          [
+            136.0,
+            34.6666
+          ],
+          [
+            136.0,
+            34.88883333333334
+          ],
+          [
+            135.0,
+            34.88883333333334
+          ],
+          [
+            135.0,
+            34.6666
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "poly_id": "cell_2",
+      "symbol": "M_ac",
+      "formationAge_en": "Mesozoic Jurassic",
+      "lithology_en": "chert & sandstone & shale",
+      "group_en": "Accretionary Complex",
+      "formationAge_ja": "ジュラ紀",
+      "lithology_ja": "チャート・砂岩・頁岩",
+      "group_ja": "付加体"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            135.0,
+            34.88883333333334
+          ],
+          [
+            136.0,
+            34.88883333333334
+          ],
+          [
+            136.0,
+            35.11106666666667
+          ],
+          [
+            135.0,
+            35.11106666666667
+          ],
+          [
+            135.0,
+            34.88883333333334
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "poly_id": "cell_3",
+      "symbol": "K_gr",
+      "formationAge_en": "Mesozoic Cretaceous",
+      "lithology_en": "granite",
+      "group_en": "Plutonic Rocks",
+      "formationAge_ja": "白亜紀",
+      "lithology_ja": "花崗岩",
+      "group_ja": "深成岩"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            135.0,
+            35.111066666666666
+          ],
+          [
+            136.0,
+            35.111066666666666
+          ],
+          [
+            136.0,
+            35.3333
+          ],
+          [
+            135.0,
+            35.3333
+          ],
+          [
+            135.0,
+            35.111066666666666
+          ]
+        ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,268 @@
+{
+  "schema_version": "pdf-field-enrichment/1.0",
+  "stage": "pdf_body_field_enrichment",
+  "status": "complete",
+  "job_id": "pfe_81ca118f3330113cdc5d",
+  "prompt_version": "japanese-body-fields-v2-lithology-roles",
+  "prompt_sha256": "1322203efa34037d6b4ebd49ba5994ddc000e4725444d0355205179a7ed6ba72",
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "model": "gemini-3.6-flash",
+  "completed_at": "2026-08-10T21:53:54+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1286_p024",
+      "field": "environment",
+      "candidate": "fluvial indet.",
+      "quote": "月内川水系の早渡段丘堆積物からなる",
+      "context": {
+        "context_id": "ctx_m1286_p024_5e7b17eb5e16",
+        "unit_id": "m1286_p024",
+        "unit_name": "Hayawatari terrace deposits",
+        "column_ids": [
+          "eastern"
+        ],
+        "aliases": [
+          "Hayawatari terrace deposits",
+          "早渡段丘堆積物"
+        ],
+        "section": null,
+        "pdf_page": 21,
+        "printed_page": 11,
+        "requested_fields": [
+          "t_age_ma",
+          "b_age_ma",
+          "strat_name",
+          "environment",
+          "unit_description",
+          "minor_lith",
+          "min_thickness",
+          "max_thickness",
+          "basal_surface",
+          "lateral_relationship"
+        ],
+        "text": "月内川水系の早渡段丘堆積物からなるどちらも礫層及地域全体の断層の特徴を述べるび砂層及からなり洞爺火山灰には覆われない早渡段ジュラ系の走向傾斜から高角傾斜の東部と比較丘堆積物は十和田大不動火砕流堆積物に覆われるテ的低角の中央部西部とに大別できる東部の東側にはフラ層序との関係及び一戸面(十和田大不動火砕流堆積同斜構造の高屋敷層及び関層が分布し西側には翼角の物の堆積面)との関係より両段丘堆積物は112-36閉じた褶曲が顕著な合戦場層が分布している中央部のkaの間に堆積したと考えられる葛巻層は同斜構造を示すまたジュラ系を規制する構十和田大不動火砕流堆積物は十和田火山を給源とす造は形成時期の違いから4つのタイプに識別できるる流紋岩質の軽石流堆積物である主に馬淵川水系の地1つ目は各層内部で見られる覆瓦構造で付加作用にと形的低所を埋めて断続的に分布するまた高位段丘堆もなった岩相の繰り返し構造である(ジュラ紀中頃-末積物や中位段丘堆積物上を薄く覆う本堆積物は河川浸頃)2つ目は各層の境界となる断層(ジュラ系の「層食により段丘化し火砕流堆積面は一戸面と呼ばれる序単元境界断層」)で地層の走向とほぼ一致または若干本堆積物の堆積年代は既存の14C年代より36ka(暦の斜交を示す(ジュラ紀中頃-末頃)3つ目はこれら年代)であるの構造を変形させジュラ系全体の分布を規制する褶曲構十和田八戸火砕流堆積物は十和田火山を給源とする造(ジュラ紀末頃-白亜紀前半)で4つ目に以上のデイサイト-流紋岩質の軽石流堆積物である主に馬淵構造を切断し変位を与える高角の断層(白亜紀前半-新川水系の地形的低所を埋めて断続的に分布するまた第三紀)であるおおだいら高位段丘堆積物や中位段丘堆積物上を薄く覆う本堆積このうち層序単元境界断層は東から関-大平断層たきのさわよもぎがもり物は河川浸食により段丘化し火砕流堆積面は福岡面と滝ノ沢-蓬ヶ森断層及び折爪断層がある関-大平断層呼ばれる本堆積物の堆積年代は既存の14C年代よりは高屋敷層と関層との滝ノ沢-蓬ヶ森断層は関層と合155ka(暦年代)である戦場層との折爪断層は合戦場層と葛巻層との層序単元折爪岳扇状地堆積物は礫層及び砂層からなり江刺境界断層である高角断層は一般走向にほぼ平行で高家層を不整合に覆う本堆積物は折爪岳東方の限られ角傾斜でジュラ系を切断するもので左横ずれまたは断た地域にのみ分布し複数の扇状地面からなる比較的新層西側が相対的に沈降した運動が考えられる東からつじがさわかんちょうおおゆきやみさわにい鮮な地形面を示す本堆積物の堆積年代は江刺家層の辻ヶ沢断層勘丁断層大雪屋断層三沢断層新井だちょうこうじことうげ上位であることから少なくとも40万年前以降と考えら田東方の断層長興寺断層伊保内断層及び小峠断層れるまた新鮮な扇状地面を保持していることからがありそれぞれの断層の長さは2-13km程度であるその堆積時期は完新世にまで及ぶ可能性がある次に新生代の地質体の走向傾斜及び断層について低位段丘堆積物は馬淵川水系の米沢段丘堆積物及び概説するなお褶曲については走向傾斜のゆらぎが堀野段丘堆積物瀬月内川雪谷川水",
+        "text_sha256": "5e7b17eb5e16017002f6c0582dbbffd0c9e640b29626a0fa2f8fb27912f57276",
+        "context_source": "PDF page text via verified Japanese TOC alias"
+      },
+      "assertion": "inferred"
+    }
+  ],
+  "dropped": [
+    {
+      "unit_id": "m1286_p022",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "unit_description",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "minor_lith",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "minor_lith",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p018",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "t_age_ma",
+      "reason": "numeric_value_not_in_quote"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "b_age_ma",
+      "reason": "numeric_value_not_in_quote"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "unit_description",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "minor_lith",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p019",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p019",
+      "field": "unit_description",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p019",
+      "field": "minor_lith",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p019",
+      "field": "basal_surface",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "field": "unit_description",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "field": "minor_lith",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p023",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p023",
+      "field": "unit_description",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p023",
+      "field": "minor_lith",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "unit_description",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "minor_lith",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "min_thickness",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "max_thickness",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "lateral_relationship",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p008",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "field": "t_age_ma",
+      "reason": "local_measurement_not_formation_boundary"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "field": "b_age_ma",
+      "reason": "local_measurement_not_formation_boundary"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "field": "basal_surface",
+      "reason": "quote_not_in_context"
+    }
+  ],
+  "estimated_tokens": 57261
+}

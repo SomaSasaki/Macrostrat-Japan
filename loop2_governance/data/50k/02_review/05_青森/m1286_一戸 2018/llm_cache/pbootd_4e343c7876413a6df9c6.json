@@ -1,0 +1,24 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "1ed043529aea3db01da3b1352c3109ea11873615ece6d26bf2d624f47f72f22a",
+  "job_id": "pbootd_4e343c7876413a6df9c6",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:35:46+00:00",
+  "units": [
+    {
+      "unit_name": "Ichinohe Pluton",
+      "lithology": "monzogabbro and quartz monzonite",
+      "lith_quote": "lithologically characterised by two facies; monzogabbro and quartz monzonite. The monzogabbro facies consists mainly of medium-grained quartz monzogabbro with biotite, clinopyroxene, orthopyroxene, hornblende, and olivine. The quartz monzonite facies consists of medium grained biotite hornblende quartz monzonite."
+    },
+    {
+      "unit_name": "Tsukanaigawa Pluton",
+      "lithology": "biotite hornblende granodiorite",
+      "lith_quote": "composed of medium-grained biotite hornblende granodiorite"
+    }
+  ]
+}

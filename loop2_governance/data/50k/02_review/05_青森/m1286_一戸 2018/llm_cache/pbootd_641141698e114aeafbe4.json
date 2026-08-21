@@ -1,0 +1,19 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "9a833bf7a22e50efce40345aeabf199258c1f77175122c872297595d44e4b1ac",
+  "job_id": "pbootd_641141698e114aeafbe4",
+  "status": "complete",
+  "completed_at": "2026-08-13T08:25:26+00:00",
+  "units": [
+    {
+      "unit_name": "Takayashiki Formation",
+      "lithology": "dismembered sandstone and mudstone, slaty mudstone, chert, siliceous mudstone, mafic rocks",
+      "lith_quote": "consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amount of chert, siliceous mudstone, and mafic rocks"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "llm-probe-results/1.0",
+  "generated_at": "2026-08-12T16:49:23.513235Z",
+  "results": [
+    {
+      "provider": "openrouter",
+      "configured": true,
+      "ok": true,
+      "http_status": 200,
+      "requested_model": "google/gemma-4-26b-a4b-it:free",
+      "actual_model": "google/gemma-4-26b-a4b-it:free",
+      "response": "OK",
+      "error": null,
+      "latency_ms": 2851,
+      "capabilities": [
+        "text",
+        "vision"
+      ],
+      "image_count": 1
+    }
+  ]
+}

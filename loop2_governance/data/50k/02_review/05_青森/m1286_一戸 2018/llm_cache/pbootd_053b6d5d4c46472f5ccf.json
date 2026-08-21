@@ -1,0 +1,49 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "8131faa0998fdef360d90b9c92f6aeb03eb72e09c5c31308af90acceb2826d88",
+  "job_id": "pbootd_053b6d5d4c46472f5ccf",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:35:29+00:00",
+  "units": [
+    {
+      "unit_name": "Landslide deposits"
+    },
+    {
+      "unit_name": "Floodplain and valley-floor deposits"
+    },
+    {
+      "unit_name": "Colluvial and alluvial cone deposits"
+    },
+    {
+      "unit_name": "River bed deposits"
+    },
+    {
+      "unit_name": "Oritsumedake Fan Deposits",
+      "lithology": "gravel and sand",
+      "lith_quote": "comprises loose gravel and sand beds"
+    },
+    {
+      "unit_name": "Esashika Formation",
+      "lithology": "gravel",
+      "lith_quote": "mainly composed of gravel bed",
+      "b_age_ma": 2.58,
+      "t_age_ma": 0.78,
+      "age_quote": "the Esashika ... Early to Middle Pleistocene"
+    },
+    {
+      "unit_name": "Nanashigure Volcanic Fan Deposits",
+      "lithology": "gravel",
+      "lith_quote": "mainly composed of gravel which was derived from Nanashigure volcano"
+    },
+    {
+      "unit_name": "Asanai terrace deposits",
+      "lithology": "gravel, sand and silt",
+      "lith_quote": "comprise gravel, sand and silt beds"
+    }
+  ]
+}

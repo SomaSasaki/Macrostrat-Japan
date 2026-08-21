@@ -1,0 +1,494 @@
+{
+  "schema_version": "pdf-context-router/1.0",
+  "units": [
+    {
+      "unit_id": "m1050_u001",
+      "unit_name": "Present river bed deposits",
+      "aliases": [
+        "Present river bed deposits",
+        "現河床堆積物（a）",
+        "現河床堆積物",
+        "礫及び砂",
+        "Gravel and sand",
+        "a"
+      ],
+      "japanese_aliases": [
+        "現河床堆積物（a）",
+        "現河床堆積物",
+        "礫及び砂"
+      ],
+      "map_symbol": "",
+      "section": "4.17",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u001.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u002",
+      "unit_name": "Talus deposits",
+      "aliases": [
+        "Talus deposits",
+        "崖錐堆積物（t）",
+        "崖錐堆積物",
+        "礫及び砂",
+        "Gravel and sand",
+        "t"
+      ],
+      "japanese_aliases": [
+        "崖錐堆積物（t）",
+        "崖錐堆積物",
+        "礫及び砂"
+      ],
+      "map_symbol": "",
+      "section": "4.15",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u002.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u003",
+      "unit_name": "Akedo Terrace Deposits",
+      "aliases": [
+        "Akedo Terrace Deposits",
+        "明戸段丘堆積物（Ad）",
+        "明戸段丘堆積物",
+        "礫及び砂",
+        "Gravel and sand",
+        "Ad"
+      ],
+      "japanese_aliases": [
+        "明戸段丘堆積物（Ad）",
+        "明戸段丘堆積物",
+        "礫及び砂"
+      ],
+      "map_symbol": "",
+      "section": "4.14",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u003.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u004",
+      "unit_name": "Shimokirida Terrace Deposits",
+      "aliases": [
+        "Shimokirida Terrace Deposits",
+        "下切田段丘堆積物（Sk）",
+        "下切田段丘堆積物",
+        "礫及び砂",
+        "Gravel and sand",
+        "Sk"
+      ],
+      "japanese_aliases": [
+        "下切田段丘堆積物（Sk）",
+        "下切田段丘堆積物",
+        "礫及び砂"
+      ],
+      "map_symbol": "",
+      "section": "4.13",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u004.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u005",
+      "unit_name": "Towada Terrace Deposits",
+      "aliases": [
+        "Towada Terrace Deposits",
+        "十和田段丘堆積物（Tw）",
+        "十和田段丘堆積物",
+        "礫及び砂",
+        "Gravel and sand",
+        "Tw"
+      ],
+      "japanese_aliases": [
+        "十和田段丘堆積物（Tw）",
+        "十和田段丘堆積物",
+        "礫及び砂"
+      ],
+      "map_symbol": "",
+      "section": "4.12",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u005.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u006",
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+      "aliases": [
+        "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "十和田八戸火砕流堆積物（Th）及び十和田八戸降下テフラ",
+        "十和田八戸火砕流堆積物",
+        "普通角閃石斜方輝石単斜輝石デイサイト－流紋岩軽石火山礫凝灰岩",
+        "Hornblende-orthopyroxene-clinopyroxene dacite to rhyolite pumice-lapilli tuff",
+        "Th"
+      ],
+      "japanese_aliases": [
+        "十和田八戸火砕流堆積物（Th）及び十和田八戸降下テフラ",
+        "十和田八戸火砕流堆積物",
+        "普通角閃石斜方輝石単斜輝石デイサイト－流紋岩軽石火山礫凝灰岩"
+      ],
+      "map_symbol": "",
+      "section": "4.11",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u006.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u007",
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+      "aliases": [
+        "Towada-Ofudo Pyroclastic Flow Deposits",
+        "十和田大不動火砕流堆積物（To）及び十和田切田テフラ",
+        "十和田大不動火砕流堆積物",
+        "斜方輝石単斜輝石流紋岩軽石火山礫凝灰岩",
+        "Orthopyroxene-clinopyroxene rhyolite pumice-lapilli tuff",
+        "To"
+      ],
+      "japanese_aliases": [
+        "十和田大不動火砕流堆積物（To）及び十和田切田テフラ",
+        "十和田大不動火砕流堆積物",
+        "斜方輝石単斜輝石流紋岩軽石火山礫凝灰岩"
+      ],
+      "map_symbol": "",
+      "section": "4.10",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u007.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u008",
+      "unit_name": "Towada-Okuse Pyroclastic Flow Deposits",
+      "aliases": [
+        "Towada-Okuse Pyroclastic Flow Deposits",
+        "十和田奥瀬火砕流堆積物（Tq）及び十和田レッドパミステフラ",
+        "十和田奥瀬火砕流堆積物",
+        "斜方輝石単斜輝石安山岩スコリア火山礫凝灰岩",
+        "Orthopyroxene-clinopyroxene andesite scoria-lapilli tuff",
+        "Tq"
+      ],
+      "japanese_aliases": [
+        "十和田奥瀬火砕流堆積物（Tq）及び十和田レッドパミステフラ",
+        "十和田奥瀬火砕流堆積物",
+        "斜方輝石単斜輝石安山岩スコリア火山礫凝灰岩"
+      ],
+      "map_symbol": "",
+      "section": "4.9",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u008.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u009",
+      "unit_name": "Shichinohe Terrace Deposits",
+      "aliases": [
+        "Shichinohe Terrace Deposits",
+        "七戸段丘堆積物（Sc）",
+        "七戸段丘堆積物",
+        "礫，砂及び泥",
+        "Gravel, sand and mud",
+        "Sc"
+      ],
+      "japanese_aliases": [
+        "七戸段丘堆積物（Sc）",
+        "七戸段丘堆積物",
+        "礫，砂及び泥"
+      ],
+      "map_symbol": "",
+      "section": "4.8",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u009.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u010",
+      "unit_name": "Urushihata Terrace Deposits",
+      "aliases": [
+        "Urushihata Terrace Deposits",
+        "漆畑段丘堆積物（Ur）",
+        "漆畑段丘堆積物",
+        "礫及び砂",
+        "Gravel and sand",
+        "Ur"
+      ],
+      "japanese_aliases": [
+        "漆畑段丘堆積物（Ur）",
+        "漆畑段丘堆積物",
+        "礫及び砂"
+      ],
+      "map_symbol": "",
+      "section": "4.7",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u010.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u011",
+      "unit_name": "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+      "aliases": [
+        "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+        "八甲田第2期火砕流堆積物（Ht2）及び八甲田TE-1テフラ",
+        "八甲田第２期火砕流堆積物",
+        "石英斜方輝石単斜輝石デイサイト溶結凝灰岩",
+        "Quartz-orthopyroxene-clinopyroxene dacite welded tuff",
+        "Ht2"
+      ],
+      "japanese_aliases": [
+        "八甲田第2期火砕流堆積物（Ht2）及び八甲田TE-1テフラ",
+        "八甲田第２期火砕流堆積物",
+        "石英斜方輝石単斜輝石デイサイト溶結凝灰岩"
+      ],
+      "map_symbol": "",
+      "section": "4.6",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u011.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u012",
+      "unit_name": "Noheji Formation",
+      "aliases": [
+        "Noheji Formation",
+        "野辺地層（Nh）",
+        "野辺地層",
+        "砂（泥及び礫を伴う）",
+        "Sand with mud and gravel",
+        "Nh"
+      ],
+      "japanese_aliases": [
+        "野辺地層（Nh）",
+        "野辺地層",
+        "砂（泥及び礫を伴う）"
+      ],
+      "map_symbol": "",
+      "section": "4.5",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u012.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u013",
+      "unit_name": "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+      "aliases": [
+        "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+        "八甲田第1期火砕流堆積物（Ht1）",
+        "八甲田第１期火砕流堆積物",
+        "石英斜方輝石単斜輝石デイサイト溶結凝灰岩",
+        "Quartz-orthopyroxene-clinopyroxene dacite welded tuff",
+        "Ht1"
+      ],
+      "japanese_aliases": [
+        "八甲田第1期火砕流堆積物（Ht1）",
+        "八甲田第１期火砕流堆積物",
+        "石英斜方輝石単斜輝石デイサイト溶結凝灰岩"
+      ],
+      "map_symbol": "",
+      "section": "4.4",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u013.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u014",
+      "unit_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+      "aliases": [
+        "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+        "八甲田高峠火砕流堆積物（Htt）",
+        "八甲田高峠火砕流堆積物",
+        "石英斜方輝石単斜輝石デイサイト溶結凝灰岩",
+        "Quartz-orthopyroxene-clinopyroxene dacite welded tuff",
+        "Htt"
+      ],
+      "japanese_aliases": [
+        "八甲田高峠火砕流堆積物（Htt）",
+        "八甲田高峠火砕流堆積物",
+        "石英斜方輝石単斜輝石デイサイト溶結凝灰岩"
+      ],
+      "map_symbol": "",
+      "section": "4.3",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u014.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u015",
+      "unit_name": "Takamoriyama Formation",
+      "aliases": [
+        "Takamoriyama Formation",
+        "高森山層（Tm）",
+        "高森山層",
+        "礫及び砂",
+        "Gravel and sand",
+        "Tm"
+      ],
+      "japanese_aliases": [
+        "高森山層（Tm）",
+        "高森山層",
+        "礫及び砂"
+      ],
+      "map_symbol": "",
+      "section": "4.2",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u015.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u016",
+      "unit_name": "Horyo-kita Lava",
+      "aliases": [
+        "Horyo-kita Lava",
+        "法量北溶岩（Hk）",
+        "法量北溶岩",
+        "かんらん石斜方輝石玄武岩－斜方輝石単斜輝石安山岩溶岩",
+        "Olivine-orthopyroxene basalt to orthopyroxene-clinopyroxene andesite lava",
+        "Hk"
+      ],
+      "japanese_aliases": [
+        "法量北溶岩（Hk）",
+        "法量北溶岩",
+        "かんらん石斜方輝石玄武岩－斜方輝石単斜輝石安山岩溶岩"
+      ],
+      "map_symbol": "",
+      "section": "3.8",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u016.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u017",
+      "unit_name": "Togawa Formation",
+      "aliases": [
+        "Togawa Formation",
+        "斗川層（Tg）",
+        "斗川層",
+        "砂，礫・泥・軽石火山礫凝灰岩を伴う",
+        "Sand with gravel, mud and pumice lapilli tuff",
+        "Tg"
+      ],
+      "japanese_aliases": [
+        "斗川層（Tg）",
+        "斗川層",
+        "砂，礫・泥・軽石火山礫凝灰岩を伴う"
+      ],
+      "map_symbol": "",
+      "section": "3.7",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u017.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u018",
+      "unit_name": "Tsukihiyama Volcanics",
+      "aliases": [
+        "Tsukihiyama Volcanics",
+        "月日山火山岩類（Tsl，Tsd）",
+        "月日山火山岩類",
+        "かんらん石含有斜方輝石単斜輝石玄武岩－斜方輝石単斜輝石安山岩－デイサイト溶岩・火砕岩，一部で石英角閃石斜方輝石普通輝石安山岩－デイサイト溶岩・火砕岩を伴う",
+        "Olivine-bearing orthopyroxene-clinopyroxene basalt to orthopyroxene-clinopyroxene andesite-dacite lava and pyroclastics, partialy with quartz-hornblende-orthopyroxene-clinopyroxene andesite-dacite lava and pyroclastics",
+        "Tsl",
+        "斜方輝石単斜輝石安山岩岩脈",
+        "Tsd"
+      ],
+      "japanese_aliases": [
+        "月日山火山岩類（Tsl，Tsd）",
+        "月日山火山岩類",
+        "かんらん石含有斜方輝石単斜輝石玄武岩－斜方輝石単斜輝石安山岩－デイサイト溶岩・火砕岩，一部で石英角閃石斜方輝石普通輝石安山岩－デイサイト溶岩・火砕岩を伴う",
+        "斜方輝石単斜輝石安山岩岩脈"
+      ],
+      "map_symbol": "",
+      "section": "3.6",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u018.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u019",
+      "unit_name": "Tsukihiyama Volcanics",
+      "aliases": [
+        "Tsukihiyama Volcanics",
+        "月日山火山岩類（Tsl，Tsd）",
+        "月日山火山岩類",
+        "斜方輝石単斜輝石安山岩岩脈",
+        "Orthopyroxene-clinopyroxene andesite dike",
+        "かんらん石含有斜方輝石単斜輝石玄武岩－斜方輝石単斜輝石安山岩－デイサイト溶岩・火砕岩，一部で石英角閃石斜方輝石普通輝石安山岩－デイサイト溶岩・火砕岩を伴う",
+        "Tsl",
+        "Tsd"
+      ],
+      "japanese_aliases": [
+        "月日山火山岩類（Tsl，Tsd）",
+        "月日山火山岩類",
+        "斜方輝石単斜輝石安山岩岩脈",
+        "かんらん石含有斜方輝石単斜輝石玄武岩－斜方輝石単斜輝石安山岩－デイサイト溶岩・火砕岩，一部で石英角閃石斜方輝石普通輝石安山岩－デイサイト溶岩・火砕岩を伴う"
+      ],
+      "map_symbol": "",
+      "section": "3.6",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u019.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u020",
+      "unit_name": "Komasuzawa Formation",
+      "aliases": [
+        "Komasuzawa Formation",
+        "小増沢層（Km）",
+        "小増沢層",
+        "軽石火山礫凝灰岩及び凝灰質砂岩，泥岩・礫岩を伴う",
+        "Pumice-lapilli tuff and tuffaceous mudstone with siltstone and conglomerate",
+        "Km"
+      ],
+      "japanese_aliases": [
+        "小増沢層（Km）",
+        "小増沢層",
+        "軽石火山礫凝灰岩及び凝灰質砂岩，泥岩・礫岩を伴う"
+      ],
+      "map_symbol": "",
+      "section": "3.5",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u020.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u021",
+      "unit_name": "Dochi Formation",
+      "aliases": [
+        "Dochi Formation",
+        "道地層（Dc）",
+        "道地層",
+        "泥岩，凝灰質砂岩及び火山礫凝灰岩を伴う",
+        "Mudstone with tuffaceous sandstone and lapilli tuff",
+        "Dc"
+      ],
+      "japanese_aliases": [
+        "道地層（Dc）",
+        "道地層",
+        "泥岩，凝灰質砂岩及び火山礫凝灰岩を伴う"
+      ],
+      "map_symbol": "",
+      "section": "3.4",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u021.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u022",
+      "unit_name": "Wadagawa Formation",
+      "aliases": [
+        "Wadagawa Formation",
+        "和田川層（Wd）",
+        "和田川層",
+        "泥岩，凝灰質砂岩及び火山礫凝灰岩を伴う",
+        "Mudstone with tuffaceous sandstone and lapilli tuff",
+        "Wd"
+      ],
+      "japanese_aliases": [
+        "和田川層（Wd）",
+        "和田川層",
+        "泥岩，凝灰質砂岩及び火山礫凝灰岩を伴う"
+      ],
+      "map_symbol": "",
+      "section": "3.3",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u022.json",
+      "status": "ready"
+    },
+    {
+      "unit_id": "m1050_u023",
+      "unit_name": "Itadome Formation",
+      "aliases": [
+        "Itadome Formation",
+        "板留層（Fd）",
+        "板留層",
+        "デイサイト溶岩",
+        "Dacite lava",
+        "Fd"
+      ],
+      "japanese_aliases": [
+        "板留層（Fd）",
+        "板留層",
+        "デイサイト溶岩"
+      ],
+      "map_symbol": "",
+      "section": "3.2",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u023.json",
+      "status": "ready"
+    }
+  ]
+}

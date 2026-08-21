@@ -1,0 +1,643 @@
+{
+  "schema_version": "pdf-context-router/1.0",
+  "units": [
+    {
+      "unit_id": "m1286_p001",
+      "unit_name": "Takayashiki Formation",
+      "aliases": [
+        "Takayashiki Formation",
+        "高屋敷層"
+      ],
+      "japanese_aliases": [
+        "高屋敷層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 4,
+      "pdf_alias_quote": "321高屋敷層17"
+    },
+    {
+      "unit_id": "m1286_p002",
+      "unit_name": "Seki Formation",
+      "aliases": [
+        "Seki Formation"
+      ],
+      "japanese_aliases": [],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "alias_mapping_required"
+    },
+    {
+      "unit_id": "m1286_p003",
+      "unit_name": "Kassenba Formation",
+      "aliases": [
+        "Kassenba Formation",
+        "合戦場層"
+      ],
+      "japanese_aliases": [
+        "合戦場層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 4,
+      "pdf_alias_quote": "323合戦場層22"
+    },
+    {
+      "unit_id": "m1286_p004",
+      "unit_name": "Kuzumaki Formation",
+      "aliases": [
+        "Kuzumaki Formation",
+        "葛巻層"
+      ],
+      "japanese_aliases": [
+        "葛巻層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 4,
+      "pdf_alias_quote": "324葛巻層26"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "unit_name": "Ichinohe Pluton",
+      "aliases": [
+        "Ichinohe Pluton",
+        "一戸深成岩体"
+      ],
+      "japanese_aliases": [
+        "一戸深成岩体"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 4,
+      "pdf_alias_quote": "42一戸深成岩体37"
+    },
+    {
+      "unit_id": "m1286_p006",
+      "unit_name": "Tsukanaigawa Pluton",
+      "aliases": [
+        "Tsukanaigawa Pluton",
+        "塚内川深成岩体"
+      ],
+      "japanese_aliases": [
+        "塚内川深成岩体"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 4,
+      "pdf_alias_quote": "43塚内川深成岩体40"
+    },
+    {
+      "unit_id": "m1286_p007",
+      "unit_name": "Nisatai Formation",
+      "aliases": [
+        "Nisatai Formation",
+        "仁左平層"
+      ],
+      "japanese_aliases": [
+        "仁左平層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 4,
+      "pdf_alias_quote": "53仁左平層46"
+    },
+    {
+      "unit_id": "m1286_p008",
+      "unit_name": "Ainoyama Formation",
+      "aliases": [
+        "Ainoyama Formation",
+        "相ノ山層"
+      ],
+      "japanese_aliases": [
+        "相ノ山層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "54相ノ山層53"
+    },
+    {
+      "unit_id": "m1286_p009",
+      "unit_name": "Yotuyaku Formation",
+      "aliases": [
+        "Yotuyaku Formation",
+        "四ツ役層"
+      ],
+      "japanese_aliases": [
+        "四ツ役層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "55四ツ役層57"
+    },
+    {
+      "unit_id": "m1286_p010",
+      "unit_name": "Kadonosawa Formation",
+      "aliases": [
+        "Kadonosawa Formation",
+        "門ノ沢層"
+      ],
+      "japanese_aliases": [
+        "門ノ沢層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "56門ノ沢層68"
+    },
+    {
+      "unit_id": "m1286_p011",
+      "unit_name": "Suenomatuyama Formation",
+      "aliases": [
+        "Suenomatuyama Formation",
+        "末ノ松山層"
+      ],
+      "japanese_aliases": [
+        "末ノ松山層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "57末ノ松山層72"
+    },
+    {
+      "unit_id": "m1286_p012",
+      "unit_name": "Zyūmonzi Formation",
+      "aliases": [
+        "Zyūmonzi Formation",
+        "十文字層"
+      ],
+      "japanese_aliases": [
+        "十文字層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "58十文字層85"
+    },
+    {
+      "unit_id": "m1286_p013",
+      "unit_name": "Hinosawa Conglomerate Member",
+      "aliases": [
+        "Hinosawa Conglomerate Member",
+        "日ノ沢礫岩部層"
+      ],
+      "japanese_aliases": [
+        "日ノ沢礫岩部層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "581日ノ沢礫岩部層87"
+    },
+    {
+      "unit_id": "m1286_p014",
+      "unit_name": "Metoki Coquina Conglomerate Member",
+      "aliases": [
+        "Metoki Coquina Conglomerate Member",
+        "目時石灰質礫岩部層"
+      ],
+      "japanese_aliases": [
+        "目時石灰質礫岩部層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "583目時石灰質礫岩部層89"
+    },
+    {
+      "unit_id": "m1286_p015",
+      "unit_name": "Shimotomai Volcaniclastic Rock Member",
+      "aliases": [
+        "Shimotomai Volcaniclastic Rock Member",
+        "下斗米火山砕屑岩部層"
+      ],
+      "japanese_aliases": [
+        "下斗米火山砕屑岩部層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "584下斗米火山砕屑岩部層90"
+    },
+    {
+      "unit_id": "m1286_p016",
+      "unit_name": "Yanagisawa Formation",
+      "aliases": [
+        "Yanagisawa Formation",
+        "柳沢層"
+      ],
+      "japanese_aliases": [
+        "柳沢層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "59柳沢層91"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "unit_name": "Kawaguchi Porcelanite Member",
+      "aliases": [
+        "Kawaguchi Porcelanite Member",
+        "川口硬質頁岩部層"
+      ],
+      "japanese_aliases": [
+        "川口硬質頁岩部層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "592川口硬質頁岩部層92"
+    },
+    {
+      "unit_id": "m1286_p018",
+      "unit_name": "Shitazaki Formation",
+      "aliases": [
+        "Shitazaki Formation",
+        "舌崎層"
+      ],
+      "japanese_aliases": [
+        "舌崎層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "510舌崎層92"
+    },
+    {
+      "unit_id": "m1286_p019",
+      "unit_name": "Kamimetoki Sandstone Member",
+      "aliases": [
+        "Kamimetoki Sandstone Member",
+        "上目時砂岩部層"
+      ],
+      "japanese_aliases": [
+        "上目時砂岩部層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "5101上目時砂岩部層94"
+    },
+    {
+      "unit_id": "m1286_p020",
+      "unit_name": "Toya Formation",
+      "aliases": [
+        "Toya Formation",
+        "鳥谷層"
+      ],
+      "japanese_aliases": [
+        "鳥谷層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "511鳥谷層97"
+    },
+    {
+      "unit_id": "m1286_p021",
+      "unit_name": "Esashika Formation",
+      "aliases": [
+        "Esashika Formation",
+        "江刺家層"
+      ],
+      "japanese_aliases": [
+        "江刺家層"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "62江刺家層104"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "unit_name": "Nanashigure Volcanic Fan Deposits",
+      "aliases": [
+        "Nanashigure Volcanic Fan Deposits",
+        "七時雨火山扇状地堆積物"
+      ],
+      "japanese_aliases": [
+        "七時雨火山扇状地堆積物"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "63七時雨火山扇状地堆積物106"
+    },
+    {
+      "unit_id": "m1286_p023",
+      "unit_name": "Mukaikawara terrace deposits",
+      "aliases": [
+        "Mukaikawara terrace deposits",
+        "向川原段丘堆積物"
+      ],
+      "japanese_aliases": [
+        "向川原段丘堆積物"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "642向川原段丘堆積物108"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "unit_name": "Hayawatari terrace deposits",
+      "aliases": [
+        "Hayawatari terrace deposits",
+        "早渡段丘堆積物"
+      ],
+      "japanese_aliases": [
+        "早渡段丘堆積物"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 5,
+      "pdf_alias_quote": "652早渡段丘堆積物110"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "unit_name": "Rendaino terrace deposits",
+      "aliases": [
+        "Rendaino terrace deposits",
+        "蓮台野段丘堆積物"
+      ],
+      "japanese_aliases": [
+        "蓮台野段丘堆積物"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 6,
+      "pdf_alias_quote": "692蓮台野段丘堆積物115"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "unit_name": "Ibonai terrace deposits",
+      "aliases": [
+        "Ibonai terrace deposits",
+        "伊保内段丘堆積物"
+      ],
+      "japanese_aliases": [
+        "伊保内段丘堆積物"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 6,
+      "pdf_alias_quote": "694伊保内段丘堆積物117"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "unit_name": "Oritsumedake fan deposits",
+      "aliases": [
+        "Oritsumedake fan deposits",
+        "折爪岳扇状地堆積物"
+      ],
+      "japanese_aliases": [
+        "折爪岳扇状地堆積物"
+      ],
+      "map_symbol": "",
+      "section": "",
+      "zfk_unit_file": null,
+      "status": "pdf_alias_candidate",
+      "pdf_alias_page": 6,
+      "pdf_alias_quote": "68折爪岳扇状地堆積物114"
+    }
+  ],
+  "pdf_alias_mappings": [
+    {
+      "unit_id": "m1286_p001",
+      "unit_name": "Takayashiki Formation",
+      "japanese_alias": "高屋敷層",
+      "toc_quote": "321高屋敷層17",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p003",
+      "unit_name": "Kassenba Formation",
+      "japanese_alias": "合戦場層",
+      "toc_quote": "323合戦場層22",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p004",
+      "unit_name": "Kuzumaki Formation",
+      "japanese_alias": "葛巻層",
+      "toc_quote": "324葛巻層26",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p005",
+      "unit_name": "Ichinohe Pluton",
+      "japanese_alias": "一戸深成岩体",
+      "toc_quote": "42一戸深成岩体37",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p006",
+      "unit_name": "Tsukanaigawa Pluton",
+      "japanese_alias": "塚内川深成岩体",
+      "toc_quote": "43塚内川深成岩体40",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p007",
+      "unit_name": "Nisatai Formation",
+      "japanese_alias": "仁左平層",
+      "toc_quote": "53仁左平層46",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p008",
+      "unit_name": "Ainoyama Formation",
+      "japanese_alias": "相ノ山層",
+      "toc_quote": "54相ノ山層53",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p009",
+      "unit_name": "Yotuyaku Formation",
+      "japanese_alias": "四ツ役層",
+      "toc_quote": "55四ツ役層57",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p010",
+      "unit_name": "Kadonosawa Formation",
+      "japanese_alias": "門ノ沢層",
+      "toc_quote": "56門ノ沢層68",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p011",
+      "unit_name": "Suenomatuyama Formation",
+      "japanese_alias": "末ノ松山層",
+      "toc_quote": "57末ノ松山層72",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p012",
+      "unit_name": "Zyūmonzi Formation",
+      "japanese_alias": "十文字層",
+      "toc_quote": "58十文字層85",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p013",
+      "unit_name": "Hinosawa Conglomerate Member",
+      "japanese_alias": "日ノ沢礫岩部層",
+      "toc_quote": "581日ノ沢礫岩部層87",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p014",
+      "unit_name": "Metoki Coquina Conglomerate Member",
+      "japanese_alias": "目時石灰質礫岩部層",
+      "toc_quote": "583目時石灰質礫岩部層89",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p015",
+      "unit_name": "Shimotomai Volcaniclastic Rock Member",
+      "japanese_alias": "下斗米火山砕屑岩部層",
+      "toc_quote": "584下斗米火山砕屑岩部層90",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p016",
+      "unit_name": "Yanagisawa Formation",
+      "japanese_alias": "柳沢層",
+      "toc_quote": "59柳沢層91",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p017",
+      "unit_name": "Kawaguchi Porcelanite Member",
+      "japanese_alias": "川口硬質頁岩部層",
+      "toc_quote": "592川口硬質頁岩部層92",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p018",
+      "unit_name": "Shitazaki Formation",
+      "japanese_alias": "舌崎層",
+      "toc_quote": "510舌崎層92",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p019",
+      "unit_name": "Kamimetoki Sandstone Member",
+      "japanese_alias": "上目時砂岩部層",
+      "toc_quote": "5101上目時砂岩部層94",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p020",
+      "unit_name": "Toya Formation",
+      "japanese_alias": "鳥谷層",
+      "toc_quote": "511鳥谷層97",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p021",
+      "unit_name": "Esashika Formation",
+      "japanese_alias": "江刺家層",
+      "toc_quote": "62江刺家層104",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p022",
+      "unit_name": "Nanashigure Volcanic Fan Deposits",
+      "japanese_alias": "七時雨火山扇状地堆積物",
+      "toc_quote": "63七時雨火山扇状地堆積物106",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p023",
+      "unit_name": "Mukaikawara terrace deposits",
+      "japanese_alias": "向川原段丘堆積物",
+      "toc_quote": "642向川原段丘堆積物108",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p024",
+      "unit_name": "Hayawatari terrace deposits",
+      "japanese_alias": "早渡段丘堆積物",
+      "toc_quote": "652早渡段丘堆積物110",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p025",
+      "unit_name": "Rendaino terrace deposits",
+      "japanese_alias": "蓮台野段丘堆積物",
+      "toc_quote": "692蓮台野段丘堆積物115",
+      "pdf_page": 6
+    },
+    {
+      "unit_id": "m1286_p026",
+      "unit_name": "Ibonai terrace deposits",
+      "japanese_alias": "伊保内段丘堆積物",
+      "toc_quote": "694伊保内段丘堆積物117",
+      "pdf_page": 6
+    },
+    {
+      "unit_id": "m1286_p027",
+      "unit_name": "Oritsumedake fan deposits",
+      "japanese_alias": "折爪岳扇状地堆積物",
+      "toc_quote": "68折爪岳扇状地堆積物114",
+      "pdf_page": 6
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "png_path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\column_map.png",
+  "kml_path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\column_map.kml",
+  "source_crs": "JGD2011 geographic (used directly as WGS84 for review)",
+  "matched_units": 23,
+  "unmatched_units": 0,
+  "unassigned_records": 1,
+  "warnings": [],
+  "columns": [
+    {
+      "col_id": "1",
+      "col_name": "Towada-west",
+      "lng": 141.05707612,
+      "lat": 40.52520445,
+      "method": "PDF-constrained candidate inside assigned polygon",
+      "inside_region": true,
+      "components": 223,
+      "shared_components": 183,
+      "units": [
+        "Akedo Terrace Deposits",
+        "Dochi Formation",
+        "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+        "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+        "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+        "Horyo-kita Lava",
+        "Itadome Formation",
+        "Present river bed deposits",
+        "Talus deposits",
+        "Towada Terrace Deposits",
+        "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "Towada-Ofudo Pyroclastic Flow Deposits",
+        "Towada-Okuse Pyroclastic Flow Deposits",
+        "Tsukihiyama Volcanics",
+        "Urushihata Terrace Deposits"
+      ]
+    },
+    {
+      "col_id": "2",
+      "col_name": "Towada-east",
+      "lng": 141.18892204,
+      "lat": 40.55043763,
+      "method": "PDF-constrained candidate inside assigned polygon",
+      "inside_region": true,
+      "components": 445,
+      "shared_components": 343,
+      "units": [
+        "Akedo Terrace Deposits",
+        "Dochi Formation",
+        "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+        "Komasuzawa Formation",
+        "Noheji Formation",
+        "Present river bed deposits",
+        "Shichinohe Terrace Deposits",
+        "Shimokirida Terrace Deposits",
+        "Takamoriyama Formation",
+        "Togawa Formation",
+        "Towada Terrace Deposits",
+        "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "Towada-Ofudo Pyroclastic Flow Deposits",
+        "Wadagawa Formation"
+      ]
+    }
+  ],
+  "json_path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\column_map.json",
+  "input": {
+    "mode": "canonical_bundle",
+    "compiled": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\compiled.json",
+    "evidence": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\evidence.json",
+    "shape": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_V01\\shp\\geo_A.shp",
+    "map_id": "1050"
+  }
+}

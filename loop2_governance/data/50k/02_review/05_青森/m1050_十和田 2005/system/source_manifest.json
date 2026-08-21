@@ -1,0 +1,402 @@
+{
+  "schema_version": "map-workspace-sources/1.0",
+  "generated_at": "2026-08-14T03:48:19+00:00",
+  "map_id": "1050",
+  "workspace": {
+    "path": "data/02_review/05_青森/m1050_十和田 2005",
+    "region_folder": "05_青森",
+    "display_name": "十和田 2005",
+    "references": "data/02_review/05_青森/m1050_十和田 2005/references",
+    "llm_cache": "data/02_review/05_青森/m1050_十和田 2005/llm_cache",
+    "zfk_cache": "data/raw/zfk/m1050"
+  },
+  "overwrite_policy": "existing source and human files are never overwritten",
+  "sources": {
+    "pdf": {
+      "status": "existing",
+      "available": true,
+      "url": "https://www.gsj.jp/data/50KGM/PDF/GSJ_MAP_G050_05031_2005_D.pdf",
+      "path": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_D.pdf",
+      "sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+      "size": 4156183,
+      "error": "",
+      "files": [],
+      "details": {}
+    },
+    "publication": {
+      "status": "existing",
+      "available": true,
+      "url": "https://gbank.gsj.jp/ld/resource/publication/map/g050/map1050.json",
+      "path": "data/raw/publication/g050/m1050.json",
+      "sha256": "5043a64007512264dc54b25e36365988644519617b3717d5750d67e301bc9878",
+      "size": 7718,
+      "error": "",
+      "files": [],
+      "details": {}
+    },
+    "shape": {
+      "status": "existing",
+      "available": true,
+      "url": "https://www.gsj.jp/data/CKAN/VCT/GSJ_MAP_G050_05031_2005_V01.zip",
+      "path": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_V01/shp/geo_A.shp",
+      "sha256": "7ff81804e140c6b9548f7d32727dabd2ada2a81926c7cec03811fd5f81530d12",
+      "size": 2133276,
+      "error": "",
+      "files": [
+        {
+          "path": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_V01/shp/geo_A.cpg",
+          "url": "",
+          "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+          "size": 5
+        },
+        {
+          "path": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_V01/shp/geo_A.dbf",
+          "url": "",
+          "sha256": "0f7de677217d738d0a2e35ba37e3ce18947c5b4ea33278232f41f75cb73904d4",
+          "size": 55698
+        },
+        {
+          "path": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_V01/shp/geo_A.lyrx",
+          "url": "",
+          "sha256": "b4663016a820e107184c522f6c6a5f294179317e951f6a67bf5e1f4dba76ba08",
+          "size": 73402
+        },
+        {
+          "path": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_V01/shp/geo_A.prj",
+          "url": "",
+          "sha256": "1761bb7f37f73fd0eb043175a78403ba37ff1066299987c116fd43bbd0057eae",
+          "size": 145
+        },
+        {
+          "path": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_V01/shp/geo_A.sbn",
+          "url": "",
+          "sha256": "d6b3d31f6e903e8231967f20d6ba4f5e6e32e2b2fbf21e2290b95ace6aa6f740",
+          "size": 348
+        },
+        {
+          "path": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_V01/shp/geo_A.sbx",
+          "url": "",
+          "sha256": "2bb9bf85a10b3f386b787fa309443bfb8d353e29892c614b76647202f04c9166",
+          "size": 132
+        },
+        {
+          "path": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_V01/shp/geo_A.shp",
+          "url": "",
+          "sha256": "7ff81804e140c6b9548f7d32727dabd2ada2a81926c7cec03811fd5f81530d12",
+          "size": 2133276
+        },
+        {
+          "path": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_V01/shp/geo_A.shx",
+          "url": "",
+          "sha256": "2fe971e8b6ca23c37ccf28e5957f4144497bff481b7af5d6a674003d29f3ce75",
+          "size": 292
+        }
+      ],
+      "details": {}
+    },
+    "zfk": {
+      "status": "existing",
+      "available": true,
+      "url": "https://gbank.gsj.jp/ld/resource/zfk/maps/m1050.json",
+      "path": "data/raw/zfk/m1050",
+      "sha256": "",
+      "size": null,
+      "error": "",
+      "files": [
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u001.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u001.geojson",
+          "sha256": "672c4a32b3e6da983f3b00d38203c152d06fa11dad8ca5f8f2a771058bbf5de7",
+          "size": 310291
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u002.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u002.geojson",
+          "sha256": "8cdc3020ac5c900dfb8621e71ac796d0ff88e267ef55a60473c7517be9e22eff",
+          "size": 2657
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u003.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u003.geojson",
+          "sha256": "0ae84703ec8e36979348422d2d915d7338fff929e59ccfea8536d8e8dcfd869d",
+          "size": 57637
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u004.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u004.geojson",
+          "sha256": "e89f6e85b9b95d7db30bb8678052df44c4303b046d2a6e41a44b1f442c5568f6",
+          "size": 6459
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u005.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u005.geojson",
+          "sha256": "bfd0f6619d259bfb1a0d2469d9bf71ff6ae15ceccd7658b947852ee72d039915",
+          "size": 95820
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u006.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u006.geojson",
+          "sha256": "eb96505f448cabad62edffff5a04692a9dddc72b27f08508935fd1765dfcb52b",
+          "size": 885164
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u007.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u007.geojson",
+          "sha256": "14dbea666aaf0a725fb3f15eab4971f566e4f7dd1b894b6558a9a458b1de67af",
+          "size": 156312
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u008.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u008.geojson",
+          "sha256": "1fe1219513ff146849f8bda3cbceca929d50ff64e27f3ced56d48459abf9219a",
+          "size": 7621
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u009.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u009.geojson",
+          "sha256": "2b99f76fc71d8ae3c060a1247440865bb8cdf255ce23bb6a683aa81ec281f775",
+          "size": 108082
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u010.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u010.geojson",
+          "sha256": "a44e1b2e5feffa5cd30263eb1f4ec33cb69aa927a4efed35cb61409772b865eb",
+          "size": 7101
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u011.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u011.geojson",
+          "sha256": "fea18dd6eaaa51e1a519bc0ef1829e35b946b225d66c651814d530be54e0287e",
+          "size": 294034
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u012.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u012.geojson",
+          "sha256": "858f6e2b6439321089cfe13d1db194915eaa0af01c5f1ce10f93dca1bca42943",
+          "size": 24302
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u013.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u013.geojson",
+          "sha256": "104baeb277ba6e7061e7cd922c4194ea6effe5eb2b65577bc22891b8d5fa0f9d",
+          "size": 35828
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u014.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u014.geojson",
+          "sha256": "d29ab3a34c184550ddd3935c6849eeb184408a7d2eb77fe9f56de69fc9e2bf5f",
+          "size": 45402
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u015.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u015.geojson",
+          "sha256": "a124c87e400e50a96fd114adc973c61fb69904af5725c54d1e28f10f77c69371",
+          "size": 20472
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u016.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u016.geojson",
+          "sha256": "76335a3d1a612b31ad357a02ef1e1a75a8bc9cf6051dcb0e982ad703731108e0",
+          "size": 19359
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u017.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u017.geojson",
+          "sha256": "4b2642b562ada1c0a2834ab1b83d757dc32f9894a93c86b14d27c15175b7e5f9",
+          "size": 263878
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u018.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u018.geojson",
+          "sha256": "350f9180bc4eea2c3f32f36cb153242aacdf76adb4b7077a55938076626076d7",
+          "size": 140815
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u019.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u019.geojson",
+          "sha256": "39c7493ec89e37caf1836f7cc5280bc85730dbb1dae16055f9b0b76dc8b71be3",
+          "size": 1883
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u020.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u020.geojson",
+          "sha256": "049357531645e4559cbd383cb8a1756140d8c675d7c1d5f6ed69ef213a8d2475",
+          "size": 443570
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u021.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u021.geojson",
+          "sha256": "e99f71604d678684a4771e1ebaea5727a952c6ec7a1f17ef9c0a9d1b4200fb76",
+          "size": 59439
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u022.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u022.geojson",
+          "sha256": "550fada3da59223b0eeaef85a09b122857ae859258c3d8c146e54154ce25b38e",
+          "size": 10818
+        },
+        {
+          "path": "data/raw/zfk/m1050/geojson/m1050_u023.geojson",
+          "url": "https://cdn.gsj.jp/ld/zfk/units_geojson/m1050_u023.geojson",
+          "sha256": "210cc52ccc32ea1ca5322cc10631bd47ae12bda64d110559bd15f9c0187b000d",
+          "size": 1682
+        },
+        {
+          "path": "data/raw/zfk/m1050/map.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/maps/m1050.json",
+          "sha256": "42da1505e4e6d472a51ab8b2f7fbc5aacbc0177b36301580d5b83bedfa939c56",
+          "size": 2938
+        },
+        {
+          "path": "data/raw/zfk/m1050/units-index.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/query/unitsInMap?map_id=1050",
+          "sha256": "566854c5e058b50acdc5d3342445ddaf373ee6fa3361d20fcd769636451e82aa",
+          "size": 10642
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u001.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u001.json",
+          "sha256": "d74dbc18ec8ca15a920a41204e04938f77f8f0f491328509fc349d13e1bc56ab",
+          "size": 15399
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u002.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u002.json",
+          "sha256": "dbc4493db037a6cb2cec7cb439c799b9ea5ec4be8e17a0e0eb2b3805cbea48a9",
+          "size": 10587
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u003.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u003.json",
+          "sha256": "e7a029ed9ac00f5ec1820da2cd0cfb9bcf67c8fca4eb15f935b799c4a516785f",
+          "size": 11071
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u004.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u004.json",
+          "sha256": "b454e5cff2725a2b154dc54534f8734ad7b8a63c2e3025e3d39611d2c27f4936",
+          "size": 12400
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u005.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u005.json",
+          "sha256": "247adda10f9bac4c683baaac0ade2061e760f6cdc48e77d5b9d67968705fd22b",
+          "size": 30529
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u006.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u006.json",
+          "sha256": "f3f413f0a1baa7f12e83052a0a022c3f63c3d71ab4ff4c2112955b344ad45b1b",
+          "size": 73120
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u007.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u007.json",
+          "sha256": "5f09769c2aefbf9d0385f427a991df99ec43b60da448ab154ea9ec59e457fde2",
+          "size": 46599
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u008.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u008.json",
+          "sha256": "fc97508a583ebbd25df9a4086d4eb31e641a50fda8607285ace8960bcc8a3506",
+          "size": 56045
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u009.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u009.json",
+          "sha256": "8c84e06bd6bafc43fe64c23103bf4b7d6ec5b896eee638202d6eb647d283afa1",
+          "size": 40375
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u010.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u010.json",
+          "sha256": "bd0e8d8b4cdb1528c61f0e0e5df1464b1d7ae307eb5058252b5151fb871c8ac5",
+          "size": 10761
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u011.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u011.json",
+          "sha256": "d309aeba62e071dc0ee67859f7d9009a44ee657c8eaa4b7bb49f83bb9176219a",
+          "size": 57008
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u012.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u012.json",
+          "sha256": "aa40ea82d65bc63401cc3dbd916a3671980fa3ffec9de4be5fe0dee6304ce8ba",
+          "size": 43818
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u013.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u013.json",
+          "sha256": "4638af2b7a971b037f3a391df0bbce233c79a0824746a6646fccf6cac1dd0c52",
+          "size": 44902
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u014.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u014.json",
+          "sha256": "04baeb36d9aa7f14b1ee4ad8e266a5aecd43e5dab5a4c0f0293be4fe6759297d",
+          "size": 58810
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u015.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u015.json",
+          "sha256": "3958fec7c01eab915402ef8bc105eee0ef8e58213a1aebf747137d177474677f",
+          "size": 36997
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u016.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u016.json",
+          "sha256": "baf0eb374238d174afcc69268a71ce105d41166db9cf02249d2f20252653eb18",
+          "size": 32753
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u017.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u017.json",
+          "sha256": "ce0ccb26ff65abc356c8b92e9c3520176bec3295aeda8aaec70ad7a735ec82e5",
+          "size": 92983
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u018.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u018.json",
+          "sha256": "246ea19012cb3361bac7f3c301f5340c0f0d912e502e0c3f4e50103a0180fd27",
+          "size": 110778
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u019.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u019.json",
+          "sha256": "5e999e000591e591229eb485badf1555bca1534e8387ddbedc69293c06c60f2b",
+          "size": 109848
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u020.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u020.json",
+          "sha256": "c5bcfe8f6be4e2e4547f7a9430691e2099ed10df15e7b260c960b7e587ff2375",
+          "size": 122180
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u021.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u021.json",
+          "sha256": "36ceddebad5e1f966c54fe3bcbde6f0c68ae20cfccbf97d1e33d35fc78d5e535",
+          "size": 35143
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u022.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u022.json",
+          "sha256": "ccd36789d532ba5dcca80a9691ee4412ce2ba07a55b5ff56bd1823cbb4b1a1b9",
+          "size": 41041
+        },
+        {
+          "path": "data/raw/zfk/m1050/units/m1050_u023.json",
+          "url": "https://gbank.gsj.jp/ld/resource/zfk/units/m1050_u023.json",
+          "sha256": "acf6313d9251f8846b431eceab33175fe718b71ed80db5c8a3234f1553f25e30",
+          "size": 31442
+        }
+      ],
+      "details": {
+        "expected_units": 23,
+        "unit_json": 23,
+        "geojson": 23
+      }
+    }
+  }
+}

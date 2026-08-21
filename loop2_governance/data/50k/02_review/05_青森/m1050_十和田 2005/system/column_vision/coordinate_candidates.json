@@ -1,0 +1,136 @@
+{
+  "schema_version": "column-geography/1.0",
+  "status": "candidate_review",
+  "shape": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_V01\\shp\\geo_A.shp",
+  "shape_warnings": [],
+  "geocode_context": "m1050_十和田 2005, 05_青森, Japan",
+  "geocodes": [
+    {
+      "name": "Ōu Backbone Range",
+      "selected": null,
+      "candidates": [],
+      "cache_key": "77ea66e16be5a89e14aec769"
+    }
+  ],
+  "columns": [
+    {
+      "col_id": "1",
+      "col_name": "Towada-west",
+      "region_quote": "The western part of the map area consists of the eastern margin of the Ōu Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.",
+      "constraints": [
+        {
+          "kind": "map_direction",
+          "direction": "west",
+          "place_name": null
+        },
+        {
+          "kind": "margin_of",
+          "direction": "east",
+          "place_name": "Ōu Backbone Range"
+        }
+      ],
+      "selected": {
+        "lng": 141.05707612,
+        "lat": 40.52520445,
+        "score": 7.9398,
+        "inside_assigned_region": true,
+        "major_code": "18",
+        "unit_name": "Tsukihiyama Volcanics",
+        "assignment_method": "exclusive unit",
+        "reasons": [
+          "inside assigned GSJ Shape polygon",
+          "exclusive-unit polygon",
+          "PDF map direction west: +3.94"
+        ]
+      },
+      "alternatives": [
+        {
+          "lng": 141.05821627,
+          "lat": 40.5929481,
+          "score": 6.9822,
+          "inside_assigned_region": true,
+          "major_code": "18",
+          "unit_name": "Tsukihiyama Volcanics",
+          "assignment_method": "exclusive unit",
+          "reasons": [
+            "inside assigned GSJ Shape polygon",
+            "exclusive-unit polygon",
+            "PDF map direction west: +3.98"
+          ]
+        },
+        {
+          "lng": 141.0599121,
+          "lat": 40.58973432,
+          "score": 6.9729,
+          "inside_assigned_region": true,
+          "major_code": "14",
+          "unit_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+          "assignment_method": "exclusive unit",
+          "reasons": [
+            "inside assigned GSJ Shape polygon",
+            "exclusive-unit polygon",
+            "PDF map direction west: +3.97"
+          ]
+        }
+      ],
+      "candidate_count": 223
+    },
+    {
+      "col_id": "2",
+      "col_name": "Towada-east",
+      "region_quote": "The western part of the map area consists of the eastern margin of the Ōu Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.",
+      "constraints": [
+        {
+          "kind": "map_direction",
+          "direction": "east",
+          "place_name": null
+        }
+      ],
+      "selected": {
+        "lng": 141.18892204,
+        "lat": 40.55043763,
+        "score": 7.0133,
+        "inside_assigned_region": true,
+        "major_code": "17",
+        "unit_name": "Togawa Formation",
+        "assignment_method": "exclusive unit",
+        "reasons": [
+          "inside assigned GSJ Shape polygon",
+          "exclusive-unit polygon",
+          "PDF map direction east: +3.84"
+        ]
+      },
+      "alternatives": [
+        {
+          "lng": 141.18571349,
+          "lat": 40.53312372,
+          "score": 6.9778,
+          "inside_assigned_region": true,
+          "major_code": "17",
+          "unit_name": "Togawa Formation",
+          "assignment_method": "exclusive unit",
+          "reasons": [
+            "inside assigned GSJ Shape polygon",
+            "exclusive-unit polygon",
+            "PDF map direction east: +3.94"
+          ]
+        },
+        {
+          "lng": 141.18303845,
+          "lat": 40.66283985,
+          "score": 6.9718,
+          "inside_assigned_region": true,
+          "major_code": "12",
+          "unit_name": "Noheji Formation",
+          "assignment_method": "exclusive unit",
+          "reasons": [
+            "inside assigned GSJ Shape polygon",
+            "exclusive-unit polygon",
+            "PDF map direction east: +3.97"
+          ]
+        }
+      ],
+      "candidate_count": 445
+    }
+  ]
+}

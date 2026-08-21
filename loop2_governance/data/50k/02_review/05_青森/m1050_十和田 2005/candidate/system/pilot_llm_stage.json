@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "stage": "towada_pdf_llm",
+  "prompt_version": "towada-canonical-v1",
+  "generated_at": "2026-08-09T15:21:01+00:00",
+  "map_id": "1050",
+  "source_bundle": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\raw",
+  "source_bundle_sha256": "1eee7bb7133974cf75bc07287e3bd7511ad838ad3f3f323531c1f182c1bc7613",
+  "source_pdf": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_D.pdf",
+  "source_text_sha256": "f7aae26d50a9996d71287c9fffa9dc540fe26f2a0b2de28bc4d484d367bdc6dd",
+  "model": "gemini-3.6-flash",
+  "jobs": 1,
+  "external_calls": 0,
+  "cache_hits": 1,
+  "estimated_total_tokens": 0,
+  "added_evidence": 41,
+  "outputs": {
+    "compiled": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\compiled.json",
+    "evidence": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\evidence.json"
+  },
+  "compatible_cache_jobs_migrated": 0,
+  "interval_normalizations": [
+    {
+      "unit_id": "m1050_u011",
+      "field": "b_int",
+      "from": "Early Pleistocene",
+      "to": "Chibanian",
+      "age_ma": 0.4
+    },
+    {
+      "unit_id": "m1050_u013",
+      "field": "b_int",
+      "from": "Early Pleistocene",
+      "to": "Chibanian",
+      "age_ma": 0.76
+    },
+    {
+      "unit_id": "m1050_u014",
+      "field": "b_int",
+      "from": "Early Pleistocene",
+      "to": "Calabrian",
+      "age_ma": 0.99
+    }
+  ]
+}

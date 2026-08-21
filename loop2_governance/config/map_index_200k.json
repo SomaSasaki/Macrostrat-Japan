@@ -1,0 +1,2130 @@
+[
+  {
+    "sheet_code": "NL-55-30",
+    "name_ja": "知床岬",
+    "name_en": "Shiretoko",
+    "region": "01_北海道",
+    "pub_year": 1974,
+    "has_explanation_pdf": false,
+    "bbox": [
+      44.0,
+      145.0,
+      44.666667,
+      146.0
+    ],
+    "center": [
+      44.333333499999995,
+      145.5
+    ],
+    "wkt_geom": "POLYGON((145.0 44.0, 146.0 44.0, 146.0 44.666667, 145.0 44.666667, 145.0 44.0))"
+  },
+  {
+    "sheet_code": "NL-55-36",
+    "name_ja": "網走",
+    "name_en": "Abashiri",
+    "region": "01_北海道",
+    "pub_year": 1970,
+    "has_explanation_pdf": false,
+    "bbox": [
+      44.0,
+      144.0,
+      44.666667,
+      145.0
+    ],
+    "center": [
+      44.333333499999995,
+      144.5
+    ],
+    "wkt_geom": "POLYGON((144.0 44.0, 145.0 44.0, 145.0 44.666667, 144.0 44.666667, 144.0 44.0))"
+  },
+  {
+    "sheet_code": "NK-55-25",
+    "name_ja": "標津",
+    "name_en": "Shibetsu",
+    "region": "01_北海道",
+    "pub_year": 1971,
+    "has_explanation_pdf": false,
+    "bbox": [
+      43.666667,
+      144.5,
+      44.333333,
+      145.5
+    ],
+    "center": [
+      44.0,
+      145.0
+    ],
+    "wkt_geom": "POLYGON((144.5 43.666667, 145.5 43.666667, 145.5 44.333333, 144.5 44.333333, 144.5 43.666667))"
+  },
+  {
+    "sheet_code": "NK-55-26",
+    "name_ja": "根室",
+    "name_en": "Nemuro",
+    "region": "01_北海道",
+    "pub_year": 1975,
+    "has_explanation_pdf": false,
+    "bbox": [
+      43.0,
+      145.0,
+      43.666667,
+      146.0
+    ],
+    "center": [
+      43.333333499999995,
+      145.5
+    ],
+    "wkt_geom": "POLYGON((145.0 43.0, 146.0 43.0, 146.0 43.666667, 145.0 43.666667, 145.0 43.0))"
+  },
+  {
+    "sheet_code": "NK-55-31",
+    "name_ja": "斜里",
+    "name_en": "Shari",
+    "region": "01_北海道",
+    "pub_year": 1970,
+    "has_explanation_pdf": false,
+    "bbox": [
+      43.666667,
+      144.0,
+      44.333333,
+      145.0
+    ],
+    "center": [
+      44.0,
+      144.5
+    ],
+    "wkt_geom": "POLYGON((144.0 43.666667, 145.0 43.666667, 145.0 44.333333, 144.0 44.333333, 144.0 43.666667))"
+  },
+  {
+    "sheet_code": "NK-55-32",
+    "name_ja": "釧路",
+    "name_en": "Kushiro",
+    "region": "01_北海道",
+    "pub_year": 1976,
+    "has_explanation_pdf": false,
+    "bbox": [
+      42.666667,
+      144.0,
+      43.333333,
+      145.0
+    ],
+    "center": [
+      43.0,
+      144.5
+    ],
+    "wkt_geom": "POLYGON((144.0 42.666667, 145.0 42.666667, 145.0 43.333333, 144.0 43.333333, 144.0 42.666667))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Monbetsu",
+    "name_ja": "紋別",
+    "name_en": "Monbetsu",
+    "region": "01_北海道",
+    "pub_year": 1984,
+    "has_explanation_pdf": false,
+    "bbox": [
+      44.0,
+      143.0,
+      44.666667,
+      144.0
+    ],
+    "center": [
+      44.333333499999995,
+      143.5
+    ],
+    "wkt_geom": "POLYGON((143.0 44.0, 144.0 44.0, 144.0 44.666667, 143.0 44.666667, 143.0 44.0))"
+  },
+  {
+    "sheet_code": "NL-54-11",
+    "name_ja": "枝幸",
+    "name_en": "Esashi",
+    "region": "01_北海道",
+    "pub_year": 1981,
+    "has_explanation_pdf": false,
+    "bbox": [
+      44.666667,
+      142.0,
+      45.333333,
+      143.0
+    ],
+    "center": [
+      45.0,
+      142.5
+    ],
+    "wkt_geom": "POLYGON((142.0 44.666667, 143.0 44.666667, 143.0 45.333333, 142.0 45.333333, 142.0 44.666667))"
+  },
+  {
+    "sheet_code": "NL-54-12",
+    "name_ja": "名寄",
+    "name_en": "Nayoro",
+    "region": "01_北海道",
+    "pub_year": 1990,
+    "has_explanation_pdf": false,
+    "bbox": [
+      44.0,
+      142.0,
+      44.666667,
+      143.0
+    ],
+    "center": [
+      44.333333499999995,
+      142.5
+    ],
+    "wkt_geom": "POLYGON((142.0 44.0, 143.0 44.0, 143.0 44.666667, 142.0 44.666667, 142.0 44.0))"
+  },
+  {
+    "sheet_code": "NL-54-10･16",
+    "name_ja": "稚内",
+    "name_en": "Wakkanai",
+    "region": "01_北海道",
+    "pub_year": 1967,
+    "has_explanation_pdf": false,
+    "bbox": [
+      45.333333,
+      141.0,
+      46.0,
+      142.0
+    ],
+    "center": [
+      45.666666500000005,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 45.333333, 142.0 45.333333, 142.0 46.0, 141.0 46.0, 141.0 45.333333))"
+  },
+  {
+    "sheet_code": "NL-54-17",
+    "name_ja": "天塩",
+    "name_en": "Teshio",
+    "region": "01_北海道",
+    "pub_year": 1969,
+    "has_explanation_pdf": false,
+    "bbox": [
+      44.666667,
+      141.0,
+      45.333333,
+      142.0
+    ],
+    "center": [
+      45.0,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 44.666667, 142.0 44.666667, 142.0 45.333333, 141.0 45.333333, 141.0 44.666667))"
+  },
+  {
+    "sheet_code": "NL-54-18",
+    "name_ja": "羽幌",
+    "name_en": "Haboro",
+    "region": "01_北海道",
+    "pub_year": 1962,
+    "has_explanation_pdf": false,
+    "bbox": [
+      44.0,
+      141.0,
+      44.666667,
+      142.0
+    ],
+    "center": [
+      44.333333499999995,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 44.0, 142.0 44.0, 142.0 44.666667, 141.0 44.666667, 141.0 44.0))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Kitami",
+    "name_ja": "北見",
+    "name_en": "Kitami",
+    "region": "01_北海道",
+    "pub_year": 1970,
+    "has_explanation_pdf": false,
+    "bbox": [
+      43.666667,
+      143.5,
+      44.333333,
+      144.5
+    ],
+    "center": [
+      44.0,
+      144.0
+    ],
+    "wkt_geom": "POLYGON((143.5 43.666667, 144.5 43.666667, 144.5 44.333333, 143.5 44.333333, 143.5 43.666667))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Obihiro",
+    "name_ja": "帯広",
+    "name_en": "Obihiro",
+    "region": "01_北海道",
+    "pub_year": 1971,
+    "has_explanation_pdf": false,
+    "bbox": [
+      42.666667,
+      143.0,
+      43.333333,
+      144.0
+    ],
+    "center": [
+      43.0,
+      143.5
+    ],
+    "wkt_geom": "POLYGON((143.0 42.666667, 144.0 42.666667, 144.0 43.333333, 143.0 43.333333, 143.0 42.666667))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Hiroo",
+    "name_ja": "広尾（第2版 修正版）",
+    "name_en": "Hiroo",
+    "region": "01_北海道",
+    "pub_year": 2024,
+    "has_explanation_pdf": true,
+    "bbox": [
+      42.0,
+      143.0,
+      42.666667,
+      144.0
+    ],
+    "center": [
+      42.333333499999995,
+      143.5
+    ],
+    "wkt_geom": "POLYGON((143.0 42.0, 144.0 42.0, 144.0 42.666667, 143.0 42.666667, 143.0 42.0))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Asahikawa",
+    "name_ja": "旭川",
+    "name_en": "Asahikawa",
+    "region": "01_北海道",
+    "pub_year": 1977,
+    "has_explanation_pdf": false,
+    "bbox": [
+      43.666667,
+      142.0,
+      44.333333,
+      143.0
+    ],
+    "center": [
+      44.0,
+      142.5
+    ],
+    "wkt_geom": "POLYGON((142.0 43.666667, 143.0 43.666667, 143.0 44.333333, 142.0 44.333333, 142.0 43.666667))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Yubaridake",
+    "name_ja": "夕張岳",
+    "name_en": "Yubaridake",
+    "region": "01_北海道",
+    "pub_year": 1996,
+    "has_explanation_pdf": false,
+    "bbox": [
+      42.666667,
+      142.0,
+      43.333333,
+      143.0
+    ],
+    "center": [
+      43.0,
+      142.5
+    ],
+    "wkt_geom": "POLYGON((142.0 42.666667, 143.0 42.666667, 143.0 43.333333, 142.0 43.333333, 142.0 42.666667))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Urakawa",
+    "name_ja": "浦河",
+    "name_en": "Urakawa",
+    "region": "01_北海道",
+    "pub_year": 2000,
+    "has_explanation_pdf": true,
+    "bbox": [
+      42.0,
+      142.0,
+      42.666667,
+      143.0
+    ],
+    "center": [
+      42.333333499999995,
+      142.5
+    ],
+    "wkt_geom": "POLYGON((142.0 42.0, 143.0 42.0, 143.0 42.666667, 142.0 42.666667, 142.0 42.0))"
+  },
+  {
+    "sheet_code": "NK-54-13",
+    "name_ja": "留萌",
+    "name_en": "Rumoi",
+    "region": "01_北海道",
+    "pub_year": 1974,
+    "has_explanation_pdf": false,
+    "bbox": [
+      43.666667,
+      141.0,
+      44.333333,
+      142.0
+    ],
+    "center": [
+      44.0,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 43.666667, 142.0 43.666667, 142.0 44.333333, 141.0 44.333333, 141.0 43.666667))"
+  },
+  {
+    "sheet_code": "NK-54-14",
+    "name_ja": "札幌",
+    "name_en": "Sapporo",
+    "region": "01_北海道",
+    "pub_year": 1980,
+    "has_explanation_pdf": false,
+    "bbox": [
+      43.0,
+      141.0,
+      43.666667,
+      142.0
+    ],
+    "center": [
+      43.333333499999995,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 43.0, 142.0 43.0, 142.0 43.666667, 141.0 43.666667, 141.0 43.0))"
+  },
+  {
+    "sheet_code": "NK-54-15",
+    "name_ja": "苫小牧",
+    "name_en": "Tomakomai",
+    "region": "01_北海道",
+    "pub_year": 1972,
+    "has_explanation_pdf": false,
+    "bbox": [
+      42.333333,
+      141.0,
+      43.0,
+      142.0
+    ],
+    "center": [
+      42.666666500000005,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 42.333333, 142.0 42.333333, 142.0 43.0, 141.0 43.0, 141.0 42.333333))"
+  },
+  {
+    "sheet_code": "NK-54-16",
+    "name_ja": "尻屋崎",
+    "name_en": "Shiriyazaki",
+    "region": "01_北海道",
+    "pub_year": 1972,
+    "has_explanation_pdf": false,
+    "bbox": [
+      41.333333,
+      141.0,
+      42.0,
+      142.0
+    ],
+    "center": [
+      41.666666500000005,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 41.333333, 142.0 41.333333, 142.0 42.0, 141.0 42.0, 141.0 41.333333))"
+  },
+  {
+    "sheet_code": "NK-54-19･20",
+    "name_ja": "岩内（第2版）",
+    "name_en": "Iwanai",
+    "region": "01_北海道",
+    "pub_year": 1991,
+    "has_explanation_pdf": false,
+    "bbox": [
+      42.666667,
+      140.0,
+      43.333333,
+      141.0
+    ],
+    "center": [
+      43.0,
+      140.5
+    ],
+    "wkt_geom": "POLYGON((140.0 42.666667, 141.0 42.666667, 141.0 43.333333, 140.0 43.333333, 140.0 42.666667))"
+  },
+  {
+    "sheet_code": "NK-54-21",
+    "name_ja": "室蘭",
+    "name_en": "Muroran",
+    "region": "01_北海道",
+    "pub_year": 1983,
+    "has_explanation_pdf": false,
+    "bbox": [
+      42.0,
+      140.5,
+      42.666667,
+      141.5
+    ],
+    "center": [
+      42.333333499999995,
+      141.0
+    ],
+    "wkt_geom": "POLYGON((140.5 42.0, 141.5 42.0, 141.5 42.666667, 140.5 42.666667, 140.5 42.0))"
+  },
+  {
+    "sheet_code": "NK-54-22･28",
+    "name_ja": "函館及び渡島大島",
+    "name_en": "Hakodate-Oshimaoshima",
+    "region": "01_北海道",
+    "pub_year": 1984,
+    "has_explanation_pdf": false,
+    "bbox": [
+      41.666667,
+      140.0,
+      42.333333,
+      141.0
+    ],
+    "center": [
+      42.0,
+      140.5
+    ],
+    "wkt_geom": "POLYGON((140.0 41.666667, 141.0 41.666667, 141.0 42.333333, 140.0 42.333333, 140.0 41.666667))"
+  },
+  {
+    "sheet_code": "NK-54-26･27",
+    "name_ja": "久遠",
+    "name_en": "Kudo",
+    "region": "01_北海道",
+    "pub_year": 1979,
+    "has_explanation_pdf": false,
+    "bbox": [
+      42.0,
+      139.5,
+      42.666667,
+      140.5
+    ],
+    "center": [
+      42.333333499999995,
+      140.0
+    ],
+    "wkt_geom": "POLYGON((139.5 42.0, 140.5 42.0, 140.5 42.666667, 139.5 42.666667, 139.5 42.0))"
+  },
+  {
+    "sheet_code": "NK-54-17",
+    "name_ja": "野辺地（第2版）",
+    "name_en": "Noheji",
+    "region": "02_東北",
+    "pub_year": 2021,
+    "has_explanation_pdf": true,
+    "bbox": [
+      40.666667,
+      141.0,
+      41.333333,
+      142.0
+    ],
+    "center": [
+      41.0,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 40.666667, 142.0 40.666667, 142.0 41.333333, 141.0 41.333333, 141.0 40.666667))"
+  },
+  {
+    "sheet_code": "NK-54-18",
+    "name_ja": "八戸",
+    "name_en": "Hachinohe",
+    "region": "02_東北",
+    "pub_year": 1991,
+    "has_explanation_pdf": false,
+    "bbox": [
+      40.0,
+      141.0,
+      40.666667,
+      142.0
+    ],
+    "center": [
+      40.333333499999995,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 40.0, 142.0 40.0, 142.0 40.666667, 141.0 40.666667, 141.0 40.0))"
+  },
+  {
+    "sheet_code": "NK-54-23･29",
+    "name_ja": "青森（第2版）",
+    "name_en": "Aomori",
+    "region": "02_東北",
+    "pub_year": 1993,
+    "has_explanation_pdf": false,
+    "bbox": [
+      40.666667,
+      140.0,
+      41.333333,
+      141.0
+    ],
+    "center": [
+      41.0,
+      140.5
+    ],
+    "wkt_geom": "POLYGON((140.0 40.666667, 141.0 40.666667, 141.0 41.333333, 140.0 41.333333, 140.0 40.666667))"
+  },
+  {
+    "sheet_code": "NK-54-24",
+    "name_ja": "弘前及び深浦",
+    "name_en": "Hirosaki-Fukaura",
+    "region": "02_東北",
+    "pub_year": 1978,
+    "has_explanation_pdf": false,
+    "bbox": [
+      40.0,
+      139.0,
+      40.666667,
+      140.0
+    ],
+    "center": [
+      40.333333499999995,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 40.0, 140.0 40.0, 140.0 40.666667, 139.0 40.666667, 139.0 40.0))"
+  },
+  {
+    "sheet_code": "NJ-54-7･13",
+    "name_ja": "盛岡",
+    "name_en": "Morioka",
+    "region": "02_東北",
+    "pub_year": 1984,
+    "has_explanation_pdf": false,
+    "bbox": [
+      39.333333,
+      141.0,
+      40.0,
+      142.0
+    ],
+    "center": [
+      39.666666500000005,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 39.333333, 142.0 39.333333, 142.0 40.0, 141.0 40.0, 141.0 39.333333))"
+  },
+  {
+    "sheet_code": "NJ-54-14",
+    "name_ja": "一関",
+    "name_en": "Ichinoseki",
+    "region": "02_東北",
+    "pub_year": 2005,
+    "has_explanation_pdf": true,
+    "bbox": [
+      38.666667,
+      141.0,
+      39.333333,
+      142.0
+    ],
+    "center": [
+      39.0,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 38.666667, 142.0 38.666667, 142.0 39.333333, 141.0 39.333333, 141.0 38.666667))"
+  },
+  {
+    "sheet_code": "NJ-54-15",
+    "name_ja": "石巻（第2版）",
+    "name_en": "Ishinomaki",
+    "region": "02_東北",
+    "pub_year": 1992,
+    "has_explanation_pdf": false,
+    "bbox": [
+      38.0,
+      141.0,
+      38.666667,
+      142.0
+    ],
+    "center": [
+      38.333333499999995,
+      141.5
+    ],
+    "wkt_geom": "POLYGON((141.0 38.0, 142.0 38.0, 142.0 38.666667, 141.0 38.666667, 141.0 38.0))"
+  },
+  {
+    "sheet_code": "NJ-54-19",
+    "name_ja": "秋田及び男鹿",
+    "name_en": "Akita-Oga",
+    "region": "02_東北",
+    "pub_year": 1980,
+    "has_explanation_pdf": false,
+    "bbox": [
+      39.333333,
+      139.0,
+      40.0,
+      140.0
+    ],
+    "center": [
+      39.666666500000005,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 39.333333, 140.0 39.333333, 140.0 40.0, 139.0 40.0, 139.0 39.333333))"
+  },
+  {
+    "sheet_code": "NJ-54-20",
+    "name_ja": "新庄及び酒田",
+    "name_en": "Shinjo-Sakata",
+    "region": "02_東北",
+    "pub_year": 1988,
+    "has_explanation_pdf": false,
+    "bbox": [
+      38.666667,
+      139.0,
+      39.333333,
+      140.0
+    ],
+    "center": [
+      39.0,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 38.666667, 140.0 38.666667, 140.0 39.333333, 139.0 39.333333, 139.0 38.666667))"
+  },
+  {
+    "sheet_code": "NJ-54-21",
+    "name_ja": "仙台",
+    "name_en": "Sendai",
+    "region": "02_東北",
+    "pub_year": 1987,
+    "has_explanation_pdf": false,
+    "bbox": [
+      38.0,
+      140.0,
+      38.666667,
+      141.0
+    ],
+    "center": [
+      38.333333499999995,
+      140.5
+    ],
+    "wkt_geom": "POLYGON((140.0 38.0, 141.0 38.0, 141.0 38.666667, 140.0 38.666667, 140.0 38.0))"
+  },
+  {
+    "sheet_code": "NJ-54-16･22",
+    "name_ja": "福島",
+    "name_en": "Fukushima",
+    "region": "02_東北",
+    "pub_year": 2003,
+    "has_explanation_pdf": true,
+    "bbox": [
+      37.333333,
+      140.0,
+      38.0,
+      141.0
+    ],
+    "center": [
+      37.666666500000005,
+      140.5
+    ],
+    "wkt_geom": "POLYGON((140.0 37.333333, 141.0 37.333333, 141.0 38.0, 140.0 38.0, 140.0 37.333333))"
+  },
+  {
+    "sheet_code": "NJ-54-27",
+    "name_ja": "村上",
+    "name_en": "Murakami",
+    "region": "02_東北",
+    "pub_year": 1999,
+    "has_explanation_pdf": true,
+    "bbox": [
+      38.0,
+      139.0,
+      38.666667,
+      140.0
+    ],
+    "center": [
+      38.333333499999995,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 38.0, 140.0 38.0, 140.0 38.666667, 139.0 38.666667, 139.0 38.0))"
+  },
+  {
+    "sheet_code": "NJ-54-28",
+    "name_ja": "新潟（第2版）",
+    "name_en": "Niigata",
+    "region": "02_東北",
+    "pub_year": 2010,
+    "has_explanation_pdf": true,
+    "bbox": [
+      37.333333,
+      139.0,
+      38.0,
+      140.0
+    ],
+    "center": [
+      37.666666500000005,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 37.333333, 140.0 37.333333, 140.0 38.0, 139.0 38.0, 139.0 37.333333))"
+  },
+  {
+    "sheet_code": "NJ-54-33",
+    "name_ja": "相川及び長岡の一部（佐渡島）",
+    "name_en": "Aikawa-Nagaoka",
+    "region": "02_東北",
+    "pub_year": 1990,
+    "has_explanation_pdf": false,
+    "bbox": [
+      38.0,
+      138.0,
+      38.666667,
+      139.0
+    ],
+    "center": [
+      38.333333499999995,
+      138.5
+    ],
+    "wkt_geom": "POLYGON((138.0 38.0, 139.0 38.0, 139.0 38.666667, 138.0 38.666667, 138.0 38.0))"
+  },
+  {
+    "sheet_code": "NJ-54-34",
+    "name_ja": "長岡（第2版）",
+    "name_en": "Nagaoka",
+    "region": "02_東北",
+    "pub_year": 2007,
+    "has_explanation_pdf": true,
+    "bbox": [
+      37.0,
+      138.5,
+      37.666667,
+      139.5
+    ],
+    "center": [
+      37.333333499999995,
+      139.0
+    ],
+    "wkt_geom": "POLYGON((138.5 37.0, 139.5 37.0, 139.5 37.666667, 138.5 37.666667, 138.5 37.0))"
+  },
+  {
+    "sheet_code": "NJ-54-17･23",
+    "name_ja": "白河",
+    "name_en": "Shirakawa",
+    "region": "03_関東甲信越",
+    "pub_year": 2007,
+    "has_explanation_pdf": true,
+    "bbox": [
+      36.666667,
+      140.0,
+      37.333333,
+      141.0
+    ],
+    "center": [
+      37.0,
+      140.5
+    ],
+    "wkt_geom": "POLYGON((140.0 36.666667, 141.0 36.666667, 141.0 37.333333, 140.0 37.333333, 140.0 36.666667))"
+  },
+  {
+    "sheet_code": "NJ-54-24",
+    "name_ja": "水戸（第2版）",
+    "name_en": "Mito",
+    "region": "03_関東甲信越",
+    "pub_year": 2001,
+    "has_explanation_pdf": true,
+    "bbox": [
+      36.0,
+      140.0,
+      36.666667,
+      141.0
+    ],
+    "center": [
+      36.333333499999995,
+      140.5
+    ],
+    "wkt_geom": "POLYGON((140.0 36.0, 141.0 36.0, 141.0 36.666667, 140.0 36.666667, 140.0 36.0))"
+  },
+  {
+    "sheet_code": "NJ-54-29",
+    "name_ja": "日光",
+    "name_en": "Nikko",
+    "region": "03_関東甲信越",
+    "pub_year": 2000,
+    "has_explanation_pdf": true,
+    "bbox": [
+      36.666667,
+      139.0,
+      37.333333,
+      140.0
+    ],
+    "center": [
+      37.0,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 36.666667, 140.0 36.666667, 140.0 37.333333, 139.0 37.333333, 139.0 36.666667))"
+  },
+  {
+    "sheet_code": "NJ-54-30",
+    "name_ja": "宇都宮",
+    "name_en": "Utsunomiya",
+    "region": "03_関東甲信越",
+    "pub_year": 1991,
+    "has_explanation_pdf": false,
+    "bbox": [
+      36.0,
+      139.0,
+      36.666667,
+      140.0
+    ],
+    "center": [
+      36.333333499999995,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 36.0, 140.0 36.0, 140.0 36.666667, 139.0 36.666667, 139.0 36.0))"
+  },
+  {
+    "sheet_code": "NJ-54-35",
+    "name_ja": "高田",
+    "name_en": "Takada",
+    "region": "03_関東甲信越",
+    "pub_year": 1994,
+    "has_explanation_pdf": false,
+    "bbox": [
+      36.666667,
+      138.0,
+      37.333333,
+      139.0
+    ],
+    "center": [
+      37.0,
+      138.5
+    ],
+    "wkt_geom": "POLYGON((138.0 36.666667, 139.0 36.666667, 139.0 37.333333, 138.0 37.333333, 138.0 36.666667))"
+  },
+  {
+    "sheet_code": "NJ-54-36",
+    "name_ja": "長野",
+    "name_en": "Nagano",
+    "region": "03_関東甲信越",
+    "pub_year": 1998,
+    "has_explanation_pdf": false,
+    "bbox": [
+      36.0,
+      138.0,
+      36.666667,
+      139.0
+    ],
+    "center": [
+      36.333333499999995,
+      138.5
+    ],
+    "wkt_geom": "POLYGON((138.0 36.0, 139.0 36.0, 139.0 36.666667, 138.0 36.666667, 138.0 36.0))"
+  },
+  {
+    "sheet_code": "NI-54-19",
+    "name_ja": "千葉",
+    "name_en": "Chiba",
+    "region": "03_関東甲信越",
+    "pub_year": 1983,
+    "has_explanation_pdf": false,
+    "bbox": [
+      35.333333,
+      140.0,
+      36.0,
+      141.0
+    ],
+    "center": [
+      35.666666500000005,
+      140.5
+    ],
+    "wkt_geom": "POLYGON((140.0 35.333333, 141.0 35.333333, 141.0 36.0, 140.0 36.0, 140.0 35.333333))"
+  },
+  {
+    "sheet_code": "NI-54-20",
+    "name_ja": "大多喜",
+    "name_en": "Otaki",
+    "region": "03_関東甲信越",
+    "pub_year": 1980,
+    "has_explanation_pdf": false,
+    "bbox": [
+      34.666667,
+      140.0,
+      35.333333,
+      141.0
+    ],
+    "center": [
+      35.0,
+      140.5
+    ],
+    "wkt_geom": "POLYGON((140.0 34.666667, 141.0 34.666667, 141.0 35.333333, 140.0 35.333333, 140.0 34.666667))"
+  },
+  {
+    "sheet_code": "NI-54-25",
+    "name_ja": "東京",
+    "name_en": "Tokyo",
+    "region": "03_関東甲信越",
+    "pub_year": 1987,
+    "has_explanation_pdf": false,
+    "bbox": [
+      35.333333,
+      139.0,
+      36.0,
+      140.0
+    ],
+    "center": [
+      35.666666500000005,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 35.333333, 140.0 35.333333, 140.0 36.0, 139.0 36.0, 139.0 35.333333))"
+  },
+  {
+    "sheet_code": "NI-54-26",
+    "name_ja": "横須賀（第2版）",
+    "name_en": "Yokosuka",
+    "region": "03_関東甲信越",
+    "pub_year": 2015,
+    "has_explanation_pdf": true,
+    "bbox": [
+      34.666667,
+      139.0,
+      35.333333,
+      140.0
+    ],
+    "center": [
+      35.0,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 34.666667, 140.0 34.666667, 140.0 35.333333, 139.0 35.333333, 139.0 34.666667))"
+  },
+  {
+    "sheet_code": "NI-54-27",
+    "name_ja": "三宅島",
+    "name_en": "Miyakejima",
+    "region": "03_関東甲信越",
+    "pub_year": 1984,
+    "has_explanation_pdf": false,
+    "bbox": [
+      34.0,
+      139.0,
+      34.666667,
+      140.0
+    ],
+    "center": [
+      34.333333499999995,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 34.0, 140.0 34.0, 140.0 34.666667, 139.0 34.666667, 139.0 34.0))"
+  },
+  {
+    "sheet_code": "NI-54-28･34",
+    "name_ja": "御蔵島",
+    "name_en": "Mikurajima",
+    "region": "03_関東甲信越",
+    "pub_year": 1987,
+    "has_explanation_pdf": false,
+    "bbox": [
+      33.333333,
+      139.0,
+      34.0,
+      140.0
+    ],
+    "center": [
+      33.666666500000005,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 33.333333, 140.0 33.333333, 140.0 34.0, 139.0 34.0, 139.0 33.333333))"
+  },
+  {
+    "sheet_code": "NI-54-29･30",
+    "name_ja": "八丈島",
+    "name_en": "Hachijojima",
+    "region": "03_関東甲信越",
+    "pub_year": 1990,
+    "has_explanation_pdf": false,
+    "bbox": [
+      32.666667,
+      139.0,
+      33.333333,
+      140.0
+    ],
+    "center": [
+      33.0,
+      139.5
+    ],
+    "wkt_geom": "POLYGON((139.0 32.666667, 140.0 32.666667, 140.0 33.333333, 139.0 33.333333, 139.0 32.666667))"
+  },
+  {
+    "sheet_code": "NI-54-31",
+    "name_ja": "甲府",
+    "name_en": "Kofu",
+    "region": "03_関東甲信越",
+    "pub_year": 2002,
+    "has_explanation_pdf": true,
+    "bbox": [
+      35.333333,
+      138.0,
+      36.0,
+      139.0
+    ],
+    "center": [
+      35.666666500000005,
+      138.5
+    ],
+    "wkt_geom": "POLYGON((138.0 35.333333, 139.0 35.333333, 139.0 36.0, 138.0 36.0, 138.0 35.333333))"
+  },
+  {
+    "sheet_code": "NI-54-32",
+    "name_ja": "静岡及び御前崎（第2版）",
+    "name_en": "Shizuoka-Omaezaki",
+    "region": "03_関東甲信越",
+    "pub_year": 2010,
+    "has_explanation_pdf": true,
+    "bbox": [
+      34.666667,
+      138.0,
+      35.333333,
+      139.0
+    ],
+    "center": [
+      35.0,
+      138.5
+    ],
+    "wkt_geom": "POLYGON((138.0 34.666667, 139.0 34.666667, 139.0 35.333333, 138.0 35.333333, 138.0 34.666667))"
+  },
+  {
+    "sheet_code": "NF-53-12",
+    "name_ja": "小笠原諸島",
+    "name_en": "Ogasawarashoto",
+    "region": "03_関東甲信越",
+    "pub_year": 2009,
+    "has_explanation_pdf": true,
+    "bbox": [
+      26.0,
+      141.0,
+      28.0,
+      143.0
+    ],
+    "center": [
+      27.0,
+      142.0
+    ],
+    "wkt_geom": "POLYGON((141.0 26.0, 143.0 26.0, 143.0 28.0, 141.0 28.0, 141.0 26.0))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Wajima",
+    "name_ja": "輪島（第2版）",
+    "name_en": "Wajima",
+    "region": "04_中部近畿",
+    "pub_year": 2019,
+    "has_explanation_pdf": true,
+    "bbox": [
+      37.333333,
+      136.5,
+      38.0,
+      137.5
+    ],
+    "center": [
+      37.666666500000005,
+      137.0
+    ],
+    "wkt_geom": "POLYGON((136.5 37.333333, 137.5 37.333333, 137.5 38.0, 136.5 38.0, 136.5 37.333333))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Toyama",
+    "name_ja": "富山（第2版）",
+    "name_en": "Toyama",
+    "region": "04_中部近畿",
+    "pub_year": 2023,
+    "has_explanation_pdf": true,
+    "bbox": [
+      36.666667,
+      137.0,
+      37.333333,
+      138.0
+    ],
+    "center": [
+      37.0,
+      137.5
+    ],
+    "wkt_geom": "POLYGON((137.0 36.666667, 138.0 36.666667, 138.0 37.333333, 137.0 37.333333, 137.0 36.666667))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Nanao-Toyama",
+    "name_ja": "七尾･富山",
+    "name_en": "Nanao-Toyama",
+    "region": "04_中部近畿",
+    "pub_year": 1967,
+    "has_explanation_pdf": false,
+    "bbox": [
+      36.666667,
+      137.0,
+      37.333333,
+      138.0
+    ],
+    "center": [
+      37.0,
+      137.5
+    ],
+    "wkt_geom": "POLYGON((137.0 36.666667, 138.0 36.666667, 138.0 37.333333, 137.0 37.333333, 137.0 36.666667))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Takayama",
+    "name_ja": "高山",
+    "name_en": "Takayama",
+    "region": "04_中部近畿",
+    "pub_year": 1989,
+    "has_explanation_pdf": false,
+    "bbox": [
+      36.0,
+      137.0,
+      36.666667,
+      138.0
+    ],
+    "center": [
+      36.333333499999995,
+      137.5
+    ],
+    "wkt_geom": "POLYGON((137.0 36.0, 138.0 36.0, 138.0 36.666667, 137.0 36.666667, 137.0 36.0))"
+  },
+  {
+    "sheet_code": "NJ-53-12･18",
+    "name_ja": "金沢",
+    "name_en": "Kanazawa",
+    "region": "04_中部近畿",
+    "pub_year": 1999,
+    "has_explanation_pdf": true,
+    "bbox": [
+      36.666667,
+      136.0,
+      37.333333,
+      137.0
+    ],
+    "center": [
+      37.0,
+      136.5
+    ],
+    "wkt_geom": "POLYGON((136.0 36.666667, 137.0 36.666667, 137.0 37.333333, 136.0 37.333333, 136.0 36.666667))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Iida",
+    "name_ja": "飯田（第2版）",
+    "name_en": "Iida",
+    "region": "04_中部近畿",
+    "pub_year": 1990,
+    "has_explanation_pdf": false,
+    "bbox": [
+      35.333333,
+      137.5,
+      36.0,
+      138.5
+    ],
+    "center": [
+      35.666666500000005,
+      138.0
+    ],
+    "wkt_geom": "POLYGON((137.5 35.333333, 138.5 35.333333, 138.5 36.0, 137.5 36.0, 137.5 35.333333))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Toyohashi-Iragomisaki",
+    "name_ja": "豊橋及び伊良湖岬",
+    "name_en": "Toyohashi-Iragomisaki",
+    "region": "04_中部近畿",
+    "pub_year": 2004,
+    "has_explanation_pdf": true,
+    "bbox": [
+      34.666667,
+      137.0,
+      35.333333,
+      138.0
+    ],
+    "center": [
+      35.0,
+      137.5
+    ],
+    "wkt_geom": "POLYGON((137.0 34.666667, 138.0 34.666667, 138.0 35.333333, 137.0 35.333333, 137.0 34.666667))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Gifu",
+    "name_ja": "岐阜",
+    "name_en": "Gifu",
+    "region": "04_中部近畿",
+    "pub_year": 1992,
+    "has_explanation_pdf": false,
+    "bbox": [
+      35.333333,
+      136.5,
+      36.0,
+      137.5
+    ],
+    "center": [
+      35.666666500000005,
+      137.0
+    ],
+    "wkt_geom": "POLYGON((136.5 35.333333, 137.5 35.333333, 137.5 36.0, 136.5 36.0, 136.5 35.333333))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Nagoya",
+    "name_ja": "名古屋（第3版）",
+    "name_en": "Nagoya",
+    "region": "04_中部近畿",
+    "pub_year": 2009,
+    "has_explanation_pdf": true,
+    "bbox": [
+      35.0,
+      136.5,
+      35.666667,
+      137.5
+    ],
+    "center": [
+      35.333333499999995,
+      137.0
+    ],
+    "wkt_geom": "POLYGON((136.5 35.0, 137.5 35.0, 137.5 35.666667, 136.5 35.666667, 136.5 35.0))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Ise",
+    "name_ja": "伊勢",
+    "name_en": "Ise",
+    "region": "04_中部近畿",
+    "pub_year": 2010,
+    "has_explanation_pdf": true,
+    "bbox": [
+      34.333333,
+      136.0,
+      35.0,
+      137.0
+    ],
+    "center": [
+      34.666666500000005,
+      136.5
+    ],
+    "wkt_geom": "POLYGON((136.0 34.333333, 137.0 34.333333, 137.0 35.0, 136.0 35.0, 136.0 34.333333))"
+  },
+  {
+    "sheet_code": "NI-53-10",
+    "name_ja": "木本",
+    "name_en": "Kinomoto",
+    "region": "04_中部近畿",
+    "pub_year": 1992,
+    "has_explanation_pdf": false,
+    "bbox": [
+      33.666667,
+      135.5,
+      34.333333,
+      136.5
+    ],
+    "center": [
+      34.0,
+      136.0
+    ],
+    "wkt_geom": "POLYGON((135.5 33.666667, 136.5 33.666667, 136.5 34.333333, 135.5 34.333333, 135.5 33.666667))"
+  },
+  {
+    "sheet_code": "NI-53-13",
+    "name_ja": "宮津（第2版）",
+    "name_en": "Miyazu",
+    "region": "04_中部近畿",
+    "pub_year": 2022,
+    "has_explanation_pdf": true,
+    "bbox": [
+      35.333333,
+      135.0,
+      36.0,
+      136.0
+    ],
+    "center": [
+      35.666666500000005,
+      135.5
+    ],
+    "wkt_geom": "POLYGON((135.0 35.333333, 136.0 35.333333, 136.0 36.0, 135.0 36.0, 135.0 35.333333))"
+  },
+  {
+    "sheet_code": "NI-53-14",
+    "name_ja": "京都及大阪（第2版）",
+    "name_en": "Kyoto-Osaka",
+    "region": "04_中部近畿",
+    "pub_year": 2026,
+    "has_explanation_pdf": true,
+    "bbox": [
+      34.666667,
+      135.0,
+      35.333333,
+      136.0
+    ],
+    "center": [
+      35.0,
+      135.5
+    ],
+    "wkt_geom": "POLYGON((135.0 34.666667, 136.0 34.666667, 136.0 35.333333, 135.0 35.333333, 135.0 34.666667))"
+  },
+  {
+    "sheet_code": "NI-53-15",
+    "name_ja": "和歌山",
+    "name_en": "Wakayama",
+    "region": "04_中部近畿",
+    "pub_year": 1998,
+    "has_explanation_pdf": false,
+    "bbox": [
+      34.0,
+      135.0,
+      34.666667,
+      136.0
+    ],
+    "center": [
+      34.333333499999995,
+      135.5
+    ],
+    "wkt_geom": "POLYGON((135.0 34.0, 136.0 34.0, 136.0 34.666667, 135.0 34.666667, 135.0 34.0))"
+  },
+  {
+    "sheet_code": "NI-53-16",
+    "name_ja": "田辺",
+    "name_en": "Tanabe",
+    "region": "04_中部近畿",
+    "pub_year": 1982,
+    "has_explanation_pdf": false,
+    "bbox": [
+      33.5,
+      135.0,
+      34.166667,
+      136.0
+    ],
+    "center": [
+      33.833333499999995,
+      135.5
+    ],
+    "wkt_geom": "POLYGON((135.0 33.5, 136.0 33.5, 136.0 34.166667, 135.0 34.166667, 135.0 33.5))"
+  },
+  {
+    "sheet_code": "NI-53-25･31",
+    "name_ja": "西郷",
+    "name_en": "Saigo",
+    "region": "05_中国四国",
+    "pub_year": 2010,
+    "has_explanation_pdf": true,
+    "bbox": [
+      36.0,
+      133.0,
+      36.666667,
+      134.0
+    ],
+    "center": [
+      36.333333499999995,
+      133.5
+    ],
+    "wkt_geom": "POLYGON((133.0 36.0, 134.0 36.0, 134.0 36.666667, 133.0 36.666667, 133.0 36.0))"
+  },
+  {
+    "sheet_code": "NI-53-19",
+    "name_ja": "鳥取",
+    "name_en": "Tottori",
+    "region": "05_中国四国",
+    "pub_year": 1974,
+    "has_explanation_pdf": false,
+    "bbox": [
+      35.333333,
+      134.0,
+      36.0,
+      135.0
+    ],
+    "center": [
+      35.666666500000005,
+      134.5
+    ],
+    "wkt_geom": "POLYGON((134.0 35.333333, 135.0 35.333333, 135.0 36.0, 134.0 36.0, 134.0 35.333333))"
+  },
+  {
+    "sheet_code": "NI-53-20",
+    "name_ja": "姫路",
+    "name_en": "Himeji",
+    "region": "05_中国四国",
+    "pub_year": 1981,
+    "has_explanation_pdf": false,
+    "bbox": [
+      34.666667,
+      134.0,
+      35.333333,
+      135.0
+    ],
+    "center": [
+      35.0,
+      134.5
+    ],
+    "wkt_geom": "POLYGON((134.0 34.666667, 135.0 34.666667, 135.0 35.333333, 134.0 35.333333, 134.0 34.666667))"
+  },
+  {
+    "sheet_code": "NI-53-21",
+    "name_ja": "徳島（第2版）",
+    "name_en": "Tokushima",
+    "region": "05_中国四国",
+    "pub_year": 1995,
+    "has_explanation_pdf": false,
+    "bbox": [
+      34.0,
+      134.0,
+      34.666667,
+      135.0
+    ],
+    "center": [
+      34.333333499999995,
+      134.5
+    ],
+    "wkt_geom": "POLYGON((134.0 34.0, 135.0 34.0, 135.0 34.666667, 134.0 34.666667, 134.0 34.0))"
+  },
+  {
+    "sheet_code": "NI-53-22･23",
+    "name_ja": "剣山",
+    "name_en": "Kenzan",
+    "region": "05_中国四国",
+    "pub_year": 1969,
+    "has_explanation_pdf": false,
+    "bbox": [
+      33.666667,
+      134.0,
+      34.333333,
+      135.0
+    ],
+    "center": [
+      34.0,
+      134.5
+    ],
+    "wkt_geom": "POLYGON((134.0 33.666667, 135.0 33.666667, 135.0 34.333333, 134.0 34.333333, 134.0 33.666667))"
+  },
+  {
+    "sheet_code": "NI-53-25",
+    "name_ja": "松江及び大社",
+    "name_en": "Matsue-Taisha",
+    "region": "05_中国四国",
+    "pub_year": 1982,
+    "has_explanation_pdf": false,
+    "bbox": [
+      35.333333,
+      132.5,
+      36.0,
+      133.5
+    ],
+    "center": [
+      35.666666500000005,
+      133.0
+    ],
+    "wkt_geom": "POLYGON((132.5 35.333333, 133.5 35.333333, 133.5 36.0, 132.5 36.0, 132.5 35.333333))"
+  },
+  {
+    "sheet_code": "NI-53-26",
+    "name_ja": "高梁",
+    "name_en": "Takahashi",
+    "region": "05_中国四国",
+    "pub_year": 1996,
+    "has_explanation_pdf": false,
+    "bbox": [
+      34.666667,
+      133.0,
+      35.333333,
+      134.0
+    ],
+    "center": [
+      35.0,
+      133.5
+    ],
+    "wkt_geom": "POLYGON((133.0 34.666667, 134.0 34.666667, 134.0 35.333333, 133.0 35.333333, 133.0 34.666667))"
+  },
+  {
+    "sheet_code": "NI-53-27",
+    "name_ja": "岡山及丸亀",
+    "name_en": "Okayama-Marugame",
+    "region": "05_中国四国",
+    "pub_year": 2002,
+    "has_explanation_pdf": true,
+    "bbox": [
+      34.0,
+      133.5,
+      34.666667,
+      134.5
+    ],
+    "center": [
+      34.333333499999995,
+      134.0
+    ],
+    "wkt_geom": "POLYGON((133.5 34.0, 134.5 34.0, 134.5 34.666667, 133.5 34.666667, 133.5 34.0))"
+  },
+  {
+    "sheet_code": "NI-53-28",
+    "name_ja": "高知（第2版）",
+    "name_en": "Kochi",
+    "region": "05_中国四国",
+    "pub_year": 2018,
+    "has_explanation_pdf": true,
+    "bbox": [
+      33.333333,
+      133.0,
+      34.0,
+      134.0
+    ],
+    "center": [
+      33.666666500000005,
+      133.5
+    ],
+    "wkt_geom": "POLYGON((133.0 33.333333, 134.0 33.333333, 134.0 34.0, 133.0 34.0, 133.0 33.333333))"
+  },
+  {
+    "sheet_code": "NI-53-29",
+    "name_ja": "窪川",
+    "name_en": "Kubokawa",
+    "region": "05_中国四国",
+    "pub_year": 2006,
+    "has_explanation_pdf": true,
+    "bbox": [
+      33.0,
+      132.5,
+      33.666667,
+      133.5
+    ],
+    "center": [
+      33.333333499999995,
+      133.0
+    ],
+    "wkt_geom": "POLYGON((132.5 33.0, 133.5 33.0, 133.5 33.666667, 132.5 33.666667, 132.5 33.0))"
+  },
+  {
+    "sheet_code": "NI-53-32",
+    "name_ja": "浜田",
+    "name_en": "Hamada",
+    "region": "05_中国四国",
+    "pub_year": 1988,
+    "has_explanation_pdf": false,
+    "bbox": [
+      34.666667,
+      132.0,
+      35.333333,
+      133.0
+    ],
+    "center": [
+      35.0,
+      132.5
+    ],
+    "wkt_geom": "POLYGON((132.0 34.666667, 133.0 34.666667, 133.0 35.333333, 132.0 35.333333, 132.0 34.666667))"
+  },
+  {
+    "sheet_code": "NI-53-33",
+    "name_ja": "広島",
+    "name_en": "Hiroshima",
+    "region": "05_中国四国",
+    "pub_year": 1986,
+    "has_explanation_pdf": false,
+    "bbox": [
+      34.0,
+      132.0,
+      34.666667,
+      133.0
+    ],
+    "center": [
+      34.333333499999995,
+      132.5
+    ],
+    "wkt_geom": "POLYGON((132.0 34.0, 133.0 34.0, 133.0 34.666667, 132.0 34.666667, 132.0 34.0))"
+  },
+  {
+    "sheet_code": "NI-53-34",
+    "name_ja": "松山（第2版）",
+    "name_en": "Matsuyama",
+    "region": "05_中国四国",
+    "pub_year": 2016,
+    "has_explanation_pdf": true,
+    "bbox": [
+      33.666667,
+      132.5,
+      34.333333,
+      133.5
+    ],
+    "center": [
+      34.0,
+      133.0
+    ],
+    "wkt_geom": "POLYGON((132.5 33.666667, 133.5 33.666667, 133.5 34.333333, 132.5 34.333333, 132.5 33.666667))"
+  },
+  {
+    "sheet_code": "NI-53-29･35",
+    "name_ja": "宇和島",
+    "name_en": "Uwajima",
+    "region": "05_中国四国",
+    "pub_year": 1989,
+    "has_explanation_pdf": false,
+    "bbox": [
+      33.0,
+      132.0,
+      33.666667,
+      133.0
+    ],
+    "center": [
+      33.333333499999995,
+      132.5
+    ],
+    "wkt_geom": "POLYGON((132.0 33.0, 133.0 33.0, 133.0 33.666667, 132.0 33.666667, 132.0 33.0))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Yamaguchi-Mishima",
+    "name_ja": "山口及び見島",
+    "name_en": "Yamaguchi-Mishima",
+    "region": "05_中国四国",
+    "pub_year": 2007,
+    "has_explanation_pdf": true,
+    "bbox": [
+      34.0,
+      131.0,
+      34.666667,
+      132.0
+    ],
+    "center": [
+      34.333333499999995,
+      131.5
+    ],
+    "wkt_geom": "POLYGON((131.0 34.0, 132.0 34.0, 132.0 34.666667, 131.0 34.666667, 131.0 34.0))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Kogushi",
+    "name_ja": "小串",
+    "name_en": "Kogushi",
+    "region": "05_中国四国",
+    "pub_year": 2006,
+    "has_explanation_pdf": true,
+    "bbox": [
+      34.0,
+      130.5,
+      34.666667,
+      131.5
+    ],
+    "center": [
+      34.333333499999995,
+      131.0
+    ],
+    "wkt_geom": "POLYGON((130.5 34.0, 131.5 34.0, 131.5 34.666667, 130.5 34.666667, 130.5 34.0))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Nakatsu",
+    "name_ja": "中津",
+    "name_en": "Nakatsu",
+    "region": "06_九州",
+    "pub_year": 2009,
+    "has_explanation_pdf": true,
+    "bbox": [
+      33.333333,
+      131.0,
+      34.0,
+      132.0
+    ],
+    "center": [
+      33.666666500000005,
+      131.5
+    ],
+    "wkt_geom": "POLYGON((131.0 33.333333, 132.0 33.333333, 132.0 34.0, 131.0 34.0, 131.0 33.333333))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Oita",
+    "name_ja": "大分（第2版）",
+    "name_en": "Oita",
+    "region": "06_九州",
+    "pub_year": 2015,
+    "has_explanation_pdf": true,
+    "bbox": [
+      33.0,
+      131.0,
+      33.666667,
+      132.0
+    ],
+    "center": [
+      33.333333499999995,
+      131.5
+    ],
+    "wkt_geom": "POLYGON((131.0 33.0, 132.0 33.0, 132.0 33.666667, 131.0 33.666667, 131.0 33.0))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Nobeoka",
+    "name_ja": "延岡",
+    "name_en": "Nobeoka",
+    "region": "06_九州",
+    "pub_year": 1981,
+    "has_explanation_pdf": false,
+    "bbox": [
+      32.333333,
+      131.0,
+      33.0,
+      132.0
+    ],
+    "center": [
+      32.666666500000005,
+      131.5
+    ],
+    "wkt_geom": "POLYGON((131.0 32.333333, 132.0 32.333333, 132.0 33.0, 131.0 33.0, 131.0 32.333333))"
+  },
+  {
+    "sheet_code": "NI-52-10",
+    "name_ja": "福岡",
+    "name_en": "Fukuoka",
+    "region": "06_九州",
+    "pub_year": 1993,
+    "has_explanation_pdf": false,
+    "bbox": [
+      33.333333,
+      130.0,
+      34.0,
+      131.0
+    ],
+    "center": [
+      33.666666500000005,
+      130.5
+    ],
+    "wkt_geom": "POLYGON((130.0 33.333333, 131.0 33.333333, 131.0 34.0, 130.0 34.0, 130.0 33.333333))"
+  },
+  {
+    "sheet_code": "NI-52-11",
+    "name_ja": "熊本",
+    "name_en": "Kumamoto",
+    "region": "06_九州",
+    "pub_year": 2004,
+    "has_explanation_pdf": true,
+    "bbox": [
+      32.666667,
+      130.0,
+      33.333333,
+      131.0
+    ],
+    "center": [
+      33.0,
+      130.5
+    ],
+    "wkt_geom": "POLYGON((130.0 32.666667, 131.0 32.666667, 131.0 33.333333, 130.0 33.333333, 130.0 32.666667))"
+  },
+  {
+    "sheet_code": "NI-52-12",
+    "name_ja": "八代及び野母崎の一部",
+    "name_en": "Yatsushiro-Nomozaki",
+    "region": "06_九州",
+    "pub_year": 2010,
+    "has_explanation_pdf": true,
+    "bbox": [
+      32.0,
+      130.0,
+      32.666667,
+      131.0
+    ],
+    "center": [
+      32.333333499999995,
+      130.5
+    ],
+    "wkt_geom": "POLYGON((130.0 32.0, 131.0 32.0, 131.0 32.666667, 130.0 32.666667, 130.0 32.0))"
+  },
+  {
+    "sheet_code": "NI-52-14･15",
+    "name_ja": "厳原",
+    "name_en": "Izuhara",
+    "region": "06_九州",
+    "pub_year": 1990,
+    "has_explanation_pdf": false,
+    "bbox": [
+      34.0,
+      129.0,
+      34.666667,
+      130.0
+    ],
+    "center": [
+      34.333333499999995,
+      129.5
+    ],
+    "wkt_geom": "POLYGON((129.0 34.0, 130.0 34.0, 130.0 34.666667, 129.0 34.666667, 129.0 34.0))"
+  },
+  {
+    "sheet_code": "NI-52-16",
+    "name_ja": "唐津（第2版）",
+    "name_en": "Karatsu",
+    "region": "06_九州",
+    "pub_year": 1997,
+    "has_explanation_pdf": false,
+    "bbox": [
+      33.333333,
+      129.5,
+      34.0,
+      130.5
+    ],
+    "center": [
+      33.666666500000005,
+      130.0
+    ],
+    "wkt_geom": "POLYGON((129.5 33.333333, 130.5 33.333333, 130.5 34.0, 129.5 34.0, 129.5 33.333333))"
+  },
+  {
+    "sheet_code": "NI-52-17",
+    "name_ja": "長崎（第2版）",
+    "name_en": "Nagasaki",
+    "region": "06_九州",
+    "pub_year": 1989,
+    "has_explanation_pdf": false,
+    "bbox": [
+      32.666667,
+      129.5,
+      33.333333,
+      130.5
+    ],
+    "center": [
+      33.0,
+      130.0
+    ],
+    "wkt_geom": "POLYGON((129.5 32.666667, 130.5 32.666667, 130.5 33.333333, 129.5 33.333333, 129.5 32.666667))"
+  },
+  {
+    "sheet_code": "NI-52-18",
+    "name_ja": "野母崎",
+    "name_en": "Nomozaki",
+    "region": "06_九州",
+    "pub_year": 1977,
+    "has_explanation_pdf": false,
+    "bbox": [
+      32.333333,
+      129.5,
+      33.0,
+      130.5
+    ],
+    "center": [
+      32.666666500000005,
+      130.0
+    ],
+    "wkt_geom": "POLYGON((129.5 32.333333, 130.5 32.333333, 130.5 33.0, 129.5 33.0, 129.5 32.333333))"
+  },
+  {
+    "sheet_code": "NI-52-23",
+    "name_ja": "福江及び富江",
+    "name_en": "Fukue-Tomie",
+    "region": "06_九州",
+    "pub_year": 1986,
+    "has_explanation_pdf": false,
+    "bbox": [
+      32.333333,
+      128.5,
+      33.0,
+      129.5
+    ],
+    "center": [
+      32.666666500000005,
+      129.0
+    ],
+    "wkt_geom": "POLYGON((128.5 32.333333, 129.5 32.333333, 129.5 33.0, 128.5 33.0, 128.5 32.333333))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Miyazaki",
+    "name_ja": "宮崎",
+    "name_en": "Miyazaki",
+    "region": "06_九州",
+    "pub_year": 1997,
+    "has_explanation_pdf": false,
+    "bbox": [
+      31.666667,
+      131.0,
+      32.333333,
+      132.0
+    ],
+    "center": [
+      32.0,
+      131.5
+    ],
+    "wkt_geom": "POLYGON((131.0 31.666667, 132.0 31.666667, 132.0 32.333333, 131.0 32.333333, 131.0 31.666667))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Kagoshima",
+    "name_ja": "鹿児島",
+    "name_en": "Kagoshima",
+    "region": "06_九州",
+    "pub_year": 1997,
+    "has_explanation_pdf": false,
+    "bbox": [
+      31.333333,
+      130.0,
+      32.0,
+      131.0
+    ],
+    "center": [
+      31.666666499999998,
+      130.5
+    ],
+    "wkt_geom": "POLYGON((130.0 31.333333, 131.0 31.333333, 131.0 32.0, 130.0 32.0, 130.0 31.333333))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Kaimondake-Kuroshima",
+    "name_ja": "開聞岳及び黒島の一部",
+    "name_en": "Kaimondake-Kuroshima",
+    "region": "06_九州",
+    "pub_year": 2004,
+    "has_explanation_pdf": true,
+    "bbox": [
+      31.0,
+      130.0,
+      31.666667,
+      131.0
+    ],
+    "center": [
+      31.333333500000002,
+      130.5
+    ],
+    "wkt_geom": "POLYGON((130.0 31.0, 131.0 31.0, 131.0 31.666667, 130.0 31.666667, 130.0 31.0))"
+  },
+  {
+    "sheet_code": "NH-52-13",
+    "name_ja": "甑島及び黒島",
+    "name_en": "Koshikijima-Kuroshima",
+    "region": "06_九州",
+    "pub_year": 2004,
+    "has_explanation_pdf": true,
+    "bbox": [
+      31.5,
+      129.5,
+      32.166667,
+      130.5
+    ],
+    "center": [
+      31.8333335,
+      130.0
+    ],
+    "wkt_geom": "POLYGON((129.5 31.5, 130.5 31.5, 130.5 32.166667, 129.5 32.166667, 129.5 31.5))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Yakushima",
+    "name_ja": "屋久島",
+    "name_en": "Yakushima",
+    "region": "06_九州",
+    "pub_year": 2007,
+    "has_explanation_pdf": true,
+    "bbox": [
+      30.0,
+      130.0,
+      30.666667,
+      131.0
+    ],
+    "center": [
+      30.333333500000002,
+      130.5
+    ],
+    "wkt_geom": "POLYGON((130.0 30.0, 131.0 30.0, 131.0 30.666667, 130.0 30.666667, 130.0 30.0))"
+  },
+  {
+    "sheet_code": "NH-52-15･16",
+    "name_ja": "中之島及び宝島",
+    "name_en": "Nakanoshima-Takarajima",
+    "region": "07_南西諸島",
+    "pub_year": 2008,
+    "has_explanation_pdf": true,
+    "bbox": [
+      29.0,
+      129.0,
+      30.0,
+      130.0
+    ],
+    "center": [
+      29.5,
+      129.5
+    ],
+    "wkt_geom": "POLYGON((129.0 29.0, 130.0 29.0, 130.0 30.0, 129.0 30.0, 129.0 29.0))"
+  },
+  {
+    "sheet_code": "NH-52-18",
+    "name_ja": "奄美大島",
+    "name_en": "Amamioshima",
+    "region": "07_南西諸島",
+    "pub_year": 1994,
+    "has_explanation_pdf": false,
+    "bbox": [
+      28.0,
+      129.0,
+      28.666667,
+      130.0
+    ],
+    "center": [
+      28.333333500000002,
+      129.5
+    ],
+    "wkt_geom": "POLYGON((129.0 28.0, 130.0 28.0, 130.0 28.666667, 129.0 28.666667, 129.0 28.0))"
+  },
+  {
+    "sheet_code": "NG-52-13･19",
+    "name_ja": "徳之島",
+    "name_en": "Tokunoshima",
+    "region": "07_南西諸島",
+    "pub_year": 2009,
+    "has_explanation_pdf": true,
+    "bbox": [
+      27.333333,
+      128.5,
+      28.0,
+      129.5
+    ],
+    "center": [
+      27.666666499999998,
+      129.0
+    ],
+    "wkt_geom": "POLYGON((128.5 27.333333, 129.5 27.333333, 129.5 28.0, 128.5 28.0, 128.5 27.333333))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Yoronjima-Naha",
+    "name_ja": "与論島及び那覇",
+    "name_en": "Yoronjima-Naha",
+    "region": "07_南西諸島",
+    "pub_year": 2010,
+    "has_explanation_pdf": true,
+    "bbox": [
+      26.0,
+      127.5,
+      27.0,
+      128.5
+    ],
+    "center": [
+      26.5,
+      128.0
+    ],
+    "wkt_geom": "POLYGON((127.5 26.0, 128.5 26.0, 128.5 27.0, 127.5 27.0, 127.5 26.0))"
+  },
+  {
+    "sheet_code": "NG-52-27･33",
+    "name_ja": "久米島",
+    "name_en": "Kumejima",
+    "region": "07_南西諸島",
+    "pub_year": 1993,
+    "has_explanation_pdf": false,
+    "bbox": [
+      26.0,
+      126.5,
+      26.666667,
+      127.5
+    ],
+    "center": [
+      26.333333500000002,
+      127.0
+    ],
+    "wkt_geom": "POLYGON((126.5 26.0, 127.5 26.0, 127.5 26.666667, 126.5 26.666667, 126.5 26.0))"
+  },
+  {
+    "sheet_code": "GSJ-200K-Miyakojima",
+    "name_ja": "宮古島",
+    "name_en": "Miyakojima",
+    "region": "07_南西諸島",
+    "pub_year": 1978,
+    "has_explanation_pdf": false,
+    "bbox": [
+      24.5,
+      125.0,
+      25.166667,
+      126.0
+    ],
+    "center": [
+      24.833333500000002,
+      125.5
+    ],
+    "wkt_geom": "POLYGON((125.0 24.5, 126.0 24.5, 126.0 25.166667, 125.0 25.166667, 125.0 24.5))"
+  },
+  {
+    "sheet_code": "NG-51-10･16",
+    "name_ja": "魚釣島",
+    "name_en": "Uotsurijima",
+    "region": "07_南西諸島",
+    "pub_year": 2008,
+    "has_explanation_pdf": true,
+    "bbox": [
+      25.5,
+      123.0,
+      26.0,
+      124.0
+    ],
+    "center": [
+      25.75,
+      123.5
+    ],
+    "wkt_geom": "POLYGON((123.0 25.5, 124.0 25.5, 124.0 26.0, 123.0 26.0, 123.0 25.5))"
+  },
+  {
+    "sheet_code": "NG-51-12･18",
+    "name_ja": "石垣島",
+    "name_en": "Ishigakijima",
+    "region": "07_南西諸島",
+    "pub_year": 2009,
+    "has_explanation_pdf": true,
+    "bbox": [
+      24.0,
+      124.0,
+      24.666667,
+      125.0
+    ],
+    "center": [
+      24.333333500000002,
+      124.5
+    ],
+    "wkt_geom": "POLYGON((124.0 24.0, 125.0 24.0, 125.0 24.666667, 124.0 24.666667, 124.0 24.0))"
+  }
+]

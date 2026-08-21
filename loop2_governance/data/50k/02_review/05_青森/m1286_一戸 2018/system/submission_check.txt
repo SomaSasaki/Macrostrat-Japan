@@ -1,0 +1,15 @@
+読み込み: C:\Users\somas\OneDrive\デスクトップ\summer research 2026\MacroStrat\data\02_review\05_青森\m1286_一戸 2018\m1286_review.building.xlsx
+  area別の値に分解: sort_order 9行
+  prop: 年代から計算 24 件 / 手入力を尊重 8 件 / 未入力 52 件 / 年代が1点 4 件（表示桁で同値になる幅を使用）
+    年代が片側しか分からない 4 件: Kadonosawa Formation, Kadonosawa Formation, Kadonosawa Formation, Ainoyama Formation
+      → 上下の年代が別々に分かるなら t_age_ma / b_age_ma に入れてください。
+  未入力（任意項目・空欄のままで提出できます）: t_age_ma 未入力 26 / b_age_ma 未入力 26 / min_thickness 未入力 20 / max_thickness 未入力 16 / environment 未入力 10
+
+--- 警告 1 件（出力は続行します） ---
+  [warn] environment: Macrostrat公式表に無い語が 3 種 - 'shallow marine'×6, 'pyroclastic flow'×3, 'shelf'×1（自由記述は仕様上許容。意図的ならそのままで構いません）
+
+(--check-only のため出力はしていません)
+
+
+--- Semantic pipeline gate ---
+[ERROR] 30 canonical unit row(s) still carry CHECK/MISSING status; scientific review or higher-confidence source resolution is required.

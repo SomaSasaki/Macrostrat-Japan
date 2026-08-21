@@ -1,0 +1,22 @@
+{
+  "dropped": [
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p041",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit",
+      "unit_id": "m1286_p043",
+      "reason": "no valid Column membership"
+    },
+    {
+      "kind": "unit_coverage",
+      "reason": "response did not return every canonical unit",
+      "missing": [
+        "m1286_p041",
+        "m1286_p043"
+      ]
+    }
+  ]
+}

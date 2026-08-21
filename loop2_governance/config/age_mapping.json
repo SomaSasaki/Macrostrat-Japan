@@ -1,0 +1,922 @@
+{
+ "アプチアン期": {
+  "b_int": "Aptian",
+  "t_int": "Aptian"
+ },
+ "アプチアン期-アルビアン期": {
+  "b_int": "Aptian",
+  "t_int": "Albian"
+ },
+ "アルビアン-セノマニアン期": {
+  "b_int": "Albian",
+  "t_int": "Cenomanian"
+ },
+ "アルビアン期": {
+  "b_int": "Albian",
+  "t_int": "Albian"
+ },
+ "アルビアン期-カンパニアン期": {
+  "b_int": "Albian",
+  "t_int": "Campanian"
+ },
+ "アルビアン期-セノマニアン期": {
+  "b_int": "Albian",
+  "t_int": "Cenomanian"
+ },
+ "オルドビス紀": {
+  "b_int": "Ordovician",
+  "t_int": "Ordovician"
+ },
+ "オルドビス紀-シルル紀": {
+  "b_int": "Ordovician",
+  "t_int": "Silurian"
+ },
+ "オルドビス紀-石炭紀": {
+  "b_int": "Ordovician",
+  "t_int": "Carboniferous"
+ },
+ "オーテリビアン期-アルビアン期": {
+  "b_int": "Hauterivian",
+  "t_int": "Albian"
+ },
+ "オーテリビアン－アプチアン期": {
+  "b_int": "Hauterivian",
+  "t_int": "Aptian"
+ },
+ "カンパニアン期－暁新世": {
+  "b_int": "Campanian",
+  "t_int": "Paleocene"
+ },
+ "サントニアン期-カンパニアン期": {
+  "b_int": "Santonian",
+  "t_int": "Campanian"
+ },
+ "シルル紀-デボン紀": {
+  "b_int": "Silurian",
+  "t_int": "Devonian"
+ },
+ "ジュラ紀": {
+  "b_int": "Jurassic",
+  "t_int": "Jurassic"
+ },
+ "ジュラ紀-白亜紀": {
+  "b_int": "Jurassic",
+  "t_int": "Cretaceous"
+ },
+ "ジュラ紀-白亜紀後期": {
+  "b_int": "Jurassic",
+  "t_int": "Late Cretaceous"
+ },
+ "セノマニアン期": {
+  "b_int": "Cenomanian",
+  "t_int": "Cenomanian"
+ },
+ "セノマニアン期-カンパニアン期": {
+  "b_int": "Cenomanian",
+  "t_int": "Campanian"
+ },
+ "セノマニアン期-チューロニアン期": {
+  "b_int": "Cenomanian",
+  "t_int": "Turonian"
+ },
+ "チトニアン期-バランギニアン期": {
+  "b_int": "Tithonian",
+  "t_int": "Valanginian"
+ },
+ "チューロニアン期-カンパニアン期": {
+  "b_int": "Turonian",
+  "t_int": "Campanian"
+ },
+ "チューロニアン期-マーストリヒチアン期": {
+  "b_int": "Turonian",
+  "t_int": "Maastrichtian"
+ },
+ "デボン紀": {
+  "b_int": "Devonian",
+  "t_int": "Devonian"
+ },
+ "バランギニアン期-オーテリビアン期": {
+  "b_int": "Valanginian",
+  "t_int": "Hauterivian"
+ },
+ "バレミアン期": {
+  "b_int": "Barremian",
+  "t_int": "Barremian"
+ },
+ "ペルム紀": {
+  "b_int": "Permian",
+  "t_int": "Permian"
+ },
+ "三畳紀": {
+  "b_int": "Triassic",
+  "t_int": "Triassic"
+ },
+ "三畳紀-ジュラ紀": {
+  "b_int": "Triassic",
+  "t_int": "Jurassic"
+ },
+ "三畳紀初期": {
+  "b_int": "Early Triassic",
+  "t_int": "Early Triassic"
+ },
+ "三畳紀層": {
+  "b_int": "Triassic",
+  "t_int": "Triassic"
+ },
+ "上部古生層": {
+  "b_int": "Carboniferous",
+  "t_int": "Permian"
+ },
+ "上部更新統": {
+  "b_int": "Late Pleistocene",
+  "t_int": "Late Pleistocene"
+ },
+ "中新世": {
+  "b_int": "Miocene",
+  "t_int": "Miocene"
+ },
+ "中新世-更新世": {
+  "b_int": "Miocene",
+  "t_int": "Pleistocene"
+ },
+ "中新世-鮮新世": {
+  "b_int": "Miocene",
+  "t_int": "Pliocene"
+ },
+ "中新世中期": {
+  "b_int": "Langhian",
+  "t_int": "Serravallian"
+ },
+ "中新世後期": {
+  "b_int": "Tortonian",
+  "t_int": "Messinian"
+ },
+ "中新世後期-鮮新世": {
+  "b_int": "Tortonian",
+  "t_int": "Pliocene"
+ },
+ "中新世－鮮新世": {
+  "b_int": "Miocene",
+  "t_int": "Pliocene"
+ },
+ "中新統": {
+  "b_int": "Miocene",
+  "t_int": "Miocene"
+ },
+ "中期-後期中新世": {
+  "b_int": "Langhian",
+  "t_int": "Messinian"
+ },
+ "中期三畳紀": {
+  "b_int": "Middle Triassic",
+  "t_int": "Middle Triassic"
+ },
+ "中期中新世": {
+  "b_int": "Langhian",
+  "t_int": "Serravallian"
+ },
+ "中期始新世": {
+  "b_int": "Lutetian",
+  "t_int": "Bartonian"
+ },
+ "中期始新世-前期漸新世": {
+  "b_int": "Lutetian",
+  "t_int": "Rupelian"
+ },
+ "中期更新世": {
+  "b_int": "Chibanian",
+  "t_int": "Chibanian"
+ },
+ "中期更新世-完新世": {
+  "b_int": "Chibanian",
+  "t_int": "Holocene"
+ },
+ "中期更新世－完新世": {
+  "b_int": "Chibanian",
+  "t_int": "Holocene"
+ },
+ "中生代": {
+  "b_int": "Mesozoic",
+  "t_int": "Mesozoic"
+ },
+ "中生代？": {
+  "b_int": "Mesozoic",
+  "t_int": "Mesozoic"
+ },
+ "中部中新統": {
+  "b_int": "Langhian",
+  "t_int": "Serravallian"
+ },
+ "中部更新統": {
+  "b_int": "Chibanian",
+  "t_int": "Chibanian"
+ },
+ "中部更新統-上部更新統": {
+  "b_int": "Chibanian",
+  "t_int": "Late Pleistocene"
+ },
+ "二畳系": {
+  "b_int": "Permian",
+  "t_int": "Permian"
+ },
+ "二畳紀": {
+  "b_int": "Permian",
+  "t_int": "Permian"
+ },
+ "二畳紀前期": {
+  "b_int": "Cisuralian",
+  "t_int": "Cisuralian"
+ },
+ "前期ジュラ紀": {
+  "b_int": "Early Jurassic",
+  "t_int": "Early Jurassic"
+ },
+ "前期中新世": {
+  "b_int": "Aquitanian",
+  "t_int": "Burdigalian"
+ },
+ "前期暁新世-中期始新世": {
+  "b_int": "Danian",
+  "t_int": "Bartonian"
+ },
+ "前期更新世－中期更新世": {
+  "b_int": "Gelasian",
+  "t_int": "Chibanian"
+ },
+ "前期白亜紀": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Early Cretaceous"
+ },
+ "前期石炭紀": {
+  "b_int": "Mississippian",
+  "t_int": "Mississippian"
+ },
+ "前期鮮新世": {
+  "b_int": "Zanclean",
+  "t_int": "Zanclean"
+ },
+ "古生代": {
+  "b_int": "Paleozoic",
+  "t_int": "Paleozoic"
+ },
+ "古生代-中生代": {
+  "b_int": "Paleozoic",
+  "t_int": "Mesozoic"
+ },
+ "古生代（上部二畳紀）": {
+  "b_int": "Permian",
+  "t_int": "Permian"
+ },
+ "古生界": {
+  "b_int": "Paleozoic",
+  "t_int": "Paleozoic"
+ },
+ "古第三系": {
+  "b_int": "Paleogene",
+  "t_int": "Paleogene"
+ },
+ "古第三系?": {
+  "b_int": "Paleogene",
+  "t_int": "Paleogene"
+ },
+ "古第三紀": {
+  "b_int": "Paleogene",
+  "t_int": "Paleogene"
+ },
+ "古第三紀?": {
+  "b_int": "Paleogene",
+  "t_int": "Paleogene"
+ },
+ "古第三紀？": {
+  "b_int": "Paleogene",
+  "t_int": "Paleogene"
+ },
+ "始新世": {
+  "b_int": "Eocene",
+  "t_int": "Eocene"
+ },
+ "始新世－漸新世": {
+  "b_int": "Eocene",
+  "t_int": "Oligocene"
+ },
+ "完新世": {
+  "b_int": "Holocene",
+  "t_int": "Holocene"
+ },
+ "完新統": {
+  "b_int": "Holocene",
+  "t_int": "Holocene"
+ },
+ "後期シルル紀-前期デボン紀": {
+  "b_int": "Ludlow",
+  "t_int": "Early Devonian"
+ },
+ "後期ジュラ紀": {
+  "b_int": "Late Jurassic",
+  "t_int": "Late Jurassic"
+ },
+ "後期デボン紀": {
+  "b_int": "Late Devonian",
+  "t_int": "Late Devonian"
+ },
+ "後期三畳紀": {
+  "b_int": "Late Triassic",
+  "t_int": "Late Triassic"
+ },
+ "後期三畳紀-中期ジュラ紀": {
+  "b_int": "Late Triassic",
+  "t_int": "Middle Jurassic"
+ },
+ "後期三畳紀-前期ジュラ紀": {
+  "b_int": "Late Triassic",
+  "t_int": "Early Jurassic"
+ },
+ "後期三畳紀－ジュラ紀": {
+  "b_int": "Late Triassic",
+  "t_int": "Jurassic"
+ },
+ "後期中新世": {
+  "b_int": "Tortonian",
+  "t_int": "Messinian"
+ },
+ "後期中新世-鮮新世": {
+  "b_int": "Tortonian",
+  "t_int": "Pliocene"
+ },
+ "後期中新世－前期鮮新世": {
+  "b_int": "Tortonian",
+  "t_int": "Zanclean"
+ },
+ "後期二畳紀": {
+  "b_int": "Lopingian",
+  "t_int": "Lopingian"
+ },
+ "後期始新世": {
+  "b_int": "Priabonian",
+  "t_int": "Priabonian"
+ },
+ "後期完新世": {
+  "b_int": "Meghalayan",
+  "t_int": "Meghalayan"
+ },
+ "後期更新世": {
+  "b_int": "Late Pleistocene",
+  "t_int": "Late Pleistocene"
+ },
+ "後期更新世-完新世": {
+  "b_int": "Late Pleistocene",
+  "t_int": "Holocene"
+ },
+ "後期更新世の後半-完新世": {
+  "b_int": "Late Pleistocene",
+  "t_int": "Holocene"
+ },
+ "後期更新世－完新世": {
+  "b_int": "Late Pleistocene",
+  "t_int": "Holocene"
+ },
+ "後期漸新世": {
+  "b_int": "Chattian",
+  "t_int": "Chattian"
+ },
+ "後期白亜紀": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "後期白亜紀-古第三紀": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Paleogene"
+ },
+ "後期白亜紀－古第三紀": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Paleogene"
+ },
+ "後期鮮新-前期更新世": {
+  "b_int": "Piacenzian",
+  "t_int": "Calabrian"
+ },
+ "後期鮮新世": {
+  "b_int": "Piacenzian",
+  "t_int": "Piacenzian"
+ },
+ "後期鮮新世-前期更新世": {
+  "b_int": "Piacenzian",
+  "t_int": "Calabrian"
+ },
+ "後期鮮新世－中期更新世": {
+  "b_int": "Piacenzian",
+  "t_int": "Chibanian"
+ },
+ "後期鮮新世－前期更新世": {
+  "b_int": "Piacenzian",
+  "t_int": "Calabrian"
+ },
+ "新生代": {
+  "b_int": "Cenozoic",
+  "t_int": "Cenozoic"
+ },
+ "新第三紀-更新世": {
+  "b_int": "Neogene",
+  "t_int": "Pleistocene"
+ },
+ "新第三紀（中新世）": {
+  "b_int": "Miocene",
+  "t_int": "Miocene"
+ },
+ "暁新世-前期始新世": {
+  "b_int": "Paleocene",
+  "t_int": "Ypresian"
+ },
+ "暁新世－始新世": {
+  "b_int": "Paleocene",
+  "t_int": "Eocene"
+ },
+ "更新世": {
+  "b_int": "Pleistocene",
+  "t_int": "Pleistocene"
+ },
+ "更新世中期": {
+  "b_int": "Chibanian",
+  "t_int": "Chibanian"
+ },
+ "更新世中期-完新世": {
+  "b_int": "Chibanian",
+  "t_int": "Holocene"
+ },
+ "更新世前期": {
+  "b_int": "Gelasian",
+  "t_int": "Calabrian"
+ },
+ "更新世後期": {
+  "b_int": "Late Pleistocene",
+  "t_int": "Late Pleistocene"
+ },
+ "更新統": {
+  "b_int": "Pleistocene",
+  "t_int": "Pleistocene"
+ },
+ "洪積世": {
+  "b_int": "Pleistocene",
+  "t_int": "Pleistocene"
+ },
+ "漸新世": {
+  "b_int": "Oligocene",
+  "t_int": "Oligocene"
+ },
+ "白亜系": {
+  "b_int": "Cretaceous",
+  "t_int": "Cretaceous"
+ },
+ "白亜紀": {
+  "b_int": "Cretaceous",
+  "t_int": "Cretaceous"
+ },
+ "白亜紀-第三紀": {
+  "b_int": "Cretaceous",
+  "t_int": "Neogene"
+ },
+ "白亜紀前期": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Early Cretaceous"
+ },
+ "白亜紀後期": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "白亜紀後期-古第三紀": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Paleogene"
+ },
+ "白堊紀": {
+  "b_int": "Cretaceous",
+  "t_int": "Cretaceous"
+ },
+ "石炭紀": {
+  "b_int": "Carboniferous",
+  "t_int": "Carboniferous"
+ },
+ "石炭紀-ペルム紀": {
+  "b_int": "Carboniferous",
+  "t_int": "Permian"
+ },
+ "第三系": {
+  "b_int": "Paleogene",
+  "t_int": "Neogene"
+ },
+ "第三紀": {
+  "b_int": "Paleogene",
+  "t_int": "Neogene"
+ },
+ "第三紀層？": {
+  "b_int": "Paleogene",
+  "t_int": "Neogene"
+ },
+ "第三紀？": {
+  "b_int": "Paleogene",
+  "t_int": "Neogene"
+ },
+ "第四系": {
+  "b_int": "Quaternary",
+  "t_int": "Quaternary"
+ },
+ "第四紀": {
+  "b_int": "Quaternary",
+  "t_int": "Quaternary"
+ },
+ "鮮新世": {
+  "b_int": "Pliocene",
+  "t_int": "Pliocene"
+ },
+ "鮮新世-前期更新世": {
+  "b_int": "Zanclean",
+  "t_int": "Calabrian"
+ },
+ "鮮新統": {
+  "b_int": "Pliocene",
+  "t_int": "Pliocene"
+ },
+ "ゴトランド紀": {
+  "b_int": "Silurian",
+  "t_int": "Silurian"
+ },
+ "ジュラ紀中期-白亜紀最前期（付加年代）": {
+  "b_int": "Middle Jurassic",
+  "t_int": "Early Cretaceous"
+ },
+ "ジュラ紀後期": {
+  "b_int": "Late Jurassic",
+  "t_int": "Late Jurassic"
+ },
+ "上部三畳系": {
+  "b_int": "Late Triassic",
+  "t_int": "Late Triassic"
+ },
+ "上部三畳紀": {
+  "b_int": "Late Triassic",
+  "t_int": "Late Triassic"
+ },
+ "上部二畳紀": {
+  "b_int": "Lopingian",
+  "t_int": "Lopingian"
+ },
+ "上部古生代": {
+  "b_int": "Carboniferous",
+  "t_int": "Permian"
+ },
+ "下部二畳紀": {
+  "b_int": "Cisuralian",
+  "t_int": "Cisuralian"
+ },
+ "下部石炭紀": {
+  "b_int": "Mississippian",
+  "t_int": "Mississippian"
+ },
+ "中期-後期更新世": {
+  "b_int": "Chibanian",
+  "t_int": "Late Pleistocene"
+ },
+ "先新第三紀": {
+  "b_int": null,
+  "t_int": "Paleogene"
+ },
+ "先白亜紀": {
+  "b_int": null,
+  "t_int": "Jurassic"
+ },
+ "先第三系": {
+  "b_int": null,
+  "t_int": "Cretaceous"
+ },
+ "先第三紀": {
+  "b_int": null,
+  "t_int": "Cretaceous"
+ },
+ "前期-中期ジュラ紀": {
+  "b_int": "Early Jurassic",
+  "t_int": "Middle Jurassic"
+ },
+ "前期-中期中新世": {
+  "b_int": "Aquitanian",
+  "t_int": "Serravallian"
+ },
+ "前期-中期更新世": {
+  "b_int": "Gelasian",
+  "t_int": "Chibanian"
+ },
+ "前期-後期白亜紀": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "前期-後期鮮新世": {
+  "b_int": "Pliocene",
+  "t_int": "Piacenzian"
+ },
+ "前期更新世": {
+  "b_int": "Gelasian",
+  "t_int": "Calabrian"
+ },
+ "前期白亜紀-後期白亜紀": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "前期－中期更新世": {
+  "b_int": "Gelasian",
+  "t_int": "Chibanian"
+ },
+ "前期－中期更新世から後期更新世": {
+  "b_int": "Gelasian",
+  "t_int": "Late Pleistocene"
+ },
+ "古生代後期-中生代中期": {
+  "b_int": "Carboniferous",
+  "t_int": "Mesozoic"
+ },
+ "古白亜紀": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Early Cretaceous"
+ },
+ "古白堊紀": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Early Cretaceous"
+ },
+ "後期カンブリア紀": {
+  "b_int": "Furongian",
+  "t_int": "Furongian"
+ },
+ "後期ペルム紀": {
+  "b_int": "Lopingian",
+  "t_int": "Lopingian"
+ },
+ "新白亜紀": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "新白堊起": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "新第三系": {
+  "b_int": "Neogene",
+  "t_int": "Neogene"
+ },
+ "新第三紀": {
+  "b_int": "Neogene",
+  "t_int": "Neogene"
+ },
+ "新第三紀-第四紀": {
+  "b_int": "Neogene",
+  "t_int": "Quaternary"
+ },
+ "更新世-完新世": {
+  "b_int": "Pleistocene",
+  "t_int": "Holocene"
+ },
+ "更新世-新第三紀（鮮新世）": {
+  "b_int": "Pliocene",
+  "t_int": "Pleistocene"
+ },
+ "更新世－現世": {
+  "b_int": "Pleistocene",
+  "t_int": "Holocene"
+ },
+ "洪積統": {
+  "b_int": "Pleistocene",
+  "t_int": "Pleistocene"
+ },
+ "現世": {
+  "b_int": "Holocene",
+  "t_int": "Holocene"
+ },
+ "現世-更新世": {
+  "b_int": "Pleistocene",
+  "t_int": "Holocene"
+ },
+ "現世-鮮新世": {
+  "b_int": "Pliocene",
+  "t_int": "Holocene"
+ },
+ "現世統": {
+  "b_int": "Holocene",
+  "t_int": "Holocene"
+ },
+ "白亜紀-古第三紀？": {
+  "b_int": "Cretaceous",
+  "t_int": "Paleogene"
+ },
+ "白亜紀－古第三紀": {
+  "b_int": "Cretaceous",
+  "t_int": "Paleogene"
+ },
+ "第四系？": {
+  "b_int": "Quaternary",
+  "t_int": "Quaternary"
+ },
+ "鮮新統?": {
+  "b_int": "Pliocene",
+  "t_int": "Pliocene"
+ },
+ "ジュラ紀後期（？）-白亜紀": {
+  "b_int": "Late Jurassic",
+  "t_int": "Cretaceous"
+ },
+ "ヘトナイ世": {
+  "b_int": "Campanian",
+  "t_int": "Maastrichtian"
+ },
+ "中-後期中新世": {
+  "b_int": "Langhian",
+  "t_int": "Messinian"
+ },
+ "中－後期中新世": {
+  "b_int": "Langhian",
+  "t_int": "Messinian"
+ },
+ "中-後期更新世": {
+  "b_int": "Chibanian",
+  "t_int": "Late Pleistocene"
+ },
+ "中・初期白亜紀": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Early Cretaceous"
+ },
+ "中新世前期-中期": {
+  "b_int": "Aquitanian",
+  "t_int": "Serravallian"
+ },
+ "中新世前期？": {
+  "b_int": "Aquitanian",
+  "t_int": "Burdigalian"
+ },
+ "中新－鮮新世": {
+  "b_int": "Miocene",
+  "t_int": "Pliocene"
+ },
+ "中期-後期ジュラ紀": {
+  "b_int": "Middle Jurassic",
+  "t_int": "Late Jurassic"
+ },
+ "中期ジュラ紀": {
+  "b_int": "Middle Jurassic",
+  "t_int": "Middle Jurassic"
+ },
+ "中期ジュラ紀-後期ジュラ紀初頭": {
+  "b_int": "Middle Jurassic",
+  "t_int": "Late Jurassic"
+ },
+ "中期ペルム紀": {
+  "b_int": "Guadalupian",
+  "t_int": "Guadalupian"
+ },
+ "中期始新世－漸新世": {
+  "b_int": "Lutetian",
+  "t_int": "Oligocene"
+ },
+ "中期更新世-後期更新世前半": {
+  "b_int": "Chibanian",
+  "t_int": "Late Pleistocene"
+ },
+ "中期－後期更新世": {
+  "b_int": "Chibanian",
+  "t_int": "Late Pleistocene"
+ },
+ "二畳石炭紀": {
+  "b_int": "Carboniferous",
+  "t_int": "Permian"
+ },
+ "二畳紀および石炭紀": {
+  "b_int": "Carboniferous",
+  "t_int": "Permian"
+ },
+ "二畳紀中-後期": {
+  "b_int": "Guadalupian",
+  "t_int": "Lopingian"
+ },
+ "二畳紀中期－ジュラ紀中期": {
+  "b_int": "Guadalupian",
+  "t_int": "Middle Jurassic"
+ },
+ "二畳紀中期？": {
+  "b_int": "Guadalupian",
+  "t_int": "Guadalupian"
+ },
+ "二畳紀前期-二畳紀中期": {
+  "b_int": "Cisuralian",
+  "t_int": "Guadalupian"
+ },
+ "前-中期二畳紀": {
+  "b_int": "Cisuralian",
+  "t_int": "Guadalupian"
+ },
+ "前期-中期ペルム紀": {
+  "b_int": "Cisuralian",
+  "t_int": "Guadalupian"
+ },
+ "前期ジュラ紀後期-中期ジュラ紀前期": {
+  "b_int": "Early Jurassic",
+  "t_int": "Middle Jurassic"
+ },
+ "前期中新世後半": {
+  "b_int": "Aquitanian",
+  "t_int": "Burdigalian"
+ },
+ "前期中新世末－中期中新世初期": {
+  "b_int": "Aquitanian",
+  "t_int": "Serravallian"
+ },
+ "前期中新世－中期中新世初期": {
+  "b_int": "Aquitanian",
+  "t_int": "Serravallian"
+ },
+ "前期白亜紀後期-後期白亜紀": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "前期白亜紀後期-後期白亜紀（原岩は後期ジュラ紀-前期白亜紀前期）": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "前期白亜紀後期-後期白亜紀（原岩は後期白亜紀以前）": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "前期白亜紀後期－後期白亜紀": {
+  "b_int": "Early Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "前期－中期中新世": {
+  "b_int": "Aquitanian",
+  "t_int": "Serravallian"
+ },
+ "古生代(?)": {
+  "b_int": "Paleozoic",
+  "t_int": "Paleozoic"
+ },
+ "古生代および中生代貫入岩類": {
+  "b_int": "Paleozoic",
+  "t_int": "Mesozoic"
+ },
+ "古生代後期": {
+  "b_int": "Carboniferous",
+  "t_int": "Permian"
+ },
+ "始新世－漸新世？": {
+  "b_int": "Eocene",
+  "t_int": "Oligocene"
+ },
+ "後期ジュラ紀-白亜紀最前期": {
+  "b_int": "Late Jurassic",
+  "t_int": "Early Cretaceous"
+ },
+ "後期中生代": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "後期白亜紀（マーストリヒチアン）": {
+  "b_int": "Maastrichtian",
+  "t_int": "Maastrichtian"
+ },
+ "白亜紀後期-古第三紀初期": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Paleocene"
+ },
+ "白亜紀後期？": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Late Cretaceous"
+ },
+ "白亜紀末": {
+  "b_int": "Maastrichtian",
+  "t_int": "Maastrichtian"
+ },
+ "第三紀後期－第四紀初期": {
+  "b_int": "Tortonian",
+  "t_int": "Gelasian"
+ },
+ "更新－鮮新世": {
+  "b_int": "Pliocene",
+  "t_int": "Pleistocene"
+ },
+ "鮮新-更新世": {
+  "b_int": "Pliocene",
+  "t_int": "Pleistocene"
+ },
+ "鮮新－更新世": {
+  "b_int": "Pliocene",
+  "t_int": "Pleistocene"
+ },
+ "洪積世-現世": {
+  "b_int": "Pleistocene",
+  "t_int": "Holocene"
+ },
+ "先第三系貫入岩類": {
+  "b_int": null,
+  "t_int": "Cretaceous"
+ },
+ "中生代後期－第三紀初期": {
+  "b_int": "Late Cretaceous",
+  "t_int": "Paleocene"
+ },
+ "二畳系？": {
+  "b_int": "Permian",
+  "t_int": "Permian"
+ }
+}

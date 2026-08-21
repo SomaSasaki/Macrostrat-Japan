@@ -1,0 +1,527 @@
+{
+  "schema_version": "pdf-field-enrichment/1.0",
+  "stage": "pdf_body_field_enrichment",
+  "status": "complete",
+  "job_id": "pfe_50efe961764a7865f8c6",
+  "prompt_version": "japanese-body-fields-v2-lithology-roles",
+  "prompt_sha256": "54a8b4a048253afb329adb10920be1157fb2f37bfdcaebe6673b7b50b08dd64a",
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "model": "gemini-3.6-flash",
+  "completed_at": "2026-08-11T12:53:54+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1286_p017",
+      "field": "lithology",
+      "candidate": "shale",
+      "quote": "黒色-暗灰色の硬質頁岩(第526図B)で",
+      "context": {
+        "context_id": "ctx_m1286_p017_fdc19126cab6",
+        "unit_id": "m1286_p017",
+        "unit_name": "Kawaguchi Porcelanite Member",
+        "column_ids": [
+          "unsplit"
+        ],
+        "aliases": [
+          "Kawaguchi Porcelanite Member",
+          "川口硬質頁岩部層"
+        ],
+        "section": null,
+        "pdf_page": 102,
+        "printed_page": 92,
+        "requested_fields": [
+          "t_age_ma",
+          "b_age_ma",
+          "environment",
+          "lithology",
+          "minor_lith",
+          "min_thickness",
+          "max_thickness",
+          "basal_surface",
+          "lateral_relationship"
+        ],
+        "text": "ため舌崎層の上目時砂岩部層が直接十文字層を覆う鎮西(1958b)は下斗米珪藻シルト岩部層を留崎層を構村井(1958b)及び村井(1960)では門松付近に南北成する部層と位置づけていた性の断層を想定している盆野の北の沢で本層の硬質分布二戸市金田一字川口からその南側の長久保沼頁岩相が1露頭だけ露出するが基本的に模式地より北久保柳沢神山の上流下斗米字下斗米にかけて連続側では硬質頁岩相が発達する本地域では海上川の谷的に分布するこれとは連続しないが盆野周辺の小沢地の下流やさらにその下流の川口から馬淵川の舌崎にかの谷底にも小規模の分布がある下斗米南方の丘陵の頂けて分布し北接する三戸地域の小向や城山まで分布し部にも分布が認めれるなお鎮西(1958b)が下斗米ている含珪藻シルト岩部層の模式地に設定した下斗米字下斗米舌崎や海上川に分布する本部層は南北走向で西に15°東方山腹の珪藻土採掘場は今では露頭が消滅し転石が程度ゆるく傾斜する単斜構造をなす柳沢より南では十散在しているこの採掘場は二戸科学教育研究会(1978)文字層と同様の10°未満の低角で走向はゆらいでいるでも珪藻土産地として紹介されているまとまった分布層厚模式地の柳沢では珪藻岩相の上限は不明で30としてはここが南西限となるm以上と推定される下斗米の北側では層厚は30mあ岩相ほとんど塊状で露頭面では新鮮なところでもる硬質頁岩相は川口では60mに及ぶが鎮西(1958b)白色-白灰色を呈することが多い(第526図A)珪によれば北方で薄くなり小向で24mになる藻遺骸の割合の大きいところでは乾燥すると白色で触化石珪藻岩からは珪藻化石を豊富に産する(村井るとぽろぽろと脆く砕ける場所により特に分布の南1958b;Maruyama1984)両者の間では種構成に異同側では泥質な陸源砕屑物の混入が多いところもあるそがあるがCoscinodiscus属が卓越しているこではやや灰色になり岩石も脆くはない陸源砕屑物Murai(1976)は二戸市金田一地区の川口や盆野及びが多いところでは上位の舌崎層のシルト岩と類似する下斗米字下斗米に分布する珪藻岩から次のような植物化石の産出を報告している:Cunninghamiaprotokonishii592川口硬質頁岩部層(Yh)FaguspaleocrenataFprotojaponicaQuercusprotoacuta定義柳沢層を構成する硬質頁岩を川口硬質頁岩部層Pasania(Lithocarpus)miohypopheaePcfamygdalifoliaと定義するMachilusprotothubnergi常緑広葉樹が卓越する地層名鎮西(1958b)の川口硬質頁岩部層に由来する(Cunninghamiaはヒノキ科の常緑針葉樹)また川口先行層序区分鎮西(1958b)及び佐俣(1976)の川硬質頁岩部層からは魚鱗化石の産出報告がある(鎮西口硬質頁岩部層Chinzei(1966)及びMatsubara(1996b)1958b)のKawaguchiHardShale(Member)と同じ古環境常緑広葉樹が卓越する植物化石群集(Murai模式地鎮西(1958b)は二戸市金田一字川口から舌1976)から暖温帯の環境が推定される崎間の馬淵川川岸を指定(三戸地域)時代及び対比珪藻岩相から産出する珪藻化石に基づ分布と構造鎮西(1958b)によれば三戸地域によくき本層はNPD5C(Coscinodiscusyabei帯114-10分布する本地域では二戸市舌崎から金田一字川口のかいしょ0Ma)に対比される(Maruyama1984)川口硬質頁岩馬淵川沿い及び金田一字谷地の海上川(金田一川とも)部層の比較的下部(付図8の層準STZ7-8間)からは沿いに分布するこれらから隔たって盆野に極局所的放散虫のEucyrtidiuminflatumの急減層準(116Ma)がに分布しここが分布の南限である北北東-南南東走認定されており最上部(付図8の層準STZ13-14間)向で北西にゆるく傾斜するではCyrtocapsellajaponicaの急減層準(100Ma)が認岩相黒色-暗灰色の硬質頁岩(第526図B)で定されている(尾田ほか1983)珪藻化石と放散虫化模式的に露出する川口や舌崎の青岩橋では砂岩層と指交石の示唆する年代は概ね一致しており後期中新世の初している砂岩層は分級のよい中粒砂岩で層厚が50期となる(第23図)なお本層中部のCannartuscmから2m程度のものが数枚挟まれておりところにpetterssoni(今日のDiartus)の初産出層準(12Ma)はより砂岩層から分岐して砂岩脈として硬質頁岩に貫入し産出自体が散点的との断り書き(尾田ほか1983)があている(第526図C)るため本報告では年代推定には使用しなかった510舌崎層(XsXmXa)591珪藻岩層(Yd)定義柳沢層珪藻岩相は珪藻遺骸からなる軟質のシル定義柳沢層に累重する泥質岩を主体とする地層を舌ト岩を主体とする岩相である崎層と定義する基底には砂岩がありところにより柳ぬまのくぼかみめとき先行層序区分本岩相はこれまで沼ノ久保珪藻土岩沢層の偽礫を大量に含むこの砂岩を上目時砂岩部層と層(村井1960)あるいは下斗米珪藻シルト岩部層(鎮呼ぶ主部は植物片を大量に含むシルト岩でところに西1958b)として独立した地層名を与えられていた",
+        "text_sha256": "fdc19126cab6b45ff029f74f9cf72b5ade21d547176346440fc918009e347d27",
+        "context_source": "PDF page text via verified Japanese TOC alias"
+      },
+      "assertion": "inferred",
+      "raw_phrase": "shale",
+      "normalized_terms": [
+        "shale"
+      ],
+      "role": "major",
+      "role_cue": "で",
+      "dropped_modifiers": [],
+      "parser": "pdf_body_lithology/v2",
+      "source_span": "黒色-暗灰色の硬質頁岩(第526図B)で"
+    },
+    {
+      "unit_id": "m1286_p028",
+      "field": "lithology",
+      "candidate": "conglomerate; sandstone",
+      "quote": "穴牛礫岩部層は斜交層理が顕著な礫岩砂岩からなる",
+      "context": {
+        "context_id": "ctx_m1286_p028_121ff989d02b",
+        "unit_id": "m1286_p028",
+        "unit_name": "Anausi Conglomerate Member",
+        "column_ids": [
+          "unsplit"
+        ],
+        "aliases": [
+          "Anausi Conglomerate Member",
+          "穴牛礫岩部層"
+        ],
+        "section": null,
+        "pdf_page": 17,
+        "printed_page": 7,
+        "requested_fields": [
+          "t_age_ma",
+          "b_age_ma",
+          "environment",
+          "lithology",
+          "minor_lith",
+          "min_thickness",
+          "max_thickness",
+          "basal_surface",
+          "lateral_relationship"
+        ],
+        "text": "有される特徴を有する層に局所的にのみ分布し周囲を断層により限られている厚は6000m程度と見積もられる葛巻層においては仁左平層とは分布が離れており層序関係は不明である周辺地域を含め堆積時期を明確に決定できる化石が得が岩石学的特徴と約20Maのフィッショントラックられていないしかしながら泥岩よりトアルシアン期年代(前期中新世の中葉)に基づくと本層は仁左平層-バトニアン期を示す可能性がある保存不良な放散虫化とは異なる火山活動の産物と考えられる石(Nakae2016)が産出しているのでこの時期を本四ツ役層は下位から陸成の礫岩砂岩泥岩からなるまつくら層の堆積形成時期とみなす松倉砕屑岩部層海棲軟体動物化石を多産する泥岩砂こいわいけい岩からなる小祝泥岩部層火山砕屑岩を主体とした傾せいとうげすこ下部白亜系城峠火山岩部層陸成の礫岩砂岩泥岩からなる双つかないがわはた下部白亜系深成岩は一戸深成岩体及び塚内川深成岩畑砕屑岩部層とに細分されるこれらの部層は大局的に体(新称)からなるこれらの深成岩体はジュラ系に貫は上下の関係にあるが一部で複雑に指交する本層は入するがともに小規模で一戸深成岩体は本地域西部一戸地域の中央部(折爪山脈)と西部の南側から更に南くずまきの一戸町茂谷から樋ノ口にかけて東西17km×南北21の葛巻地域に広く分布する本層の堆積年代は軟体動kmの楕円形の分布を示し塚内川深成岩体は本地域東物化石の生層序及び傾城峠火山岩部層の放射年代からかみだてなかかるまい部の軽米町上館仲軽米南西山田北東(塚内川)におい18-165Ma(前期中新世の後半)と判断されるたてしこないて同じく150m×400mの非常に限られた分布を示す門ノ沢層は基底の舘砂岩部層と主体を占める尻子内一戸深成岩体はモンゾ閃緑岩相及び石英モンゾニ岩シルト岩部層からなる舘砂岩部層は四ツ役層を整合に相に分けられるモンゾ閃緑岩相は黒雲母単斜輝石覆う砂岩礫岩であり海棲軟体動物化石(門ノ沢動物斜方輝石角閃石かんらん石を含む中粒モンゾ閃緑岩群)を多産する尻子内シルト岩部層は青灰色-明灰色を主とし斑れい岩石英閃緑岩石英モンゾ閃緑岩等のシルト岩からなり凝灰岩の薄層を挟有する本層はを含む石英モンゾニ岩相は中粒黒雲母角閃石石英モン一戸地域の西部に広く分布しているほか東部の軽米町ゾニ岩からなる両岩相の年代はほぼ一致しておりカ市街地にも局所的に分布する本層の堆積年代は微化石リ長石及び黒雲母のK-Ar年代として116-100Ma(河層序から165Maごろ(前期中新世-中期中新世)と判野植田1965)Sr同位体年代では黒雲母-全岩年代断される110-101Maと全岩アイソクロン年代で105±30Ma末ノ松山層は門ノ沢層を軽微な不整合で覆う青灰色あなうし87Sr/86Sr初生値として07041が得られている(Kuboの凝灰質な砂岩を主体とする地層で下位から穴牛礫岩あいかわなくいだけ1977)塚内川深成岩体は中粒黒雲母角閃石花崗閃緑部層五日町砂岩部層合川火山岩部層名久井岳火山まいのさわ岩からなるが風化が著しい岩部層及び米沢砂岩部層に細分される穴牛礫岩部層は斜交層理が顕著な礫岩砂岩からなるこれは上位に新第三系むかって細粒化し細粒-中粒砂岩で凝灰質な五日町砂にさたい一戸地域に分布する新第三系は下位から仁左平層岩部層に漸移する合川火山岩部層名久井岳火山岩部あいのやまよつやくかどのさわすえのまつやまじゅうもんじ相ノ山層四ツ役層門ノ沢層末ノ松山層十文字層層は分布が離れているがどちらも末ノ松山層中部に発やなぎさわしたざきとや柳沢層舌崎層及び鳥谷層からなる(第21図)達する火山砕屑岩を主体とする地層及び貫入岩からなこのうち四ツ役層から舌崎層は部層に細分される(第るこの上位の米沢砂岩部層は下位の五日町砂岩部層22及び23図)また四ツ役層以下の中新統は前期よりも粗粒で斜交層理が認められることがあるまた中新世の貫入岩に貫かれているこの貫入岩は四ツ役層北側にむかってスランプ相を示すようになる本層は西に含まれるまた四ツ役層門ノ沢層末ノ松山層は部に広く分布するほか三戸地域にも分布が伸びているしらとりがわさんのへ白鳥川層群に十文字層柳沢層舌崎層は三戸層群に本層の堆積年代は微化石層序及び挟在する火山岩の放射まとめられる下位から順に各層の概略を記す年代から165-15Ma(中期中新世の最前葉)と判断さ仁左平層は本地域の新第三系の最下位を構成し折れる爪岳周辺や二戸市仁左平付近においてジュラ系白亜系十文字層は凝灰質砂岩主体の地層で岩相変化に富ひのさわめときを不整合に覆う流紋岩質の火砕流堆積物(大部分が溶み砂岩以外の岩相は日ノ沢礫岩部層目時石灰質礫岩しもとまい結)を主体とする地層で最下部には陸成の礫岩砂岩部層下斗米火山砕屑岩部層として区別される日ノ沢泥岩が見られる火砕流堆積物の年代は22-23Ma礫岩部層は十文字層基底を占める礫岩砂岩で斜層理が(Tagamietal1995;Hasebeetal2013)と下部中新統認められ下位の末ノ松山層を大きく削り込むことがあの下限に近くそのため下位の陸成層の堆積時期は漸新る目時石灰質礫岩部層は生物源砕屑物からなる細粒世まで遡る可能性がある礫岩を主体とした地層で平板状斜層理が顕著である相ノ山層はデイサイト質の無斑晶状溶岩とそれを母本部層は十文字層の中部に位置する下斗米火山砕屑岩材とする礫岩からなり本地域西部の一戸町相ノ山南東部層は合川火山岩部層の火山岩が再堆積した地層で礫-7-",
+        "text_sha256": "121ff989d02b85ca81583586ce1eb6cbb14470d27531f58127d0d0305f76ab23",
+        "context_source": "PDF page text via verified Japanese TOC alias"
+      },
+      "assertion": "inferred",
+      "raw_phrase": "conglomerate; sandstone",
+      "normalized_terms": [
+        "conglomerate",
+        "sandstone"
+      ],
+      "role": "major",
+      "role_cue": "からなる",
+      "dropped_modifiers": [],
+      "parser": "pdf_body_lithology/v2",
+      "source_span": "穴牛礫岩部層は斜交層理が顕著な礫岩砂岩からなる"
+    }
+  ],
+  "dropped": [
+    {
+      "unit_id": "m1286_p041",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p042",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p042",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p043",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p043",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p043",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p044",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p044",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p044",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p045",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p045",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p045",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p045",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p046",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p046",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p046",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p046",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "t_age_ma",
+      "reason": "numeric_value_not_in_quote"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "b_age_ma",
+      "reason": "numeric_value_not_in_quote"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "strat_name",
+      "reason": "not_a_lithostratigraphic_parent_name"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p047",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p047",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p047",
+      "field": "strat_name",
+      "reason": "not_a_lithostratigraphic_parent_name"
+    },
+    {
+      "unit_id": "m1286_p047",
+      "field": "unit_description",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p047",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p048",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p048",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p048",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p048",
+      "field": "unit_description",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p048",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p049",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p049",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p049",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p050",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p023",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "field": "basal_surface",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p021",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p021",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p021",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p020",
+      "field": "strat_name",
+      "reason": "not_a_lithostratigraphic_parent_name"
+    },
+    {
+      "unit_id": "m1286_p018",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p019",
+      "field": "basal_surface",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p016",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p016",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "minor_lith",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "min_thickness",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "max_thickness",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "field": "lateral_relationship",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p028",
+      "field": "lateral_relationship",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p029",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p035",
+      "field": "lithology",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p035",
+      "field": "minor_lith",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p035",
+      "field": "basal_surface",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p008",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p008",
+      "field": "environment",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p007",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "field": "t_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "field": "b_age_ma",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "field": "basal_surface",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p006",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p006",
+      "field": "basal_surface",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p004",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p004",
+      "field": "min_thickness",
+      "reason": "quote_not_in_context"
+    },
+    {
+      "unit_id": "m1286_p003",
+      "field": "strat_name",
+      "reason": "not_a_lithostratigraphic_parent_name"
+    },
+    {
+      "unit_id": "m1286_p001",
+      "field": "strat_name",
+      "reason": "quote_not_in_context"
+    }
+  ],
+  "estimated_tokens": 100374
+}

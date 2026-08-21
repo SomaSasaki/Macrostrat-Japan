@@ -1,0 +1,43 @@
+{
+  "schema_version": "llm-qualification-verdict/1.0",
+  "evaluated_at": "2026-08-12T20:44:30.132766Z",
+  "stage": "pdf_environment_multimodal",
+  "provider": "openrouter",
+  "requested_model": "google/gemma-4-26b-a4b-it:free",
+  "qualified": false,
+  "valid_until": "2026-08-26T16:49:43.867118Z",
+  "route_enabled": false,
+  "required_probe_capability": "multi_image",
+  "prompt_version": "environment-unit-closed-v1",
+  "validator_version": "closed-world-vision-validator-v2",
+  "metrics": {
+    "cases": 5,
+    "expected_items": 5,
+    "true_positive": 2,
+    "false_positive": 1,
+    "false_negative": 3,
+    "validator_pass_rate": 0.6,
+    "precision": 0.666667,
+    "recall": 0.4,
+    "critical_failures": 2
+  },
+  "thresholds": {
+    "min_cases": 3,
+    "min_expected_items": 3,
+    "min_validator_pass_rate": 1.0,
+    "min_precision": 1.0,
+    "min_recall": 0.85,
+    "max_critical_failures": 0
+  },
+  "probe": {
+    "generated_at": "2026-08-12T16:49:43.867118Z",
+    "ok": true,
+    "actual_model": "google/gemma-4-26b-a4b-it:free"
+  },
+  "reasons": [
+    "validator_pass_rate_below_threshold",
+    "precision_below_threshold",
+    "recall_below_threshold",
+    "critical_failures"
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-v2",
+  "map_id": "1286",
+  "model": "gemini-3.6-flash",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "335cc013338348d6dac0c1789a5a41f95de674ad06cf22184e181b7953432b74",
+  "job_id": "pboot_ec362ec76447405ae949",
+  "status": "complete",
+  "completed_at": "2026-08-11T02:19:35+00:00",
+  "candidates": [
+    {
+      "unit_name": "landslide deposits",
+      "unit_description": "Landslide deposits occur in the district as young and minor deposits.",
+      "_quotes": {
+        "unit_description": "other young and minor deposits, such as landslide deposits"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Quaternary is comprised of the Esashika Formation, the Nanashigure Volcanic Fan Deposits, the Oritsumedake Fan Deposits, terrace deposits, pyroclastic flow deposits, and other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits."
+    },
+    {
+      "unit_name": "flood-plain and valley-floor deposits",
+      "environment": "floodplain",
+      "unit_description": "Flood-plain and valley-floor deposits occur in the district as young and minor deposits.",
+      "_quotes": {
+        "environment": "flood-plain and valley-floor deposits",
+        "unit_description": "flood-plain and valley-floor deposits"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Quaternary is comprised of the Esashika Formation, the Nanashigure Volcanic Fan Deposits, the Oritsumedake Fan Deposits, terrace deposits, pyroclastic flow deposits, and other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits."
+    },
+    {
+      "unit_name": "colluvial and alluvial cone deposits",
+      "unit_description": "Colluvial and alluvial cone deposits occur in the district as young and minor deposits.",
+      "_quotes": {
+        "unit_description": "colluvial and alluvial cone deposits"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Quaternary is comprised of the Esashika Formation, the Nanashigure Volcanic Fan Deposits, the Oritsumedake Fan Deposits, terrace deposits, pyroclastic flow deposits, and other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits."
+    },
+    {
+      "unit_name": "river-bed deposits",
+      "unit_description": "River-bed deposits occur in the district as young and minor deposits.",
+      "_quotes": {
+        "unit_description": "and river-bed deposits."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Quaternary is comprised of the Esashika Formation, the Nanashigure Volcanic Fan Deposits, the Oritsumedake Fan Deposits, terrace deposits, pyroclastic flow deposits, and other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits."
+    },
+    {
+      "unit_name": "Horino terrace deposits",
+      "unit_description": "The Horino terrace deposits are lower lower terrace deposits distributed along the Mabechi River.",
+      "_quotes": {
+        "unit_description": "The deposits of the lower lower terrace are the Horino and the Ibonai terrace deposits"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The deposits of the lower lower terrace are the Horino and the Ibonai terrace deposits distributed along the Mabechi and Setsukinai-Yukiya rivers respectively."
+    },
+    {
+      "unit_name": "Ibonai terrace deposits",
+      "unit_description": "The Ibonai terrace deposits are lower lower terrace deposits distributed along the Setsukinai and Yukiya rivers.",
+      "_quotes": {
+        "unit_description": "distributed along the Mabechi and Setsukinai-Yukiya rivers respectively."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The deposits of the lower lower terrace are the Horino and the Ibonai terrace deposits distributed along the Mabechi and Setsukinai-Yukiya rivers respectively."
+    },
+    {
+      "unit_name": "Maisawa terrace deposits",
+      "unit_description": "The Maisawa terrace deposits are higher lower terrace deposits distributed along the Mabechi River.",
+      "_quotes": {
+        "unit_description": "The deposits of the higher lower terrace are the Maisawa and the Rendaino terrace deposits"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The deposits of the higher lower terrace are the Maisawa and the Rendaino terrace deposits distributed along the Mabechi and Setsukinai and Yukiya rivers respectively."
+    },
+    {
+      "unit_name": "Rendaino terrace deposits",
+      "unit_description": "The Rendaino terrace deposits are higher lower terrace deposits distributed along the Setsukinai and Yukiya rivers.",
+      "_quotes": {
+        "unit_description": "distributed along the Mabechi and Setsukinai and Yukiya rivers respectively."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The deposits of the higher lower terrace are the Maisawa and the Rendaino terrace deposits distributed along the Mabechi and Setsukinai and Yukiya rivers respectively."
+    },
+    {
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+      "_quotes": {},
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The pyroclastic flow deposits, derived from Towada volcano, are subdivided into two deposits, namely Towada-Ofudo and Towada- Hachinohe Pyroclastic Flow Deposits."
+    },
+    {
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+      "_quotes": {},
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The pyroclastic flow deposits, derived from Towada volcano, are subdivided into two deposits, namely Towada-Ofudo and Towada- Hachinohe Pyroclastic Flow Deposits."
+    },
+    {
+      "unit_name": "Kusagi terrace deposits",
+      "lithology": "gravel; sand",
+      "unit_description": "The Kusagi terrace deposits are middle terrace deposits developed along the Mabechi River.",
+      "_quotes": {
+        "lithology": "comprise gravel and sand beds.",
+        "unit_description": "The middle terrace deposits are subdivided into the Kusagi and Hayawatari terrace deposits."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The middle terrace deposits are subdivided into the Kusagi and Hayawatari terrace deposits."
+    },
+    {
+      "unit_name": "Hayawatari terrace deposits",
+      "lithology": "gravel; sand",
+      "unit_description": "The Hayawatari terrace deposits are middle terrace deposits developed mainly along the Setsukinai River.",
+      "_quotes": {
+        "lithology": "comprise gravel and sand beds.",
+        "unit_description": "The former is developed along the Mabechi River, and the later is mainly along Setsukinai River."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The middle terrace deposits are subdivided into the Kusagi and Hayawatari terrace deposits."
+    },
+    {
+      "unit_name": "Asanai terrace deposits",
+      "lithology": "gravel; sand; silt",
+      "unit_description": "The Asanai terrace deposits are higher terrace deposits distributed along the Mabechi River.",
+      "_quotes": {
+        "lithology": "comprise gravel, sand and silt beds.",
+        "unit_description": "The higher terrace deposits are subdivided into the Asanai and the Mukaikawara terrace deposits."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "eastern foot of the Oritsume Mountains, unconformably overlie the Toya Formation, and is mainly composed of gravel bed, The Nanashigure Volcanic Fan Deposits, distributed only in the southwestern corner of this district, is mainly composed of gravel which was derived from Nanashigure volcano, The higher terrace deposits are subdivided into the Asanai and the Mukaikawara terrace deposits."
+    },
+    {
+      "unit_name": "Mukaikawara terrace deposits",
+      "lithology": "gravel; sand; silt",
+      "unit_description": "The Mukaikawara terrace deposits are higher terrace deposits distributed along the Yukiya River.",
+      "_quotes": {
+        "lithology": "comprise gravel, sand and silt beds.",
+        "unit_description": "The former is distributed along the Mabechi River, and the latter is along the Yukiya River."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "f the Oritsume Mountains, unconformably overlie the Toya Formation, and is mainly composed of gravel bed, The Nanashigure Volcanic Fan Deposits, distributed only in the southwestern corner of this district, is mainly composed of gravel which was derived from Nanashigure volcano, The higher terrace deposits are subdivided into the Asanai and the Mukaikawara terrace deposits."
+    },
+    {
+      "unit_name": "Oritsumedake fan deposits",
+      "lithology": "gravel; sand",
+      "basal_surface": "unconformable",
+      "unit_description": "The Oritsumedake fan deposits unconformably overlies the Esashika Formation and comprises loose gravel and sand beds.",
+      "_quotes": {
+        "lithology": "comprises loose gravel and sand beds.",
+        "basal_surface": "unconformably overlies the Esashika Formation",
+        "unit_description": "The Oritsumedake fan deposits unconformably overlies the Esashika Formation and comprises loose gravel and sand beds."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Quaternary is comprised of the Esashika Formation, the Nanashigure Volcanic Fan Deposits, the Oritsumedake Fan Deposits, terrace deposits, pyroclastic flow deposits, and other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits."
+    },
+    {
+      "unit_name": "Nanashigure Volcanic Fan Deposits",
+      "lithology": "gravel",
+      "unit_description": "The Nanashigure Volcanic Fan Deposits are distributed only in the southwestern corner of this district.",
+      "_quotes": {
+        "lithology": "mainly composed of gravel which was derived from Nanashigure volcano",
+        "unit_description": "The Nanashigure Volcanic Fan Deposits, distributed only in the southwestern corner of this district"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Quaternary is comprised of the Esashika Formation, the Nanashigure Volcanic Fan Deposits, the Oritsumedake Fan Deposits, terrace deposits, pyroclastic flow deposits, and other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits."
+    },
+    {
+      "unit_name": "Esashika Formation",
+      "lithology": "gravel",
+      "basal_surface": "unconformable",
+      "unit_description": "The Esashika Formation is distributed only along the eastern foot of the Oritsume Mountains.",
+      "_quotes": {
+        "lithology": "mainly composed of gravel bed",
+        "basal_surface": "unconformably overlie the Toya Formation",
+        "unit_description": "The Esashika Formation, distributed only along the eastern foot of the Oritsume Mountains"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Quaternary is comprised of the Esashika Formation, the Nanashigure Volcanic Fan Deposits, the Oritsumedake Fan Deposits, terrace deposits, pyroclastic flow deposits, and other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits."
+    },
+    {
+      "unit_name": "Toya Formation",
+      "b_age_ma": 6.0,
+      "t_age_ma": 5.0,
+      "lithology": "pyroclastic; conglomerate; sandstone; mudstone",
+      "environment": "non-marine",
+      "basal_surface": "unconformable",
+      "unit_description": "The Toya Formation unconformably overlies the Jurassic strata, the Kadonosawa and the Zyūmonzi formations.",
+      "_quotes": {
+        "b_age_ma": "the Toya: 6–5 Ma (latest Miocene to earliest Pliocene).",
+        "t_age_ma": "the Toya: 6–5 Ma (latest Miocene to earliest Pliocene).",
+        "lithology": "composed of pyroclastic flow deposits, conglomerate, sandstone and mudstone.",
+        "environment": "The formation is non-marine deposits",
+        "basal_surface": "unconformably overlies the Jurassic strata, the Kadonosawa and the Zyūmonzi formations.",
+        "unit_description": "The Toya Formation unconformably overlies the Jurassic strata, the Kadonosawa and the Zyūmonzi formations."
+      },
+      "quote": "the Toya: 6–5 Ma (latest Miocene to earliest Pliocene).",
+      "_name_quote": "All these formations are distributed in the western-central areas, except for the Toya Formation which exposed along the eastern foot of the Oritsume Mountains in the eastern area."
+    },
+    {
+      "unit_name": "Shitazaki Formation",
+      "b_age_ma": 10.5,
+      "t_age_ma": 8.5,
+      "strat_name": "Shitazaki Formation, Sannohe Group",
+      "lithology": "siltstone",
+      "minor_lith": "sandstone",
+      "environment": "sublittoral",
+      "basal_surface": "conformable",
+      "unit_description": "The Shitazaki Formation conformably overlies the Yanagisawa Formation with erosional surface at its basal part.",
+      "_quotes": {
+        "b_age_ma": "the Shitazaki: 10.5–8.5 Ma (Late Miocene)",
+        "t_age_ma": "the Shitazaki: 10.5–8.5 Ma (Late Miocene)",
+        "strat_name": "The Zyūmonzi, Yanagisawa and Shitazaki formations compose the Sannohe Group.",
+        "lithology": "mainly composed of sublittoral siltstone.",
+        "minor_lith": "mainly composed of sublittoral siltstone.",
+        "environment": "mainly composed of sublittoral siltstone.",
+        "basal_surface": "conformably overlies the Yanagisawa Formation",
+        "unit_description": "The Shitazaki Formation conformably overlies the Yanagisawa Formation with erosional surface at its basal part."
+      },
+      "quote": "the Shitazaki: 10.5–8.5 Ma (Late Miocene)",
+      "_name_quote": "The Shitazaki Formation conformably overlies the Yanagisawa Formation with erosional surface at its basal part."
+    },
+    {
+      "unit_name": "Kamimetoki Sandstone Member",
+      "strat_name": "Kamimetoki Sandstone Member, Shitazaki Formation",
+      "lithology": "sandstone",
+      "unit_description": "The Kamimetoki Sandstone Member consists of sandstone beds in the lowermost parts of the Shitazaki Formation.",
+      "_quotes": {
+        "strat_name": "Sandstone beds (Kamimetoki Sandstone Member) lies in the lowermost parts",
+        "lithology": "Sandstone beds (Kamimetoki Sandstone Member) lies in the lowermost parts",
+        "unit_description": "Sandstone beds (Kamimetoki Sandstone Member) lies in the lowermost parts"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "Sandstone beds (Kamimetoki Sandstone Member) lies in the lowermost parts, and alternating beds of sandstone and siltstone lie in the uppermost parts."
+    },
+    {
+      "unit_name": "Yanagisawa Formation",
+      "b_age_ma": 12.0,
+      "t_age_ma": 10.5,
+      "strat_name": "Yanagisawa Formation, Sannohe Group",
+      "lithology": "diatomite; porcelanite",
+      "basal_surface": "conformable",
+      "unit_description": "The Yanagisawa Formation conformably overlies the Zyūmonzi Formation, and is composed of diatomite.",
+      "_quotes": {
+        "b_age_ma": "the Yanagisawa: 12–10.5 Ma (earliest Late Miocene)",
+        "t_age_ma": "the Yanagisawa: 12–10.5 Ma (earliest Late Miocene)",
+        "strat_name": "The Zyūmonzi, Yanagisawa and Shitazaki formations compose the Sannohe Group.",
+        "lithology": "composed of diatomite and diatomite-origined porcelanite",
+        "basal_surface": "conformably overlies the Zyūmonzi Formation",
+        "unit_description": "The Yanagisawa Formation conformably overlies the Zyūmonzi Formation, and is composed of diatomite"
+      },
+      "quote": "the Yanagisawa: 12–10.5 Ma (earliest Late Miocene)",
+      "_name_quote": "The Yanagisawa Formation conformably overlies the Zyūmonzi Formation, and is composed of diatomite and diatomite-origined porcelanite (Kawaguchi Porcelanite Member)."
+    },
+    {
+      "unit_name": "Kawaguchi Porcelanite Member",
+      "strat_name": "Kawaguchi Porcelanite Member, Yanagisawa Formation",
+      "lithology": "porcelanite",
+      "unit_description": "The Kawaguchi Porcelanite Member is composed of diatomite-origined porcelanite within the Yanagisawa Formation.",
+      "_quotes": {
+        "strat_name": "diatomite-origined porcelanite (Kawaguchi Porcelanite Member).",
+        "lithology": "diatomite-origined porcelanite (Kawaguchi Porcelanite Member).",
+        "unit_description": "diatomite-origined porcelanite (Kawaguchi Porcelanite Member)"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Yanagisawa Formation conformably overlies the Zyūmonzi Formation, and is composed of diatomite and diatomite-origined porcelanite (Kawaguchi Porcelanite Member)."
+    },
+    {
+      "unit_name": "Zyūmonzi Formation",
+      "b_age_ma": 15.0,
+      "t_age_ma": 12.0,
+      "strat_name": "Zyūmonzi Formation, Sannohe Group",
+      "lithology": "sandstone",
+      "minor_lith": "conglomerate; volcaniclastic",
+      "environment": "shallow subtidal",
+      "basal_surface": "unconformable",
+      "unit_description": "The Zyūmonzi Formation overlies the Suenomatuyama Formation with slightly-angular unconformity.",
+      "_quotes": {
+        "b_age_ma": "the Zyūmonzi: 15–12 Ma(Middle Miocene)",
+        "t_age_ma": "the Zyūmonzi: 15–12 Ma(Middle Miocene)",
+        "strat_name": "The Zyūmonzi, Yanagisawa and Shitazaki formations compose the Sannohe Group.",
+        "lithology": "characterised by shallow marine sandstone, partly intercalated with the basal conglomerate",
+        "minor_lith": "characterised by shallow marine sandstone, partly intercalated with the basal conglomerate",
+        "environment": "characterised by shallow marine sandstone",
+        "basal_surface": "overlies the Suenomatuyama Formation with slightly-angular unconformity.",
+        "unit_description": "The Zyūmonzi Formation overlies the Suenomatuyama Formation with slightly-angular unconformity."
+      },
+      "quote": "the Zyūmonzi: 15–12 Ma(Middle Miocene)",
+      "_name_quote": "The Zyūmonzi Formation overlies the Suenomatuyama Formation with slightly-angular unconformity."
+    },
+    {
+      "unit_name": "Hinosawa Conglomerate Member",
+      "strat_name": "Hinosawa Conglomerate Member, Zyūmonzi Formation",
+      "lithology": "conglomerate",
+      "unit_description": "The Hinosawa Conglomerate Member is a basal conglomerate within the Zyūmonzi Formation.",
+      "_quotes": {
+        "strat_name": "basal conglomerate (Hinosawa Conglomerate Member)",
+        "lithology": "basal conglomerate (Hinosawa Conglomerate Member)",
+        "unit_description": "basal conglomerate (Hinosawa Conglomerate Member)"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The formation is characterised by shallow marine sandstone, partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member), coquina conglomerate (Metoki Coquina Conglomerate Member), and reworkedvolcaniclastic rocks (Shimotomai Volcaniclastic Rock Member)."
+    },
+    {
+      "unit_name": "Metoki Coquina Conglomerate Member",
+      "strat_name": "Metoki Coquina Conglomerate Member, Zyūmonzi Formation",
+      "lithology": "coquina; conglomerate",
+      "unit_description": "The Metoki Coquina Conglomerate Member is a coquina conglomerate within the Zyūmonzi Formation.",
+      "_quotes": {
+        "strat_name": "coquina conglomerate (Metoki Coquina Conglomerate Member)",
+        "lithology": "coquina conglomerate (Metoki Coquina Conglomerate Member)",
+        "unit_description": "coquina conglomerate (Metoki Coquina Conglomerate Member)"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The formation is characterised by shallow marine sandstone, partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member), coquina conglomerate (Metoki Coquina Conglomerate Member), and reworkedvolcaniclastic rocks (Shimotomai Volcaniclastic Rock Member)."
+    },
+    {
+      "unit_name": "Shimotomai Volcaniclastic Rock Member",
+      "strat_name": "Shimotomai Volcaniclastic Rock Member, Zyūmonzi Formation",
+      "lithology": "volcaniclastic",
+      "unit_description": "The Shimotomai Volcaniclastic Rock Member consists of reworked volcaniclastic rocks within the Zyūmonzi Formation.",
+      "_quotes": {
+        "strat_name": "reworkedvolcaniclastic rocks (Shimotomai Volcaniclastic Rock Member)",
+        "lithology": "reworkedvolcaniclastic rocks (Shimotomai Volcaniclastic Rock Member)",
+        "unit_description": "reworkedvolcaniclastic rocks (Shimotomai Volcaniclastic Rock Member)"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The formation is characterised by shallow marine sandstone, partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member), coquina conglomerate (Metoki Coquina Conglomerate Member), and reworkedvolcaniclastic rocks (Shimotomai Volcaniclastic Rock Member)."
+    },
+    {
+      "unit_name": "Suenomatuyama Formation",
+      "b_age_ma": 16.5,
+      "t_age_ma": 15.0,
+      "strat_name": "Suenomatuyama Formation, Shiratorigawa Group",
+      "environment": "marine",
+      "basal_surface": "conformable",
+      "unit_description": "The Suenomatuyama Formation conformably / slightly-unconformably overlies the Kadonosawa Formation.",
+      "_quotes": {
+        "b_age_ma": "the Suenomatuyama: 16.5–15 Ma (earliest Middle Miocene)",
+        "t_age_ma": "the Suenomatuyama: 16.5–15 Ma (earliest Middle Miocene)",
+        "strat_name": "The Yotuyaku, Kadonosawa, and Suenomatuyama formations compose the Shiratorigawa Group.",
+        "environment": "The formation is also of marine deposits",
+        "basal_surface": "conformably / slightly-unconformably overlies the Kadonosawa Formation.",
+        "unit_description": "The Suenomatuyama Formation conformably / slightly-unconformably overlies the Kadonosawa Formation."
+      },
+      "quote": "the Suenomatuyama: 16.5–15 Ma (earliest Middle Miocene)",
+      "_name_quote": "The Suenomatuyama Formation conformably / slightly-unconformably overlies the Kadonosawa Formation."
+    },
+    {
+      "unit_name": "Anausi Conglomerate Member",
+      "strat_name": "Anausi Conglomerate Member, Suenomatuyama Formation",
+      "unit_description": "The Anausi Conglomerate Member is a member of the Suenomatuyama Formation.",
+      "_quotes": {
+        "strat_name": "subdivided into the five members, namely the Anausi Conglomerate",
+        "unit_description": "the Anausi Conglomerate"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The formation is also of marine deposits, and is subdivided into the five members, namely the Anausi Conglomerate, the Itukamati Sandstone, the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock, and Mainosawa Sandstone members, generally ascending order; the Aikawa and the Nakuidake are underlain on the almost same horizon."
+    },
+    {
+      "unit_name": "Itukamati Sandstone Member",
+      "strat_name": "Itukamati Sandstone Member, Suenomatuyama Formation",
+      "unit_description": "The Itukamati Sandstone Member is a member of the Suenomatuyama Formation.",
+      "_quotes": {
+        "strat_name": "the Anausi Conglomerate, the Itukamati Sandstone",
+        "unit_description": "the Itukamati Sandstone"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The formation is also of marine deposits, and is subdivided into the five members, namely the Anausi Conglomerate, the Itukamati Sandstone, the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock, and Mainosawa Sandstone members, generally ascending order; the Aikawa and the Nakuidake are underlain on the almost same horizon."
+    },
+    {
+      "unit_name": "Aikawa Volcanic Rock Member",
+      "strat_name": "Aikawa Volcanic Rock Member, Suenomatuyama Formation",
+      "unit_description": "The Aikawa Volcanic Rock Member is a member of the Suenomatuyama Formation.",
+      "_quotes": {
+        "strat_name": "the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock",
+        "unit_description": "the Aikawa Volcanic Rock"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The formation is also of marine deposits, and is subdivided into the five members, namely the Anausi Conglomerate, the Itukamati Sandstone, the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock, and Mainosawa Sandstone members, generally ascending order; the Aikawa and the Nakuidake are underlain on the almost same horizon."
+    },
+    {
+      "unit_name": "Nakuidake Volcanic Rock Member",
+      "strat_name": "Nakuidake Volcanic Rock Member, Suenomatuyama Formation",
+      "unit_description": "The Nakuidake Volcanic Rock Member is a member of the Suenomatuyama Formation.",
+      "_quotes": {
+        "strat_name": "the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock",
+        "unit_description": "the Nakuidake Volcanic Rock"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The formation is also of marine deposits, and is subdivided into the five members, namely the Anausi Conglomerate, the Itukamati Sandstone, the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock, and Mainosawa Sandstone members, generally ascending order; the Aikawa and the Nakuidake are underlain on the almost same horizon."
+    },
+    {
+      "unit_name": "Mainosawa Sandstone Member",
+      "strat_name": "Mainosawa Sandstone Member, Suenomatuyama Formation",
+      "unit_description": "The Mainosawa Sandstone Member is a member of the Suenomatuyama Formation.",
+      "_quotes": {
+        "strat_name": "and Mainosawa Sandstone members",
+        "unit_description": "Mainosawa Sandstone members"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The formation is also of marine deposits, and is subdivided into the five members, namely the Anausi Conglomerate, the Itukamati Sandstone, the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock, and Mainosawa Sandstone members, generally ascending order; the Aikawa and the Nakuidake are underlain on the almost same horizon."
+    },
+    {
+      "unit_name": "Kadonosawa Formation",
+      "b_age_ma": 16.5,
+      "t_age_ma": 16.5,
+      "strat_name": "Kadonosawa Formation, Shiratorigawa Group",
+      "environment": "shallow subtidal",
+      "unit_description": "The Kadonosawa Formation conformably overlies the Yotuyaku Formation.",
+      "_quotes": {
+        "b_age_ma": "the Kadonosawa: ca. 16.5 Ma (Early to Middle Miocene)",
+        "t_age_ma": "the Kadonosawa: ca. 16.5 Ma (Early to Middle Miocene)",
+        "strat_name": "The Yotuyaku, Kadonosawa, and Suenomatuyama formations compose the Shiratorigawa Group.",
+        "environment": "change of depositional environments from shallow marine to subbathyal.",
+        "unit_description": "The Kadonosawa Formation conformably overlies the Yotuyaku Formation"
+      },
+      "quote": "the Kadonosawa: ca. 16.5 Ma (Early to Middle Miocene)",
+      "_name_quote": "The Kadonosawa Formation conformably overlies the Yotuyaku Formation and unconformably overlies the Jurassic, the Cretaceous and the Nisatai Formation."
+    },
+    {
+      "unit_name": "Tate Sandstone Member",
+      "strat_name": "Tate Sandstone Member, Kadonosawa Formation",
+      "unit_description": "The Tate Sandstone Member yields numerous littoral marine molluscs, named as 'Kadonosawa Fauna'.",
+      "_quotes": {
+        "strat_name": "subdivided into the Tate Sandstone and Sikonai Siltstone members",
+        "unit_description": "The Tate yields numerous littoral marine molluscs, named as ‘Kadonosawa Fauna,’"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The formation is subdivided into the Tate Sandstone and Sikonai Siltstone members, in ascending order."
+    },
+    {
+      "unit_name": "Sikonai Siltstone Member",
+      "strat_name": "Sikonai Siltstone Member, Kadonosawa Formation",
+      "unit_description": "The Sikonai Siltstone Member is the upper member of the Kadonosawa Formation.",
+      "_quotes": {
+        "strat_name": "subdivided into the Tate Sandstone and Sikonai Siltstone members",
+        "unit_description": "subdivided into the Tate Sandstone and Sikonai Siltstone members, in ascending order."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The formation is subdivided into the Tate Sandstone and Sikonai Siltstone members, in ascending order."
+    },
+    {
+      "unit_name": "Yotuyaku Formation",
+      "b_age_ma": 18.0,
+      "t_age_ma": 16.5,
+      "strat_name": "Yotuyaku Formation, Shiratorigawa Group",
+      "environment": "non-marine",
+      "basal_surface": "unconformable",
+      "unit_description": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members.",
+      "_quotes": {
+        "b_age_ma": "the Yotuyaku: 18–16.5 Ma (late Early Miocene)",
+        "t_age_ma": "the Yotuyaku: 18–16.5 Ma (late Early Miocene)",
+        "strat_name": "The Yotuyaku, Kadonosawa, and Suenomatuyama formations compose the Shiratorigawa Group.",
+        "environment": "were mainly deposited on land",
+        "basal_surface": "unconformably overlies the previous rocks",
+        "unit_description": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members"
+      },
+      "quote": "the Yotuyaku: 18–16.5 Ma (late Early Miocene)",
+      "_name_quote": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members, generally in ascending order."
+    },
+    {
+      "unit_name": "Matsukura Siliciclastic Rock Member",
+      "strat_name": "Matsukura Siliciclastic Rock Member, Yotuyaku Formation",
+      "unit_description": "The Matsukura Siliciclastic Rock Member is a member of the Yotuyaku Formation.",
+      "_quotes": {
+        "strat_name": "the Matsukura Siliciclastic Rock, the Koiwai Mudstone",
+        "unit_description": "the Matsukura Siliciclastic Rock"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members, generally in ascending order."
+    },
+    {
+      "unit_name": "Koiwai Mudstone Member",
+      "strat_name": "Koiwai Mudstone Member, Yotuyaku Formation",
+      "lithology": "mudstone",
+      "environment": "marine",
+      "unit_description": "The Koiwai Mudstone Member yields numerous marine molluscs.",
+      "_quotes": {
+        "strat_name": "the Matsukura Siliciclastic Rock, the Koiwai Mudstone",
+        "lithology": "the Koiwai Mudstone",
+        "environment": "except for the Koiwai, which yields numerous marine molluscs.",
+        "unit_description": "except for the Koiwai, which yields numerous marine molluscs"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members, generally in ascending order."
+    },
+    {
+      "unit_name": "Keiseitoge Volcanic Rock Member",
+      "strat_name": "Keiseitoge Volcanic Rock Member, Yotuyaku Formation",
+      "unit_description": "The Keiseitoge Volcanic Rock Member is a member of the Yotuyaku Formation.",
+      "_quotes": {
+        "strat_name": "the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members",
+        "unit_description": "the Keiseitoge Volcanic Rock"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members, generally in ascending order."
+    },
+    {
+      "unit_name": "Sukohata Siliciclastic Rock Member",
+      "strat_name": "Sukohata Siliciclastic Rock Member, Yotuyaku Formation",
+      "unit_description": "The Sukohata Siliciclastic Rock Member is a member of the Yotuyaku Formation.",
+      "_quotes": {
+        "strat_name": "and the Sukohata Siliciclastic Rock members",
+        "unit_description": "the Sukohata Siliciclastic Rock members"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members, generally in ascending order."
+    },
+    {
+      "unit_name": "Ainoyama Formation",
+      "b_age_ma": 20.0,
+      "t_age_ma": 20.0,
+      "lithology": "dacite; conglomerate",
+      "unit_description": "The Ainoyama Formation is composed of dacitic lava and conglomerate.",
+      "_quotes": {
+        "b_age_ma": "the Ainoyama: ca. 20 Ma (middle Early Miocene)",
+        "t_age_ma": "the Ainoyama: ca. 20 Ma (middle Early Miocene)",
+        "lithology": "composed of dacitic lava and conglomerate.",
+        "unit_description": "The Ainoyama Formation is composed of dacitic lava and conglomerate."
+      },
+      "quote": "the Ainoyama: ca. 20 Ma (middle Early Miocene)",
+      "_name_quote": "The Ainoyama Formation is composed of dacitic lava and conglomerate."
+    },
+    {
+      "unit_name": "Nisatai Formation",
+      "b_age_ma": 23.0,
+      "t_age_ma": 22.0,
+      "lithology": "pumice; lapilli tuff; conglomerate; sandstone; mudstone",
+      "environment": "non-marine",
+      "basal_surface": "unconformable",
+      "unit_description": "The Nisatai Formation is composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate.",
+      "_quotes": {
+        "b_age_ma": "the Nisatai: 22–23 Ma (earliest Early Miocene)",
+        "t_age_ma": "the Nisatai: 22–23 Ma (earliest Early Miocene)",
+        "lithology": "composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate, sandstone, and mudstone.",
+        "environment": "This formation is non-marine deposits",
+        "basal_surface": "unconformably covers the Jurassic strata and the Cretaceous plutonic rocks.",
+        "unit_description": "The Nisatai Formation is composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate"
+      },
+      "quote": "the Nisatai: 22–23 Ma (earliest Early Miocene)",
+      "_name_quote": "The Nisatai Formation is composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate, sandstone, and mudstone."
+    },
+    {
+      "unit_name": "Ichinohe Pluton",
+      "lithology": "monzogabbro; quartz monzonite",
+      "unit_description": "The Ichinohe Pluton is lithologically characterised by two facies; monzogabbro and quartz monzonite.",
+      "_quotes": {
+        "lithology": "monzogabbro and quartz monzonite.",
+        "unit_description": "The Ichinohe Pluton is lithologically characterised by two facies; monzogabbro and quartz monzonite."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Ichinohe Pluton is lithologically characterised by two facies; monzogabbro and quartz monzonite."
+    },
+    {
+      "unit_name": "Tsukanaigawa Pluton",
+      "lithology": "granodiorite",
+      "unit_description": "The Tsukanaigawa Pluton is composed of medium-grained biotite hornblende granodiorite.",
+      "_quotes": {
+        "lithology": "composed of medium-grained biotite hornblende granodiorite.",
+        "unit_description": "The Tsukanaigawa Pluton is composed of medium-grained biotite hornblende granodiorite."
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Tsukanaigawa Pluton is composed of medium-grained biotite hornblende granodiorite."
+    },
+    {
+      "unit_name": "Kuzumaki Formation",
+      "lithology": "mudstone; pelitic mixed rock",
+      "minor_lith": "mafic; limestone; chert; siliceous mudstone; sandstone",
+      "max_thickness": 6000.0,
+      "unit_description": "The Kuzumaki Formation consists mainly of phyllitic mudstone and pelitic mixed rock.",
+      "_quotes": {
+        "lithology": "consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone.",
+        "minor_lith": "consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone.",
+        "max_thickness": "The thickness attains 6,000 m.",
+        "unit_description": "The Kuzumaki Formation consists mainly of phyllitic mudstone and pelitic mixed rock"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The central area, topographically characterised by the Oritsume Mountains, consists of the Kuzumaki Formation."
+    },
+    {
+      "unit_name": "Kassenba Formation",
+      "lithology": "sandstone",
+      "minor_lith": "chert; siliceous mudstone; slaty mudstone; silty mudstone",
+      "min_thickness": 2000.0,
+      "unit_description": "The Kassenba Formation is characterised by at least two repetitions of chert-clastic sequence.",
+      "_quotes": {
+        "lithology": "consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone.",
+        "minor_lith": "consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone.",
+        "min_thickness": "The thickness exceeds 2,000 m.",
+        "unit_description": "The Kassenba Formation is characterised by at least two repetitions of chert-clastic sequence"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Kassenba Formation is characterised by at least two repetitions of chert-clastic sequence, and consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone."
+    },
+    {
+      "unit_name": "Seki Formation",
+      "lithology": "slaty mudstone; silty mudstone",
+      "minor_lith": "chert; siliceous mudstone; sandstone",
+      "min_thickness": 2000.0,
+      "max_thickness": 2800.0,
+      "unit_description": "The Seki Formation is characterised by at least three repetitions of chert-clastic sequence.",
+      "_quotes": {
+        "lithology": "consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone.",
+        "minor_lith": "consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone.",
+        "min_thickness": "The thickness attains 2,000–2,800 m.",
+        "max_thickness": "The thickness attains 2,000–2,800 m.",
+        "unit_description": "The Seki Formation is characterised by at least three repetitions of chert-clastic sequence"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Seki Formation is characterised by at least three repetitions of chert-clastic sequence, and consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone."
+    },
+    {
+      "unit_name": "Takayashiki Formation",
+      "lithology": "sandstone; mudstone; slaty mudstone",
+      "minor_lith": "chert; siliceous mudstone; mafic",
+      "unit_description": "The Takayashiki Formation consists mainly of alternating beds of dismembered sandstone and mudstone.",
+      "_quotes": {
+        "lithology": "consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amount of chert, siliceous mudstone, and mafic rocks.",
+        "minor_lith": "consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amount of chert, siliceous mudstone, and mafic rocks.",
+        "unit_description": "The Takayashiki Formation consists mainly of alternating beds of dismembered sandstone and mudstone"
+      },
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "quote": "",
+      "_name_quote": "The Takayashiki Formation consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amount of chert, siliceous mudstone, and mafic rocks."
+    }
+  ],
+  "dropped": [
+    {
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+      "reason": "unit_description: 引用が原文に無い ('subdivided into two deposits, namely Tow')"
+    },
+    {
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+      "reason": "unit_description: 引用が原文に無い ('subdivided into two deposits, namely Tow')"
+    },
+    {
+      "unit_name": "Anausi Conglomerate Member",
+      "reason": "lithology: 引用が無い"
+    },
+    {
+      "unit_name": "Itukamati Sandstone Member",
+      "reason": "lithology: 引用が無い"
+    },
+    {
+      "unit_name": "Aikawa Volcanic Rock Member",
+      "reason": "lithology: 引用が無い"
+    },
+    {
+      "unit_name": "Nakuidake Volcanic Rock Member",
+      "reason": "lithology: 引用が無い"
+    },
+    {
+      "unit_name": "Mainosawa Sandstone Member",
+      "reason": "lithology: 引用が無い"
+    },
+    {
+      "unit_name": "Tate Sandstone Member",
+      "reason": "lithology: 引用が無い"
+    },
+    {
+      "unit_name": "Sikonai Siltstone Member",
+      "reason": "lithology: 引用が無い"
+    },
+    {
+      "unit_name": "Matsukura Siliciclastic Rock Member",
+      "reason": "lithology: 引用が無い"
+    },
+    {
+      "unit_name": "Keiseitoge Volcanic Rock Member",
+      "reason": "lithology: 引用が無い"
+    },
+    {
+      "unit_name": "Sukohata Siliciclastic Rock Member",
+      "reason": "lithology: 引用が無い"
+    }
+  ],
+  "deterministic_surficial_additions": []
+}

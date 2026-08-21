@@ -1,0 +1,98 @@
+{
+  "schema_version": "column-vision-gold-fixture/1.0",
+  "map_id": "1286",
+  "gold_snapshot_manifest": "claude_work/gold_snapshots/m1286/v1/manifest.json",
+  "source_workbook_sha256": "db7663006b7cb7c0ca270374ab2261fa56aca7fef24ff88eee0574a7e4f16cbb",
+  "source_workbook": "claude_work/reports/Ichinohe_reference_GOLD.xlsx",
+  "unit_inventory": "system/raw/raw_bundle.json",
+  "unit_inventory_sha256": "54685a4062ad5dbf3ae9fc2ba41fcca9786e5a561e3947d887a61eae34c19e17",
+  "pdf_filename": "GSJ_MAP_G050_05048_2018_D.pdf",
+  "abstract_filename": "m1286_abstract.txt",
+  "pdf_page": 16,
+  "printed_page": 6,
+  "render_scale": 3.0,
+  "column_name_ja_source": {
+    "figure": "第2.1図 一戸地域の地質総括図（PDF 16 / 印刷 6）の「層序区分」見出し行",
+    "body_quote": "本地域は東部，中央部，西部に大きく三分できる（PDF 15 / 印刷 5, 2.1 地質系統）",
+    "note": "図の見出しは左から 西部・中央部・東部。翻訳ではなく原典の表記をそのまま使う。"
+  },
+  "expected_columns": [
+    {
+      "column_id": "ichinohe-west",
+      "column_name": "Ichinohe District, western area",
+      "column_name_ja": "西部"
+    },
+    {
+      "column_id": "ichinohe-central",
+      "column_name": "Ichinohe District, central area",
+      "column_name_ja": "中央部"
+    },
+    {
+      "column_id": "ichinohe-east",
+      "column_name": "Ichinohe District, eastern area",
+      "column_name_ja": "東部"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "ichinohe-west",
+      "column_id": "ichinohe-west",
+      "expected_items": [
+        "membership_11053ce1fd02fe86df842ad7",
+        "membership_28a91a56886658685559093b",
+        "membership_369d0d3a8abfb8e1935dec4e",
+        "membership_3844eb35b4f6264adf216835",
+        "membership_3ed03bb36752c6e02d42288d",
+        "membership_454b7d332fc19e465209c16a",
+        "membership_49b6f6902617e29a27cbdd39",
+        "membership_58301a91901d3fe83b301914",
+        "membership_6c4c8d515795f998bb427cbf",
+        "membership_8074e9477b1cc6bd14849405",
+        "membership_b0a960d602ce92ceb474b074",
+        "membership_bbcee64a0d318d97b4d10ae5",
+        "membership_c605bf54091c08231fd04022",
+        "membership_cee505a0c21c3dea1a381e63",
+        "membership_d5c571b2f04e748e5902752c",
+        "membership_d7cf6390217511fdafdb966f",
+        "membership_f724fdf483b17ebebd2a09ab",
+        "membership_f8d8371a9bc54caba2a22851",
+        "membership_f92416aa56913be97a3bbf32"
+      ]
+    },
+    {
+      "case_id": "ichinohe-central",
+      "column_id": "ichinohe-central",
+      "expected_items": [
+        "membership_1cd081979f6dc8699626f1b8",
+        "membership_70a1fff4cb182e70e8fe3424",
+        "membership_8ad79776eb835a3b3302a7ae",
+        "membership_ae8b958f721097f32b7ed75c",
+        "membership_b3549668c138c960db2f8c7c",
+        "membership_b540409cf5015996e19fc2fb",
+        "membership_e145a1bd788ffa5742a3f7bb",
+        "membership_ef9b291879807232c9e4a2a5"
+      ]
+    },
+    {
+      "case_id": "ichinohe-east",
+      "column_id": "ichinohe-east",
+      "expected_items": [
+        "membership_0077e65ccdc2d48a97eeb31e",
+        "membership_1f82cd51aa751bf065784a11",
+        "membership_49f5e70dfb1012a32f824972",
+        "membership_5a01b012a7e68bf7ce43b81d",
+        "membership_603ec893eeb0a57d99adb554",
+        "membership_702626d1a04def092af46125",
+        "membership_910e73d1eda78329aee4c04e",
+        "membership_a408b36522f21fe7a5b50ec2",
+        "membership_a4d9f3454ba1141a290ddffb",
+        "membership_a96b82523e532c1e15ca964c",
+        "membership_cb738433a68443cff7262312",
+        "membership_cd5454032bca236ec57c91af",
+        "membership_d5a1a7a7b3baafc4d3b30099",
+        "membership_e41ab2005e62ea8020d73364",
+        "membership_f86472f1c913093a6843f9e8"
+      ]
+    }
+  ]
+}

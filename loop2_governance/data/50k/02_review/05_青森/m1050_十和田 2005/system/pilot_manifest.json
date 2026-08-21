@@ -1,0 +1,148 @@
+{
+  "schema_version": "gsj-50k-pilot/2.0",
+  "status": "complete",
+  "generated_at": "2026-08-14T03:48:19+00:00",
+  "map_id": "1050",
+  "legacy_workbook_read": false,
+  "source_priority": [
+    "ZFK",
+    "Shapefile",
+    "PDF/LLM"
+  ],
+  "sources": {
+    "workspace_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\source_manifest.json",
+    "pdf": {
+      "available": true,
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_D.pdf",
+      "sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7"
+    },
+    "shape": {
+      "available": true,
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_V01\\shp\\geo_A.shp",
+      "sha256": "7ff81804e140c6b9548f7d32727dabd2ada2a81926c7cec03811fd5f81530d12"
+    },
+    "zfk": {
+      "available": true,
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050"
+    },
+    "column_config": {
+      "available": true,
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\config\\pilots\\m1050_columns.json",
+      "sha256": "e1f3b04f33b8fe5d3f092c94394c815fdec746d7b0949c66374e9f7efa00ccf7"
+    },
+    "column_mode": "reviewed_config",
+    "column_warning": ""
+  },
+  "llm": {
+    "model": "gemini-3.6-flash",
+    "external_calls": 0,
+    "cache_hits": 0,
+    "added_evidence": 2,
+    "usage_before": {
+      "calls": 99,
+      "tokens": 276198
+    },
+    "usage_after": {
+      "calls": 99,
+      "tokens": 276198
+    },
+    "usage_delta": {
+      "calls": 0,
+      "tokens": 0
+    },
+    "legacy_cache_files_migrated": 0,
+    "compatible_cache_jobs_migrated": 0,
+    "stage": "disabled",
+    "status": "complete",
+    "error": null,
+    "quota_exhausted": false,
+    "quota_error": null,
+    "pdf_body_routing": {
+      "contexts": 20,
+      "unresolved_units": 3,
+      "context_characters": 35797
+    },
+    "pdf_alias_mapping": {
+      "schema_version": "pdf-unit-aliases/1.0",
+      "stage": "pdf_unit_alias_mapping",
+      "status": "not_needed",
+      "external_calls": 0,
+      "cache_hits": 0,
+      "mapped_units": 0
+    },
+    "pdf_body": {
+      "schema_version": "pdf-field-enrichment/1.0",
+      "stage": "pdf_body_field_enrichment",
+      "status": "not_run",
+      "external_calls": 0,
+      "cache_hits": 0,
+      "added_evidence": 0
+    },
+    "pdf_environment": {
+      "schema_version": "pdf-environment-analysis/1.0",
+      "stage": "pdf_environment_multimodal",
+      "status": "disabled",
+      "external_calls": 0,
+      "cache_hits": 0,
+      "added_evidence": 0
+    },
+    "column_vision": {
+      "stage": "column_geography_vision",
+      "status": "not_run",
+      "external_calls": 0,
+      "cache_hits": 0
+    }
+  },
+  "column_geography": {
+    "schema_version": "column-geography/1.0",
+    "status": "not_run",
+    "columns": []
+  },
+  "canonical": {
+    "units": 23,
+    "columns": 2,
+    "evidence": 481,
+    "orphaned_evidence_count": 0,
+    "evidence_by_source": {
+      "PDF": 41,
+      "Shapefile": 132,
+      "ZFK": 308
+    },
+    "status_counts": {
+      "OK": 0,
+      "CHECK": 23,
+      "MISSING": 0
+    },
+    "interval_normalizations": []
+  },
+  "map": {
+    "generated": true,
+    "matched_units": 23,
+    "unmatched_units": 0,
+    "warnings": []
+  },
+  "qa": {
+    "inspection": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\qa\\inspection.ndjson",
+    "build_inspection": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\qa\\build_inspection.ndjson",
+    "submission_check": {
+      "return_code": 0,
+      "errors": 0,
+      "warnings": 4,
+      "ready_for_submission": true
+    },
+    "workbook_warning": null
+  },
+  "artifacts": {
+    "review_excel": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\m1050_review.candidate-20260814T034819Z.xlsx",
+    "compiled_json": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\compiled.json",
+    "evidence_json": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\evidence.json",
+    "derived_previews_json": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\derived_previews.json",
+    "environment_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\environment_analysis\\environment_manifest.json",
+    "pilot_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\pilot_manifest.json",
+    "column_proposal": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\column_vision\\column_proposal.json",
+    "coordinate_candidates": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\column_vision\\coordinate_candidates.json",
+    "vision_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\column_vision\\vision_manifest.json",
+    "column_map_png": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\column_map.png",
+    "column_map_kml": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\column_map.kml"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "pdf-unit-aliases/1.0",
+  "stage": "pdf_unit_alias_mapping",
+  "status": "complete",
+  "job_id": "pam_9974456772abd6cbba1c",
+  "provider": "gemini",
+  "requested_model": "gemini-3.6-flash",
+  "actual_model": "gemini-3.6-flash",
+  "model": "gemini-3.6-flash",
+  "external_calls": 0,
+  "cache_hits": 1,
+  "mapped_units": 29,
+  "dropped_count": 1,
+  "cache_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\llm_cache\\pam_9974456772abd6cbba1c.json",
+  "route_attempts": []
+}

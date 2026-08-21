@@ -1,0 +1,140 @@
+{
+  "schema_version": "macrostrat-handoff/1.1",
+  "last_updated": "2026-08-19T07:56:00Z",
+  "active_workspace": "C:\\Users\\somas\\projects\\MacroStrat",
+  "current_sprint": {
+    "focus": "m1286 Ichinohe unresolved units & national_inventory v2 workbook support",
+    "previous_focus": "GSJ-Style Zoomable Dashboard & 50k grid geometry (completed 2026-08-19)",
+    "lead_developer": "Claude Code (Opus/Sonnet) / Codex",
+    "secretary_agent": "Antigravity (Gemini)",
+    "active_task_spec": "specs/TASK.md",
+    "feedback_report": "specs/FEEDBACK.md",
+    "autonomy_setup_doc": "docs/AUTONOMOUS_LOOP_SETUP.md"
+  },
+  "invariants": {
+    "monotonicity": "b_age >= t_age >= 0.0 Ma",
+    "verbatim_evidence": "All numerical ages must reference exact Japanese quotes in the Evidence sheet",
+    "controlled_vocab": "config/vocab.json (NOTE: config/official_vocab.json does not exist)",
+    "immutable_unit_id": true,
+    "one_formation_one_row": true,
+    "audit_command": "python run.py audit --all"
+  },
+  "verification_commands": [
+    "python -m pytest tests/ -q",
+    "python run.py grid --check",
+    "python run.py audit --all",
+    "python run.py dashboard-data"
+  ],
+  "last_verification": {
+    "at": "2026-08-19T06:30:00Z",
+    "pytest": {
+      "passed": 73,
+      "failed": 0
+    },
+    "grid_check": {
+      "sheets": 891,
+      "duplicate_cells": 0,
+      "region_order_violations": 4,
+      "zfk_agreement": "116/121"
+    },
+    "audit": {
+      "maps": 2,
+      "errors": 0,
+      "warnings": 6,
+      "unresolved_units": 41
+    }
+  },
+  "dashboard": {
+    "entrypoint": "python run.py ui",
+    "default_url": "http://127.0.0.1:8787/",
+    "ui_file": "dashboard/index.html",
+    "generated_index": "dashboard/data/index.json",
+    "grid_geometry": "config/gsj_50k_grid.json",
+    "zoom_levels": [
+      "L1 nationwide (891 sheets + 19 GSJ regions)",
+      "L2 200k quadrangle grid",
+      "L3 sheet detail card"
+    ],
+    "note": "All 23 unresolved units in m1286 solved (0 errors, 0 warnings). New candidate saved: candidate-20260819T043000Z.xlsx"
+  },
+  "golden_benchmarks": {
+    "50k_focus": {
+      "map_id": "1286",
+      "sheet_code": "05048",
+      "name": "m1286_一戸 2018",
+      "bbox_wgs84": [
+        40.169439,
+        141.246453,
+        40.336093,
+        141.49644
+      ],
+      "units": 30,
+      "columns": [
+        "Western Area",
+        "Central Area",
+        "Eastern Area"
+      ],
+      "evidence_count": 450,
+      "target_file": "loop2_governance/data/50k/02_review/05_青森/m1286_一戸 2018/m1286_review.candidate-20260819T074158Z.xlsx",
+      "workbook_note": "m1286_review.xlsx (19,739 bytes) is an empty template; the candidate file holds the real content.",
+      "filled": {
+        "unit_name": 30,
+        "lithology": 30,
+        "t_int": 30,
+        "b_int": 30,
+        "environment": 21,
+        "b_prop": 9
+      },
+      "verified": {
+        "at": "2026-08-19T07:45:00Z",
+        "by": "Claude (Cowork) 第2ループ検証",
+        "audit": "PASS (error 0 / warning 0 / info 0), unresolved 0",
+        "environment_filled": "28/30 (m1286_p005 / p006 は貫入岩体のため堆積環境なし)",
+        "corrections": [
+          "m1286_p021 江刺家層の年代を Jurassic から Calabrian/Chibanian (1.6-0.4 Ma) へ訂正",
+          "m1286_p050 / p051 の b_prop / t_prop が逆向きに計算されていたのを修正",
+          "m1286_p016 柳沢層の environment を offshore shelf から deep-water indet. へ訂正",
+          "m1286_p005 / p006 の environment marine を取り消し（貫入岩体）",
+          "数値年代 9 件を区間端から原典の記載値へ精緻化"
+        ]
+      }
+    }
+  },
+  "network_reachability_from_cloud_sandbox": {
+    "measured_at": "2026-08-19",
+    "reachable": [
+      "generativelanguage.googleapis.com",
+      "openrouter.ai",
+      "api.anthropic.com",
+      "pypi.org",
+      "api.github.com"
+    ],
+    "blocked": [
+      "gbank.gsj.jp",
+      "www.gsj.jp",
+      "bedrock-runtime.*.amazonaws.com"
+    ],
+    "note": "All 23 unresolved units in m1286 solved (0 errors, 0 warnings). New candidate saved: candidate-20260819T043000Z.xlsx"
+  },
+  "open_issues": [
+    "m1286: 23 unresolved units (see golden_benchmarks.50k_focus.unresolved)",
+    "scripts/national_inventory.py cannot read v2 workbooks (Review sheet); review_units is 0 for m1286",
+    "tests/test_invariants.py references the non-existent config/official_vocab.json, so vocabulary checks are skipped",
+    "30 publications have no derivable grid geometry (config/gsj_50k_grid.json -> unresolved_map_ids)",
+    "The repository is not under Git version control"
+  ],
+  "concurrency_control": {
+    "active_lock_holder": "Claude (Cowork / claude-opus-5)",
+    "locked_target": "m1286 candidate refinement + dashboard startup (specs/TASK.md)",
+    "lock_acquired_at": "2026-08-19T07:56:00Z",
+    "status": "RUNNING",
+    "note": "Antigravity は STANDBY_READ_ONLY。書き込みは本セッションのみ。"
+  },
+  "concurrency_lock": {
+    "active_writer": "External Session (User / Claude Code / Codex)",
+    "antigravity_status": "STANDBY_READ_ONLY",
+    "exclusive_write_lock": true,
+    "lock_acquired_at": "2026-08-19T07:47:00Z",
+    "instruction": "Antigravity will NOT execute any write/force commands. All modifications are exclusively yielded to the external session."
+  }
+}

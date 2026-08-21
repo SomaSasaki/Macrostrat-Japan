@@ -1,0 +1,91 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "87fdf9a52cabc66d4743ba1a417541749bd93dde4d6f6661b1bde6fa823a0713",
+  "job_id": "pbootd_ed5014ddb23381b910c6",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:35:45+00:00",
+  "units": [
+    {
+      "unit_name": "Ainoyama Formation",
+      "b_age_ma": 20,
+      "t_age_ma": 20,
+      "age_quote": "the Ainoyama: ca. 20 Ma (middle Early Miocene)",
+      "lithology": "dacitic lava and conglomerate",
+      "lith_quote": "composed of dacitic lava and conglomerate",
+      "unit_description": "The Ainoyama Formation is composed of dacitic lava and conglomerate, originating from volcanic activities.",
+      "desc_quote": "composed of dacitic lava and conglomerate. On the basis of their ages and distributions, they have been originated from the different volcanic activities."
+    },
+    {
+      "unit_name": "Nisatai Formation",
+      "b_age_ma": 23,
+      "t_age_ma": 22,
+      "age_quote": "the Nisatai: 22–23 Ma (earliest Early Miocene)",
+      "lithology": "welded rhyolitic pumice lapilli tuff, conglomerate, sandstone, and mudstone",
+      "lith_quote": "composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate, sandstone, and mudstone",
+      "environment": "non-marine",
+      "env_quote": "This formation is non-marine deposits",
+      "basal_surface": "unconformable",
+      "basal_quote": "unconformably covers the Jurassic strata and the Cretaceous plutonic rocks",
+      "unit_description": "The Nisatai Formation is composed of welded rhyolitic pumice lapilli tuff, conglomerate, sandstone, and mudstone, representing non-marine deposits.",
+      "desc_quote": "composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate, sandstone, and mudstone. This formation is non-marine deposits"
+    },
+    {
+      "unit_name": "Shiratorigawa Group",
+      "b_age_ma": 18,
+      "t_age_ma": 15,
+      "age_quote": "the Yotuyaku: 18–16.5 Ma (late Early Miocene), the Kadonosawa: ca. 16.5 Ma (Early to Middle Miocene), the Suenomatuyama: 16.5–15 Ma (earliest Middle Miocene)",
+      "unit_description": "The Shiratorigawa Group consists of the Yotuyaku, Kadonosawa, and Suenomatuyama formations, representing marine and subaerial deposits.",
+      "desc_quote": "The Yotuyaku, Kadonosawa, and Suenomatuyama formations compose the Shiratorigawa Group. The Yotuyaku Formation ... were mainly deposited on land, except for the Koiwai, which yields numerous marine molluscs. The Kadonosawa Formation ... reflects the change of depositional environments from shallow marine to subbathyal. The Suenomatuyama Formation ... is also of marine deposits"
+    },
+    {
+      "unit_name": "Sannohe Group",
+      "b_age_ma": 15,
+      "t_age_ma": 8.5,
+      "age_quote": "the Zyūmonzi: 15–12 Ma(Middle Miocene), the Yanagisawa: 12–10.5 Ma (earliest Late Miocene), the Shitazaki: 10.5–8.5 Ma (Late Miocene)",
+      "unit_description": "The Sannohe Group consists of the Zyūmonzi, Yanagisawa, and Shitazaki formations, representing shallow marine and sublittoral deposits.",
+      "desc_quote": "The Zyūmonzi, Yanagisawa and Shitazaki formations compose the Sannohe Group. The Zyūmonzi Formation ... characterised by shallow marine sandstone ... The Yanagisawa Formation ... composed of diatomite and diatomite-origined porcelanite ... The Shitazaki Formation ... mainly composed of sublittoral siltstone"
+    },
+    {
+      "unit_name": "Kuzumaki Formation",
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "age_quote": "The mudstone of this formation yielded early to middle Jurassic radiolarian fossils, which suggest the depositional ages.",
+      "lithology": "phyllitic mudstone and pelitic mixed rock, with blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone",
+      "lith_quote": "consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone",
+      "unit_description": "The Kuzumaki Formation consists mainly of phyllitic mudstone and pelitic mixed rock, with blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone.",
+      "desc_quote": "consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone"
+    },
+    {
+      "unit_name": "Takayashiki Formation",
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "lithology": "alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amount of chert, siliceous mudstone, and mafic rocks",
+      "lith_quote": "consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amount of chert, siliceous mudstone, and mafic rocks",
+      "unit_description": "The Takayashiki Formation consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amounts of chert, siliceous mudstone, and mafic rocks.",
+      "desc_quote": "consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amount of chert, siliceous mudstone, and mafic rocks"
+    },
+    {
+      "unit_name": "Seki Formation",
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "lithology": "slaty mudstone and laminated silty mudstone, with chert, siliceous mudstone, and sandstone",
+      "lith_quote": "characterised by at least three repetitions of chert-clastic sequence, and consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone",
+      "unit_description": "The Seki Formation is characterised by at least three repetitions of chert-clastic sequence, and consists mainly of slaty mudstone and laminated silty mudstone, with chert, siliceous mudstone, and sandstone.",
+      "desc_quote": "characterised by at least three repetitions of chert-clastic sequence, and consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone"
+    },
+    {
+      "unit_name": "Kassenba Formation",
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "lithology": "sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone",
+      "lith_quote": "characterised by at least two repetitions of chert-clastic sequence, and consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone",
+      "unit_description": "The Kassenba Formation is characterised by at least two repetitions of chert-clastic sequence, and consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone.",
+      "desc_quote": "characterised by at least two repetitions of chert-clastic sequence, and consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone"
+    }
+  ]
+}

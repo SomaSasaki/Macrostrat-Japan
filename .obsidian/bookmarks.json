@@ -1,0 +1,34 @@
+﻿{
+  "items": [
+    {
+      "type": "file",
+      "path": "loop2_governance/UNIFIED_PORTAL.md",
+      "title": "統合ポータル (UNIFIED_PORTAL.md - 日本語)"
+    },
+    {
+      "type": "file",
+      "path": "loop2_governance/UNIFIED_PORTAL.md",
+      "title": "UNIFIED_PORTAL.md (English)"
+    },
+    {
+      "type": "file",
+      "path": "loop2_governance/MacroStrat_Architecture.canvas",
+      "title": "全体アーキテクチャ図 (Canvas)"
+    },
+    {
+      "type": "file",
+      "path": "loop2_governance/specs/TASK.md",
+      "title": ">> 最新タスク指示書 (TASK.md)"
+    },
+    {
+      "type": "file",
+      "path": "loop2_governance/specs/FEEDBACK.md",
+      "title": ">> 最新成果報告書 (FEEDBACK.md)"
+    },
+    {
+      "type": "file",
+      "path": "loop2_governance/specs/MEMORY.md",
+      "title": ">> 全AI共通記憶 (MEMORY.md)"
+    }
+  ]
+}

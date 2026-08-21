@@ -1,0 +1,13 @@
+{
+  "schema_version": "pdf-unit-aliases/1.0",
+  "stage": "pdf_unit_alias_mapping",
+  "status": "complete",
+  "job_id": "pam_8fe5b8f13c80b76b455b",
+  "prompt_version": "pdf-toc-aliases-v1",
+  "prompt_sha256": "2b02a1e71f6e842cb2ea04e2b9ffa36d5563bf38fed9a5c29f349bbe8cb77289",
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "model": "gemini-3.6-flash",
+  "accepted": [],
+  "dropped": [],
+  "estimated_tokens": 5215
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "main-abstract-gold-fixture/1.0",
+  "map_id": "1286",
+  "gold_snapshot_manifest": "claude_work/gold_snapshots/m1286/v1/manifest.json",
+  "source_workbook_sha256": "db7663006b7cb7c0ca270374ab2261fa56aca7fef24ff88eee0574a7e4f16cbb",
+  "source_workbook": "claude_work/reports/Ichinohe_reference_GOLD.xlsx",
+  "pdf_filename": "GSJ_MAP_G050_05048_2018_D.pdf",
+  "abstract_filename": "m1286_abstract.txt",
+  "compiled_file": "system/raw/compiled.json",
+  "cases": [
+    {
+      "case_id": "environment",
+      "fields": ["environment"],
+      "expected_items": [
+        "field_05283d3d8e380f77ae3db37a", "field_0a088848afe903fe339ebc32",
+        "field_1c45744abf4ba4951c273e15", "field_45d0edbc532b8b82794d70eb",
+        "field_55abf8b503699c65a6d2e4ea", "field_597c8caf1c8e621e2c7ab580",
+        "field_5f2181c300d051defff3f3e1", "field_61e5469a215dac4c484f3084",
+        "field_63ebce5b3b535c66454eea84", "field_6c3230f1543b5fccd6c5f9ae",
+        "field_6dd3cbc8734ff3a4b84671ba", "field_703a9121b94f39d1baeafbc1",
+        "field_7bcdd9b859b6c60cddba0115", "field_846d39ade92b14828f2c0101",
+        "field_8fe5d900f286efeec2d4230b", "field_992cda17e0c22773d315b68a",
+        "field_afefee345a33a0cbae190eea", "field_dad2eec3565eaa6073104534",
+        "field_f5d7828e63931c4458940ace", "field_fba6682574b6d945327cb31f",
+        "field_ffe3e71ea28ba869eaa305dc"
+      ]
+    },
+    {
+      "case_id": "lithology",
+      "fields": ["lithology"],
+      "expected_items": [
+        "field_01b5165857ae820dffddab27", "field_0edd4612aa50a0b76a4db180",
+        "field_316fe782ac78a74edcaf9711", "field_33785b6db928ef19562dd798",
+        "field_3d300af87d6b0a61d377dd54", "field_421499853268014b8ea9e258",
+        "field_506c31e1d17d080312c89a08", "field_5789b23a10e784a8c10a431d",
+        "field_69033f619a176eb9f6d53797", "field_84cd7a694c941eece6ea1e1f",
+        "field_a9dcb7cd73a75752a47ee24e", "field_aa31db759fdfd2b1387fd674",
+        "field_b6e4ae6ea1ba120eaae1542a", "field_c7872491760033e61195c0ba",
+        "field_eb72e5cf4b1bce3183bcf5b6"
+      ]
+    },
+    {
+      "case_id": "minor_lithology",
+      "fields": ["minor_lith"],
+      "expected_items": [
+        "field_2c2cc0bc62a460cf16e2c8f4", "field_30797db6d91581b879095b9e",
+        "field_415c0fa4aad790a460ad19c5", "field_68ac712c1dfcdb3df84b3412",
+        "field_84d6364188ef4b9527ecaad9", "field_97554acb6ef84d2ea7d2ade9",
+        "field_9ee386ba142a202fe27fe2ff", "field_c4d49a700532fbf4b4caf0ea"
+      ]
+    },
+    {
+      "case_id": "physical",
+      "fields": ["min_thickness", "max_thickness", "basal_surface", "lateral_relationship"],
+      "expected_items": [
+        "field_060290dd394e0924df4d97e1", "field_090cf579a19d137e5335cef9",
+        "field_12c210118abb8c642cd7dc5a", "field_17b6dcac09a5096520da2479",
+        "field_17b8545354bccbadf09933b4", "field_1abe45176b217664ea21f472",
+        "field_1c4298e4c5e89eaea95e73a2", "field_41c3eb08cab65e347703432b",
+        "field_45e4d6ab4e5a96faa270a6af", "field_4bd54e8488254ab55adf6ac6",
+        "field_524a80273d4e81f497a02a3d", "field_54f60287ee4976685f813868",
+        "field_795848273c85aef8a2f7562e", "field_7cdaa39cf3331e1eab9d14f1",
+        "field_7f5402f39c301039cf99bf3d", "field_805129a1e5bb0db483fe4201",
+        "field_80dc69fbd39ba1599ed1e069", "field_8f7940bde05c9277efd694e2",
+        "field_957f779ed5233257fffaa6af", "field_9cf6c424dbc3b6b14a61aee8",
+        "field_aff57ca6094c74ae2fff4e04", "field_b1238ed257cffbade754f01e",
+        "field_b4d1aa2cd4082181f9135556", "field_b85baa3437c7219add8bbaf7",
+        "field_b8f8e606c44547da01c3e398", "field_bc1aca1a243660fb29f22b7c",
+        "field_c6dd51d9344453776abb60eb", "field_caff55c86bcb5e921383d400",
+        "field_d28f2a0badeafe9b75627dab", "field_d30a509007cec38a48c9cb4e",
+        "field_d5f5cb1b367b48a8ae15a26c", "field_d6f08e75ed0268f1235962a3",
+        "field_da15cca26c03076bcfe0b33c", "field_df89c4989f55bedb5c4ebb2f",
+        "field_df93c0a396efae3ba1f88f16", "field_df99b30eef5729b837a45299",
+        "field_e49bf760b61976a7ae0e4454", "field_e8eb430458dc999f42ac428c",
+        "field_e96ff62aaf6c3914d8aa604b", "field_f201657a901455226825de85",
+        "field_f26b83cf1de8418785c85c36", "field_f32bdcd3a662c22316edd44e",
+        "field_f7e747707ee8e36180a46d50"
+      ]
+    }
+  ]
+}

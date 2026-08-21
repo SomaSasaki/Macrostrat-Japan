@@ -1,0 +1,684 @@
+{
+  "schema_version": "llm-routing/1.0",
+  "policy": {
+    "free_only": true,
+    "store_prompts": false,
+    "store_responses": false
+  },
+  "providers": {
+    "gemini": {
+      "enabled": true,
+      "free_tier": true,
+      "protocol": "gemini",
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+      "secret_name": "gemini_api_key",
+      "env_var": "GEMINI_API_KEY",
+      "quota_group": "google-ai-project",
+      "reset_timezone": "America/Los_Angeles",
+      "timeout_seconds": 180,
+      "limits": {
+        "max_calls_per_day": 100,
+        "max_tokens_per_day": 2000000,
+        "max_tokens_per_call": 120000
+      }
+    },
+    "cohere": {
+      "enabled": true,
+      "free_tier": true,
+      "protocol": "cohere",
+      "endpoint": "https://api.cohere.com/v2/chat",
+      "secret_name": "cohere_api_key",
+      "env_var": "COHERE_API_KEY",
+      "quota_group": "cohere-trial",
+      "reset_timezone": "UTC",
+      "timeout_seconds": 180,
+      "limits": {
+        "max_calls_per_day": 200,
+        "max_tokens_per_day": 2000000,
+        "max_tokens_per_call": 120000
+      }
+    },
+    "groq": {
+      "enabled": true,
+      "free_tier": true,
+      "protocol": "openai",
+      "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+      "secret_name": "groq_api_key",
+      "env_var": "GROQ_API_KEY",
+      "quota_group": "groq-free",
+      "reset_timezone": "UTC",
+      "timeout_seconds": 90,
+      "limits": {
+        "max_calls_per_day": 800,
+        "max_tokens_per_day": 80000,
+        "max_tokens_per_call": 10000
+      }
+    },
+    "mistral": {
+      "enabled": true,
+      "free_tier": true,
+      "protocol": "openai",
+      "endpoint": "https://api.mistral.ai/v1/chat/completions",
+      "secret_name": "mistral_api_key",
+      "env_var": "MISTRAL_API_KEY",
+      "quota_group": "mistral-free",
+      "reset_timezone": "UTC",
+      "timeout_seconds": 180,
+      "limits": {
+        "max_calls_per_day": 200,
+        "max_tokens_per_day": 2000000,
+        "max_tokens_per_call": 180000
+      }
+    },
+    "nvidia": {
+      "enabled": true,
+      "free_tier": true,
+      "protocol": "openai",
+      "endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+      "secret_name": "nvidia_api_key",
+      "env_var": "NVIDIA_API_KEY",
+      "quota_group": "nvidia-build",
+      "reset_timezone": "UTC",
+      "timeout_seconds": 180,
+      "limits": {
+        "max_calls_per_day": 100,
+        "max_tokens_per_day": 500000,
+        "max_tokens_per_call": 180000
+      }
+    },
+    "bedrock": {
+      "enabled": true,
+      "free_tier": true,
+      "billing_mode": "promotional_credit",
+      "protocol": "bedrock",
+      "endpoint": "https://bedrock-runtime.{region}.amazonaws.com/model/{model}/converse",
+      "region": "us-east-1",
+      "secret_name": "bedrock_api_key",
+      "env_var": "AWS_BEARER_TOKEN_BEDROCK",
+      "quota_group": "aws-bedrock-credit",
+      "reset_timezone": "UTC",
+      "timeout_seconds": 300,
+      "limits": {
+        "max_calls_per_day": 20,
+        "max_tokens_per_day": 500000,
+        "max_tokens_per_call": 120000
+      }
+    },
+    "azure": {
+      "enabled": true,
+      "free_tier": true,
+      "billing_mode": "promotional_credit",
+      "protocol": "azure_openai",
+      "endpoint_secret_name": "azure_ai_endpoint",
+      "endpoint_env_var": "AZURE_OPENAI_ENDPOINT",
+      "model_secret_name": "azure_ai_model",
+      "model_env_var": "AZURE_OPENAI_MODEL",
+      "secret_name": "foundry_api_key",
+      "env_var": "AZURE_OPENAI_API_KEY",
+      "supports_temperature": false,
+      "quota_group": "azure-foundry-credit",
+      "reset_timezone": "UTC",
+      "timeout_seconds": 180,
+      "limits": {
+        "max_calls_per_day": 20,
+        "max_tokens_per_day": 250000,
+        "max_tokens_per_call": 100000
+      }
+    },
+    "openrouter": {
+      "enabled": true,
+      "free_tier": true,
+      "protocol": "openai",
+      "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+      "secret_name": "openrouter_api_key",
+      "env_var": "OPENROUTER_API_KEY",
+      "quota_group": "openrouter-free",
+      "reset_timezone": "UTC",
+      "timeout_seconds": 180,
+      "limits": {
+        "max_calls_per_day": 200,
+        "max_tokens_per_day": 1000000,
+        "max_tokens_per_call": 100000
+      }
+    }
+  },
+  "routes": {
+    "pdf_unit_alias_mapping": {
+      "max_failovers": 2,
+      "candidates": [
+        {
+          "provider": "groq",
+          "model": "llama-3.3-70b-versatile",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 90
+        },
+        {
+          "provider": "azure",
+          "model": "gpt-5-mini",
+          "model_secret_name": "azure_ai_model",
+          "expected_actual_model": "gpt-5-mini-2025-08-07",
+          "enabled": true,
+          "capabilities": [
+            "text",
+            "json",
+            "japanese"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.75,
+          "min_output_tokens": 8192,
+          "max_output_tokens": 16384,
+          "max_attempts": 1,
+          "timeout_seconds": 180
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-nano-30b-a3b",
+          "enabled": false,
+          "disabled_reason": "Keep disabled: 2026-08-11 Ichinohe alias GOLD returned parseable JSON but production validation accepted 0/19 mappings at the 2,048-token output cap.",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese"
+          ],
+          "context_window": 131072,
+          "context_headroom": 0.75,
+          "max_output_tokens": 16384,
+          "max_attempts": 1,
+          "timeout_seconds": 180
+        },
+        {
+          "provider": "cohere",
+          "model": "command-a-plus-05-2026",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 180
+        },
+        {
+          "provider": "mistral",
+          "model": "mistral-small-latest",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese"
+          ],
+          "context_window": 256000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 180
+        },
+        {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese"
+          ],
+          "context_window": 1000000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 180
+        }
+      ]
+    },
+    "pdf_body_field_enrichment": {
+      "max_failovers": 2,
+      "candidates": [
+        {
+          "provider": "mistral",
+          "model": "mistral-small-latest",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 256000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "bedrock",
+          "model": "mistral.mistral-large-3-675b-instruct",
+          "enabled": true,
+          "expected_actual_model": "mistral.mistral-large-3-675b-instruct",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.75,
+          "max_output_tokens": 8192,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "cohere",
+          "model": "command-a-plus-05-2026",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-nano-30b-a3b",
+          "enabled": false,
+          "disabled_reason": "Enable after long-context GOLD validation; connectivity alone is not quality validation.",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 131072,
+          "context_headroom": 0.75,
+          "max_output_tokens": 16384,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 1000000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        }
+      ]
+    },
+    "pdf_unit_bootstrap": {
+      "max_failovers": 2,
+      "candidates": [
+        {
+          "provider": "mistral",
+          "model": "mistral-small-latest",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 256000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "bedrock",
+          "model": "mistral.mistral-large-3-675b-instruct",
+          "enabled": true,
+          "expected_actual_model": "mistral.mistral-large-3-675b-instruct",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.75,
+          "max_output_tokens": 8192,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "cohere",
+          "model": "command-a-plus-05-2026",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-nano-30b-a3b",
+          "enabled": false,
+          "disabled_reason": "Enable after long-context inventory GOLD validation.",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 131072,
+          "context_headroom": 0.75,
+          "max_output_tokens": 16384,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 1000000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "gemini",
+          "model": "gemini-3.6-flash",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "long_context"
+          ],
+          "context_window": 1000000,
+          "context_headroom": 0.8,
+          "max_attempts": 1,
+          "timeout_seconds": 300,
+          "enabled": true,
+          "selection_reason": "2026-08-12: 一戸(48 unit)のinventoryは1応答で約11,400 output tokenを要する。mistral-small-latestは8,103でvalidation、gemini-3.5-flash-liteは9,864でjson_parseとなり、bedrock mistral-large-3はmax_output 8,192で出力容量ゲートに掛かる。このモデルだけが同じ入力で48 unitの完全なinventoryを実際に生成した実績がある（llm_cache/pboot_ec362ec76447405ae949.json）。"
+        }
+      ]
+    },
+    "towada_pdf_llm": {
+      "max_failovers": 2,
+      "candidates": [
+        {
+          "provider": "mistral",
+          "model": "mistral-small-latest",
+          "capabilities": [
+            "text",
+            "json",
+            "long_context"
+          ],
+          "context_window": 256000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "cohere",
+          "model": "command-a-plus-05-2026",
+          "capabilities": [
+            "text",
+            "json",
+            "long_context"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-nano-30b-a3b",
+          "enabled": false,
+          "disabled_reason": "Keep disabled: 2026-08-11 Ichinohe Abstract GOLD reached NVIDIA, but the response hit the 16,384-token hosted-output cap, failed JSON parsing, and accepted 0/87 fields.",
+          "capabilities": [
+            "text",
+            "json",
+            "long_context"
+          ],
+          "context_window": 131072,
+          "context_headroom": 0.75,
+          "max_output_tokens": 16384,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "capabilities": [
+            "text",
+            "json",
+            "long_context"
+          ],
+          "context_window": 1000000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        }
+      ]
+    },
+    "column_geography_vision": {
+      "max_failovers": 1,
+      "candidates": [
+        {
+          "provider": "bedrock",
+          "model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+          "enabled": false,
+          "disabled_reason": "Keep disabled: the 2026-08-11 all-in-one Ichinohe Column GOLD scored TP 31/42, FP 24, precision 0.563636 and recall 0.738095. The 2026-08-12 constrained Column detection call also failed closed-world validation before membership batches ran, scoring TP 0/42 with three critical failures.",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.75,
+          "max_output_tokens": 8192,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "mistral",
+          "model": "mistral-small-latest",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 256000,
+          "context_headroom": 0.75,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 1000000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "openrouter",
+          "model": "google/gemma-4-26b-a4b-it:free",
+          "enabled": false,
+          "disabled_reason": "Keep disabled: fixed Vision probe passed on 2026-08-13, but the approved Ichinohe constrained Column run detected only 2/3 Columns and scored TP 9/42, FP 15, precision 0.375, recall 0.214286 and F1 0.272727. The free model remains available for source-only hints, but it did not pass the exact Vision qualification contract.",
+          "qualification_required": true,
+          "qualification_prompt_version": "column-detection-closed-v1+column-membership-batched-v2",
+          "qualification_validator_version": "closed-world-vision-validator-v2",
+          "expected_actual_model": "google/gemma-4-26b-a4b-it:free",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 262144,
+          "context_headroom": 0.75,
+          "max_output_tokens": 32768,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "cohere",
+          "model": "command-a-vision-07-2025",
+          "enabled": false,
+          "disabled_reason": "Keep disabled: fixed Vision probe and all 7 approved constrained calls completed on 2026-08-13, but Ichinohe Column membership scored TP 12/42, FP 36, precision 0.25, recall 0.285714 and F1 0.266667. Connectivity is usable; source-figure accuracy does not pass the exact qualification contract.",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.75,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-nano-30b-a3b",
+          "enabled": false,
+          "disabled_reason": "No verified image-input support for this configured model.",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 131072,
+          "context_headroom": 0.75,
+          "max_output_tokens": 16384,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        }
+      ]
+    },
+    "pdf_environment_multimodal": {
+      "max_failovers": 1,
+      "candidates": [
+        {
+          "provider": "bedrock",
+          "model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+          "enabled": false,
+          "disabled_reason": "Keep disabled: the 2026-08-11 all-in-one Japanese Environment GOLD scored TP 1/5, FP 1, validator pass rate 0.4, precision 0.5 and recall 0.2. The 2026-08-12 per-unit constrained GOLD rejected the first two units and the circuit breaker stopped the remaining three, scoring TP 0/5 with five critical failures.",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.75,
+          "max_output_tokens": 8192,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "mistral",
+          "model": "mistral-small-latest",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 256000,
+          "context_headroom": 0.75,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 1000000,
+          "context_headroom": 0.8,
+          "max_attempts": 2,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "openrouter",
+          "model": "google/gemma-4-26b-a4b-it:free",
+          "enabled": false,
+          "disabled_reason": "Per-unit constrained production orchestrator is wired and fixed probes passed on 2026-08-12. Private Ichinohe GOLD is pending explicit payload approval; enable only after its exact qualification contract passes. Validator contract moved to closed-world-vision-validator-v2 on 2026-08-12 after the harness defects that made reviewed answers unreachable were fixed; any earlier qualification record no longer applies.",
+          "qualification_required": true,
+          "qualification_prompt_version": "environment-unit-closed-v1",
+          "qualification_validator_version": "closed-world-vision-validator-v2",
+          "expected_actual_model": "google/gemma-4-26b-a4b-it:free",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 262144,
+          "context_headroom": 0.75,
+          "max_output_tokens": 32768,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "cohere",
+          "model": "command-a-vision-07-2025",
+          "enabled": false,
+          "disabled_reason": "Keep disabled: authenticated two-image payload passed, but the 2026-08-11 Japanese PDF Environment GOLD returned only 150 output tokens and production validation accepted 0/5 reviewed targets.",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 128000,
+          "context_headroom": 0.75,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        },
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-nano-30b-a3b",
+          "enabled": false,
+          "disabled_reason": "No verified image-input support for this configured model.",
+          "capabilities": [
+            "text",
+            "json",
+            "japanese",
+            "vision"
+          ],
+          "context_window": 131072,
+          "context_headroom": 0.75,
+          "max_output_tokens": 16384,
+          "max_attempts": 1,
+          "timeout_seconds": 300
+        }
+      ]
+    }
+  }
+}

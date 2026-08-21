@@ -1,0 +1,57 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "2b9b582a00013b5c172f8a0fa9377e4f4cb98951311a20fb6a134e11d8b33b67",
+  "job_id": "pbootd_d2c9026dbac21cac626f",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:40:53+00:00",
+  "units": [
+    {
+      "unit_name": "Metoki Coquina Conglomerate Member",
+      "lithology": "coquina conglomerate",
+      "lith_quote": "coquina conglomerate (Metoki Coquina Conglomerate Member)"
+    },
+    {
+      "unit_name": "Shimotomai Volcaniclastic Rock Member",
+      "lithology": "volcaniclastic rock",
+      "lith_quote": "reworked volcaniclastic rocks (Shimotomai Volcaniclastic Rock Member)"
+    },
+    {
+      "unit_name": "Suenomatuyama Formation",
+      "b_age_ma": 16.5,
+      "t_age_ma": 15,
+      "age_quote": "the Suenomatuyama: 16.5–15 Ma",
+      "environment": "sublittoral",
+      "env_quote": "the Suenomatuyama Formation ... Sublittoral"
+    },
+    {
+      "unit_name": "Anausi Conglomerate Member",
+      "lithology": "conglomerate",
+      "lith_quote": "the Anausi Conglomerate"
+    },
+    {
+      "unit_name": "Itukamati Sandstone Member",
+      "lithology": "sandstone",
+      "lith_quote": "the Itukamati Sandstone"
+    },
+    {
+      "unit_name": "Aikawa Volcanic Rock Member",
+      "lithology": "volcanic rock",
+      "lith_quote": "the Aikawa Volcanic Rock"
+    },
+    {
+      "unit_name": "Nakuidake Volcanic Rock Member",
+      "lithology": "volcanic rock",
+      "lith_quote": "the Nakuidake Volcanic Rock"
+    },
+    {
+      "unit_name": "Mainosawa Sandstone Member",
+      "lithology": "sandstone",
+      "lith_quote": "the Mainosawa Sandstone"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "llm-qualification-verdict/1.0",
+  "evaluated_at": "2026-08-12T19:05:52.541777Z",
+  "stage": "pdf_environment_multimodal",
+  "provider": "bedrock",
+  "requested_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "qualified": false,
+  "valid_until": "2026-08-26T02:46:48.570510Z",
+  "route_enabled": false,
+  "required_probe_capability": "multi_image",
+  "prompt_version": "environment-unit-closed-v1",
+  "validator_version": "closed-world-vision-validator-v2",
+  "metrics": {
+    "cases": 5,
+    "expected_items": 5,
+    "true_positive": 0,
+    "false_positive": 0,
+    "false_negative": 5,
+    "validator_pass_rate": 0.0,
+    "precision": 1.0,
+    "recall": 0.0,
+    "critical_failures": 5
+  },
+  "thresholds": {
+    "min_cases": 3,
+    "min_expected_items": 3,
+    "min_validator_pass_rate": 1.0,
+    "min_precision": 1.0,
+    "min_recall": 0.85,
+    "max_critical_failures": 0
+  },
+  "probe": {
+    "generated_at": "2026-08-12T02:46:48.570510Z",
+    "ok": true,
+    "actual_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+  },
+  "reasons": [
+    "validator_pass_rate_below_threshold",
+    "recall_below_threshold",
+    "critical_failures"
+  ]
+}

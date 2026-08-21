@@ -1,0 +1,62 @@
+{
+  "schema_version": "pdf-environment-figure-candidates/1.0",
+  "status": "candidate_review",
+  "pdf": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\references\\GSJ_MAP_G050_05048_2018_D.pdf",
+  "pdf_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "selection_policy": "ranked stratigraphic/correlation pages; bibliography and text-only English abstract pages excluded; complete-page render; no LLM",
+  "candidates": [
+    {
+      "pdf_page": 16,
+      "score": 179,
+      "matched_terms": [
+        "層序",
+        "層序区分",
+        "地質総括",
+        "地質時代",
+        "火成作用",
+        "堆積場"
+      ],
+      "negative_terms": [],
+      "text_excerpt": "(現河床dp他↑珪長質七時雨火山江扇状地刺堆積物家層新生鳥谷層代三戸層群新舌崎層第三柳沢層紀中新十文字層世末ノ松山層門ノ沢層四ツ役層前期相ノ山層仁左平層白亜紀中生代ジ合戦場層関層ュラ-紀-6-↓堆苦積鉄面質が地形として残存)引張場中(期?正断層)応力場の転換?地質時代年代層序区分火成作用堆積場造構場(Ma)西部中央部東部完現河床/氾濫原谷底低地堆積物新堀野段丘堆積物折伊保内段丘dp世爪001米沢段丘堆積物岳蓮台野段丘dp扇状十和田八戸火砕流dp後地期十和田大不動火砕流dp堆積草木段丘堆積物物早渡段丘dp第四012浅内段丘堆積物向川原段丘dp紀更中新期世078陸上前期258後期鮮新360世前期533陸上圧後縮期場陸棚漸深海116浅浅海",
+      "selection_signals": [
+        "caption-before-summary-title",
+        "summary-axis-cooccurrence:4",
+        "three-region-axis",
+        "summary-title-with-multiple-axes"
+      ],
+      "image_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\environment_analysis\\figures\\page_0016_candidate.png",
+      "image_sha256": "af48f93ce1106fbc7ca6c22c8af320996bf4b36923a12427a6bb3c17d817912c"
+    },
+    {
+      "pdf_page": 55,
+      "score": 81,
+      "matched_terms": [
+        "correlation",
+        "層序",
+        "層序区分",
+        "柱状図",
+        "対比"
+      ],
+      "negative_terms": [],
+      "text_excerpt": "定義と同じで留崎層下部の砂岩とともに一括されている放散虫の生層序が報告され各地の地層との対比が進ん(第51図)上部の細粒堆積岩は鎮西(1958b)の舌崎だ層に含めて一括して「舌崎層」としているそしてここの時期は珪藻化石層序が劇的に進歩した時期であの舌崎層基底でもって下位の「二戸層群」と上位の「三る三陸沖のDSDPsite434435436(Leg5758)に戸層群」とに大別したこの区分は大局的には「二戸層より本邦を含む北西太平洋域珪藻化石層序が高分解能群」堆積時は砂岩が卓越するような浅海の環境で「三高精度化した(Barronetal1980;Barron1980;戸層群」堆積時になると深海化して泥岩が卓越するようHarper1980",
+      "selection_signals": [],
+      "image_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\environment_analysis\\figures\\page_0055_candidate.png",
+      "image_sha256": "80d9d736714462b93dbaec468fcda53c9c02c83363316d3a7c89e4b8f12808df"
+    },
+    {
+      "pdf_page": 27,
+      "score": 74,
+      "matched_terms": [
+        "層序",
+        "層序区分",
+        "柱状図",
+        "対比"
+      ],
+      "negative_terms": [],
+      "text_excerpt": "T332層序区分T1関層←一戸地域に隣接する地域においては既にジュラ系付関-大平断層加複合体の層序区分が行われ幾つかの層序単元が認定されている陸中関地域では下位より木沢畑層間木平層沢山川層安家層高屋敷層関層合戦場層大上鳥層大坂本層(杉本1974)にまた葛巻地域では下部位より五葉窪層葛巻層(岩井ほか1964;大上村砂岩砂岩泥岩互層田1974a)に区分されておりこれらの多くは一戸地(分断相)砂岩泥岩互層(厚層理)域まで連続して分布している従って本地域では独自葉理質泥岩の定義に基づく層序単元の設定や新称の提唱を行わずT2粘板岩質泥岩高隣接地域との対比に基づき既存の層序区分と単元名称珪質泥岩を踏襲することにしたその結果下位より高屋敷層チャ-",
+      "selection_signals": [],
+      "image_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\environment_analysis\\figures\\page_0027_candidate.png",
+      "image_sha256": "f3ee9a7980661d203bdefb0d3112db777cbc77bf45f99d731b2dfeb3d9047f52"
+    }
+  ]
+}

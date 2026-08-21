@@ -1,0 +1,9 @@
+{
+  "_説明": "互換表示と paid-tier kill switch 用。数値上限の正本は config/llm_routing.json の providers.gemini.limits です。",
+  "_本当の保証": "Google AI Studio で請求先アカウントを紐付けないこと。紐付けていなければ、上限を超えても課金ではなく429エラーになります。https://aistudio.google.com/api-keys の Plan 列が 'Paid' でないことを確認してください。",
+
+  "max_calls_per_day": 20,
+  "max_tokens_per_day": 500000,
+  "max_tokens_per_call": 120000,
+  "allow_paid_tier": false
+}

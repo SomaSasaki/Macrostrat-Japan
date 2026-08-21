@@ -1,0 +1,67 @@
+{
+  "schema_version": "pdf-environment-analysis/1.0",
+  "stage": "pdf_environment_multimodal",
+  "status": "complete",
+  "job_id": "penv_5cf1c926a6770f8e183d",
+  "model": "gemini-3.6-flash",
+  "external_calls": 1,
+  "cache_hits": 0,
+  "target_units": 7,
+  "accepted": 6,
+  "added_evidence": 6,
+  "not_applicable": 0,
+  "dropped": 0,
+  "unresolved": [
+    {
+      "unit_id": "m1050_u002",
+      "reason": "verified_body_context_unavailable"
+    },
+    {
+      "unit_id": "m1050_u016",
+      "reason": "verified_body_context_unavailable"
+    },
+    {
+      "unit_id": "m1050_u008",
+      "column_ids": [],
+      "reason": "The source text describes scoria flow deposits without clear indicators of the depositional environment, and pyroclastic lithology alone does not uniquely establish the setting."
+    }
+  ],
+  "estimated_tokens": 28659,
+  "figures": [
+    {
+      "figure_id": "fig_1",
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\environment_analysis\\figures\\page_0086_candidate.png",
+      "image_sha256": "c1424e4c07e8fe9a27936a70e5af7bfd05acb5257c69656481107de8f8d7f7ce",
+      "pdf_page": 86,
+      "printed_page": null,
+      "matched_terms": [
+        "stratigraphy",
+        "summaryofthegeology"
+      ]
+    },
+    {
+      "figure_id": "fig_2",
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\environment_analysis\\figures\\page_0062_candidate.png",
+      "image_sha256": "d23fbc68ff2eafed80da46b23c06a8e669a74a5435024e3830bcceeed559327f",
+      "pdf_page": 62,
+      "printed_page": null,
+      "matched_terms": [
+        "層序",
+        "柱状図",
+        "対比"
+      ]
+    },
+    {
+      "figure_id": "fig_3",
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\environment_analysis\\figures\\page_0048_candidate.png",
+      "image_sha256": "6853ad1583893e6d9c54848985f720ab811237782e358d48a3684e4c8ee3b318",
+      "pdf_page": 48,
+      "printed_page": null,
+      "matched_terms": [
+        "層序",
+        "柱状図"
+      ]
+    }
+  ],
+  "cache_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\llm_cache\\penv_5cf1c926a6770f8e183d.json"
+}

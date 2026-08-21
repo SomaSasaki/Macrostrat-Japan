@@ -1,0 +1,2443 @@
+{
+ "_出典": "Macrostrat 公式API (CC-BY 4.0)",
+ "_取得元": {
+  "environment": "https://macrostrat.org/api/v2/defs/environments?all=1",
+  "lithology": "https://macrostrat.org/api/v2/defs/lithologies?all=1",
+  "lith_att": "https://macrostrat.org/api/v2/defs/lithology_attributes?all=1"
+ },
+ "_取得日": "2026-08-10",
+ "_更新方法": "python run.py vocab",
+ "_注意": "公式表に無い語を使ってはいけないわけではない。公式仕様の environment は \"free text ... or Macrostrat environment\" とされており、仕様の例に出てくる \"shallow marine\" 自体がこの表に無い。export では照合できなかった語を知らせるだけで、エラーにはしない。 公式 lith_att_id 9 の正式名は末尾に半角空白を含む 'massive ' だが、本ファイルでは 'massive' に正規化してある。照合時は strip すること。",
+ "_区切り": "lithology / minor_lith / environment は ';' で複数指定する。strat_name は ',' で階層（Formation, Group）をつなぐ。",
+ "environment": [
+  "abyss",
+  "alluvial fan",
+  "barrier bar",
+  "basin reef",
+  "basinal",
+  "buildup or bioherm",
+  "cave",
+  "channel",
+  "channel lag",
+  "coastal indet.",
+  "colluvial slope",
+  "crater lake",
+  "crevasse splay",
+  "deep subtidal indet.",
+  "deep subtidal ramp",
+  "deep subtidal shelf",
+  "deep-water indet.",
+  "delta front",
+  "delta plain",
+  "deltaic indet.",
+  "drumlin",
+  "dune",
+  "end moraine",
+  "eolian indet.",
+  "esker",
+  "estuary/bay",
+  "fissure fill",
+  "floodplain",
+  "fluvial braided",
+  "fluvial indet.",
+  "fluvial meandering",
+  "fluvial-deltaic indet.",
+  "fluvial-lacustrine indet.",
+  "foreshore",
+  "glacial indet.",
+  "ground moraine",
+  "inferred marine",
+  "interdistributary bay",
+  "interdune",
+  "intrashelf/intraplatform reef",
+  "karst indet.",
+  "lacustrine - large",
+  "lacustrine - small",
+  "lacustrine delta front",
+  "lacustrine delta plain",
+  "lacustrine deltaic indet.",
+  "lacustrine indet.",
+  "lacustrine interdistributary bay",
+  "lacustrine prodelta",
+  "lagoonal",
+  "lagoonal/restricted shallow subtidal",
+  "levee",
+  "loess",
+  "marginal marine",
+  "marine",
+  "mire/swamp",
+  "non-marine",
+  "offshore",
+  "offshore indet.",
+  "offshore ramp",
+  "offshore shelf",
+  "open shallow subtidal",
+  "outwash plain",
+  "paralic indet.",
+  "perireef",
+  "peritidal",
+  "platform/shelf-margin reef",
+  "playa",
+  "pond",
+  "prodelta",
+  "reef",
+  "sand shoal",
+  "shallow subtidal",
+  "shoreface",
+  "sinkhole",
+  "slope",
+  "slope/ramp reef",
+  "spring",
+  "submarine fan",
+  "tar",
+  "tidal flat",
+  "transition zone/lower shoreface",
+  "weathering surface"
+ ],
+ "environment_detail": {
+  "peritidal": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "shallow subtidal": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "open shallow subtidal": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "lagoonal/restricted shallow subtidal": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "sand shoal": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "reef": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "buildup or bioherm": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "perireef": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "intrashelf/intraplatform reef": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "platform/shelf-margin reef": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "slope/ramp reef": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "basin reef": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "deep subtidal ramp": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "deep subtidal shelf": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "deep subtidal indet.": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "offshore ramp": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "offshore shelf": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "offshore indet.": {
+   "type": "carbonate",
+   "class": "marine"
+  },
+  "slope": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "basinal": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "paralic indet.": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "lagoonal": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "coastal indet.": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "foreshore": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "shoreface": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "transition zone/lower shoreface": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "barrier bar": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "offshore": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "deltaic indet.": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "delta plain": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "interdistributary bay": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "delta front": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "prodelta": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "deep-water indet.": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "abyss": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "submarine fan": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "marine": {
+   "type": "",
+   "class": "marine"
+  },
+  "marginal marine": {
+   "type": "",
+   "class": "marine"
+  },
+  "eolian indet.": {
+   "type": "eolian",
+   "class": "non-marine"
+  },
+  "dune": {
+   "type": "eolian",
+   "class": "non-marine"
+  },
+  "interdune": {
+   "type": "eolian",
+   "class": "non-marine"
+  },
+  "loess": {
+   "type": "eolian",
+   "class": "non-marine"
+  },
+  "fluvial indet.": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "fluvial braided": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "fluvial meandering": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "channel": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "channel lag": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "floodplain": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "levee": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "crevasse splay": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "fluvial-deltaic indet.": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "estuary/bay": {
+   "type": "fluvial",
+   "class": "marine"
+  },
+  "glacial indet.": {
+   "type": "glacial",
+   "class": "non-marine"
+  },
+  "end moraine": {
+   "type": "glacial",
+   "class": "non-marine"
+  },
+  "ground moraine": {
+   "type": "glacial",
+   "class": "non-marine"
+  },
+  "esker": {
+   "type": "glacial",
+   "class": "non-marine"
+  },
+  "drumlin": {
+   "type": "glacial",
+   "class": "non-marine"
+  },
+  "outwash plain": {
+   "type": "glacial",
+   "class": "non-marine"
+  },
+  "lacustrine indet.": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "lacustrine - large": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "lacustrine - small": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "pond": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "crater lake": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "lacustrine deltaic indet.": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "lacustrine delta plain": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "lacustrine interdistributary bay": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "lacustrine delta front": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "lacustrine prodelta": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "playa": {
+   "type": "lacustrine",
+   "class": "non-marine"
+  },
+  "karst indet.": {
+   "type": "landscape",
+   "class": "non-marine"
+  },
+  "fissure fill": {
+   "type": "landscape",
+   "class": "non-marine"
+  },
+  "cave": {
+   "type": "landscape",
+   "class": "non-marine"
+  },
+  "sinkhole": {
+   "type": "landscape",
+   "class": "non-marine"
+  },
+  "alluvial fan": {
+   "type": "landscape",
+   "class": "non-marine"
+  },
+  "mire/swamp": {
+   "type": "landscape",
+   "class": "non-marine"
+  },
+  "spring": {
+   "type": "landscape",
+   "class": "non-marine"
+  },
+  "tar": {
+   "type": "landscape",
+   "class": "non-marine"
+  },
+  "weathering surface": {
+   "type": "landscape",
+   "class": "non-marine"
+  },
+  "non-marine": {
+   "type": "",
+   "class": "non-marine"
+  },
+  "fluvial-lacustrine indet.": {
+   "type": "fluvial",
+   "class": "non-marine"
+  },
+  "colluvial slope": {
+   "type": "landscape",
+   "class": "non-marine"
+  },
+  "tidal flat": {
+   "type": "siliciclastic",
+   "class": "marine"
+  },
+  "inferred marine": {
+   "type": "",
+   "class": "marine"
+  }
+ },
+ "lithology": [
+  "adakite",
+  "agglomerate",
+  "alaskite",
+  "alluvium",
+  "amphibolite",
+  "andesite",
+  "anhydrite",
+  "ankaramite",
+  "ankerite",
+  "anorthosite",
+  "anthracite",
+  "aplite",
+  "arenite",
+  "argillite",
+  "arkose",
+  "ash",
+  "bafflestone",
+  "basalt",
+  "basanite",
+  "bauxite",
+  "benmoreite",
+  "bentonite",
+  "bindstone",
+  "biomicrite",
+  "biosparite",
+  "blueschist",
+  "boundstone",
+  "breccia",
+  "calcarenite",
+  "calcareous ooze",
+  "calcilutite",
+  "calcisiltite",
+  "carbonate",
+  "carbonatite",
+  "cataclasite",
+  "chalk",
+  "charnockite",
+  "chert",
+  "clay",
+  "claystone",
+  "clinopyroxenite",
+  "coal",
+  "colluvium",
+  "comendite",
+  "conglomerate",
+  "coquina",
+  "dacite",
+  "diabase",
+  "diamictite",
+  "diamicton",
+  "diatexite",
+  "diatomite",
+  "diorite",
+  "dolerite",
+  "dolomite",
+  "dolostone",
+  "drift",
+  "dunite",
+  "eclogite",
+  "eluvium",
+  "encrinite",
+  "evaporite",
+  "fault breccia",
+  "fault gouge",
+  "felsite",
+  "flint",
+  "floatstone",
+  "foidite",
+  "foidolite",
+  "framestone",
+  "gabbro",
+  "gneiss",
+  "grainstone",
+  "granite",
+  "granodiorite",
+  "granofel",
+  "granophyre",
+  "granulite",
+  "gravel",
+  "graywacke",
+  "greensand",
+  "greenschist",
+  "greenstone",
+  "greywacke",
+  "grit",
+  "gypsum",
+  "gyttja",
+  "halite",
+  "harzburgite",
+  "hawaiite",
+  "hornblendite",
+  "hornfels",
+  "hyaloclastite",
+  "igneous",
+  "ignimbrite",
+  "intramicrite",
+  "intrasparite",
+  "iron formation",
+  "ironstone",
+  "kimberlite",
+  "komatiite",
+  "lamprophyre",
+  "laterite",
+  "latite",
+  "leucogranite",
+  "lherzolite",
+  "lignite",
+  "lime mudstone",
+  "limestone",
+  "litharenite",
+  "loess",
+  "mafic",
+  "mafite",
+  "marble",
+  "marl",
+  "metabasalt",
+  "metabasite",
+  "metaconglomerate",
+  "metagabbro",
+  "metagraywacke",
+  "metaigneous",
+  "metamorphic",
+  "metapelite",
+  "metarhyolite",
+  "metasedimentary",
+  "metasiltstone",
+  "metavolcanic",
+  "micrite",
+  "migmatite",
+  "mixed carbonate-siliciclastic",
+  "monzogranite",
+  "monzonite",
+  "mud",
+  "mudstone",
+  "mugearite",
+  "mylonite",
+  "norite",
+  "novaculite",
+  "obsidian",
+  "oolite",
+  "oomicrite",
+  "oosparite",
+  "orthogneiss",
+  "orthopyroxenite",
+  "packstone",
+  "paleosol",
+  "paragneiss",
+  "peat",
+  "pegmatite",
+  "pelite",
+  "pelmicrite",
+  "pelsparite",
+  "peridotite",
+  "phonolite",
+  "phosphorite",
+  "phyllite",
+  "phyllonite",
+  "picrite",
+  "plutonic",
+  "porcellanite",
+  "pseudotachylite",
+  "pumice",
+  "pyroxenite",
+  "quartz arenite",
+  "quartz monzonite",
+  "quartzite",
+  "radiolarite",
+  "regolith",
+  "rhyodacite",
+  "rhyolite",
+  "rudstone",
+  "sand",
+  "sandstone",
+  "schist",
+  "scoria",
+  "sedimentary",
+  "serpentinite",
+  "shale",
+  "siderite",
+  "siliceous ooze",
+  "siliciclastic",
+  "silt",
+  "siltstone",
+  "skarn",
+  "slate",
+  "soil",
+  "spilite",
+  "subarkose",
+  "sublitharenite",
+  "syenite",
+  "syenogranite",
+  "tar",
+  "tephra",
+  "tephrite",
+  "till",
+  "tillite",
+  "tonalite",
+  "trachyandesite",
+  "trachyte",
+  "travertine",
+  "troctolite",
+  "trona",
+  "trondhjemite",
+  "tufa",
+  "tuff",
+  "tuffite",
+  "volcanic",
+  "volcanic glass",
+  "volcaniclastic",
+  "wacke",
+  "wackestone",
+  "websterite",
+  "wehrlite",
+  "welded tuff"
+ ],
+ "lithology_detail": {
+  "adakite": {
+   "type": "volcanic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "agglomerate": {
+   "type": "volcanic",
+   "group": "conglomerates",
+   "class": "igneous"
+  },
+  "alaskite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "alluvium": {
+   "type": "siliciclastic",
+   "group": "unconsolidated",
+   "class": "sedimentary"
+  },
+  "amphibolite": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "andesite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "anhydrite": {
+   "type": "evaporite",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "ankaramite": {
+   "type": "volcanic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "ankerite": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "anorthosite": {
+   "type": "plutonic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "anthracite": {
+   "type": "organic",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "aplite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "arenite": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "argillite": {
+   "type": "siliciclastic",
+   "group": "mudrocks",
+   "class": "sedimentary"
+  },
+  "arkose": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "ash": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "bafflestone": {
+   "type": "carbonate",
+   "group": "Dunham",
+   "class": "sedimentary"
+  },
+  "basalt": {
+   "type": "volcanic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "basanite": {
+   "type": "volcanic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "bauxite": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "benmoreite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "bentonite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "bindstone": {
+   "type": "carbonate",
+   "group": "Dunham",
+   "class": "sedimentary"
+  },
+  "biomicrite": {
+   "type": "carbonate",
+   "group": "Folk",
+   "class": "sedimentary"
+  },
+  "biosparite": {
+   "type": "carbonate",
+   "group": "Folk",
+   "class": "sedimentary"
+  },
+  "blueschist": {
+   "type": "metavolcanic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "boundstone": {
+   "type": "carbonate",
+   "group": "Dunham",
+   "class": "sedimentary"
+  },
+  "breccia": {
+   "type": "siliciclastic",
+   "group": "conglomerates",
+   "class": "sedimentary"
+  },
+  "calcarenite": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "calcareous ooze": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "calcilutite": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "calcisiltite": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "carbonate": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "carbonatite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "cataclasite": {
+   "type": "cataclastic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "chalk": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "charnockite": {
+   "type": "plutonic",
+   "group": "",
+   "class": "igneous"
+  },
+  "chert": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "clay": {
+   "type": "siliciclastic",
+   "group": "unconsolidated",
+   "class": "sedimentary"
+  },
+  "claystone": {
+   "type": "siliciclastic",
+   "group": "mudrocks",
+   "class": "sedimentary"
+  },
+  "clinopyroxenite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "coal": {
+   "type": "organic",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "colluvium": {
+   "type": "siliciclastic",
+   "group": "unconsolidated",
+   "class": "sedimentary"
+  },
+  "comendite": {
+   "type": "volcanic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "conglomerate": {
+   "type": "siliciclastic",
+   "group": "conglomerates",
+   "class": "sedimentary"
+  },
+  "coquina": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "dacite": {
+   "type": "volcanic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "diabase": {
+   "type": "plutonic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "diamictite": {
+   "type": "siliciclastic",
+   "group": "conglomerates",
+   "class": "sedimentary"
+  },
+  "diamicton": {
+   "type": "siliciclastic",
+   "group": "unconsolidated",
+   "class": "sedimentary"
+  },
+  "diatexite": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "diatomite": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "diorite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "dolerite": {
+   "type": "plutonic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "dolomite": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "dolostone": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "drift": {
+   "type": "siliciclastic",
+   "group": "unconsolidated",
+   "class": "sedimentary"
+  },
+  "dunite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "eclogite": {
+   "type": "metaigneous",
+   "group": "mafic",
+   "class": "metamorphic"
+  },
+  "eluvium": {
+   "type": "regolith",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "encrinite": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "evaporite": {
+   "type": "evaporite",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "fault breccia": {
+   "type": "cataclastic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "fault gouge": {
+   "type": "cataclastic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "felsite": {
+   "type": "volcanic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "flint": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "floatstone": {
+   "type": "carbonate",
+   "group": "Dunham",
+   "class": "sedimentary"
+  },
+  "foidite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "foidolite": {
+   "type": "plutonic",
+   "group": "",
+   "class": "igneous"
+  },
+  "framestone": {
+   "type": "carbonate",
+   "group": "Dunham",
+   "class": "sedimentary"
+  },
+  "gabbro": {
+   "type": "plutonic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "gneiss": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "grainstone": {
+   "type": "carbonate",
+   "group": "Dunham",
+   "class": "sedimentary"
+  },
+  "granite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "granodiorite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "granofel": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "granophyre": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "granulite": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "gravel": {
+   "type": "siliciclastic",
+   "group": "unconsolidated",
+   "class": "sedimentary"
+  },
+  "graywacke": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "greensand": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "greenschist": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "greenstone": {
+   "type": "metavolcanic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "greywacke": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "grit": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "gypsum": {
+   "type": "evaporite",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "gyttja": {
+   "type": "organic",
+   "group": "unconsolidated",
+   "class": "sedimentary"
+  },
+  "halite": {
+   "type": "evaporite",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "harzburgite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "hawaiite": {
+   "type": "volcanic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "hornblendite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "hornfels": {
+   "type": "metasedimentary",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "hyaloclastite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "igneous": {
+   "type": "igneous",
+   "group": "",
+   "class": "igneous"
+  },
+  "ignimbrite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "intramicrite": {
+   "type": "carbonate",
+   "group": "Folk",
+   "class": "sedimentary"
+  },
+  "intrasparite": {
+   "type": "carbonate",
+   "group": "Folk",
+   "class": "sedimentary"
+  },
+  "iron formation": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "ironstone": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "kimberlite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "komatiite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "lamprophyre": {
+   "type": "plutonic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "laterite": {
+   "type": "regolith",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "latite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "leucogranite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "lherzolite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "lignite": {
+   "type": "organic",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "lime mudstone": {
+   "type": "carbonate",
+   "group": "Dunham",
+   "class": "sedimentary"
+  },
+  "limestone": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "litharenite": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "loess": {
+   "type": "siliciclastic",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "mafic": {
+   "type": "igneous",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "mafite": {
+   "type": "volcanic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "marble": {
+   "type": "metasedimentary",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "marl": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "metabasalt": {
+   "type": "metaigneous",
+   "group": "mafic",
+   "class": "metamorphic"
+  },
+  "metabasite": {
+   "type": "metaigneous",
+   "group": "mafic",
+   "class": "metamorphic"
+  },
+  "metaconglomerate": {
+   "type": "metasedimentary",
+   "group": "conglomerates",
+   "class": "metamorphic"
+  },
+  "metagabbro": {
+   "type": "metaigneous",
+   "group": "mafic",
+   "class": "metamorphic"
+  },
+  "metagraywacke": {
+   "type": "metasedimentary",
+   "group": "sandstones",
+   "class": "metamorphic"
+  },
+  "metaigneous": {
+   "type": "metaigneous",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "metamorphic": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "metapelite": {
+   "type": "metasedimentary",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "metarhyolite": {
+   "type": "metaigneous",
+   "group": "felsic",
+   "class": "metamorphic"
+  },
+  "metasedimentary": {
+   "type": "metasedimentary",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "metasiltstone": {
+   "type": "metasedimentary",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "metavolcanic": {
+   "type": "metaigneous",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "micrite": {
+   "type": "carbonate",
+   "group": "Folk",
+   "class": "sedimentary"
+  },
+  "migmatite": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "mixed carbonate-siliciclastic": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "monzogranite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "monzonite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "mud": {
+   "type": "siliciclastic",
+   "group": "unconsolidated",
+   "class": "sedimentary"
+  },
+  "mudstone": {
+   "type": "siliciclastic",
+   "group": "mudrocks",
+   "class": "sedimentary"
+  },
+  "mugearite": {
+   "type": "volcanic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "mylonite": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "norite": {
+   "type": "plutonic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "novaculite": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "obsidian": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "oolite": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "oomicrite": {
+   "type": "carbonate",
+   "group": "Folk",
+   "class": "sedimentary"
+  },
+  "oosparite": {
+   "type": "carbonate",
+   "group": "Folk",
+   "class": "sedimentary"
+  },
+  "orthogneiss": {
+   "type": "metaigneous",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "orthopyroxenite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "packstone": {
+   "type": "carbonate",
+   "group": "Dunham",
+   "class": "sedimentary"
+  },
+  "paleosol": {
+   "type": "regolith",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "paragneiss": {
+   "type": "metasedimentary",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "peat": {
+   "type": "organic",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "pegmatite": {
+   "type": "plutonic",
+   "group": "",
+   "class": "igneous"
+  },
+  "pelite": {
+   "type": "siliciclastic",
+   "group": "mudrocks",
+   "class": "sedimentary"
+  },
+  "pelmicrite": {
+   "type": "carbonate",
+   "group": "Folk",
+   "class": "sedimentary"
+  },
+  "pelsparite": {
+   "type": "carbonate",
+   "group": "Folk",
+   "class": "sedimentary"
+  },
+  "peridotite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "phonolite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "phosphorite": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "phyllite": {
+   "type": "metasedimentary",
+   "group": "mudrocks",
+   "class": "metamorphic"
+  },
+  "phyllonite": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "picrite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "plutonic": {
+   "type": "plutonic",
+   "group": "",
+   "class": "igneous"
+  },
+  "porcellanite": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "pseudotachylite": {
+   "type": "cataclastic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "pumice": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "pyroxenite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "quartz arenite": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "quartz monzonite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "quartzite": {
+   "type": "metasedimentary",
+   "group": "sandstones",
+   "class": "metamorphic"
+  },
+  "radiolarite": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "regolith": {
+   "type": "regolith",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "rhyodacite": {
+   "type": "volcanic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "rhyolite": {
+   "type": "volcanic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "rudstone": {
+   "type": "carbonate",
+   "group": "Dunham",
+   "class": "sedimentary"
+  },
+  "sand": {
+   "type": "siliciclastic",
+   "group": "unconsolidated",
+   "class": "sedimentary"
+  },
+  "sandstone": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "schist": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "scoria": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "sedimentary": {
+   "type": "sedimentary",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "serpentinite": {
+   "type": "metamorphic",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "shale": {
+   "type": "siliciclastic",
+   "group": "mudrocks",
+   "class": "sedimentary"
+  },
+  "siderite": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "siliceous ooze": {
+   "type": "chemical",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "siliciclastic": {
+   "type": "siliciclastic",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "silt": {
+   "type": "siliciclastic",
+   "group": "unconsolidated",
+   "class": "sedimentary"
+  },
+  "siltstone": {
+   "type": "siliciclastic",
+   "group": "mudrocks",
+   "class": "sedimentary"
+  },
+  "skarn": {
+   "type": "metasedimentary",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "slate": {
+   "type": "metasedimentary",
+   "group": "",
+   "class": "metamorphic"
+  },
+  "soil": {
+   "type": "regolith",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "spilite": {
+   "type": "volcanic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "subarkose": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "sublitharenite": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "syenite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "syenogranite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "tar": {
+   "type": "organic",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "tephra": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "tephrite": {
+   "type": "volcanic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "till": {
+   "type": "siliciclastic",
+   "group": "conglomerates",
+   "class": "sedimentary"
+  },
+  "tillite": {
+   "type": "siliciclastic",
+   "group": "conglomerates",
+   "class": "sedimentary"
+  },
+  "tonalite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "trachyandesite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "trachyte": {
+   "type": "volcanic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "travertine": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "troctolite": {
+   "type": "plutonic",
+   "group": "mafic",
+   "class": "igneous"
+  },
+  "trona": {
+   "type": "evaporite",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "trondhjemite": {
+   "type": "plutonic",
+   "group": "felsic",
+   "class": "igneous"
+  },
+  "tufa": {
+   "type": "carbonate",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "tuff": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "tuffite": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "volcanic": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "volcanic glass": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  },
+  "volcaniclastic": {
+   "type": "siliciclastic",
+   "group": "",
+   "class": "sedimentary"
+  },
+  "wacke": {
+   "type": "siliciclastic",
+   "group": "sandstones",
+   "class": "sedimentary"
+  },
+  "wackestone": {
+   "type": "carbonate",
+   "group": "Dunham",
+   "class": "sedimentary"
+  },
+  "websterite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "wehrlite": {
+   "type": "plutonic",
+   "group": "ultramafic",
+   "class": "igneous"
+  },
+  "welded tuff": {
+   "type": "volcanic",
+   "group": "",
+   "class": "igneous"
+  }
+ },
+ "lith_att": [
+  "algal laminations",
+  "amphibole",
+  "amygdaloidal",
+  "angular",
+  "aphanitic",
+  "arenaceous",
+  "argillaceous",
+  "arkosic",
+  "asymmetric ripples",
+  "ball-and-pillow",
+  "basaltic",
+  "bentonitic",
+  "bioclastic",
+  "biotite",
+  "bioturbated",
+  "bioturbated-moderately",
+  "bioturbated-thoroughly",
+  "bioturbated-weakly",
+  "birds eye",
+  "black",
+  "blue",
+  "bluish gray",
+  "botryoidal",
+  "boulder",
+  "brecciated",
+  "brown",
+  "brownish gray",
+  "brownish red",
+  "burrowed",
+  "calcareous",
+  "carbonaceous",
+  "cherty",
+  "chloritic",
+  "chossy",
+  "clayey",
+  "climbing ripples",
+  "coarse",
+  "concretionary",
+  "concretions-calcareous",
+  "concretions-ironstone",
+  "concretions-phosphatic",
+  "concretions-sideritic",
+  "conglomeratic",
+  "convolute bedding",
+  "cross stratification",
+  "cross-bedded",
+  "dark",
+  "dark brown",
+  "dark gray",
+  "desiccation cracks",
+  "diatom",
+  "diatomaceous",
+  "dish and pillar",
+  "dolomitic",
+  "dunes",
+  "encrinitic",
+  "feldspar",
+  "feldspathic",
+  "felsic",
+  "fenestral",
+  "ferruginous",
+  "fine",
+  "flame structures",
+  "flaser beds",
+  "flat-pebble",
+  "fluid escape structures",
+  "flute casts",
+  "foliated",
+  "foraminifer",
+  "fossiliferous",
+  "fractured",
+  "glauconitic",
+  "graded bed",
+  "graded-inverse",
+  "graded-normal",
+  "granule",
+  "gravelly",
+  "gray",
+  "green",
+  "greenish blue",
+  "greenish gray",
+  "gutter casts",
+  "gypsiferous",
+  "hematitic",
+  "hornblende",
+  "hummocky and swaley cross stratification",
+  "hummocky cross stratification",
+  "intraclastic",
+  "inverse graded",
+  "irregularly bedded",
+  "laminated",
+  "lenticular",
+  "light",
+  "light brown",
+  "light gray",
+  "lithic",
+  "load casts",
+  "mafic",
+  "manganese",
+  "massive",
+  "medium",
+  "mica",
+  "micaceous",
+  "mottled",
+  "mounds",
+  "mud cracks",
+  "muddy",
+  "muscovite",
+  "nannofossil",
+  "nodular",
+  "olivine",
+  "oncolitic",
+  "ooidal",
+  "oolitic",
+  "organic",
+  "parting lineation",
+  "pebbly",
+  "pegmatitic",
+  "pelitic",
+  "peloidal",
+  "petroliferous",
+  "phaneritic",
+  "phosphatic",
+  "pink",
+  "pisolitic",
+  "poorly sorted",
+  "poorly washed",
+  "porphyritic",
+  "purple",
+  "pyritic",
+  "quartz",
+  "radiolarian",
+  "red",
+  "reddish brown",
+  "reddish gray",
+  "regularly bedded",
+  "reverse graded",
+  "rip-up clasts",
+  "ripple laminations",
+  "rounded",
+  "salt hoppers",
+  "sandy",
+  "saprolitic",
+  "serpentinized",
+  "shaly",
+  "sideritic",
+  "siliceous",
+  "silty",
+  "skeletal",
+  "soft sediment deformation",
+  "sole marks",
+  "sorted",
+  "spicular",
+  "stromatolitic",
+  "subangular",
+  "swaley cross stratification",
+  "symmetric ripples",
+  "tabular",
+  "tabular cross beds",
+  "tan",
+  "thickly bedded",
+  "thinly bedded",
+  "thrombolitic",
+  "tool marks",
+  "trough cross beds",
+  "tuffaceous",
+  "ultramafic",
+  "very coarse",
+  "very fine",
+  "vesicular",
+  "vuggy",
+  "wavy bedded",
+  "well rounded",
+  "well sorted",
+  "white",
+  "wrinkle structures",
+  "yellow",
+  "yellowish brown",
+  "yellowish gray",
+  "zeolitic"
+ ],
+ "lith_att_detail": {
+  "lenticular": {
+   "type": "bedform"
+  },
+  "mounds": {
+   "type": "bedform"
+  },
+  "tabular": {
+   "type": "bedform"
+  },
+  "thinly bedded": {
+   "type": "bedform"
+  },
+  "thickly bedded": {
+   "type": "bedform"
+  },
+  "regularly bedded": {
+   "type": "bedform"
+  },
+  "irregularly bedded": {
+   "type": "bedform"
+  },
+  "wavy bedded": {
+   "type": "bedform"
+  },
+  "massive": {
+   "type": "bedform"
+  },
+  "desiccation cracks": {
+   "type": "sed structure"
+  },
+  "birds eye": {
+   "type": "sed structure"
+  },
+  "salt hoppers": {
+   "type": "sed structure"
+  },
+  "ripple laminations": {
+   "type": "sed structure"
+  },
+  "climbing ripples": {
+   "type": "sed structure"
+  },
+  "algal laminations": {
+   "type": "sed structure"
+  },
+  "tabular cross beds": {
+   "type": "sed structure"
+  },
+  "cross-bedded": {
+   "type": "sed structure"
+  },
+  "trough cross beds": {
+   "type": "sed structure"
+  },
+  "hummocky cross stratification": {
+   "type": "sed structure"
+  },
+  "symmetric ripples": {
+   "type": "sed structure"
+  },
+  "asymmetric ripples": {
+   "type": "sed structure"
+  },
+  "dunes": {
+   "type": "sed structure"
+  },
+  "flaser beds": {
+   "type": "sed structure"
+  },
+  "laminated": {
+   "type": "sed structure"
+  },
+  "sole marks": {
+   "type": "sed structure"
+  },
+  "tool marks": {
+   "type": "sed structure"
+  },
+  "flute casts": {
+   "type": "sed structure"
+  },
+  "gutter casts": {
+   "type": "sed structure"
+  },
+  "load casts": {
+   "type": "sed structure"
+  },
+  "flame structures": {
+   "type": "sed structure"
+  },
+  "ball-and-pillow": {
+   "type": "sed structure"
+  },
+  "soft sediment deformation": {
+   "type": "sed structure"
+  },
+  "graded-normal": {
+   "type": "sed structure"
+  },
+  "graded-inverse": {
+   "type": "sed structure"
+  },
+  "bioturbated": {
+   "type": "sed structure"
+  },
+  "bioturbated-weakly": {
+   "type": "sed structure"
+  },
+  "bioturbated-moderately": {
+   "type": "sed structure"
+  },
+  "bioturbated-thoroughly": {
+   "type": "sed structure"
+  },
+  "concretions-sideritic": {
+   "type": "sed structure"
+  },
+  "wrinkle structures": {
+   "type": "sed structure"
+  },
+  "concretions-calcareous": {
+   "type": "sed structure"
+  },
+  "nodular": {
+   "type": "sed structure"
+  },
+  "very fine": {
+   "type": "grains"
+  },
+  "fine": {
+   "type": "grains"
+  },
+  "medium": {
+   "type": "grains"
+  },
+  "coarse": {
+   "type": "grains"
+  },
+  "very coarse": {
+   "type": "grains"
+  },
+  "granule": {
+   "type": "grains"
+  },
+  "boulder": {
+   "type": "grains"
+  },
+  "sorted": {
+   "type": "grains"
+  },
+  "well sorted": {
+   "type": "grains"
+  },
+  "poorly sorted": {
+   "type": "grains"
+  },
+  "rounded": {
+   "type": "grains"
+  },
+  "well rounded": {
+   "type": "grains"
+  },
+  "subangular": {
+   "type": "grains"
+  },
+  "angular": {
+   "type": "grains"
+  },
+  "lithic": {
+   "type": "grains"
+  },
+  "pegmatitic": {
+   "type": "grains"
+  },
+  "porphyritic": {
+   "type": "grains"
+  },
+  "argillaceous": {
+   "type": "lithology"
+  },
+  "shaly": {
+   "type": "lithology"
+  },
+  "silty": {
+   "type": "lithology"
+  },
+  "sandy": {
+   "type": "lithology"
+  },
+  "arkosic": {
+   "type": "lithology"
+  },
+  "conglomeratic": {
+   "type": "lithology"
+  },
+  "gravelly": {
+   "type": "lithology"
+  },
+  "carbonaceous": {
+   "type": "lithology"
+  },
+  "petroliferous": {
+   "type": "lithology"
+  },
+  "micaceous": {
+   "type": "lithology"
+  },
+  "cherty": {
+   "type": "lithology"
+  },
+  "siliceous": {
+   "type": "lithology"
+  },
+  "ferruginous": {
+   "type": "lithology"
+  },
+  "hematitic": {
+   "type": "lithology"
+  },
+  "phosphatic": {
+   "type": "lithology"
+  },
+  "tuffaceous": {
+   "type": "lithology"
+  },
+  "stromatolitic": {
+   "type": "lithology"
+  },
+  "bentonitic": {
+   "type": "lithology"
+  },
+  "calcareous": {
+   "type": "lithology"
+  },
+  "diatomaceous": {
+   "type": "lithology"
+  },
+  "dolomitic": {
+   "type": "lithology"
+  },
+  "glauconitic": {
+   "type": "lithology"
+  },
+  "intraclastic": {
+   "type": "lithology"
+  },
+  "rip-up clasts": {
+   "type": "lithology"
+  },
+  "ooidal": {
+   "type": "lithology"
+  },
+  "peloidal": {
+   "type": "lithology"
+  },
+  "pisolitic": {
+   "type": "lithology"
+  },
+  "skeletal": {
+   "type": "lithology"
+  },
+  "flat-pebble": {
+   "type": "lithology"
+  },
+  "pyritic": {
+   "type": "lithology"
+  },
+  "sideritic": {
+   "type": "lithology"
+  },
+  "gypsiferous": {
+   "type": "lithology"
+  },
+  "quartz": {
+   "type": "lithology"
+  },
+  "olivine": {
+   "type": "lithology"
+  },
+  "feldspar": {
+   "type": "lithology"
+  },
+  "hornblende": {
+   "type": "lithology"
+  },
+  "amphibole": {
+   "type": "lithology"
+  },
+  "muscovite": {
+   "type": "lithology"
+  },
+  "biotite": {
+   "type": "lithology"
+  },
+  "mica": {
+   "type": "lithology"
+  },
+  "brown": {
+   "type": "color"
+  },
+  "light brown": {
+   "type": "color"
+  },
+  "dark brown": {
+   "type": "color"
+  },
+  "gray": {
+   "type": "color"
+  },
+  "light gray": {
+   "type": "color"
+  },
+  "dark gray": {
+   "type": "color"
+  },
+  "green": {
+   "type": "color"
+  },
+  "greenish gray": {
+   "type": "color"
+  },
+  "greenish blue": {
+   "type": "color"
+  },
+  "purple": {
+   "type": "color"
+  },
+  "red": {
+   "type": "color"
+  },
+  "reddish brown": {
+   "type": "color"
+  },
+  "white": {
+   "type": "color"
+  },
+  "yellow": {
+   "type": "color"
+  },
+  "blue": {
+   "type": "color"
+  },
+  "bluish gray": {
+   "type": "color"
+  },
+  "mottled": {
+   "type": "color"
+  },
+  "light": {
+   "type": "color"
+  },
+  "dark": {
+   "type": "color"
+  },
+  "foliated": {
+   "type": "grains"
+  },
+  "fluid escape structures": {
+   "type": "sed structure"
+  },
+  "dish and pillar": {
+   "type": "sed structure"
+  },
+  "thrombolitic": {
+   "type": "lithology"
+  },
+  "convolute bedding": {
+   "type": "sed structure"
+  },
+  "pebbly": {
+   "type": "grains"
+  },
+  "chloritic": {
+   "type": "lithology"
+  },
+  "black": {
+   "type": "color"
+  },
+  "yellowish brown": {
+   "type": "color"
+  },
+  "reddish gray": {
+   "type": "color"
+  },
+  "yellowish gray": {
+   "type": "color"
+  },
+  "brownish red": {
+   "type": "color"
+  },
+  "brownish gray": {
+   "type": "color"
+  },
+  "oolitic": {
+   "type": "grains"
+  },
+  "tan": {
+   "type": "color"
+  },
+  "pink": {
+   "type": "color"
+  },
+  "aphanitic": {
+   "type": "grains"
+  },
+  "phaneritic": {
+   "type": "grains"
+  },
+  "manganese": {
+   "type": "lithology"
+  },
+  "felsic": {
+   "type": "lithology"
+  },
+  "mafic": {
+   "type": "lithology"
+  },
+  "concretions-ironstone": {
+   "type": "sed structure"
+  },
+  "oncolitic": {
+   "type": "sed structure"
+  },
+  "concretions-phosphatic": {
+   "type": "sed structure"
+  },
+  "bioclastic": {
+   "type": "lithology"
+  },
+  "burrowed": {
+   "type": "sed structure"
+  },
+  "concretionary": {
+   "type": "sed structure"
+  },
+  "graded bed": {
+   "type": "sed structure"
+  },
+  "reverse graded": {
+   "type": "sed structure"
+  },
+  "inverse graded": {
+   "type": "sed structure"
+  },
+  "feldspathic": {
+   "type": "grains"
+  },
+  "swaley cross stratification": {
+   "type": "sed structure"
+  },
+  "mud cracks": {
+   "type": "sed structure"
+  },
+  "muddy": {
+   "type": "grains"
+  },
+  "arenaceous": {
+   "type": "grains"
+  },
+  "clayey": {
+   "type": "grains"
+  },
+  "pelitic": {
+   "type": "grains"
+  },
+  "fenestral": {
+   "type": "sed structure"
+  },
+  "organic": {
+   "type": "grains"
+  },
+  "poorly washed": {
+   "type": "grains"
+  },
+  "cross stratification": {
+   "type": "sed structure"
+  },
+  "hummocky and swaley cross stratification": {
+   "type": "sed structure"
+  },
+  "fossiliferous": {
+   "type": "grains"
+  },
+  "parting lineation": {
+   "type": "sed structure"
+  },
+  "chossy": {
+   "type": "lithology"
+  },
+  "encrinitic": {
+   "type": "lithology"
+  },
+  "fractured": {
+   "type": "structure"
+  },
+  "brecciated": {
+   "type": "structure"
+  },
+  "vesicular": {
+   "type": "lithology"
+  },
+  "amygdaloidal": {
+   "type": "lithology"
+  },
+  "botryoidal": {
+   "type": "lithology"
+  },
+  "vuggy": {
+   "type": "lithology"
+  },
+  "saprolitic": {
+   "type": "lithology"
+  },
+  "diatom": {
+   "type": "grains"
+  },
+  "radiolarian": {
+   "type": "grains"
+  },
+  "nannofossil": {
+   "type": "grains"
+  },
+  "foraminifer": {
+   "type": "grains"
+  },
+  "ultramafic": {
+   "type": "lithology"
+  },
+  "basaltic": {
+   "type": "lithology"
+  },
+  "serpentinized": {
+   "type": "lithology"
+  },
+  "zeolitic": {
+   "type": "lithology"
+  },
+  "spicular": {
+   "type": "lithology"
+  }
+ }
+}

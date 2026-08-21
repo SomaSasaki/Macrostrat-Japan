@@ -1,0 +1,472 @@
+{
+  "schema_version": "pilot-column-config/1.0",
+  "map_id": "1050",
+  "map_slug": "towada",
+  "title": "Towada 1:50,000 pilot column subdivision",
+  "runtime_policy": {
+    "source_of_truth": "this_config",
+    "legacy_workbook_dependency": false,
+    "legacy_workbook_read_allowed": false,
+    "assignment_precedence": [
+      "PDF stratigraphic figure",
+      "ZFK and Shape distribution when the figure omits a unit",
+      "human review"
+    ],
+    "sort_order_direction": "ascending values run from younger/top to older/bottom",
+    "notes": [
+      "The pilot runtime must not open m1050_review.xlsx.",
+      "Column assignments marked CHECK remain visible to the reviewer and are not silently promoted to final."
+    ]
+  },
+  "columns": [
+    {
+      "col_id": "1",
+      "column_key": "west",
+      "col_name": "Towada-west",
+      "display_name": "Western Area",
+      "sort_order": 1,
+      "lng": 141.05707612,
+      "lat": 40.52520445,
+      "status": "CHECK",
+      "comments": "Shape-derived representative point; confirm visually in the pilot Review workbook.",
+      "candidate_point": {
+        "lng": 141.05707612,
+        "lat": 40.52520445,
+        "status": "candidate",
+        "method": "largest assigned Shape polygon interior point",
+        "inside_assigned_region": true
+      }
+    },
+    {
+      "col_id": "2",
+      "column_key": "east",
+      "col_name": "Towada-east",
+      "display_name": "Eastern Area",
+      "sort_order": 2,
+      "lng": 141.19616705,
+      "lat": 40.61280103,
+      "status": "CHECK",
+      "comments": "Shape-derived representative point; confirm visually in the pilot Review workbook.",
+      "candidate_point": {
+        "lng": 141.19616705,
+        "lat": 40.61280103,
+        "status": "candidate",
+        "method": "largest assigned Shape polygon interior point",
+        "inside_assigned_region": true
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "m1050_pdf_fig1",
+      "source_type": "PDF",
+      "file": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_D.pdf",
+      "sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+      "pdf_page": 86,
+      "printed_page": 78,
+      "section_or_figure": "English Abstract, Fig. 1",
+      "matched_text": "Fig. 1. Summary of the geology of the Towada district.",
+      "visual_basis": "The Stratigraphy panel is explicitly divided into Western Area and Eastern Area.",
+      "confidence": "A"
+    },
+    {
+      "evidence_id": "m1050_pdf_abstract_distribution",
+      "source_type": "PDF",
+      "file": "data/02_review/05_青森/m1050_十和田 2005/references/GSJ_MAP_G050_05031_2005_D.pdf",
+      "sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+      "pdf_page": 85,
+      "printed_page": 77,
+      "section_or_figure": "English Abstract, OUTLINE",
+      "matched_text": "The western part of the map area consists of the eastern margin of the Ou Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.",
+      "confidence": "A"
+    }
+  ],
+  "implementation_crosscheck": {
+    "role": "implementation-time read-only comparison",
+    "runtime_dependency": false,
+    "file": "data/02_review/05_青森/m1050_十和田 2005/m1050_review.xlsx",
+    "sha256": "55bf7c06f0403f2690f24bd8845f760e96427d178c296faf3703a498ffc82cc0",
+    "observed_column_ids": [
+      "1",
+      "2"
+    ],
+    "observed_column_names": [
+      "Towada-west",
+      "Towada-east"
+    ],
+    "differences_from_active_mapping": [
+      {
+        "unit_id": "m1050_u020",
+        "legacy_column_ids": [
+          "1",
+          "2"
+        ],
+        "active_column_ids": [
+          "2"
+        ],
+        "reason": "PDF Fig. 1 places Komasuzawa Formation in the Eastern Area column; the PDF is authoritative for subdivision."
+      }
+    ]
+  },
+  "units": [
+    {
+      "unit_id": "m1050_u001",
+      "unit_name": "Present river bed deposits",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 1,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "The unit crosses both stratigraphic area panels in Fig. 1."
+    },
+    {
+      "unit_id": "m1050_u002",
+      "unit_name": "Talus deposits",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 1,
+      "assignment_confidence": "C",
+      "review_status": "CHECK",
+      "basis": [],
+      "rationale": "Talus deposits are absent from Fig. 1; the provisional shared assignment is retained from Shape distribution and the implementation crosscheck."
+    },
+    {
+      "unit_id": "m1050_u003",
+      "unit_name": "Akedo Terrace Deposits",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 2,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "The unit crosses both stratigraphic area panels in Fig. 1."
+    },
+    {
+      "unit_id": "m1050_u004",
+      "unit_name": "Shimokirida Terrace Deposits",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 3,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "The unit crosses both stratigraphic area panels in Fig. 1."
+    },
+    {
+      "unit_id": "m1050_u005",
+      "unit_name": "Towada Terrace Deposits",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 4,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "The unit crosses both stratigraphic area panels in Fig. 1."
+    },
+    {
+      "unit_id": "m1050_u006",
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 5,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "The unit crosses both stratigraphic area panels in Fig. 1."
+    },
+    {
+      "unit_id": "m1050_u007",
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 6,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "The unit crosses both stratigraphic area panels in Fig. 1."
+    },
+    {
+      "unit_id": "m1050_u008",
+      "unit_name": "Towada-Okuse Pyroclastic Flow Deposits",
+      "column_ids": [
+        "1"
+      ],
+      "sort_order": 7,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "Fig. 1 places the unit only in the Western Area column."
+    },
+    {
+      "unit_id": "m1050_u009",
+      "unit_name": "Shichinohe Terrace Deposits",
+      "column_ids": [
+        "2"
+      ],
+      "sort_order": 8,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "Fig. 1 places the unit only in the Eastern Area column."
+    },
+    {
+      "unit_id": "m1050_u010",
+      "unit_name": "Urushihata Terrace Deposits",
+      "column_ids": [
+        "1"
+      ],
+      "sort_order": 9,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "Fig. 1 places the unit only in the Western Area column."
+    },
+    {
+      "unit_id": "m1050_u011",
+      "unit_name": "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 10,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "The unit crosses both stratigraphic area panels in Fig. 1."
+    },
+    {
+      "unit_id": "m1050_u012",
+      "unit_name": "Noheji Formation",
+      "column_ids": [
+        "2"
+      ],
+      "sort_order": 11,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "Fig. 1 places the unit only in the Eastern Area column."
+    },
+    {
+      "unit_id": "m1050_u013",
+      "unit_name": "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+      "column_ids": [
+        "1"
+      ],
+      "sort_order": 12,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "Fig. 1 places the unit only in the Western Area column."
+    },
+    {
+      "unit_id": "m1050_u014",
+      "unit_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+      "column_ids": [
+        "1"
+      ],
+      "sort_order": 13,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "Fig. 1 places the unit only in the Western Area column."
+    },
+    {
+      "unit_id": "m1050_u015",
+      "unit_name": "Takamoriyama Formation",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 14,
+      "assignment_confidence": "B",
+      "review_status": "CHECK",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "The Fig. 1 box straddles the west/east divider and is flanked by question marks, so a shared assignment is provisional."
+    },
+    {
+      "unit_id": "m1050_u016",
+      "unit_name": "Horyo-kita Lava",
+      "column_ids": [
+        "1"
+      ],
+      "sort_order": 15,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "Fig. 1 places the unit only in the Western Area column."
+    },
+    {
+      "unit_id": "m1050_u017",
+      "unit_name": "Togawa Formation",
+      "column_ids": [
+        "2"
+      ],
+      "sort_order": 16,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "Fig. 1 places the unit only in the Eastern Area column."
+    },
+    {
+      "unit_id": "m1050_u018",
+      "unit_name": "Tsukihiyama Volcanics",
+      "column_ids": [
+        "1"
+      ],
+      "sort_order": 17,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "Fig. 1 places Tsukihiyama Volcanics only in the Western Area column."
+    },
+    {
+      "unit_id": "m1050_u019",
+      "unit_name": "Tsukihiyama Volcanics",
+      "column_ids": [
+        "1"
+      ],
+      "sort_order": 18,
+      "assignment_confidence": "B",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "This ZFK unit is an internal dike facies of the formation; the formation-level Fig. 1 assignment is inherited."
+    },
+    {
+      "unit_id": "m1050_u020",
+      "unit_name": "Komasuzawa Formation",
+      "column_ids": [
+        "2"
+      ],
+      "sort_order": 19,
+      "assignment_confidence": "B",
+      "review_status": "CHECK",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "Fig. 1 places the formation in the Eastern Area and shows interfingering with western Tsukihiyama Volcanics; the legacy Review assigned both columns."
+    },
+    {
+      "unit_id": "m1050_u021",
+      "unit_name": "Dochi Formation",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 20,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "The unit crosses both stratigraphic area panels in Fig. 1."
+    },
+    {
+      "unit_id": "m1050_u022",
+      "unit_name": "Wadagawa Formation",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 21,
+      "assignment_confidence": "A",
+      "review_status": "ACCEPTED",
+      "basis": [
+        "m1050_pdf_fig1"
+      ],
+      "rationale": "The unit crosses both stratigraphic area panels in Fig. 1."
+    },
+    {
+      "unit_id": "m1050_u023",
+      "unit_name": "Itadome Formation",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "sort_order": 22,
+      "assignment_confidence": "B",
+      "review_status": "CHECK",
+      "basis": [
+        "m1050_pdf_fig1",
+        "m1050_pdf_abstract_distribution"
+      ],
+      "rationale": "Fig. 1 spans both columns, while the Abstract says the outcrop is local in the southwest; keep the diagram-based shared assignment visible for review."
+    }
+  ],
+  "uncertainties": [
+    {
+      "unit_id": "m1050_u002",
+      "severity": "high",
+      "issue": "Talus deposits are not represented in PDF Fig. 1.",
+      "provisional_action": "Assign to both columns and require visual review against Shape distribution."
+    },
+    {
+      "unit_id": "m1050_u015",
+      "severity": "medium",
+      "issue": "Takamoriyama Formation straddles the west/east divider and question marks indicate uncertain lateral relations.",
+      "provisional_action": "Retain both columns with CHECK status."
+    },
+    {
+      "unit_id": "m1050_u020",
+      "severity": "medium",
+      "issue": "PDF Fig. 1 and the legacy Review disagree on the western assignment of Komasuzawa Formation.",
+      "provisional_action": "Follow the PDF and assign east only; show the discrepancy in review evidence."
+    },
+    {
+      "unit_id": "m1050_u023",
+      "severity": "medium",
+      "issue": "The schematic figure spans both areas, but the Abstract describes Itadome Formation as local in the southwest.",
+      "provisional_action": "Retain the figure-based shared assignment with CHECK status."
+    }
+  ]
+}

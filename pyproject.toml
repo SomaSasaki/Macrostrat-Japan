@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "macrostrat-research"
+version = "0.1.0"
+description = "Macrostrat data analysis & experimental notebook repository driven by 3-loop engineering"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Researcher", email = "researcher@example.com" }
+]
+dependencies = [
+    "httpx>=0.27.0",
+    "pandas>=2.2.0",
+    "pydantic>=2.7.0",
+    "geopandas>=0.14.0",
+    "shapely>=2.0.0",
+    "matplotlib>=3.8.0",
+    "seaborn>=0.13.0",
+    "marimo>=0.10.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-mock>=3.12.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.4.0",
+]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+pythonpath = [
+    "src",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

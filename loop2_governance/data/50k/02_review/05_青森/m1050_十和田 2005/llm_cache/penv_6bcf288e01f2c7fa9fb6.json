@@ -1,0 +1,104 @@
+{
+  "schema_version": "pdf-environment-analysis/1.0",
+  "stage": "pdf_environment_multimodal",
+  "prompt_version": "body-figure-environment-v1",
+  "status": "complete",
+  "job_id": "penv_6bcf288e01f2c7fa9fb6",
+  "model": "gemini-3.6-flash",
+  "source_sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+  "prompt_sha256": "e4c73eb29ab6068a445abf43253ac08f04568ce932e6a9e6fe718bc30094f992",
+  "target_sha256": "729cecafcc7803b9c1ca79c6a4be47411cf2a2c340a78df19ec1bb3380720050",
+  "image_sha256s": [
+    "c1424e4c07e8fe9a27936a70e5af7bfd05acb5257c69656481107de8f8d7f7ce",
+    "d23fbc68ff2eafed80da46b23c06a8e669a74a5435024e3830bcceeed559327f",
+    "6853ad1583893e6d9c54848985f720ab811237782e358d48a3684e4c8ee3b318"
+  ],
+  "completed_at": "2026-08-10T10:54:27+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1050_u019",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "shallow subtidal",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "本岩類と指交関係にある小増沢層が海成層であり，本岩類中にはハイアロクラスタイトが見られることから，本岩類は海底火山体であったと考えられる．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 shows Tsukihiyama Volcanics and Komasuzawa Formation corresponding to a Shallow sea environment.",
+      "reason": "The text states the unit interfingers with the marine Komasuzawa Formation and contains hyaloclastites forming a submarine volcano, and Figure 1 places it in a shallow sea setting.",
+      "features": [
+        "hyaloclastite",
+        "submarine volcanic body",
+        "interfingering with marine formation"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u019_a2748b077ea9",
+        "section": "3.6",
+        "pdf_page": 3,
+        "printed_page": null
+      }
+    },
+    {
+      "unit_id": "m1050_u023",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "deep-water indet.",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "変質したデイサイト溶岩より構成される．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 correlates the Middle Miocene Itadome Formation with a Deep sea environment in the stratigraphy column.",
+      "reason": "Figure 1 assigns the Middle Miocene Itadome Formation to a Deep sea depositional environment.",
+      "features": [
+        "dacite lava"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u023_89f74a711ab6",
+        "section": "3.2",
+        "pdf_page": 85,
+        "printed_page": 77
+      }
+    }
+  ],
+  "dropped": [],
+  "unresolved": [
+    {
+      "unit_id": "m1050_u006",
+      "column_ids": [],
+      "reason": "The unit consists of terrestrial pyroclastic flow deposits, which represent a volcanic eruption process rather than a specific depositional environment listed in the vocabulary."
+    },
+    {
+      "unit_id": "m1050_u007",
+      "column_ids": [],
+      "reason": "Pyroclastic flow deposits indicate volcanic processes and do not uniquely determine a specific depositional environment from the vocabulary."
+    },
+    {
+      "unit_id": "m1050_u008",
+      "column_ids": [],
+      "reason": "Scoria flow deposits are product of pyroclastic flows and do not provide sufficient evidence to assign a specific depositional environment."
+    },
+    {
+      "unit_id": "m1050_u011",
+      "column_ids": [],
+      "reason": "Pyroclastic flow deposits alone are insufficient to establish a depositional environment term from the standard vocabulary."
+    },
+    {
+      "unit_id": "m1050_u013",
+      "column_ids": [],
+      "reason": "The unit is composed of welded pyroclastic flow deposits, which reflect volcanic processes rather than a defined sedimentary environment."
+    },
+    {
+      "unit_id": "m1050_u014",
+      "column_ids": [],
+      "reason": "Pyroclastic flow deposit lithology alone is insufficient evidence for assigning a specific depositional environment term."
+    }
+  ],
+  "estimated_tokens": 30707,
+  "usage_tokens": 29646
+}

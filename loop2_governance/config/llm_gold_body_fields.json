@@ -1,0 +1,78 @@
+{
+  "schema_version": "body-field-gold-fixture/1.0",
+  "map_id": "1286",
+  "gold_snapshot_manifest": "claude_work/gold_snapshots/m1286/v1/manifest.json",
+  "source_workbook": "claude_work/reports/Ichinohe_reference_GOLD.xlsx",
+  "source_workbook_sha256": "db7663006b7cb7c0ca270374ab2261fa56aca7fef24ff88eee0574a7e4f16cbb",
+  "pdf_filename": "GSJ_MAP_G050_05048_2018_D.pdf",
+  "pdf_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "pdf_index_filename": "m1286_pdfpages.json",
+  "pdf_index_sha256": "540f19f2077b7f9622a42bbde3081e06415b6f719bedf09fb5ef3acde72b82d6",
+  "compiled_file": "system/compiled.json",
+  "compiled_sha256": "5ceadc991d74ef99a2de3fb276fbf07aad1c0a456de363330b9fb5cd1f6575b7",
+  "cases": [
+    {
+      "case_id": "body_thickness_takayashiki",
+      "unit_id": "m1286_p001",
+      "unit_name": "Takayashiki Formation",
+      "pdf_page": 27,
+      "printed_page": 17,
+      "source_start": "なに限ると約3500mである",
+      "source_end": "なに限ると約3500mである",
+      "workbook_range": "units!P43",
+      "expected_fields": {
+        "max_thickness": 3500
+      }
+    },
+    {
+      "case_id": "body_thickness_seki",
+      "unit_id": "m1286_p002",
+      "unit_name": "Seki Formation",
+      "pdf_page": 30,
+      "printed_page": 20,
+      "source_start": "分厚は2000m-2800m程度である",
+      "source_end": "分厚は2000m-2800m程度である",
+      "workbook_range": "units!O42:P42",
+      "expected_fields": {
+        "min_thickness": 2000,
+        "max_thickness": 2800
+      }
+    },
+    {
+      "case_id": "body_fan_nanashigure",
+      "unit_id": "m1286_p022",
+      "unit_name": "Nanashigure Volcanic Fan Deposits",
+      "pdf_page": 116,
+      "printed_page": 106,
+      "source_start": "63七時雨火山扇状地堆積物(Nn)",
+      "source_end": "層厚最大20-30m程度",
+      "workbook_range": "units!K10:Q10",
+      "expected_fields": {
+        "environment": "alluvial fan",
+        "max_thickness": 30,
+        "basal_surface": "unconformable"
+      }
+    },
+    {
+      "case_id": "body_fan_oritsumedake",
+      "unit_id": "m1286_p027",
+      "unit_name": "Oritsumedake fan deposits",
+      "pdf_page": 124,
+      "printed_page": 114,
+      "source_segments": [
+        "地層名新称折爪岳の東側山腹において複数の扇",
+        "状地面からなる比較的新鮮な地形面を保持する礫層主体",
+        "の地層を折爪岳扇状地堆積物と命名する",
+        "本堆積物は江刺家層を不整合に覆うと考えられる",
+        "層厚露出状況や地形から推定して最大でも10-",
+        "20m程度と推定される"
+      ],
+      "workbook_range": "units!K35:Q35",
+      "expected_fields": {
+        "environment": "alluvial fan",
+        "max_thickness": 20,
+        "basal_surface": "unconformable"
+      }
+    }
+  ]
+}

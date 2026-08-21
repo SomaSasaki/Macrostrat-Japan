@@ -1,0 +1,20 @@
+{
+  "schema_version": "japanese-body-fallback/1.0",
+  "map_id": "1050",
+  "matches": [
+    {
+      "schema_version": "japanese-body-fallback/1.0",
+      "unit_id": "m1050_u002",
+      "unit_name": "Talus deposits",
+      "japanese_unit_name": "崖錐堆積物",
+      "section": "4.15",
+      "matched_alias": "崖錐堆積物（t）",
+      "pdf_page": 61,
+      "printed_page": 53,
+      "full_context_quote": "4.15 崖錐堆積物（t）\n奥入瀬川流域の十和田湖温泉郷付近及び十和田湖町百目木付近には，崖錐地形が認められる．いずれも奥入瀬川の谷壁の下部に分布し，これらは谷壁斜面から明瞭な遷緩線を境にして緩斜面を構成する．露頭が存在しないため，崖錐堆積物の詳細は不明である．",
+      "source_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_D.pdf",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u002.json",
+      "match_method": "exact Japanese section-heading match in local PDF page index"
+    }
+  ]
+}

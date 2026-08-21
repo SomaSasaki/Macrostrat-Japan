@@ -1,0 +1,32 @@
+{
+  "schema_version": "llm-gold-results/1.0",
+  "generated_at": "2026-08-11T18:00:00Z",
+  "stage": "pdf_unit_alias_mapping",
+  "provider": "groq",
+  "requested_model": "llama-3.3-70b-versatile",
+  "prompt_version": "pdf-toc-aliases-v1",
+  "validator_version": "pdf-unit-aliases/1.0",
+  "cases": [
+    {
+      "case_id": "map-a-aliases",
+      "validator_decision": "accept",
+      "expected_items": ["m0001_p001|alias_verified"],
+      "actual_items": ["m0001_p001|alias_verified"],
+      "critical_failures": []
+    },
+    {
+      "case_id": "map-b-aliases",
+      "validator_decision": "partial",
+      "expected_items": ["m0002_p001|alias_verified"],
+      "actual_items": ["m0002_p001|alias_verified"],
+      "critical_failures": []
+    },
+    {
+      "case_id": "map-c-aliases",
+      "validator_decision": "accept",
+      "expected_items": ["m0003_p001|alias_verified"],
+      "actual_items": ["m0003_p001|alias_verified"],
+      "critical_failures": []
+    }
+  ]
+}

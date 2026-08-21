@@ -1,0 +1,196 @@
+{
+  "schema_version": "pdf-environment-analysis/1.0",
+  "stage": "pdf_environment_multimodal",
+  "prompt_version": "body-figure-environment-v2",
+  "status": "complete",
+  "job_id": "penv_2d2c72b74c2f9c896083",
+  "model": "gemini-3.6-flash",
+  "source_sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+  "prompt_sha256": "5b9f3c8bfaf2cbe45c5f7ab0801076c3c5d51cef5702262036becc77e1c50290",
+  "target_sha256": "991ce648099ad537cfd03b526d2a9fd716764247112d192fb1c0df7bfb21ebd5",
+  "image_sha256s": [
+    "c1424e4c07e8fe9a27936a70e5af7bfd05acb5257c69656481107de8f8d7f7ce",
+    "d23fbc68ff2eafed80da46b23c06a8e669a74a5435024e3830bcceeed559327f",
+    "6853ad1583893e6d9c54848985f720ab811237782e358d48a3684e4c8ee3b318"
+  ],
+  "completed_at": "2026-08-10T17:43:31+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1050_u006",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "しばしば炭化木片を含む．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 places the Towada-Hachinohe Pyroclastic Flow Deposits (PFD) within the subaerial depositional realm in the regional summary chart.",
+      "reason": "The presence of carbonized wood fragments and buried tree trunks incorporated into the flow, combined with the subaerial position in Figure 1, indicates terrestrial (non-marine) deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "plant fossils"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u006_9644f65849da",
+        "section": "4.11",
+        "pdf_page": 56,
+        "printed_page": 48
+      }
+    },
+    {
+      "unit_id": "m1050_u007",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "本堆積物はしばしば炭化木片を含む．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 shows the Towada-Ofudo Pyroclastic Flow Deposits positioned in the subaerial realm.",
+      "reason": "The incorporation of carbonized wood fragments into the pyroclastic flow deposit supports subaerial terrestrial deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "plant fossils"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u007_1c3b268a0659",
+        "section": "4.10",
+        "pdf_page": 54,
+        "printed_page": 46
+      }
+    },
+    {
+      "unit_id": "m1050_u008",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "十和田奥瀬火砕流堆積物は，その直下にしばしば降下火砕堆積物を伴う．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 assigns the Towada-Okuse Pyroclastic Flow Deposits to a subaerial environment.",
+      "reason": "Associated fallout tephra and terrestrial flow placement in Figure 1 indicate subaerial (non-marine) deposition for this pyroclastic flow unit.",
+      "features": [
+        "pyroclastic flow deposits",
+        "fall tephra"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u008_e4e583c81621",
+        "section": "4.9",
+        "pdf_page": 3,
+        "printed_page": null
+      }
+    },
+    {
+      "unit_id": "m1050_u011",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "直下には，まれに降下火砕堆積物や火砕サージ堆積物が認められることがある．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 depicts the Hakkoda 2nd-stage Pyroclastic Flow Deposits in a subaerial regime.",
+      "reason": "Associated fallout tephra, pyroclastic surge deposits, and subaerial classification in Figure 1 indicate a non-marine setting.",
+      "features": [
+        "pyroclastic flow deposits",
+        "fall tephra"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u011_2b8fa671c504",
+        "section": "4.6",
+        "pdf_page": 4,
+        "printed_page": null
+      }
+    },
+    {
+      "unit_id": "m1050_u013",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "八甲田第2期火砕流堆積物と八甲田第1期火砕流堆積物の間には層厚2～3 mの礫混じり褐色土壌層が挟まれる．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 places the Hakkoda 1st-stage Pyroclastic Flow Deposits in the subaerial depositional realm.",
+      "reason": "Intercalated terrestrial soil layers and the subaerial setting in Figure 1 confirm non-marine deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "soil layer"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u013_265038ffbe4f",
+        "section": "4.4",
+        "pdf_page": 4,
+        "printed_page": null
+      }
+    },
+    {
+      "unit_id": "m1050_u014",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "高峠付近と立惣辺山付近の八甲田高峠火砕流堆積物はメーサ状の火砕流台地を構成している（第1. 3図）．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 shows the Hakkoda-Takatoge Pyroclastic Flow Deposits in the subaerial regime.",
+      "reason": "Subaerial pyroclastic plateau geomorphology and the subaerial classification in Figure 1 indicate non-marine deposition.",
+      "features": [
+        "pyroclastic flow deposits"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u014_94dd4ab8e388",
+        "section": "4.3",
+        "pdf_page": 41,
+        "printed_page": 33
+      }
+    },
+    {
+      "unit_id": "m1050_u023",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "deep-water indet.",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "変質したデイサイト溶岩より構成される．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 explicitly lists the environment for the Middle Miocene Itadome Formation (Dacite lava) as Deep sea.",
+      "reason": "The regional stratigraphic summary in Figure 1 indicates that the Itadome Formation was deposited in a deep sea environment.",
+      "features": [
+        "lava flow"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u023_89f74a711ab6",
+        "section": "3.2",
+        "pdf_page": 85,
+        "printed_page": 77
+      }
+    }
+  ],
+  "dropped": [],
+  "unresolved": [],
+  "estimated_tokens": 28693,
+  "usage_tokens": 23335
+}

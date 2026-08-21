@@ -1,0 +1,21 @@
+{
+  "schema_version": "llm-probe-results/1.0",
+  "generated_at": "2026-08-11T22:14:14.280896Z",
+  "results": [
+    {
+      "provider": "bedrock",
+      "configured": true,
+      "ok": true,
+      "http_status": 200,
+      "requested_model": "mistral.mistral-large-3-675b-instruct",
+      "actual_model": "mistral.mistral-large-3-675b-instruct",
+      "response": "OK",
+      "error": null,
+      "latency_ms": 613,
+      "capabilities": [
+        "text"
+      ],
+      "image_count": 0
+    }
+  ]
+}

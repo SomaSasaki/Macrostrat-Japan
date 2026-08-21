@@ -1,0 +1,94 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "10cb8c0a78582ab1c9ddf02dd439f685134fcc877d93fbd09c8f39ba943b805a",
+  "job_id": "pbootd_151535f92a78b809e293",
+  "status": "complete",
+  "completed_at": "2026-08-13T08:25:24+00:00",
+  "units": [
+    {
+      "unit_name": "Ainoyama Formation",
+      "b_age_ma": 20,
+      "t_age_ma": 20,
+      "age_quote": "the Ainoyama: ca. 20 Ma (middle Early Miocene)",
+      "lithology": "dacitic lava and conglomerate",
+      "lith_quote": "composed of dacitic lava and conglomerate",
+      "unit_description": "The Ainoyama Formation is composed of dacitic lava and conglomerate, originated from volcanic activities.",
+      "desc_quote": "The Ainoyama Formation is composed of dacitic lava and conglomerate. On the basis of their ages and distributions, they have been originated from the different volcanic activities."
+    },
+    {
+      "unit_name": "Nisatai Formation",
+      "b_age_ma": 23,
+      "t_age_ma": 22,
+      "age_quote": "the Nisatai: 22–23 Ma (earliest Early Miocene)",
+      "lithology": "welded rhyolitic pumice lapilli tuff, conglomerate, sandstone, and mudstone",
+      "lith_quote": "composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate, sandstone, and mudstone",
+      "environment": "non-marine",
+      "env_quote": "This formation is non-marine deposits",
+      "basal_surface": "unconformable",
+      "basal_quote": "unconformably covers the Jurassic strata and the Cretaceous plutonic rocks"
+    },
+    {
+      "unit_name": "Toya Subaerial Formation",
+      "b_age_ma": 6,
+      "t_age_ma": 5,
+      "age_quote": "the Toya: 6–5 Ma (latest Miocene to earliest Pliocene)",
+      "lithology": "pyroclastic flow deposits, conglomerate, sandstone, and mudstone",
+      "lith_quote": "composed of pyroclastic flow deposits, conglomerate, sandstone and mudstone",
+      "environment": "non-marine",
+      "env_quote": "The formation is non-marine deposits",
+      "basal_surface": "unconformable",
+      "basal_quote": "unconformably overlies the Jurassic strata, the Kadonosawa and the Zyūmonzi formations"
+    },
+    {
+      "unit_name": "Ichinohe Pluton",
+      "b_age_ma": 145.5,
+      "t_age_ma": 65.5,
+      "age_quote": "Cretaceous",
+      "lithology": "monzogabbro and quartz monzonite",
+      "lith_quote": "lithologically characterised by two facies; monzogabbro and quartz monzonite. The monzogabbro facies consists mainly of medium-grained quartz monzogabbro with biotite, clinopyroxene, orthopyroxene, hornblende, and olivine. The quartz monzonite facies consists of medium grained biotite hornblende quartz monzonite."
+    },
+    {
+      "unit_name": "Tsukanaigawa Pluton",
+      "b_age_ma": 145.5,
+      "t_age_ma": 65.5,
+      "age_quote": "Cretaceous",
+      "lithology": "biotite hornblende granodiorite",
+      "lith_quote": "composed of medium-grained biotite hornblende granodiorite"
+    },
+    {
+      "unit_name": "Kuzumaki Formation",
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "age_quote": null,
+      "lithology": "phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone",
+      "lith_quote": "consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone",
+      "unit_description": "The Kuzumaki Formation consists mainly of phyllitic mudstone and pelitic mixed rock, with blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone. It yielded early to middle Jurassic radiolarian fossils.",
+      "desc_quote": "The Kuzumaki Formation consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone. The mudstone of this formation yielded early to middle Jurassic radiolarian fossils, which suggest the depositional ages."
+    },
+    {
+      "unit_name": "Kassenba Formation",
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "age_quote": null,
+      "lithology": "sandstone, chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone",
+      "lith_quote": "consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone",
+      "unit_description": "The Kassenba Formation is characterised by at least two repetitions of chert-clastic sequence, and consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone. It suggests deposition and accretion in middle to late Jurassic Period.",
+      "desc_quote": "The Kassenba Formation is characterised by at least two repetitions of chert-clastic sequence, and consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone. The thickness exceeds 2,000 m. Radioralian fossils suggests the deposition and accretion in middle to late Jurassic Period."
+    },
+    {
+      "unit_name": "Seki Formation",
+      "b_age_ma": null,
+      "t_age_ma": null,
+      "age_quote": null,
+      "lithology": "slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone",
+      "lith_quote": "characterised by at least three repetitions of chert-clastic sequence, and consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone",
+      "unit_description": "The Seki Formation is characterised by at least three repetitions of chert-clastic sequence, and consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone. It suggests deposition and accretion in late Jurassic Period.",
+      "desc_quote": "The Seki Formation is characterised by at least three repetitions of chert-clastic sequence, and consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone. The thickness attains 2,000–2,800 m. Radioralian fossils suggest the deposition and accretion in late Jurassic Period."
+    }
+  ]
+}

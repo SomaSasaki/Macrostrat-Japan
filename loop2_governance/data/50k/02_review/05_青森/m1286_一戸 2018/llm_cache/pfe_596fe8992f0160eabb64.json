@@ -1,0 +1,140 @@
+{
+  "schema_version": "pdf-field-enrichment/1.0",
+  "stage": "pdf_body_field_enrichment",
+  "status": "complete",
+  "job_id": "pfe_596fe8992f0160eabb64",
+  "prompt_version": "japanese-body-fields-v2-lithology-roles",
+  "validator_version": "pdf-field-enrichment/1.0",
+  "prompt_sha256": "bc8ce3b4ebc1a89abb2de1a873cfcf192228a7ce036995eaaccb1e9874747876",
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "provider": "revalidated_prior_cache_bundle",
+  "requested_model": "source-bound-cache",
+  "actual_model": "source-bound-cache",
+  "model": "source-bound-cache",
+  "accepted": [
+    {
+      "unit_id": "m1286_p024",
+      "field": "strat_name",
+      "candidate": "早渡段丘堆積物",
+      "quote": "早渡段丘堆積物",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p024_5e7b17eb5e16"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "field": "environment",
+      "candidate": "fluvial indet.",
+      "quote": "月内川水系の早渡段丘堆積物からなる",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p024_5e7b17eb5e16"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "strat_name",
+      "candidate": "蓮台野段丘堆積物",
+      "quote": "蓮台野段丘堆積物が36-92ka",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p025_99d0540a233c"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "field": "environment",
+      "candidate": "fluvial indet.",
+      "quote": "蓮台野段丘堆積物",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p025_99d0540a233c"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "strat_name",
+      "candidate": "伊保内段丘堆積物",
+      "quote": "伊保内段丘堆積物が92ka以降",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p026_983af76ffa3a"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "field": "environment",
+      "candidate": "fluvial indet.",
+      "quote": "伊保内段丘堆積物",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p026_983af76ffa3a"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "strat_name",
+      "candidate": "折爪岳扇状地堆積物",
+      "quote": "折爪岳扇状地堆積物は礫層及び砂層からなり",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p027_c59fb32bfeb4"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "environment",
+      "candidate": "alluvial fan",
+      "quote": "複数の扇状地面からなる",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p027_c59fb32bfeb4"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "field": "minor_lith",
+      "candidate": "sand",
+      "quote": "折爪岳扇状地堆積物は礫層及び砂層からなり",
+      "assertion": "inferred",
+      "raw_phrase": "sand",
+      "normalized_terms": [
+        "sand"
+      ],
+      "role": "minor",
+      "role_cue": "及び",
+      "dropped_modifiers": [],
+      "parser": "pdf_body_lithology/v2",
+      "source_span": "折爪岳扇状地堆積物は礫層及び砂層からなり",
+      "context_id": "ctx_m1286_p027_c59fb32bfeb4"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "field": "lithology",
+      "candidate": "conglomerate; sandstone",
+      "quote": "穴牛礫岩部層は斜交層理が顕著な礫岩砂岩からなる",
+      "assertion": "inferred",
+      "raw_phrase": "conglomerate; sandstone",
+      "normalized_terms": [
+        "conglomerate",
+        "sandstone"
+      ],
+      "role": "major",
+      "role_cue": "からなる",
+      "dropped_modifiers": [],
+      "parser": "pdf_body_lithology/v2",
+      "source_span": "穴牛礫岩部層は斜交層理が顕著な礫岩砂岩からなる",
+      "context_id": "ctx_m1286_p005_a9f2d4b60e7d"
+    },
+    {
+      "unit_id": "m1286_p008",
+      "field": "environment",
+      "candidate": "non-marine",
+      "quote": "相ノ山層堆積時も陸上環境であり",
+      "assertion": "inferred",
+      "context_id": "ctx_m1286_p008_cdcf5eba9eb2"
+    }
+  ],
+  "dropped": [
+    {
+      "unit_id": "m1286_p001",
+      "field": "strat_name",
+      "reason": "not_a_lithostratigraphic_parent_name"
+    }
+  ],
+  "migrated_from_job_id": null,
+  "migrated_from_job_ids": [
+    "pfe_229b0ec904b7e9ceb710",
+    "pfe_50efe961764a7865f8c6",
+    "pfe_81ca118f3330113cdc5d",
+    "pfe_9462f0b05a672b4dcbe8"
+  ],
+  "compatible_cache_migration": true,
+  "completed_at": "2026-08-14T04:32:13+00:00",
+  "estimated_tokens": 0
+}

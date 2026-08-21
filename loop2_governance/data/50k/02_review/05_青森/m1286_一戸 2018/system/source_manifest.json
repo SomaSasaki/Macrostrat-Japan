@@ -1,0 +1,66 @@
+{
+  "schema_version": "map-workspace-sources/1.0",
+  "generated_at": "2026-08-14T07:44:55+00:00",
+  "map_id": "1286",
+  "workspace": {
+    "path": "data/02_review/05_青森/m1286_一戸 2018",
+    "region_folder": "05_青森",
+    "display_name": "一戸 2018",
+    "references": "data/02_review/05_青森/m1286_一戸 2018/references",
+    "llm_cache": "data/02_review/05_青森/m1286_一戸 2018/llm_cache",
+    "zfk_cache": "data/raw/zfk/m1286"
+  },
+  "overwrite_policy": "existing source and human files are never overwritten",
+  "sources": {
+    "pdf": {
+      "status": "existing",
+      "available": true,
+      "url": "https://www.gsj.jp/data/50KGM/PDF/GSJ_MAP_G050_05048_2018_D.pdf",
+      "path": "data/02_review/05_青森/m1286_一戸 2018/references/GSJ_MAP_G050_05048_2018_D.pdf",
+      "sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+      "size": 46244160,
+      "error": "",
+      "files": [],
+      "details": {}
+    },
+    "publication": {
+      "status": "existing",
+      "available": true,
+      "url": "https://gbank.gsj.jp/ld/resource/publication/map/g050/map1286.json",
+      "path": "data/raw/publication/g050/m1286.json",
+      "sha256": "f68635060e6113135629af57567a7cfbd5d040e5d3e90ada0357c9b7b04fa73f",
+      "size": 6253,
+      "error": "",
+      "files": [],
+      "details": {}
+    },
+    "shape": {
+      "status": "unavailable",
+      "available": false,
+      "url": "",
+      "path": "",
+      "sha256": "",
+      "size": null,
+      "error": "",
+      "files": [],
+      "details": {}
+    },
+    "zfk": {
+      "status": "failed",
+      "available": false,
+      "url": "https://gbank.gsj.jp/ld/resource/zfk/maps/m1286.json",
+      "path": "data/raw/zfk/m1286",
+      "sha256": "",
+      "size": null,
+      "error": "<urlopen error [WinError 10013] アクセス許可で禁じられた方法でソケットにアクセスしようとしました。>; <urlopen error [WinError 10013] アクセス許可で禁じられた方法でソケットにアクセスしようとしました。>",
+      "files": [],
+      "details": {
+        "expected_units": 0,
+        "unit_json": 0,
+        "geojson": 0,
+        "downloaded_files": 0,
+        "error_count": 2
+      }
+    }
+  }
+}

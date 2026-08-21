@@ -1,0 +1,400 @@
+{
+  "proposal": {
+    "schema_version": "column-vision/1.0",
+    "status": "candidate_review",
+    "assignment_ready": true,
+    "columns": [
+      {
+        "column_id": "1",
+        "column_name": "Western Area",
+        "region_description": "The western part of the map area comprising the eastern margin of the Ōu Backbone Range.",
+        "region_quote": "The western part of the map area consists of the eastern margin of the Ōu Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.",
+        "quote_verified": true,
+        "pdf_page": 85,
+        "printed_page": 77,
+        "figure_pdf_page": 86,
+        "figure_printed_page": 78,
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "west",
+            "place_name": null
+          },
+          {
+            "kind": "margin_of",
+            "direction": "east",
+            "place_name": "Ōu Backbone Range"
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "column_id": "2",
+        "column_name": "Eastern Area",
+        "region_description": "The eastern part of the map area characterized by hill and terrace surface topography.",
+        "region_quote": "The western part of the map area consists of the eastern margin of the Ōu Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.",
+        "quote_verified": true,
+        "pdf_page": 85,
+        "printed_page": 77,
+        "figure_pdf_page": 86,
+        "figure_printed_page": 78,
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "east",
+            "place_name": null
+          }
+        ],
+        "confidence": "C"
+      }
+    ],
+    "units": [
+      {
+        "unit_id": "m1050_u001",
+        "unit_name": "Present river bed deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 1
+          },
+          {
+            "column_id": "2",
+            "sort_order": 1
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u003",
+        "unit_name": "Akedo Terrace Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 2
+          },
+          {
+            "column_id": "2",
+            "sort_order": 2
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u004",
+        "unit_name": "Shimokirida Terrace Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 3
+          },
+          {
+            "column_id": "2",
+            "sort_order": 3
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u005",
+        "unit_name": "Towada Terrace Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 4
+          },
+          {
+            "column_id": "2",
+            "sort_order": 4
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u006",
+        "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 5
+          },
+          {
+            "column_id": "2",
+            "sort_order": 5
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u007",
+        "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 6
+          },
+          {
+            "column_id": "2",
+            "sort_order": 6
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u008",
+        "unit_name": "Towada-Okuse Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 7
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u009",
+        "unit_name": "Shichinohe Terrace Deposits",
+        "memberships": [
+          {
+            "column_id": "2",
+            "sort_order": 7
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u010",
+        "unit_name": "Urushihata Terrace Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 8
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u011",
+        "unit_name": "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 9
+          },
+          {
+            "column_id": "2",
+            "sort_order": 8
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u012",
+        "unit_name": "Noheji Formation",
+        "memberships": [
+          {
+            "column_id": "2",
+            "sort_order": 9
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u013",
+        "unit_name": "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 10
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u014",
+        "unit_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 11
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u015",
+        "unit_name": "Takamoriyama Formation",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 12
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u016",
+        "unit_name": "Horyo-kita Lava",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 13
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u017",
+        "unit_name": "Togawa Formation",
+        "memberships": [
+          {
+            "column_id": "2",
+            "sort_order": 10
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u018",
+        "unit_name": "Tsukihiyama Volcanics",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 14
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u019",
+        "unit_name": "Tsukihiyama Volcanics",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 14
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u020",
+        "unit_name": "Komasuzawa Formation",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 15
+          },
+          {
+            "column_id": "2",
+            "sort_order": 11
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u021",
+        "unit_name": "Dochi Formation",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 16
+          },
+          {
+            "column_id": "2",
+            "sort_order": 12
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u022",
+        "unit_name": "Wadagawa Formation",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 17
+          },
+          {
+            "column_id": "2",
+            "sort_order": 13
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u023",
+        "unit_name": "Itadome Formation",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 18
+          },
+          {
+            "column_id": "2",
+            "sort_order": 14
+          }
+        ],
+        "confidence": "C"
+      },
+      {
+        "unit_id": "m1050_u002",
+        "unit_name": "Talus deposits",
+        "memberships": [
+          {
+            "column_id": "1",
+            "sort_order": 1
+          }
+        ],
+        "confidence": "C",
+        "completion_method": "Japanese body distribution plus Shape components nearest to PDF-derived Column seeds",
+        "body_evidence": {
+          "schema_version": "japanese-body-fallback/1.0",
+          "unit_id": "m1050_u002",
+          "unit_name": "Talus deposits",
+          "japanese_unit_name": "崖錐堆積物",
+          "section": "4.15",
+          "matched_alias": "崖錐堆積物（t）",
+          "pdf_page": 61,
+          "printed_page": 53,
+          "full_context_quote": "4.15 崖錐堆積物（t）\n奥入瀬川流域の十和田湖温泉郷付近及び十和田湖町百目木付近には，崖錐地形が認められる．いずれも奥入瀬川の谷壁の下部に分布し，これらは谷壁斜面から明瞭な遷緩線を境にして緩斜面を構成する．露頭が存在しないため，崖錐堆積物の詳細は不明である．",
+          "source_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_D.pdf",
+          "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u002.json",
+          "match_method": "exact Japanese section-heading match in local PDF page index"
+        }
+      }
+    ],
+    "validation": {
+      "canonical_units": 23,
+      "matched_units": 23,
+      "columns": 2,
+      "verified_region_quotes": 2,
+      "shape_fallback_units": 1
+    }
+  },
+  "shape_completions": [
+    {
+      "unit_id": "m1050_u002",
+      "column_ids": [
+        "1"
+      ],
+      "sort_order": 1,
+      "component_count": 2,
+      "japanese_body_matched": true
+    }
+  ],
+  "japanese_body_matches": [
+    {
+      "schema_version": "japanese-body-fallback/1.0",
+      "unit_id": "m1050_u002",
+      "unit_name": "Talus deposits",
+      "japanese_unit_name": "崖錐堆積物",
+      "section": "4.15",
+      "matched_alias": "崖錐堆積物（t）",
+      "pdf_page": 61,
+      "printed_page": 53,
+      "full_context_quote": "4.15 崖錐堆積物（t）\n奥入瀬川流域の十和田湖温泉郷付近及び十和田湖町百目木付近には，崖錐地形が認められる．いずれも奥入瀬川の谷壁の下部に分布し，これらは谷壁斜面から明瞭な遷緩線を境にして緩斜面を構成する．露頭が存在しないため，崖錐堆積物の詳細は不明である．",
+      "source_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_D.pdf",
+      "zfk_unit_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050\\units\\m1050_u002.json",
+      "match_method": "exact Japanese section-heading match in local PDF page index"
+    }
+  ]
+}

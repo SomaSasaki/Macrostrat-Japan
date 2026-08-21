@@ -1,0 +1,21 @@
+{
+  "schema_version": "llm-probe-results/1.0",
+  "generated_at": "2026-08-11T22:16:19.406040Z",
+  "results": [
+    {
+      "provider": "azure",
+      "configured": true,
+      "ok": true,
+      "http_status": 200,
+      "requested_model": "gpt-5-mini",
+      "actual_model": "gpt-5-mini-2025-08-07",
+      "response": "OK",
+      "error": null,
+      "latency_ms": 2521,
+      "capabilities": [
+        "text"
+      ],
+      "image_count": 0
+    }
+  ]
+}

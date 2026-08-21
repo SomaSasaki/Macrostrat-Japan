@@ -1,0 +1,1282 @@
+{
+  "schema_version": "derived-previews/1.0",
+  "map_id": "1286",
+  "generated_at": "2026-08-14T07:44:55+00:00",
+  "rows": [
+    {
+      "row_key": "m1286_p045::western|central",
+      "unit_id": "m1286_p045",
+      "column_ids": [
+        "western",
+        "central"
+      ],
+      "derived": {
+        "position": "19, 8",
+        "section_id": "1, 1",
+        "t_pos": "20, 9",
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 19,
+          "section_id": 1,
+          "t_pos": 20
+        },
+        "central": {
+          "position": 8,
+          "section_id": 1,
+          "t_pos": 9
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western",
+          "central"
+        ],
+        "sort_order": "1, 1",
+        "unit_name": "flood-plain and valley-floor deposits",
+        "strat_name": null,
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "b29d1496338acd8f032009b28e6d7800c65ba80119a8a772e66aead07f5e8e97",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p047::western|central|eastern",
+      "unit_id": "m1286_p047",
+      "column_ids": [
+        "western",
+        "central",
+        "eastern"
+      ],
+      "derived": {
+        "position": "18, 7, 15",
+        "section_id": "1, 1, ",
+        "t_pos": ", , 16",
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 18,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "central": {
+          "position": 7,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "eastern": {
+          "position": 15,
+          "section_id": null,
+          "t_pos": 16
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western",
+          "central",
+          "eastern"
+        ],
+        "sort_order": "2, 2, 1",
+        "unit_name": "river-bed deposits",
+        "strat_name": null,
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "9379c71224c3b0cc7aed5e55218d7ecdf3756f9b572c6787dd7124e3ea5c1665",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p026::eastern",
+      "unit_id": "m1286_p026",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 14,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 14,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 2,
+        "unit_name": "Ibonai terrace deposits",
+        "strat_name": null,
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "2462f7f407a8ca51e244830bfbdae53e8a48519ca12f8ced8506590885f9e7a7",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p012::western|central|eastern",
+      "unit_id": "m1286_p012",
+      "column_ids": [
+        "western",
+        "central",
+        "eastern"
+      ],
+      "derived": {
+        "position": "8, 6, 6",
+        "section_id": "1, 1, ",
+        "t_pos": null,
+        "t_prop": 0.8310502283105026,
+        "b_prop": 0.4537037037037039
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 8,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "central": {
+          "position": 6,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "eastern": {
+          "position": 6,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western",
+          "central",
+          "eastern"
+        ],
+        "sort_order": "12, 3, 10",
+        "unit_name": "Zyūmonzi Formation",
+        "strat_name": "Zyūmonzi Formation, Sannohe Group",
+        "t_int": "Serravallian",
+        "b_int": "Langhian",
+        "t_age_ma": 12.0,
+        "b_age_ma": 15.0
+      },
+      "dependency_sha256": "3f6db9b9da0856c9c0dd3a39b7a237210d03098f7e329c17a5b101d3adc15c87",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p025::eastern",
+      "unit_id": "m1286_p025",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 13,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 13,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 3,
+        "unit_name": "Rendaino terrace deposits",
+        "strat_name": null,
+        "t_int": "Holocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "e49d9a4edeb74d46021a87296d7124fea8cbebb4fd11bfc435f18c861c03216d",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p048::western",
+      "unit_id": "m1286_p048",
+      "column_ids": [
+        "western"
+      ],
+      "derived": {
+        "position": 17,
+        "section_id": 1,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 17,
+          "section_id": 1,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western"
+        ],
+        "sort_order": 3,
+        "unit_name": "Horino terrace deposits",
+        "strat_name": null,
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "8b4747dd4d2b49c5d3db4376ad8cb8ae3741782306f0fcf9adb8372c82cdd03e",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p011::western|central",
+      "unit_id": "m1286_p011",
+      "column_ids": [
+        "western",
+        "central"
+      ],
+      "derived": {
+        "position": "7, 5",
+        "section_id": "1, 1",
+        "t_pos": null,
+        "t_prop": 0.4537037037037039,
+        "b_prop": 0.883668903803132
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 7,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "central": {
+          "position": 5,
+          "section_id": 1,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western",
+          "central"
+        ],
+        "sort_order": "13, 4",
+        "unit_name": "Suenomatuyama Formation",
+        "strat_name": "Suenomatuyama Formation, Shiratorigawa Group",
+        "t_int": "Langhian",
+        "b_int": "Burdigalian",
+        "t_age_ma": 15.0,
+        "b_age_ma": 16.5
+      },
+      "dependency_sha256": "45fd45bfa5cced7f90b5d1aa4024848965ae71ab73fc4e4ff2cd7f7aba71c6d4",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p049::western",
+      "unit_id": "m1286_p049",
+      "column_ids": [
+        "western"
+      ],
+      "derived": {
+        "position": 16,
+        "section_id": 1,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 16,
+          "section_id": 1,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western"
+        ],
+        "sort_order": 4,
+        "unit_name": "Maisawa terrace deposits",
+        "strat_name": null,
+        "t_int": "Holocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "1dcb39e1d2bcbd66986e142ace1be6962ad856f700673ead1d96ca92e21048ab",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p050::western|eastern",
+      "unit_id": "m1286_p050",
+      "column_ids": [
+        "western",
+        "eastern"
+      ],
+      "derived": {
+        "position": "15, 12",
+        "section_id": "1, ",
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 15,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "eastern": {
+          "position": 12,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western",
+          "eastern"
+        ],
+        "sort_order": "5, 4",
+        "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "strat_name": null,
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "ff3fc2977fbe3362f0906b185d33a506ef0f9d01c1dea09ff7bab31def28798e",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p010::western|central|eastern",
+      "unit_id": "m1286_p010",
+      "column_ids": [
+        "western",
+        "central",
+        "eastern"
+      ],
+      "derived": {
+        "position": "6, 4, 5",
+        "section_id": "1, 1, ",
+        "t_pos": null,
+        "t_prop": 0.88449,
+        "b_prop": 0.8835
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 6,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "central": {
+          "position": 4,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "eastern": {
+          "position": 5,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western",
+          "central",
+          "eastern"
+        ],
+        "sort_order": "14, 5, 11",
+        "unit_name": "Kadonosawa Formation",
+        "strat_name": "Kadonosawa Formation, Shiratorigawa Group",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": 16.5,
+        "b_age_ma": 16.5
+      },
+      "dependency_sha256": "0e9947aa5d83277606a50e9a0545a6756c531c83f3e3a41bf5750e85da03a60f",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p024::eastern",
+      "unit_id": "m1286_p024",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 11,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 11,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 5,
+        "unit_name": "Hayawatari terrace deposits",
+        "strat_name": null,
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "9566eb2ef2233b874021dd4a5c6339fac415c9fc26b931f85a568a542c0522b6",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p009::western|central",
+      "unit_id": "m1286_p009",
+      "column_ids": [
+        "western",
+        "central"
+      ],
+      "derived": {
+        "position": "5, 3",
+        "section_id": "1, 1",
+        "t_pos": null,
+        "t_prop": 0.883668903803132,
+        "b_prop": 0.5480984340044742
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 5,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "central": {
+          "position": 3,
+          "section_id": 1,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western",
+          "central"
+        ],
+        "sort_order": "15, 6",
+        "unit_name": "Yotuyaku Formation",
+        "strat_name": "Yotuyaku Formation, Shiratorigawa Group",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": 16.5,
+        "b_age_ma": 18.0
+      },
+      "dependency_sha256": "1ef18426afa9ed5591570295a59e151b848a6ee705c8036754fb568e4cc59466",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p023::eastern",
+      "unit_id": "m1286_p023",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 10,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 10,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 6,
+        "unit_name": "Mukaikawara terrace deposits",
+        "strat_name": null,
+        "t_int": "Late Pleistocene",
+        "b_int": "Chibanian",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "b5c82a1b04e0e7fb381390135d35c592dfafc71d7923f5034e54da9d307f4fa3",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p051::western",
+      "unit_id": "m1286_p051",
+      "column_ids": [
+        "western"
+      ],
+      "derived": {
+        "position": 14,
+        "section_id": 1,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 14,
+          "section_id": 1,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western"
+        ],
+        "sort_order": 6,
+        "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+        "strat_name": null,
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "44abb5199a373a93c88045bd84c35b74c7c9348c62e6586f57395681b692a93e",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p007::western|central",
+      "unit_id": "m1286_p007",
+      "column_ids": [
+        "western",
+        "central"
+      ],
+      "derived": {
+        "position": "3, 2",
+        "section_id": "1, 2",
+        "t_pos": null,
+        "t_prop": 0.40154440154440124,
+        "b_prop": 0.015444015444015117
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 3,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "central": {
+          "position": 2,
+          "section_id": 2,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western",
+          "central"
+        ],
+        "sort_order": "17, 7",
+        "unit_name": "Nisatai Formation",
+        "strat_name": "Nisatai Formation",
+        "t_int": "Aquitanian",
+        "b_int": "Aquitanian",
+        "t_age_ma": 22.0,
+        "b_age_ma": 23.0
+      },
+      "dependency_sha256": "63cd29d88bd71b244f45164f9f254ca1ead4becfb2e0d056b572b175da228641",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p027::eastern",
+      "unit_id": "m1286_p027",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 9,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 9,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 7,
+        "unit_name": "Oritsumedake fan deposits",
+        "strat_name": null,
+        "t_int": "Holocene",
+        "b_int": "Chibanian",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "eb8c068c43d44bf35f394e7553f5641394074ae2acda4f350dca98f510411cd7",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p052::western",
+      "unit_id": "m1286_p052",
+      "column_ids": [
+        "western"
+      ],
+      "derived": {
+        "position": 13,
+        "section_id": 1,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 13,
+          "section_id": 1,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western"
+        ],
+        "sort_order": 7,
+        "unit_name": "Kusagi terrace deposits",
+        "strat_name": null,
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "372a517dd8530d415c14bb65469d1fd1fa1e0d0277262f3aaffa2d9c6b1b0a37",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p004::western|central",
+      "unit_id": "m1286_p004",
+      "column_ids": [
+        "western",
+        "central"
+      ],
+      "derived": {
+        "position": "1, 1",
+        "section_id": "1, 2",
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 1,
+          "section_id": 1,
+          "t_pos": null
+        },
+        "central": {
+          "position": 1,
+          "section_id": 2,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western",
+          "central"
+        ],
+        "sort_order": "19, 8",
+        "unit_name": "Kuzumaki Formation",
+        "strat_name": "Kuzumaki Formation",
+        "t_int": "Middle Jurassic",
+        "b_int": "Early Jurassic",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "3d61c8c6e57882732610aee3e7e0c41eeb7fed75945346ffea0876de5a9cca4e",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p021::eastern",
+      "unit_id": "m1286_p021",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 8,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 8,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 8,
+        "unit_name": "Esashika Formation",
+        "strat_name": "Esashika Formation",
+        "t_int": "Jurassic",
+        "b_int": "Jurassic",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "3f6a9707743915f15739bf3609c5079bb121ef64a71616deece18213ef4d3c12",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p053::western",
+      "unit_id": "m1286_p053",
+      "column_ids": [
+        "western"
+      ],
+      "derived": {
+        "position": 12,
+        "section_id": 1,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 12,
+          "section_id": 1,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western"
+        ],
+        "sort_order": 8,
+        "unit_name": "Asanai terrace deposits",
+        "strat_name": null,
+        "t_int": "Late Pleistocene",
+        "b_int": "Chibanian",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "ed9bc9bd5d67add55c5daefe8d18aefe0ee5ba61a87eaa221822698c03752f75",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p020::eastern",
+      "unit_id": "m1286_p020",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 7,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 0.1921523369878824,
+        "b_prop": 0.6513329848405647
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 7,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 9,
+        "unit_name": "Toya Formation",
+        "strat_name": "Toya Formation",
+        "t_int": "Zanclean",
+        "b_int": "Messinian",
+        "t_age_ma": 5.0,
+        "b_age_ma": 6.0
+      },
+      "dependency_sha256": "310c170eddf5c93fa7dcf3da7e9094e851042a988d81fbbdceb65a51f5f76d21",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p022::western",
+      "unit_id": "m1286_p022",
+      "column_ids": [
+        "western"
+      ],
+      "derived": {
+        "position": 11,
+        "section_id": 1,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 11,
+          "section_id": 1,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western"
+        ],
+        "sort_order": 9,
+        "unit_name": "Nanashigure Volcanic Fan Deposits",
+        "strat_name": null,
+        "t_int": "Chibanian",
+        "b_int": "Calabrian",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "6076136c7fe70ac9ad1b4a0bfe83e06ff9e2352fa2079f614420965b16f47545",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p018::western",
+      "unit_id": "m1286_p018",
+      "column_ids": [
+        "western"
+      ],
+      "derived": {
+        "position": 10,
+        "section_id": 1,
+        "t_pos": null,
+        "t_prop": 0.7139598540145987,
+        "b_prop": 0.2577554744525549
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 10,
+          "section_id": 1,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western"
+        ],
+        "sort_order": 10,
+        "unit_name": "Shitazaki Formation",
+        "strat_name": "Shitazaki Formation, Sannohe Group",
+        "t_int": "Tortonian",
+        "b_int": "Tortonian",
+        "t_age_ma": 8.5,
+        "b_age_ma": 10.5
+      },
+      "dependency_sha256": "52f6d51996ac13ac2ccfc6e567cca4f6ca7c4629c4cdaf9fdd9daa6aaaba574e",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p016::western",
+      "unit_id": "m1286_p016",
+      "column_ids": [
+        "western"
+      ],
+      "derived": {
+        "position": 9,
+        "section_id": 1,
+        "t_pos": null,
+        "t_prop": 0.2577554744525549,
+        "b_prop": 0.8310502283105026
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 9,
+          "section_id": 1,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western"
+        ],
+        "sort_order": 11,
+        "unit_name": "Yanagisawa Formation",
+        "strat_name": "Yanagisawa Formation, Sannohe Group",
+        "t_int": "Tortonian",
+        "b_int": "Serravallian",
+        "t_age_ma": 10.5,
+        "b_age_ma": 12.0
+      },
+      "dependency_sha256": "a53fe2140e8906defdf3fc0682fe43134aca12536af9f91289b68001486ffbb5",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p006::eastern",
+      "unit_id": "m1286_p006",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 4,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 4,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 12,
+        "unit_name": "Tsukanaigawa Pluton",
+        "strat_name": "Tsukanaigawa Pluton",
+        "t_int": "Early Cretaceous",
+        "b_int": "Early Cretaceous",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "4263678494bd80f27106b85c2c07b89451b01527a2197836e7f01ba99a60ba7d",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p003::eastern",
+      "unit_id": "m1286_p003",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 3,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 3,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 13,
+        "unit_name": "Kassenba Formation",
+        "strat_name": "Kassenba Formation",
+        "t_int": "Late Jurassic",
+        "b_int": "Middle Jurassic",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "a6a69dee7784de246be3f5f9c54b36debc5c0b630273e1b7e05780d00952689c",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p002::eastern",
+      "unit_id": "m1286_p002",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 2,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 2,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 14,
+        "unit_name": "Seki Formation",
+        "strat_name": "Seki Formation",
+        "t_int": "Late Jurassic",
+        "b_int": "Late Jurassic",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "6b9b1edec6b82f36b68d7aea738e351428664552bc2cd7617f81b49e0d8f9253",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p001::eastern",
+      "unit_id": "m1286_p001",
+      "column_ids": [
+        "eastern"
+      ],
+      "derived": {
+        "position": 1,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "eastern": {
+          "position": 1,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "eastern"
+        ],
+        "sort_order": 15,
+        "unit_name": "Takayashiki Formation",
+        "strat_name": "Takayashiki Formation",
+        "t_int": "Jurassic",
+        "b_int": "Jurassic",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "6292cc2a202a953d997c251e031b2f9b0a0083f4fdcddb6e07c428949b7a1a3f",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p008::western",
+      "unit_id": "m1286_p008",
+      "column_ids": [
+        "western"
+      ],
+      "derived": {
+        "position": 4,
+        "section_id": 2,
+        "t_pos": null,
+        "t_prop": 0.10149,
+        "b_prop": 0.1005
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 4,
+          "section_id": 2,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western"
+        ],
+        "sort_order": 16,
+        "unit_name": "Ainoyama Formation",
+        "strat_name": "Ainoyama Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": 20.0,
+        "b_age_ma": 20.0
+      },
+      "dependency_sha256": "504e1657723e5c809b546f43d7c4f0e1e4a036138bdc4298e1e80b62bb6d7c9e",
+      "event_age_bracket": true,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1286_p005::western",
+      "unit_id": "m1286_p005",
+      "column_ids": [
+        "western"
+      ],
+      "derived": {
+        "position": 2,
+        "section_id": 2,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "western": {
+          "position": 2,
+          "section_id": 2,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "western"
+        ],
+        "sort_order": 18,
+        "unit_name": "Ichinohe Pluton",
+        "strat_name": "Ichinohe Pluton",
+        "t_int": "Early Cretaceous",
+        "b_int": "Early Cretaceous",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "0bfb24c5d4e8e8da701127421fcb4df05b0bf15a0c2899c1ed746e932819de2c",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    }
+  ]
+}

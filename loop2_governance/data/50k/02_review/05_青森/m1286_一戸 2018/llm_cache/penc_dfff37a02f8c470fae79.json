@@ -1,0 +1,745 @@
+{
+  "schema_version": "pdf-environment-analysis/1.0",
+  "stage": "pdf_environment_multimodal",
+  "prompt_version": "environment-unit-closed-v1",
+  "validator_version": "closed-world-vision-validator-v2",
+  "status": "complete",
+  "job_id": "penc_dfff37a02f8c470fae79",
+  "provider": "mistral",
+  "requested_model": "mistral-small-latest",
+  "actual_model": "mistral-small-latest",
+  "model": "mistral-small-latest",
+  "attempt_id": "llma_16628ee3381544a1a46aa47ddcb9d472",
+  "route_attempts": [
+    {
+      "attempt_id": "llma_8fbd3c9cba1144e2bc477594f18e8b56",
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "error",
+      "error_kind": "validation",
+      "http_status": null,
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p027"
+    },
+    {
+      "attempt_id": "llma_6c26dcd8952b4cb0aa986a0d81714981",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "error",
+      "error_kind": "validation",
+      "http_status": null,
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p027"
+    },
+    {
+      "attempt_id": "llma_98ffb01070cb4d94a8acc6315da96a1f",
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "actual_model": "mistral-small-latest",
+      "status": "accepted",
+      "validation": "accept",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p021"
+    },
+    {
+      "attempt_id": "llma_9d604e833d3a49159752b0d46d5e7085",
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "actual_model": "mistral-small-latest",
+      "status": "accepted",
+      "validation": "accept",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p022"
+    },
+    {
+      "attempt_id": "llma_37f4538c3aef49d6920008755c58db73",
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "actual_model": "mistral-small-latest",
+      "status": "accepted",
+      "validation": "accept",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p045"
+    },
+    {
+      "attempt_id": "llma_7687e89f3a9d42029631653c14272acb",
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "actual_model": "mistral-small-latest",
+      "status": "accepted",
+      "validation": "accept",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p023"
+    },
+    {
+      "attempt_id": "llma_16628ee3381544a1a46aa47ddcb9d472",
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "actual_model": "mistral-small-latest",
+      "status": "accepted",
+      "validation": "accept",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p046"
+    },
+    {
+      "attempt_id": "llma_4c051bcd7bbe45819c8685ce1b1524c2",
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "error",
+      "error_kind": "rate_limit",
+      "http_status": 429,
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p024"
+    },
+    {
+      "attempt_id": "llma_256cf89740b84685b67797676075491a",
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "error",
+      "error_kind": "rate_limit",
+      "http_status": 429,
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p024"
+    },
+    {
+      "attempt_id": "llma_f3810759ebf24d52a76fbc468f323aff",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "error",
+      "error_kind": "validation",
+      "http_status": null,
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p024"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p049"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p049"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p050"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p050"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p016"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p016"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p012"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p012"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p014"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p014"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p015"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p015"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p011"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p011"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p028"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p028"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p029"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p029"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p030"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p030"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p031"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p031"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p032"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p032"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p034"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p034"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p035"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p035"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p009"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p009"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p037"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p037"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p039"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p039"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p040"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p040"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-small-latest",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p008"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "status": "skipped",
+      "error_kind": "circuit_open",
+      "subtask": "environment_unit",
+      "unit_id": "m1286_p008"
+    }
+  ],
+  "providers_used": [
+    "mistral"
+  ],
+  "requested_models_used": [
+    "mistral-small-latest"
+  ],
+  "actual_models_used": [
+    "mistral-small-latest"
+  ],
+  "validation": {
+    "target_units": 26,
+    "accepted_units": 5,
+    "accepted_rows": 5,
+    "dropped_rows": 0,
+    "unresolved_units": 21,
+    "coverage": 0.192308,
+    "subtasks": 26
+  },
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "prompt_sha256": "bc770d57a0d31c0b13001036141558d587223de8278a8d0ab486dde5f5dafd68",
+  "target_sha256": "020d15fefd26c6e5fbe4f4af5c7102d20003e89b28490294abc6d07e8864251d",
+  "image_sha256s": [
+    "80d9d736714462b93dbaec468fcda53c9c02c83363316d3a7c89e4b8f12808df",
+    "f3ee9a7980661d203bdefb0d3112db777cbc77bf45f99d731b2dfeb3d9047f52",
+    "737bbfc74cb28e900d7c4d48ae5aa7ad8775efc1035e366af93fe2b6ce6e6cdc"
+  ],
+  "completed_at": "2026-08-13T08:25:10+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1286_p021",
+      "column_ids": [
+        "unsplit"
+      ],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_2",
+        "fig_3"
+      ],
+      "figure_observation": "Column diagrams show gravel and sand layers interpreted as terrace deposits (T1-T3) with flat erosional surfaces, consistent with fluvial/alluvial deposition in a non-marine setting.",
+      "reason": "Lithology (gravel) and described terrace deposits (段丘堆積物) indicate fluvial/alluvial origin in a non-marine environment. Figures support interpretation of terrace stratigraphy typical of riverine systems.",
+      "features": [],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1286_p021_c59fb32bfeb4",
+        "section": null,
+        "pdf_page": 21,
+        "printed_page": 11
+      }
+    },
+    {
+      "unit_id": "m1286_p022",
+      "column_ids": [
+        "unsplit"
+      ],
+      "field": "environment",
+      "candidate": "alluvial fan",
+      "assertion": "explicit",
+      "confidence": "A",
+      "quote": "本層は一戸地域西部の北縁付近麓に沿って分布する本層は上部中新統-下部鮮新統に分布する他北接する三戸地域に分布が伸びる本層の鳥谷層を不整合に覆い明瞭な扇状地地形を成す",
+      "figure_ids": [],
+      "figure_observation": "",
+      "reason": "Unit name explicitly includes 'Volcanic Fan Deposits' and source text describes '明瞭な扇状地地形' (clear fan-shaped landform) and distribution along a mountain foot, consistent with an alluvial fan environment.",
+      "features": [],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1286_p022_cdcf5eba9eb2",
+        "section": null,
+        "pdf_page": 20,
+        "printed_page": 10
+      }
+    },
+    {
+      "unit_id": "m1286_p045",
+      "column_ids": [
+        "unsplit"
+      ],
+      "field": "environment",
+      "candidate": "shallow subtidal",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Column shows alternating sandstone and mudstone with chert layers, indicating marine depositional environment.",
+      "reason": "Source text describes marine transgression phases (e.g., '再び海の進入があり', '浅海化し'), and the figure (fig_1) depicts a stratigraphic column with marine sedimentary structures (chert, mudstone, sandstone) typical of shallow subtidal settings.",
+      "features": [],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1286_p045_a0172cd6012b",
+        "section": null,
+        "pdf_page": 20,
+        "printed_page": 10
+      }
+    },
+    {
+      "unit_id": "m1286_p023",
+      "column_ids": [
+        "unsplit"
+      ],
+      "field": "environment",
+      "candidate": "shallow subtidal",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_1",
+        "fig_2",
+        "fig_3"
+      ],
+      "figure_observation": "柱状図に示される珪藻質泥岩・珪藻岩・硬質頁岩の層序変化は浅海から外洋的環境への変遷を示唆",
+      "reason": "珪藻質泥岩・珪藻岩の存在は浅海環境を示し、硬質頁岩への変遷は水深増加と外洋化を示す。微化石層序による12-105Maの年代は中期中新世の浅海環境と整合的。",
+      "features": [],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1286_p023_a0172cd6012b",
+        "section": null,
+        "pdf_page": 20,
+        "printed_page": 10
+      }
+    },
+    {
+      "unit_id": "m1286_p046",
+      "column_ids": [
+        "unsplit"
+      ],
+      "field": "environment",
+      "candidate": "shallow subtidal",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_1",
+        "fig_2",
+        "fig_3"
+      ],
+      "figure_observation": "Columnar sections show alternating sandstone, siltstone, and mudstone with chert and tuffaceous layers, indicating marine depositional setting.",
+      "reason": "Presence of chert, tuffaceous layers, and fine-grained marine siliciclastic sediments (siltstone, mudstone) in columnar sections suggests deposition in a shallow subtidal marine environment.",
+      "features": [],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1286_p046_a0172cd6012b",
+        "section": null,
+        "pdf_page": 20,
+        "printed_page": 10
+      }
+    }
+  ],
+  "dropped": [],
+  "unresolved": [
+    {
+      "unit_id": "m1286_p027",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "validation",
+        "validation"
+      ]
+    },
+    {
+      "unit_id": "m1286_p024",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "rate_limit",
+        "rate_limit",
+        "validation"
+      ]
+    },
+    {
+      "unit_id": "m1286_p049",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p050",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p016",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p012",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p014",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p015",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p011",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p028",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p029",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p030",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p031",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p032",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p034",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p035",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p009",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p037",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p039",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p040",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    },
+    {
+      "unit_id": "m1286_p008",
+      "reason": "all_providers_failed",
+      "error_kinds": [
+        "circuit_open",
+        "circuit_open"
+      ]
+    }
+  ],
+  "estimated_tokens": 322826,
+  "usage_tokens": 47556
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "a1101f71fbea63cd4a1f0616e8337c13da2f89e2a69a0ebc8d3b08ba4605f49a",
+  "job_id": "pbootd_a347a4a551efe76168b7",
+  "status": "complete",
+  "completed_at": "2026-08-13T08:25:17+00:00",
+  "units": [
+    {
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+      "lithology": "pyroclastic flow deposits",
+      "lith_quote": "pyroclastic flow deposits"
+    },
+    {
+      "unit_name": "Toya Formation",
+      "b_age_ma": 6,
+      "t_age_ma": 5,
+      "age_quote": "the Toya: 6–5 Ma",
+      "lithology": "non-marine deposits",
+      "lith_quote": "non-marine deposits",
+      "environment": "subaerial",
+      "env_quote": "Subaerial"
+    },
+    {
+      "unit_name": "Shitazaki Formation",
+      "b_age_ma": 10.5,
+      "t_age_ma": 8.5,
+      "age_quote": "the Shitazaki: 10.5–8.5 Ma",
+      "lithology": "siltstone",
+      "lith_quote": "mainly composed of sublittoral siltstone",
+      "environment": "shelf",
+      "env_quote": "Shelf"
+    },
+    {
+      "unit_name": "Kamimetoki Sandstone Member",
+      "lithology": "sandstone",
+      "lith_quote": "Sandstone beds (Kamimetoki Sandstone Member)"
+    },
+    {
+      "unit_name": "Yanagisawa Formation",
+      "b_age_ma": 12,
+      "t_age_ma": 10.5,
+      "age_quote": "the Yanagisawa: 12–10.5 Ma",
+      "lithology": "diatomite",
+      "lith_quote": "composed of diatomite and diatomite-origined porcelanite (Kawaguchi Porcelanite Member)",
+      "environment": "sublittoral",
+      "env_quote": "Sublittoral"
+    },
+    {
+      "unit_name": "Kawaguchi Porcelanite Member",
+      "lithology": "porcelanite",
+      "lith_quote": "diatomite-origined porcelanite (Kawaguchi Porcelanite Member)"
+    },
+    {
+      "unit_name": "Zyūmonzi Formation",
+      "b_age_ma": 15,
+      "t_age_ma": 12,
+      "age_quote": "the Zyūmonzi: 15–12 Ma",
+      "lithology": "sandstone",
+      "lith_quote": "characterised by shallow marine sandstone",
+      "environment": "sublittoral",
+      "env_quote": "Sublittoral"
+    },
+    {
+      "unit_name": "Hinosawa Conglomerate Member",
+      "lithology": "conglomerate",
+      "lith_quote": "partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member)"
+    }
+  ]
+}

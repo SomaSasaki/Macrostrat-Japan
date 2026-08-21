@@ -1,0 +1,62 @@
+{
+  "stage": "disabled",
+  "model": "gemini-3.6-flash",
+  "map_id": "1050",
+  "external_calls": 0,
+  "cache_hits": 0,
+  "added_evidence": 2,
+  "reason": "テストモード",
+  "compatible_cache_jobs_migrated": 0,
+  "pdf_body_routing": {
+    "contexts": 20,
+    "unresolved_units": 3,
+    "context_characters": 35797
+  },
+  "local_age_notes": {
+    "schema_version": "local-age-notes/1.0",
+    "stage": "local_age_notes",
+    "status": "complete",
+    "external_calls": 0,
+    "added_evidence": 2,
+    "notes": 2,
+    "units": 1,
+    "formation_boundary_supported": 0
+  },
+  "pdf_body": {
+    "schema_version": "pdf-field-enrichment/1.0",
+    "stage": "pdf_body_field_enrichment",
+    "status": "not_run",
+    "external_calls": 0,
+    "cache_hits": 0,
+    "added_evidence": 0
+  },
+  "pdf_alias_mapping": {
+    "schema_version": "pdf-unit-aliases/1.0",
+    "stage": "pdf_unit_alias_mapping",
+    "status": "not_needed",
+    "external_calls": 0,
+    "cache_hits": 0,
+    "mapped_units": 0
+  },
+  "pdf_environment": {
+    "schema_version": "pdf-environment-analysis/1.0",
+    "stage": "pdf_environment_multimodal",
+    "status": "disabled",
+    "external_calls": 0,
+    "cache_hits": 0,
+    "added_evidence": 0
+  },
+  "quota_exhausted": false,
+  "quota_error": null,
+  "age_interpolation": {
+    "schema_version": "age-interpolation/1.0",
+    "stage": "age_interpolation",
+    "status": "complete",
+    "external_calls": 0,
+    "interpolated_units": 0,
+    "added_evidence": 0,
+    "unresolved_units": []
+  },
+  "interval_normalizations": [],
+  "derived_preview_rows": 23
+}

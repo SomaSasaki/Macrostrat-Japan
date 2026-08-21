@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-14T03:36:58+00:00",
+  "map": {
+    "map_id": "1286",
+    "source_review": null,
+    "metadata": {
+      "title": "1:50K GeoMap 'Ichinohe' (2018)",
+      "publication_year": "2018",
+      "shape": {
+        "available": false
+      },
+      "column_split_status": "unresolved_review",
+      "unit_inventory_source": "PDF_PENDING",
+      "column_assignment_basis": "No validated Column proposal is available.",
+      "column_check_units": [
+        "m1286_p001"
+      ]
+    },
+    "columns": [
+      {
+        "col_id": "unsplit",
+        "col_name": "Unsplit candidate",
+        "lng": 141.3714112,
+        "lat": 40.2527666,
+        "status": "CHECK",
+        "ref_ids": "gsj1286",
+        "comments": "No validated Column proposal is available.",
+        "col_type": "column",
+        "axis_type": "age"
+      }
+    ]
+  },
+  "units": [
+    {
+      "row_key": "m1286_p001::unsplit",
+      "unit_id": "m1286_p001",
+      "column_ids": [
+        "unsplit"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p001",
+        "column_id": "unsplit",
+        "sort_order": 1,
+        "position": null,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "NO_DATA",
+        "t_int": null,
+        "b_int": null,
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": null,
+        "unit_description": null,
+        "lithology": null,
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": "No structured unit inventory; PDF unit extraction requires review. COLUMN CHECK: No validated Column proposal is available."
+      },
+      "values": {
+        "unit_id": "m1286_p001",
+        "column_id": "unsplit",
+        "sort_order": 1,
+        "position": null,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "NO_DATA",
+        "t_int": null,
+        "b_int": null,
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": null,
+        "unit_description": null,
+        "lithology": null,
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": "No structured unit inventory; PDF unit extraction requires review. COLUMN CHECK: No validated Column proposal is available."
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "unit_name": "review",
+        "comments": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "MISSING",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "MISSING",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:environment",
+        "missing_optional:physical_evidence",
+        "unresolved:lithology",
+        "unresolved:minor_lith",
+        "unresolved:chronology"
+      ],
+      "human_status": null,
+      "derived": {
+        "position": 1,
+        "section_id": null,
+        "t_pos": 2,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "unsplit": {
+          "position": 1,
+          "section_id": null,
+          "t_pos": 2
+        }
+      },
+      "derived_dependencies": {
+        "column_ids": [
+          "unsplit"
+        ],
+        "sort_order": 1,
+        "unit_name": "NO_DATA",
+        "strat_name": null,
+        "t_int": null,
+        "b_int": null,
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "derived_dependency_sha256": "22498923cc488edd760cc455646cb36a57cad0dcc567c4cee282984494f40d60",
+      "derived_missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    }
+  ],
+  "summary": {
+    "unit_count": 1,
+    "column_count": 1,
+    "evidence_count": 0,
+    "orphaned_evidence_count": 0,
+    "orphaned_evidence_ids": [],
+    "status_counts": {
+      "OK": 0,
+      "CHECK": 1,
+      "MISSING": 0
+    },
+    "field_resolution_counts": {
+      "lithology": {
+        "present": 0,
+        "explicitly_absent": 0,
+        "unresolved": 1
+      },
+      "minor_lith": {
+        "present": 0,
+        "explicitly_absent": 0,
+        "unresolved": 1
+      },
+      "age": {
+        "present": 0,
+        "explicitly_absent": 0,
+        "unresolved": 1
+      }
+    },
+    "field_resolution_metrics": {
+      "lithology_present_rate": 0.0,
+      "minor_lith_disposition_rate": 0.0,
+      "age_present_rate": 0.0,
+      "age_interval_pair_rate": 0.0
+    },
+    "unresolved_age_unit_ids": [
+      "m1286_p001"
+    ],
+    "derived_preview_rows": 1
+  }
+}

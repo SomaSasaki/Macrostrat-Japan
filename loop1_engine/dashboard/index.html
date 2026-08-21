@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Macrostrat Japan — 5万分の1図幅 進捗インデックス</title>
+<style>
+/* ------------------------------------------------------------------ *
+ * 配色は dataviz スキルの順序ランプ（青単色・light/dark とも検証済み）。
+ *   validate_palette.js --ordinal:
+ *     light #0d366b,#1c5cab,#3987e5,#86b6ef  ALL PASS
+ *     dark  #184f95,#2a78d6,#6da7ec,#b7d3f6  ALL PASS
+ * 進捗は順序尺度なので単一色相の濃淡。資料の無い区画は無彩色 + 斜線で、
+ * 色だけに依存しない二重符号化にしている。
+ * ------------------------------------------------------------------ */
+:root {
+  color-scheme: light;
+  --surface-1: #fcfcfb;
+  --surface-2: #f4f3f0;
+  --surface-3: #e9e7e2;
+  --line: #d3d1ca;
+  --line-strong: #9b9890;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #7a7873;
+  --accent: #b3441f;
+  --stage-submitted: #0d366b;
+  --stage-review: #1c5cab;
+  --stage-vector_ready: #3987e5;
+  --stage-pdf_only: #86b6ef;
+  --stage-no_source: #dcdad4;
+  --stage-unpublished: #f0efec;
+  --on-deep: #ffffff;
+  --focus: #b3441f;
+  /* ステージ塗りの上に置く文字色。濃い 2 段は白、薄い段は黒で 4.5:1 を確保する。 */
+  --fg-submitted: #ffffff;
+  --fg-review: #ffffff;
+  --fg-vector_ready: #ffffff;
+  --fg-pdf_only: #0b0b0b;
+  --fg-no_source: #0b0b0b;
+  --fg-unpublished: #0b0b0b;
+}
+:root[data-theme="dark"], :root[data-theme="auto"] { }
+@media (prefers-color-scheme: dark) {
+  :root:where([data-theme="auto"]) {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --surface-2: #232322;
+    --surface-3: #2e2e2c;
+    --line: #3d3d3a;
+    --line-strong: #6e6d67;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #96958c;
+    --accent: #e88a5f;
+    --stage-submitted: #b7d3f6;
+    --stage-review: #6da7ec;
+    --stage-vector_ready: #2a78d6;
+    --stage-pdf_only: #184f95;
+    --stage-no_source: #34342f;
+    --stage-unpublished: #232322;
+    --on-deep: #06121f;
+    --focus: #e88a5f;
+    --fg-submitted: #06121f;
+    --fg-review: #06121f;
+    --fg-vector_ready: #ffffff;
+    --fg-pdf_only: #ffffff;
+    --fg-no_source: #ffffff;
+    --fg-unpublished: #ffffff;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-1: #1a1a19;
+  --surface-2: #232322;
+  --surface-3: #2e2e2c;
+  --line: #3d3d3a;
+  --line-strong: #6e6d67;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #96958c;
+  --accent: #e88a5f;
+  --stage-submitted: #b7d3f6;
+  --stage-review: #6da7ec;
+  --stage-vector_ready: #2a78d6;
+  --stage-pdf_only: #184f95;
+  --stage-no_source: #34342f;
+  --stage-unpublished: #232322;
+  --on-deep: #06121f;
+  --focus: #e88a5f;
+  --fg-submitted: #06121f;
+  --fg-review: #06121f;
+  --fg-vector_ready: #ffffff;
+  --fg-pdf_only: #ffffff;
+  --fg-no_source: #ffffff;
+  --fg-unpublished: #ffffff;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  background: var(--surface-1);
+  color: var(--text-primary);
+  font: 13px/1.55 "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+        "Yu Gothic", "Noto Sans JP", Meiryo, sans-serif;
+  font-feature-settings: "palt" 1;
+  -webkit-text-size-adjust: 100%;
+}
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+
+#app { display: grid; grid-template-rows: auto 1fr; height: 100%; }
+
+/* ---------- header ---------- */
+header {
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  padding: 8px 14px; border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+}
+header h1 { font-size: 14px; font-weight: 600; margin: 0; letter-spacing: .02em; }
+header .sub { color: var(--text-muted); font-size: 11px; }
+.spacer { flex: 1 1 auto; }
+.control {
+  background: var(--surface-1); border: 1px solid var(--line);
+  border-radius: 3px; padding: 4px 8px; color: var(--text-secondary);
+}
+.control[aria-pressed="true"] { background: var(--surface-3); color: var(--text-primary); }
+.control:focus-visible, [tabindex]:focus-visible, a:focus-visible {
+  outline: 2px solid var(--focus); outline-offset: 1px;
+}
+#search { min-width: 200px; }
+
+/* ---------- layout ---------- */
+main { display: grid; grid-template-columns: 1fr 372px; min-height: 0; }
+@media (max-width: 900px) { main { grid-template-columns: 1fr; grid-template-rows: 1fr auto; } }
+
+#stage-wrap { position: relative; min-width: 0; min-height: 0; background: var(--surface-1); }
+#map { display: block; width: 100%; height: 100%; touch-action: none; }
+#map:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+
+/* ---------- breadcrumb + legend ---------- */
+#crumbs {
+  position: absolute; top: 10px; left: 12px; display: flex; gap: 6px; align-items: center;
+  background: color-mix(in srgb, var(--surface-2) 92%, transparent);
+  border: 1px solid var(--line); border-radius: 3px; padding: 4px 8px; max-width: calc(100% - 24px);
+}
+#crumbs button { background: none; border: 0; padding: 0 2px; color: var(--text-secondary); }
+#crumbs button:last-child { color: var(--text-primary); font-weight: 600; }
+#crumbs .sep { color: var(--text-muted); }
+
+#legend {
+  position: absolute; left: 12px; bottom: 12px;
+  background: color-mix(in srgb, var(--surface-2) 92%, transparent);
+  border: 1px solid var(--line); border-radius: 3px; padding: 8px 10px;
+}
+#legend h2 { font-size: 11px; margin: 0 0 6px; color: var(--text-secondary); font-weight: 600; }
+#legend ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+#legend li { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-secondary); }
+#legend .sw { width: 14px; height: 10px; border: 1px solid var(--line-strong); flex: none; }
+#legend .n { color: var(--text-muted); margin-left: 2px; }
+
+#zoomctl { position: absolute; right: 12px; top: 10px; display: grid; gap: 4px; }
+#zoomctl button { width: 28px; height: 28px; line-height: 1; }
+
+#scalebar {
+  position: absolute; right: 12px; bottom: 12px; font-size: 11px; color: var(--text-muted);
+  text-align: right;
+}
+#scalebar .bar { height: 3px; background: var(--line-strong); margin-top: 3px; }
+
+/* ---------- tooltip ---------- */
+#tip {
+  position: absolute; pointer-events: none; z-index: 5; max-width: 260px;
+  background: var(--surface-2); border: 1px solid var(--line-strong);
+  border-radius: 3px; padding: 6px 8px; font-size: 12px; display: none;
+  box-shadow: 0 1px 4px rgba(0,0,0,.18);
+}
+#tip .t { font-weight: 600; }
+#tip .m { color: var(--text-muted); font-size: 11px; }
+
+/* ---------- side panel ---------- */
+aside {
+  border-left: 1px solid var(--line); background: var(--surface-2);
+  overflow: auto; padding: 12px 14px 24px; min-width: 0;
+}
+@media (max-width: 900px) { aside { border-left: 0; border-top: 1px solid var(--line); max-height: 46vh; } }
+aside h2 { font-size: 15px; margin: 0 0 2px; }
+aside h3 {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--text-muted); margin: 18px 0 6px; font-weight: 600;
+}
+.kv { display: grid; grid-template-columns: 92px 1fr; gap: 2px 10px; font-size: 12px; }
+.kv dt { color: var(--text-muted); }
+.kv dd { margin: 0; }
+.badge {
+  display: inline-block; border: 1px solid var(--line-strong); border-radius: 2px;
+  padding: 1px 6px; font-size: 11px; color: var(--text-secondary); margin-right: 4px;
+}
+.badge.stage { border-color: transparent; }
+table.meter { width: 100%; border-collapse: collapse; font-size: 12px; }
+table.meter th { text-align: left; font-weight: 400; color: var(--text-muted); padding: 2px 0; }
+table.meter td { padding: 2px 0 2px 8px; }
+table.meter td.v { text-align: right; width: 66px; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+.track { background: var(--surface-3); height: 6px; border-radius: 3px; overflow: hidden; }
+.track > i { display: block; height: 100%; border-radius: 3px; background: var(--stage-review); }
+ul.plain { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 4px; font-size: 12px; }
+ul.plain li { display: flex; gap: 6px; }
+ul.plain code { color: var(--text-muted); font-size: 11px; }
+.links { display: grid; gap: 4px; font-size: 12px; margin-top: 6px; }
+.links a { color: var(--accent); text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+.thumb { margin-top: 8px; border: 1px solid var(--line); background: var(--surface-1); }
+.thumb img { display: block; width: 100%; height: auto; }
+.note { color: var(--text-muted); font-size: 11px; margin-top: 6px; }
+.empty { color: var(--text-muted); font-size: 12px; }
+
+/* ---------- table view ---------- */
+#tableview { display: none; grid-column: 1 / -1; overflow: auto; padding: 10px 14px 30px; }
+#tableview.on { display: block; }
+#tableview table { border-collapse: collapse; width: 100%; font-size: 12px; }
+#tableview th, #tableview td { border-bottom: 1px solid var(--line); padding: 4px 8px; text-align: left; white-space: nowrap; }
+#tableview th { position: sticky; top: 0; background: var(--surface-2); }
+#tableview td.n { text-align: right; font-variant-numeric: tabular-nums; }
+#tableview tr[aria-selected="true"] { background: var(--surface-3); }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>Macrostrat Japan — 5万分の1図幅 進捗インデックス</h1>
+    <span class="sub" id="meta"></span>
+    <span class="spacer"></span>
+    <label class="visually-hidden" for="search">図幅を検索</label>
+    <input id="search" class="control" type="search" placeholder="図幅名 / 図幅コード / map_id" autocomplete="off">
+    <button class="control" id="btn-islands" aria-pressed="false" title="沖縄・伊豆小笠原を含めた全域に切り替える">離島を含む</button>
+    <button class="control" id="btn-table" aria-pressed="false">表で見る</button>
+    <button class="control" id="btn-theme" title="表示テーマ">自動</button>
+  </header>
+  <main>
+    <div id="stage-wrap">
+      <svg id="map" role="application" aria-label="日本全国の5万分の1図幅グリッド" tabindex="0"></svg>
+      <nav id="crumbs" aria-label="ズーム階層"></nav>
+      <div id="zoomctl">
+        <button class="control" id="zin" aria-label="拡大">+</button>
+        <button class="control" id="zout" aria-label="縮小">−</button>
+        <button class="control" id="zreset" aria-label="全国表示に戻す">⤢</button>
+      </div>
+      <div id="legend">
+        <h2>進捗（濃いほど前進）</h2>
+        <ul id="legend-items"></ul>
+      </div>
+      <div id="scalebar"><span id="scaletext"></span><div class="bar" id="scalebarbar" style="width:80px"></div></div>
+      <div id="tip" role="status"></div>
+    </div>
+    <aside id="panel" aria-live="polite"></aside>
+    <section id="tableview" aria-label="図幅一覧表"></section>
+  </main>
+</div>
+
+<script>
+"use strict";
+/* =====================================================================
+ * Macrostrat Japan 進捗インデックス
+ *  - 依存ライブラリなし。data/index.json だけで全国図が描ける。
+ *  - 3段階ズーム: L1 全国 / L2 区画（20万分の1相当）/ L3 図幅詳細。
+ *  - 図幅の矩形は config/gsj_50k_grid.json 由来の実座標（緯度10分×経度15分）。
+ * ===================================================================== */
+
+const STAGE_ORDER = ["submitted", "review", "vector_ready", "pdf_only", "no_source", "unpublished"];
+const OUTER_REGIONS = new Set(["09", "18", "19", "20"]);   // 伊豆小笠原・南西諸島
+const LEVEL2_SCALE = 160;      // これ以上で区画の罫線と図幅番号を出す
+const LEVEL3_SCALE = 440;        // これ以上で図幅名を出す
+
+const state = {
+  data: null,
+  detailCache: new Map(),
+  selected: null,          // sheet_code
+  region: null,            // region_code
+  includeIslands: false,
+  view: null,              // {x, y, w, h} in projected units
+  home: null,
+  size: { w: 0, h: 0 },
+  query: "",
+  matches: null,           // Set of sheet_code or null
+};
+
+/* ---------- 投影（Web メルカトル・度単位） ---------- */
+const projX = (lon) => lon;
+const projY = (lat) => {
+  const clamped = Math.max(-85, Math.min(85, lat));
+  return (180 / Math.PI) * Math.log(Math.tan(Math.PI / 4 + (clamped * Math.PI) / 360));
+};
+const invY = (y) => (360 / Math.PI) * Math.atan(Math.exp((y * Math.PI) / 180)) - 90;
+
+/* bbox = [south, west, north, east] -> 画面座標系の矩形（y は下向き） */
+function projectBox(bbox) {
+  const x = projX(bbox[1]);
+  const x2 = projX(bbox[3]);
+  const y = -projY(bbox[2]);
+  const y2 = -projY(bbox[0]);
+  return { x, y, w: x2 - x, h: y2 - y };
+}
+
+function unionBox(boxes) {
+  const x = Math.min(...boxes.map((b) => b.x));
+  const y = Math.min(...boxes.map((b) => b.y));
+  const x2 = Math.max(...boxes.map((b) => b.x + b.w));
+  const y2 = Math.max(...boxes.map((b) => b.y + b.h));
+  return { x, y, w: x2 - x, h: y2 - y };
+}
+
+function padBox(box, ratio) {
+  const dx = box.w * ratio;
+  const dy = box.h * ratio;
+  return { x: box.x - dx, y: box.y - dy, w: box.w + dx * 2, h: box.h + dy * 2 };
+}
+
+/* 縦横比を画面に合わせて view を広げる（歪ませない） */
+function fitBox(box) {
+  const { w: sw, h: sh } = state.size;
+  if (!sw || !sh) return box;
+  const scale = Math.max(box.w / sw, box.h / sh);
+  const w = scale * sw;
+  const h = scale * sh;
+  return { x: box.x + box.w / 2 - w / 2, y: box.y + box.h / 2 - h / 2, w, h };
+}
+
+const svg = document.getElementById("map");
+const SVGNS = "http://www.w3.org/2000/svg";
+const el = (name, attrs) => {
+  const node = document.createElementNS(SVGNS, name);
+  for (const key in attrs) if (attrs[key] !== undefined && attrs[key] !== null) node.setAttribute(key, attrs[key]);
+  return node;
+};
+
+/* ---------- 読み込み ---------- */
+async function boot() {
+  let payload;
+  try {
+    const res = await fetch("data/index.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    payload = await res.json();
+  } catch (err) {
+    document.getElementById("panel").innerHTML =
+      `<h2>データを読み込めません</h2><p class="empty">data/index.json が見つかりません。<br>` +
+      `<code>python run.py ui</code> で起動するか、<code>python scripts/dashboard_data.py</code> を先に実行してください。</p>` +
+      `<p class="note">${escapeHtml(String(err))}</p>`;
+    return;
+  }
+  state.data = payload;
+  payload.sheetByCode = new Map(payload.sheets.map((s) => [s.sheet_code, s]));
+  for (const sheet of payload.sheets) sheet._box = projectBox(sheet.bbox);
+  for (const parent of payload.parents) parent._box = projectBox(parent.bbox);
+  for (const region of payload.regions) region._box = projectBox(region.bbox);
+
+  document.getElementById("meta").textContent =
+    `${payload.totals.sheets} 図幅 / 生成 ${String(payload.generated_at).replace("T", " ").slice(0, 16)}`;
+
+  buildLegend();
+  buildStatic();
+  measure();
+  state.home = fitBox(padBox(homeBox(), 0.03));
+  state.view = { ...state.home };
+  render();
+  showRegionPanel(null);
+  wireEvents();
+}
+
+function homeBox() {
+  const sheets = state.data.sheets.filter(
+    (s) => state.includeIslands || !OUTER_REGIONS.has(s.region_code)
+  );
+  return unionBox((sheets.length ? sheets : state.data.sheets).map((s) => s._box));
+}
+
+/* ---------- 静的レイヤ ---------- */
+let gSheets, gParents, gRegions, gLabels, gSelect;
+function buildStatic() {
+  svg.textContent = "";
+  const defs = el("defs");
+  /* 斜線パターンはユーザ座標（度）で定義するので、ズームのたびに
+     patternTransform を 1/scale で打ち消し、画面上では常に 6px 相当にする。 */
+  const pattern = el("pattern", { id: "hatch", width: 6, height: 6, patternUnits: "userSpaceOnUse" });
+  pattern.appendChild(el("rect", { width: 6, height: 6, fill: "var(--stage-unpublished)" }));
+  pattern.appendChild(el("line", { x1: 0, y1: 0, x2: 0, y2: 6, stroke: "var(--line-strong)", "stroke-width": 1.6 }));
+  defs.appendChild(pattern);
+  svg.__hatch = pattern;
+  svg.appendChild(defs);
+
+  const root = el("g", { id: "root" });
+  gSheets = el("g", { id: "sheets" });
+  gParents = el("g", { id: "parents", fill: "none", stroke: "var(--line-strong)" });
+  gRegions = el("g", { id: "regions", fill: "none", stroke: "var(--line-strong)" });
+  gSelect = el("g", { id: "select", fill: "none" });
+  gLabels = el("g", { id: "labels" });
+  root.append(gSheets, gParents, gRegions, gSelect, gLabels);
+  svg.appendChild(root);
+  svg.__root = root;
+
+  const frag = document.createDocumentFragment();
+  for (const sheet of state.data.sheets) {
+    const rect = el("rect", {
+      x: sheet._box.x, y: sheet._box.y, width: sheet._box.w, height: sheet._box.h,
+      "data-code": sheet.sheet_code,
+      "stroke-width": 0.35, "vector-effect": "non-scaling-stroke",
+    });
+    paintSheet(rect, sheet);
+    frag.appendChild(rect);
+    sheet._node = rect;
+  }
+  gSheets.appendChild(frag);
+
+  for (const parent of state.data.parents) {
+    gParents.appendChild(el("rect", {
+      x: parent._box.x, y: parent._box.y, width: parent._box.w, height: parent._box.h,
+      "stroke-width": 0.8, fill: "none", "vector-effect": "non-scaling-stroke",
+    }));
+  }
+  for (const region of state.data.regions) {
+    gRegions.appendChild(el("rect", {
+      x: region._box.x, y: region._box.y, width: region._box.w, height: region._box.h,
+      "stroke-width": 1.2, "stroke-dasharray": "7 5",
+      fill: "none", "vector-effect": "non-scaling-stroke",
+      "data-region": region.region_code,
+    }));
+  }
+}
+
+function paintSheet(rect, sheet) {
+  const dim = state.matches && !state.matches.has(sheet.sheet_code);
+  if (sheet.stage === "unpublished") {
+    rect.setAttribute("fill", "url(#hatch)");
+  } else {
+    rect.setAttribute("fill", `var(--stage-${sheet.stage})`);
+  }
+  rect.setAttribute("stroke", "var(--line)");
+  rect.setAttribute("opacity", dim ? 0.18 : 1);
+}
+
+function buildLegend() {
+  const counts = state.data.totals.by_stage || {};
+  const list = document.getElementById("legend-items");
+  list.textContent = "";
+  for (const stage of state.data.stages) {
+    const li = document.createElement("li");
+    const sw = document.createElement("span");
+    sw.className = "sw";
+    sw.style.background = stage.key === "unpublished"
+      ? "repeating-linear-gradient(45deg, var(--stage-unpublished) 0 3px, var(--line) 3px 4px)"
+      : `var(--stage-${stage.key})`;
+    li.append(sw, document.createTextNode(stage.label));
+    const n = document.createElement("span");
+    n.className = "n";
+    n.textContent = counts[stage.key] ?? 0;
+    li.appendChild(n);
+    list.appendChild(li);
+  }
+}
+
+/* ---------- 描画 ---------- */
+function measure() {
+  const rect = svg.getBoundingClientRect();
+  state.size = { w: Math.max(rect.width, 1), h: Math.max(rect.height, 1) };
+}
+
+function currentScale() {
+  return state.size.w / state.view.w;      // 1 経度あたりの画面 px
+}
+
+function render() {
+  const v = state.view;
+  svg.setAttribute("viewBox", `${v.x} ${v.y} ${v.w} ${v.h}`);
+  const scale = currentScale();
+  const level = scale >= LEVEL3_SCALE ? 3 : scale >= LEVEL2_SCALE ? 2 : 1;
+  if (svg.__hatch) svg.__hatch.setAttribute("patternTransform", `rotate(45) scale(${1 / scale})`);
+
+  gParents.style.display = level >= 2 ? "" : "none";
+  gRegions.setAttribute("opacity", level === 1 ? 0.55 : level === 2 ? 0.3 : 0.15);
+  renderLabels(level, scale);
+  renderSelection();
+  renderCrumbs();
+  renderScalebar(scale);
+  svg.dataset.level = level;
+}
+
+function renderLabels(level, scale) {
+  gLabels.textContent = "";
+  const v = state.view;
+  const visible = (box) => box.x < v.x + v.w && box.x + box.w > v.x && box.y < v.y + v.h && box.y + box.h > v.y;
+  const fontFor = (px) => px / scale;
+
+  if (level === 1) {
+    for (const region of state.data.regions) {
+      if (!visible(region._box)) continue;
+      addLabel(region._box, `${region.region_code} ${region.region_name}`, fontFor(12), "var(--text-secondary)", 0.9);
+    }
+    return;
+  }
+  const wanted = state.data.sheets.filter((s) => visible(s._box));
+  if (wanted.length > 420) return;
+  for (const sheet of wanted) {
+    if (state.matches && !state.matches.has(sheet.sheet_code)) continue;
+    const text = level >= 3 && sheet.name_ja
+      ? `${sheet.name_ja}`
+      : String(sheet.sheet_number).padStart(3, "0");
+    const size = level >= 3 ? fontFor(11) : fontFor(9);
+    const twoLines = level >= 3 && sheet.units;
+    addLabel(sheet._box, text, size, `var(--fg-${sheet.stage})`, 1,
+             twoLines ? -size * 0.6 : 0);
+    if (twoLines) {
+      addLabel(sheet._box, `${sheet.units}層 ${Math.round(sheet.completion * 100)}%`,
+        fontFor(9), `var(--fg-${sheet.stage})`, 0.8, size * 0.7);
+    }
+  }
+}
+
+function addLabel(box, text, size, fill, opacity, dy = 0) {
+  const node = el("text", {
+    x: box.x + box.w / 2, y: box.y + box.h / 2 + dy,
+    "text-anchor": "middle", "dominant-baseline": "middle",
+    "font-size": size, fill, opacity, "pointer-events": "none",
+    /* 下の色に埋もれないよう、地の色で細い縁取りを付けてから字を置く。 */
+    stroke: "var(--surface-1)", "stroke-width": 2, "stroke-linejoin": "round",
+    "paint-order": "stroke fill", "vector-effect": "non-scaling-stroke",
+  });
+  node.textContent = text;
+  gLabels.appendChild(node);
+}
+
+function renderSelection() {
+  gSelect.textContent = "";
+  if (state.region) {
+    const region = state.data.regions.find((r) => r.region_code === state.region);
+    if (region) {
+      gSelect.appendChild(el("rect", {
+        x: region._box.x, y: region._box.y, width: region._box.w, height: region._box.h,
+        fill: "none", "vector-effect": "non-scaling-stroke",
+        stroke: "var(--accent)", "stroke-width": 1.5, "stroke-dasharray": "5 3",
+      }));
+    }
+  }
+  const sheet = state.selected && state.data.sheetByCode.get(state.selected);
+  if (sheet) {
+    gSelect.appendChild(el("rect", {
+      x: sheet._box.x, y: sheet._box.y, width: sheet._box.w, height: sheet._box.h,
+      fill: "none", "vector-effect": "non-scaling-stroke",
+      stroke: "var(--accent)", "stroke-width": 2.5,
+    }));
+  }
+}
+
+function renderCrumbs() {
+  const nav = document.getElementById("crumbs");
+  nav.textContent = "";
+  const push = (label, handler, last) => {
+    if (nav.childNodes.length) {
+      const sep = document.createElement("span");
+      sep.className = "sep";
+      sep.textContent = "›";
+      nav.appendChild(sep);
+    }
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.textContent = label;
+    if (last) btn.setAttribute("aria-current", "true");
+    btn.addEventListener("click", handler);
+    nav.appendChild(btn);
+  };
+  const sheet = state.selected && state.data.sheetByCode.get(state.selected);
+  push("全国", () => { state.region = null; state.selected = null; zoomTo(state.home); showRegionPanel(null); },
+       !state.region && !sheet);
+  if (state.region) {
+    const region = state.data.regions.find((r) => r.region_code === state.region);
+    push(`${state.region} ${region ? region.region_name : ""}`,
+         () => { state.selected = null; focusRegion(state.region); }, !sheet);
+  }
+  if (sheet) push(sheet.name_ja || sheet.sheet_code, () => focusSheet(sheet.sheet_code), true);
+}
+
+function renderScalebar(scale) {
+  /* 図幅 1 枚 = 経度 15 分。画面上の幅から距離感を示す。 */
+  const kmPerDegLon = 111.32 * Math.cos((invY(-(state.view.y + state.view.h / 2)) * Math.PI) / 180);
+  const targetPx = 90;
+  const degs = targetPx / scale;
+  const km = degs * kmPerDegLon;
+  const nice = [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000].reduce(
+    (best, v) => (Math.abs(v - km) < Math.abs(best - km) ? v : best), 1);
+  document.getElementById("scaletext").textContent = `${nice} km`;
+  document.getElementById("scalebarbar").style.width = `${Math.round((nice / kmPerDegLon) * scale)}px`;
+}
+
+/* ---------- ズーム操作 ---------- */
+function zoomTo(box, animate = true) {
+  const target = fitBox(box);
+  if (!animate || !state.view) { state.view = target; render(); return; }
+  const from = { ...state.view };
+  const start = performance.now();
+  const dur = 320;
+  const step = (now) => {
+    const t = Math.min(1, (now - start) / dur);
+    const e = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+    state.view = {
+      x: from.x + (target.x - from.x) * e,
+      y: from.y + (target.y - from.y) * e,
+      w: from.w + (target.w - from.w) * e,
+      h: from.h + (target.h - from.h) * e,
+    };
+    render();
+    if (t < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+
+function zoomBy(factor, cx, cy) {
+  const v = state.view;
+  const px = cx === undefined ? v.x + v.w / 2 : cx;
+  const py = cy === undefined ? v.y + v.h / 2 : cy;
+  const w = Math.min(Math.max(v.w * factor, 0.02), state.home.w * 4);
+  const h = w * (v.h / v.w);
+  state.view = { x: px - (px - v.x) * (w / v.w), y: py - (py - v.y) * (h / v.h), w, h };
+  render();
+}
+
+function clientToWorld(clientX, clientY) {
+  const rect = svg.getBoundingClientRect();
+  const v = state.view;
+  return {
+    x: v.x + ((clientX - rect.left) / rect.width) * v.w,
+    y: v.y + ((clientY - rect.top) / rect.height) * v.h,
+  };
+}
+
+function focusRegion(code) {
+  state.region = code;
+  const region = state.data.regions.find((r) => r.region_code === code);
+  if (region) zoomTo(padBox(region._box, 0.06));
+  showRegionPanel(code);
+}
+
+function focusSheet(code) {
+  const sheet = state.data.sheetByCode.get(code);
+  if (!sheet) return;
+  state.selected = code;
+  state.region = sheet.region_code;
+  zoomTo(padBox(sheet._box, 2.2));
+  showSheetPanel(sheet);
+  renderSelection();
+  renderCrumbs();
+}
+
+/* ---------- 側面パネル ---------- */
+const stageLabel = (key) => (state.data.stages.find((s) => s.key === key) || {}).label || key;
+const badgeLabel = (key) => state.data.badges[key] || key;
+const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g,
+  (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+function stageChip(stage) {
+  const hatched = stage === "unpublished";
+  const style = hatched
+    ? "background:repeating-linear-gradient(45deg,var(--stage-unpublished) 0 3px,var(--line) 3px 4px);color:var(--text-secondary);border-color:var(--line-strong)"
+    : `background:var(--stage-${stage});color:var(--fg-${stage})`;
+  return `<span class="badge stage" style="${style}">${escapeHtml(stageLabel(stage))}</span>`;
+}
+
+function showRegionPanel(code) {
+  const panel = document.getElementById("panel");
+  const totals = code
+    ? state.data.regions.find((r) => r.region_code === code)
+    : { ...state.data.totals, region_name: "全国", region_code: "", sheets: state.data.totals.sheets };
+  if (!totals) return;
+  const title = code ? `${code} ${totals.region_name}` : "全国";
+  const stages = totals.by_stage || {};
+  const rows = state.data.stages.map((s) => meterRow(s.label, stages[s.key] || 0, totals.sheets)).join("");
+  const badges = Object.entries(totals.by_badge || {})
+    .filter(([, n]) => n)
+    .map(([k, n]) => `<span class="badge">${escapeHtml(badgeLabel(k))} ${n}</span>`).join("");
+  const regionList = code ? "" : `
+    <h3>区画（クリックでズーム）</h3>
+    <ul class="plain">${state.data.regions.map((r) => `
+      <li><button class="control" style="width:100%;text-align:left" data-region="${r.region_code}">
+        ${escapeHtml(r.region_code)} ${escapeHtml(r.region_name)}
+        <span style="float:right;color:var(--text-muted)">${r.sheets} 図幅 / 作業 ${r.with_workspace}</span>
+      </button></li>`).join("")}</ul>`;
+  panel.innerHTML = `
+    <h2>${escapeHtml(title)}</h2>
+    <p class="empty">${totals.sheets} 図幅・刊行済み ${totals.published}・ワークスペース ${totals.with_workspace}</p>
+    <h3>進捗の内訳</h3><table class="meter"><tbody>${rows}</tbody></table>
+    <h3>データソース</h3><div>${badges || '<span class="empty">—</span>'}</div>
+    ${totals.units ? `<h3>取り込み済み</h3><p>${totals.units} 層 / 未解決 ${totals.unresolved} 件</p>` : ""}
+    ${regionList}
+    <p class="note">図幅の矩形は緯度10分×経度15分の正規グリッド。座標は GSJ 出版物データから導出（config/gsj_50k_grid.json）。</p>`;
+  panel.querySelectorAll("[data-region]").forEach((btn) =>
+    btn.addEventListener("click", () => focusRegion(btn.dataset.region)));
+}
+
+function meterRow(label, value, total) {
+  const pct = total ? Math.round((value / total) * 100) : 0;
+  return `<tr><th>${escapeHtml(label)}</th>
+    <td><div class="track"><i style="width:${pct}%"></i></div></td>
+    <td class="v">${value}</td></tr>`;
+}
+
+async function showSheetPanel(sheet) {
+  const panel = document.getElementById("panel");
+  panel.innerHTML = renderSheetCard(sheet, null);
+  if (!sheet.has_workspace) return;
+  const detail = await loadDetail(sheet.map_id);
+  if (state.selected === sheet.sheet_code) panel.innerHTML = renderSheetCard(sheet, detail);
+}
+
+async function loadDetail(mapId) {
+  if (!mapId) return null;
+  if (state.detailCache.has(mapId)) return state.detailCache.get(mapId);
+  try {
+    const res = await fetch(`data/detail/m${mapId}.json`, { cache: "no-store" });
+    const body = res.ok ? await res.json() : null;
+    state.detailCache.set(mapId, body);
+    return body;
+  } catch (err) {
+    state.detailCache.set(mapId, null);
+    return null;
+  }
+}
+
+function renderSheetCard(sheet, detail) {
+  const bbox = sheet.bbox;
+  const fmt = (v) => Number(v).toFixed(4);
+  const head = `
+    <h2>${escapeHtml(sheet.name_ja || "（未刊行）")}</h2>
+    <p class="empty">${escapeHtml(sheet.name_en || "")}${sheet.year ? ` · ${escapeHtml(sheet.year)}年` : ""}</p>
+    <p>${stageChip(sheet.stage)}<span class="badge">${escapeHtml(badgeLabel(sheet.badge))}</span></p>
+    <h3>識別子</h3>
+    <dl class="kv">
+      <dt>図幅コード</dt><dd>${escapeHtml(sheet.sheet_code)}（${escapeHtml(sheet.region_code)} ${escapeHtml(sheet.region_name)} 第${sheet.sheet_number}号）</dd>
+      <dt>map_id</dt><dd>${sheet.map_id ? `m${escapeHtml(sheet.map_id)}` : "—"}</dd>
+      <dt>範囲</dt><dd>${fmt(bbox[0])}–${fmt(bbox[2])}N / ${fmt(bbox[1])}–${fmt(bbox[3])}E</dd>
+      <dt>幾何の根拠</dt><dd>${escapeHtml(sheet.geometry_source)}</dd>
+      ${sheet.pages ? `<dt>説明書</dt><dd>${sheet.pages} 頁${sheet.column_structure ? ` / ${escapeHtml(sheet.column_structure)}` : ""}</dd>` : ""}
+      ${sheet.pdf_class ? `<dt>PDF分類</dt><dd>${escapeHtml(sheet.pdf_class)}</dd>` : ""}
+    </dl>`;
+
+  if (!sheet.has_workspace) {
+    return head + `<h3>作業状況</h3>
+      <p class="empty">ローカルのワークスペースはまだありません。</p>
+      <p class="note">開始するには <code>python run.py make ${escapeHtml(sheet.name_en || sheet.map_id || "")}</code></p>`;
+  }
+  if (!detail) return head + `<h3>作業状況</h3><p class="empty">詳細を読み込み中…</p>`;
+
+  const stats = detail.workbook_stats || {};
+  const filled = stats.filled || {};
+  const units = stats.units || 0;
+  const fields = [
+    ["unit_name", "層名"], ["lithology", "岩相"], ["t_int", "上限年代"],
+    ["b_int", "下限年代"], ["environment", "堆積環境"], ["b_prop", "基底関係"],
+  ].filter(([key]) => key in filled);
+  const meter = fields.map(([key, label]) => meterRow(label, filled[key], units)).join("");
+  const columns = (stats.columns || []).map((c) =>
+    `<span class="badge">${escapeHtml(c.col_name || c.col_id)}${c.status ? ` · ${escapeHtml(c.status)}` : ""}</span>`).join("");
+  const unresolved = (stats.unresolved || []).slice(0, 40).map((u) =>
+    `<li><code>${escapeHtml(u.unit_id)}</code><span>${escapeHtml(u.unit_name)}</span>
+      <span style="color:var(--text-muted)">${escapeHtml(u.missing.join(", "))}</span></li>`).join("");
+  const art = detail.artifacts || {};
+  const link = (path, label) => path
+    ? `<a href="files/${encodeURI(path)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>` : "";
+  const links = [
+    link(art.workbook, `レビュー簿 ${art.workbook ? art.workbook.split("/").pop() : ""}`),
+    link(art.submission, "提出用ワークブック"),
+    link(art.column_map, "柱状図 column_map.png"),
+    link(art.pdf, "GSJ 説明書 PDF（ローカル）"),
+    link(art.build_log, "build_log.jsonl"),
+    detail.viewer_url ? `<a href="${escapeHtml(detail.viewer_url)}" target="_blank" rel="noopener">GeomapNavi で開く</a>` : "",
+  ].filter(Boolean).join("");
+
+  return head + `
+    <h3>カラム構成</h3><div>${columns || '<span class="empty">—</span>'}</div>
+    <h3>達成率（${units} 層）</h3>
+    <table class="meter"><tbody>${meter || `<tr><td class="empty">層データなし</td></tr>`}</tbody></table>
+    <h3>未解決 ${(stats.unresolved || []).length} 件</h3>
+    ${unresolved ? `<ul class="plain">${unresolved}</ul>` : '<span class="empty">なし</span>'}
+    <h3>成果物</h3><div class="links">${links || '<span class="empty">—</span>'}</div>
+    ${art.column_map ? `<div class="thumb"><img loading="lazy" alt="柱状図プレビュー" src="files/${encodeURI(art.column_map)}"></div>` : ""}
+    ${(detail.notes || []).length ? `<h3>注記</h3><ul class="plain">${detail.notes.map((n) => `<li>${escapeHtml(n)}</li>`).join("")}</ul>` : ""}
+    ${detail.next_action ? `<h3>次のアクション</h3><p>${escapeHtml(detail.next_action)}</p>` : ""}
+    ${stats.error ? `<p class="note">${escapeHtml(stats.error)}</p>` : ""}`;
+}
+
+/* ---------- 表ビュー（色に頼らない代替表現） ---------- */
+function renderTable() {
+  const host = document.getElementById("tableview");
+  const rows = state.data.sheets
+    .filter((s) => !state.matches || state.matches.has(s.sheet_code))
+    .filter((s) => !state.region || s.region_code === state.region)
+    .slice(0, 2000);
+  host.innerHTML = `<table><caption class="visually-hidden">図幅一覧</caption><thead><tr>
+      <th scope="col">図幅コード</th><th scope="col">図幅名</th><th scope="col">英名</th>
+      <th scope="col">区画</th><th scope="col">刊行年</th><th scope="col">進捗</th>
+      <th scope="col">ソース</th><th scope="col">層数</th><th scope="col">達成率</th><th scope="col">未解決</th>
+    </tr></thead><tbody>${rows.map((s) => `
+      <tr data-code="${s.sheet_code}" ${state.selected === s.sheet_code ? 'aria-selected="true"' : ""}>
+        <td>${escapeHtml(s.sheet_code)}</td><td>${escapeHtml(s.name_ja || "—")}</td>
+        <td>${escapeHtml(s.name_en || "")}</td><td>${escapeHtml(s.region_name)}</td>
+        <td class="n">${s.year || ""}</td><td>${escapeHtml(stageLabel(s.stage))}</td>
+        <td>${escapeHtml(badgeLabel(s.badge))}</td><td class="n">${s.units || ""}</td>
+        <td class="n">${s.units ? Math.round(s.completion * 100) + "%" : ""}</td>
+        <td class="n">${s.unresolved || ""}</td>
+      </tr>`).join("")}</tbody></table>`;
+  host.querySelectorAll("tr[data-code]").forEach((tr) =>
+    tr.addEventListener("click", () => { focusSheet(tr.dataset.code); renderTable(); }));
+}
+
+/* ---------- 入力 ---------- */
+function wireEvents() {
+  new ResizeObserver(() => {
+    measure();
+    state.home = fitBox(padBox(homeBox(), 0.03));
+    state.view = fitBox(state.view);
+    render();
+  }).observe(svg);
+
+  svg.addEventListener("wheel", (event) => {
+    event.preventDefault();
+    const point = clientToWorld(event.clientX, event.clientY);
+    zoomBy(Math.exp(event.deltaY * 0.0016), point.x, point.y);
+  }, { passive: false });
+
+  let drag = null;
+  svg.addEventListener("pointerdown", (event) => {
+    svg.setPointerCapture(event.pointerId);
+    drag = { x: event.clientX, y: event.clientY, view: { ...state.view }, moved: 0 };
+  });
+  svg.addEventListener("pointermove", (event) => {
+    const code = event.target && event.target.dataset && event.target.dataset.code;
+    if (!drag) { showTip(event, code); return; }
+    const rect = svg.getBoundingClientRect();
+    const dx = ((event.clientX - drag.x) / rect.width) * drag.view.w;
+    const dy = ((event.clientY - drag.y) / rect.height) * drag.view.h;
+    drag.moved += Math.abs(dx) + Math.abs(dy);
+    state.view = { ...drag.view, x: drag.view.x - dx, y: drag.view.y - dy };
+    render();
+  });
+  const endDrag = (event) => {
+    if (drag && drag.moved < 0.002) handleClick(event);
+    drag = null;
+    hideTip();
+  };
+  svg.addEventListener("pointerup", endDrag);
+  svg.addEventListener("pointercancel", () => { drag = null; hideTip(); });
+  svg.addEventListener("pointerleave", hideTip);
+
+  svg.addEventListener("dblclick", (event) => {
+    const point = clientToWorld(event.clientX, event.clientY);
+    zoomBy(0.5, point.x, point.y);
+  });
+
+  svg.addEventListener("keydown", (event) => {
+    const step = state.view.w * 0.12;
+    const moves = { ArrowLeft: [-step, 0], ArrowRight: [step, 0], ArrowUp: [0, -step], ArrowDown: [0, step] };
+    if (moves[event.key]) {
+      event.preventDefault();
+      state.view = { ...state.view, x: state.view.x + moves[event.key][0], y: state.view.y + moves[event.key][1] };
+      render();
+    } else if (event.key === "+" || event.key === "=") { zoomBy(0.7); }
+    else if (event.key === "-") { zoomBy(1 / 0.7); }
+    else if (event.key === "Escape") { goUp(); }
+  });
+
+  document.getElementById("zin").addEventListener("click", () => zoomBy(0.65));
+  document.getElementById("zout").addEventListener("click", () => zoomBy(1 / 0.65));
+  document.getElementById("zreset").addEventListener("click", () => {
+    state.region = null; state.selected = null;
+    zoomTo(state.home); showRegionPanel(null);
+  });
+
+  document.getElementById("btn-islands").addEventListener("click", (event) => {
+    state.includeIslands = !state.includeIslands;
+    event.currentTarget.setAttribute("aria-pressed", String(state.includeIslands));
+    state.home = fitBox(padBox(homeBox(), 0.03));
+    zoomTo(state.home);
+  });
+
+  document.getElementById("btn-table").addEventListener("click", (event) => {
+    const host = document.getElementById("tableview");
+    const on = !host.classList.contains("on");
+    host.classList.toggle("on", on);
+    event.currentTarget.setAttribute("aria-pressed", String(on));
+    if (on) renderTable();
+  });
+
+  const themeBtn = document.getElementById("btn-theme");
+  const themes = ["auto", "light", "dark"];
+  const themeNames = { auto: "自動", light: "明", dark: "暗" };
+  themeBtn.addEventListener("click", () => {
+    const next = themes[(themes.indexOf(document.documentElement.dataset.theme) + 1) % themes.length];
+    document.documentElement.dataset.theme = next;
+    themeBtn.textContent = themeNames[next];
+  });
+
+  const search = document.getElementById("search");
+  search.addEventListener("input", () => {
+    state.query = search.value.trim();
+    applySearch();
+  });
+  search.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" || !state.matches || state.matches.size !== 1) return;
+    focusSheet([...state.matches][0]);
+  });
+}
+
+function goUp() {
+  if (state.selected) { state.selected = null; focusRegion(state.region); }
+  else if (state.region) { state.region = null; zoomTo(state.home); showRegionPanel(null); }
+}
+
+function handleClick(event) {
+  const code = event.target && event.target.dataset && event.target.dataset.code;
+  if (code) { focusSheet(code); return; }
+  const point = clientToWorld(event.clientX, event.clientY);
+  const region = state.data.regions.find((r) =>
+    point.x >= r._box.x && point.x <= r._box.x + r._box.w &&
+    point.y >= r._box.y && point.y <= r._box.y + r._box.h);
+  if (region) focusRegion(region.region_code);
+}
+
+function applySearch() {
+  const q = state.query.toLowerCase();
+  if (!q) { state.matches = null; }
+  else {
+    state.matches = new Set(state.data.sheets.filter((s) =>
+      (s.name_ja && s.name_ja.toLowerCase().includes(q)) ||
+      (s.name_en && s.name_en.toLowerCase().includes(q)) ||
+      s.sheet_code.includes(q) ||
+      (s.map_id && (`m${s.map_id}` === q || s.map_id === q))
+    ).map((s) => s.sheet_code));
+  }
+  for (const sheet of state.data.sheets) paintSheet(sheet._node, sheet);
+  if (state.matches && state.matches.size && state.matches.size <= 40) {
+    const boxes = [...state.matches].map((c) => state.data.sheetByCode.get(c)._box);
+    zoomTo(padBox(unionBox(boxes), 1.2));
+  } else {
+    render();
+  }
+  if (document.getElementById("tableview").classList.contains("on")) renderTable();
+}
+
+/* ---------- ツールチップ ---------- */
+const tip = document.getElementById("tip");
+function showTip(event, code) {
+  const sheet = code && state.data.sheetByCode.get(code);
+  if (!sheet) { hideTip(); return; }
+  tip.innerHTML = `<div class="t">${escapeHtml(sheet.name_ja || "（未刊行）")}
+      <span class="m">${escapeHtml(sheet.sheet_code)}</span></div>
+    <div class="m">${escapeHtml(stageLabel(sheet.stage))} · ${escapeHtml(badgeLabel(sheet.badge))}${
+      sheet.year ? ` · ${escapeHtml(sheet.year)}` : ""}</div>
+    ${sheet.units ? `<div class="m">${sheet.units} 層 / 達成 ${Math.round(sheet.completion * 100)}% / 未解決 ${sheet.unresolved}</div>` : ""}`;
+  tip.style.display = "block";
+  const wrap = document.getElementById("stage-wrap").getBoundingClientRect();
+  const x = event.clientX - wrap.left + 14;
+  const y = event.clientY - wrap.top + 14;
+  tip.style.left = `${Math.min(x, wrap.width - tip.offsetWidth - 8)}px`;
+  tip.style.top = `${Math.min(y, wrap.height - tip.offsetHeight - 8)}px`;
+}
+function hideTip() { tip.style.display = "none"; }
+
+boot();
+</script>
+</body>
+</html>

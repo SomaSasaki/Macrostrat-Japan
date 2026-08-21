@@ -1,0 +1,607 @@
+{
+  "schema_version": "1.0.0",
+  "stage": "towada_pdf_llm",
+  "job_id": "pll_2ed42d4f95740a8f67ac",
+  "prompt_version": "towada-canonical-v1",
+  "prompt_sha256": "c0281f71938d2667d087b41e0b1ae8e5ee910550f6771c8623cef68cd6f6d743",
+  "source_sha256": "f7aae26d50a9996d71287c9fffa9dc540fe26f2a0b2de28bc4d484d367bdc6dd",
+  "model": "gemini-3.6-flash",
+  "status": "complete",
+  "completed_at": "2026-08-08T17:03:49+00:00",
+  "candidates": [
+    {
+      "unit_name": "Present river bed deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u001",
+          "row_key": "m1050_u001::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Present river bed deposits",
+          "fields": [
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "min_thickness",
+            "max_thickness",
+            "basal_surface",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "unit_description": "They are mainly composed of gravel and sand."
+      },
+      "unit_description": "The Present river bed deposits belong to the Holocene and are mainly composed of gravel and sand."
+    },
+    {
+      "unit_name": "Akedo Terrace Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u003",
+          "row_key": "m1050_u003::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Akedo Terrace Deposits",
+          "fields": [
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "min_thickness",
+            "max_thickness",
+            "basal_surface",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "unit_description": "They are mainly composed of gravel and sand."
+      },
+      "unit_description": "The Akedo Terrace Deposits belong to the Holocene and are mainly composed of gravel and sand."
+    },
+    {
+      "unit_name": "Shimokirida Terrace Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u004",
+          "row_key": "m1050_u004::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Shimokirida Terrace Deposits",
+          "fields": [
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "min_thickness",
+            "max_thickness",
+            "basal_surface",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "unit_description": "They are mainly composed of gravel and sand."
+      },
+      "unit_description": "The Shimokirida Terrace Deposits belong to the Holocene and are mainly composed of gravel and sand."
+    },
+    {
+      "unit_name": "Towada Terrace Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u005",
+          "row_key": "m1050_u005::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Towada Terrace Deposits",
+          "fields": [
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "unit_description": "The Towada Terrace Deposits are distributed along the Oirase River and form several fans."
+      },
+      "unit_description": "The Towada Terrace Deposits are distributed along the Oirase River and form several fans, mainly composed of gravel and sand."
+    },
+    {
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u006",
+          "row_key": "m1050_u006::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+          "fields": [
+            "environment",
+            "unit_description",
+            "min_thickness",
+            "basal_surface",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "unit_description": "The Towada-Hachinohe Pyroclastic Flow Deposits are dacite to rhyolite pumice flow deposits and distributed over the entire area of the district."
+      },
+      "unit_description": "The Towada-Hachinohe Pyroclastic Flow Deposits are dacite to rhyolite pumice flow deposits and distributed over the entire area of the district."
+    },
+    {
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u007",
+          "row_key": "m1050_u007::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+          "fields": [
+            "environment",
+            "unit_description",
+            "min_thickness",
+            "basal_surface",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "unit_description": "The Towada-Ōfudo Pyroclastic Flow Deposits are rhyolite pumice flow deposits and distributed in almost the whole area of the district."
+      },
+      "unit_description": "The Towada-Ofudo Pyroclastic Flow Deposits are rhyolite pumice flow deposits and distributed in almost the whole area of the district."
+    },
+    {
+      "unit_name": "Towada-Okuse Pyroclastic Flow Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u008",
+          "row_key": "m1050_u008::1",
+          "column_ids": [
+            "1"
+          ],
+          "unit_name": "Towada-Okuse Pyroclastic Flow Deposits",
+          "fields": [
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "unit_description": "The Towada-Okuse Pyroclastic Flow Deposits are andesite scoria flow deposits and locally occur at several sites in the western area of the district."
+      },
+      "unit_description": "The Towada-Okuse Pyroclastic Flow Deposits are andesite scoria flow deposits and locally occur at several sites in the western area of the district."
+    },
+    {
+      "unit_name": "Shichinohe Terrace Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u009",
+          "row_key": "m1050_u009::2",
+          "column_ids": [
+            "2"
+          ],
+          "unit_name": "Shichinohe Terrace Deposits",
+          "fields": [
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "min_thickness",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "environment": "fluvial terrace deposits",
+        "unit_description": "The Shichinohe Terrace Deposits are fluvial terrace deposits partially including lacustrine deposits distributed in the northeast and central areas of the district."
+      },
+      "environment": "fluvial",
+      "unit_description": "The Shichinohe Terrace Deposits are fluvial terrace deposits partially including lacustrine deposits distributed in the northeast and central areas of the district."
+    },
+    {
+      "unit_name": "Urushihata Terrace Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u010",
+          "row_key": "m1050_u010::1",
+          "column_ids": [
+            "1"
+          ],
+          "unit_name": "Urushihata Terrace Deposits",
+          "fields": [
+            "t_age_ma",
+            "b_age_ma",
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "min_thickness",
+            "max_thickness",
+            "basal_surface",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "environment": "fluvial terrace deposits",
+        "unit_description": "The Urushihata Terrace Deposits are fluvial terrace deposits distributed locally along the Oirase River."
+      },
+      "environment": "fluvial",
+      "unit_description": "The Urushihata Terrace Deposits are fluvial terrace deposits distributed locally along the Oirase River, mainly composed of gravel and sand."
+    },
+    {
+      "unit_name": "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u011",
+          "row_key": "m1050_u011::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+          "fields": [
+            "b_age_ma",
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "min_thickness",
+            "basal_surface",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "b_age_ma": "around 0.40 Ma",
+        "unit_description": "The Hakkōda 2nd-stage Pyroclastic Flow Deposits are weakly to strongly welded dacite pyroclastic flow deposits and widely distributed in the northwestern area of this district."
+      },
+      "b_age_ma": 0.4,
+      "unit_description": "The Hakkoda 2nd-stage Pyroclastic Flow Deposits are weakly to strongly welded dacite pyroclastic flow deposits and widely distributed in the northwestern area of this district."
+    },
+    {
+      "unit_name": "Noheji Formation",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u012",
+          "row_key": "m1050_u012::2",
+          "column_ids": [
+            "2"
+          ],
+          "unit_name": "Noheji Formation",
+          "fields": [
+            "b_age_ma",
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "environment": "a shallow marine sequence",
+        "unit_description": "The Noheji Formation is distributed in the northeastern part of the district."
+      },
+      "environment": "shallow subtidal",
+      "unit_description": "The Noheji Formation is distributed in the northeastern part of the district; a shallow marine sequence mainly composed of fine to coarse sand."
+    },
+    {
+      "unit_name": "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u013",
+          "row_key": "m1050_u013::1",
+          "column_ids": [
+            "1"
+          ],
+          "unit_name": "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+          "fields": [
+            "b_age_ma",
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "min_thickness",
+            "basal_surface",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "b_age_ma": "estimated to 0.76 Ma"
+      },
+      "b_age_ma": 0.76
+    },
+    {
+      "unit_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u014",
+          "row_key": "m1050_u014::1",
+          "column_ids": [
+            "1"
+          ],
+          "unit_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+          "fields": [
+            "b_age_ma",
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "b_age_ma": "considered to be 0.99-0.78 Ma",
+        "unit_description": "The Hakkōda-Takatōge Pyroclastic Flow Deposits are strongly welded dacite pyroclastic flow deposits and distributed in the western margin of the district."
+      },
+      "b_age_ma": 0.99,
+      "unit_description": "The Hakkoda-Takatoge Pyroclastic Flow Deposits are strongly welded dacite pyroclastic flow deposits and distributed in the western margin of the district."
+    },
+    {
+      "unit_name": "Takamoriyama Formation",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u015",
+          "row_key": "m1050_u015::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Takamoriyama Formation",
+          "fields": [
+            "b_age_ma",
+            "environment",
+            "unit_description",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "environment": "a fluvial sediment",
+        "unit_description": "The Takamoriyama Formation is distributed in the central part of the district and overlies the Pliocene Togawa Formation unconformably."
+      },
+      "environment": "fluvial indet.",
+      "unit_description": "The Takamoriyama Formation is distributed in the central part of the district and overlies the Pliocene Togawa Formation unconformably."
+    },
+    {
+      "unit_name": "Horyo-kita Lava",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u016",
+          "row_key": "m1050_u016::1",
+          "column_ids": [
+            "1"
+          ],
+          "unit_name": "Horyo-kita Lava",
+          "fields": [
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "min_thickness",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "unit_description": "The Late Pliocene Hōryō-kita Lava is distributed in the northwestern part of this district and consists of several basalt to andesite lava flows."
+      },
+      "unit_description": "The Horyo-kita Lava is distributed in the northwestern part of this district and consists of several basalt to andesite lava flows."
+    },
+    {
+      "unit_name": "Togawa Formation",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u017",
+          "row_key": "m1050_u017::2",
+          "column_ids": [
+            "2"
+          ],
+          "unit_name": "Togawa Formation",
+          "fields": [
+            "environment",
+            "unit_description",
+            "min_thickness",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "environment": "a shallow marine sequence",
+        "unit_description": "The Pliocene Togawa Formation occurs in the hills of the central and southeastern parts of the district."
+      },
+      "environment": "shallow subtidal",
+      "unit_description": "The Togawa Formation occurs in the hills of the central and southeastern parts of the district, forming a shallow marine sequence composed mainly of middle to coarse sand with mud, gravel and tuff."
+    },
+    {
+      "unit_name": "Tsukihiyama Volcanics",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u018",
+          "row_key": "m1050_u018::1",
+          "column_ids": [
+            "1"
+          ],
+          "unit_name": "Tsukihiyama Volcanics",
+          "fields": [
+            "environment",
+            "unit_description",
+            "lithology",
+            "minor_lith",
+            "min_thickness",
+            "lateral_relationship"
+          ]
+        },
+        {
+          "unit_id": "m1050_u019",
+          "row_key": "m1050_u019::1",
+          "column_ids": [
+            "1"
+          ],
+          "unit_name": "Tsukihiyama Volcanics",
+          "fields": [
+            "environment",
+            "unit_description",
+            "lithology",
+            "minor_lith",
+            "min_thickness",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "unit_description": "The Late Miocene Tsukihiyama Volcanics occur in the southwestern and western parts of the district.",
+        "lithology": "ranges from basalt to dacite",
+        "minor_lith": "ranges from basalt to dacite",
+        "lateral_relationship": "interfinger with the middle to upper portion of the Komasuzawa Formation"
+      },
+      "unit_description": "The Tsukihiyama Volcanics occur in the southwestern and western parts of the district, composed of subaqueous lava flow and tuff breccia.",
+      "lithology": "basalt; dacite",
+      "minor_lith": "tuff breccia",
+      "lateral_relationship": "interfingering"
+    },
+    {
+      "unit_name": "Komasuzawa Formation",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u020",
+          "row_key": "m1050_u020::2",
+          "column_ids": [
+            "2"
+          ],
+          "unit_name": "Komasuzawa Formation",
+          "fields": [
+            "environment",
+            "unit_description",
+            "lithology",
+            "min_thickness",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "environment": "a shallow marine sediment",
+        "unit_description": "The Late Miocene Komasuzawa Formation is a shallow marine sediment and distributed widely in the western part of the district.",
+        "lithology": "composed of pumice-lapilli tuff and tuffaceous sandstone with minor amounts of mudstone and conglomerate"
+      },
+      "environment": "shallow subtidal",
+      "unit_description": "The Komasuzawa Formation is a shallow marine sediment distributed widely in the western part of the district.",
+      "lithology": "tuff; sandstone"
+    },
+    {
+      "unit_name": "Dochi Formation",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u021",
+          "row_key": "m1050_u021::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Dochi Formation",
+          "fields": [
+            "environment",
+            "unit_description",
+            "minor_lith",
+            "min_thickness",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "environment": "a deep marine sequence",
+        "unit_description": "The Middle to Late Miocene Dōchi Formation is a deep marine sequence that is distributed in the northern and southern parts of the district."
+      },
+      "environment": "deep subtidal indet.",
+      "unit_description": "The Dochi Formation is a deep marine sequence distributed in the northern and southern parts of the district, composed of mudstone intercalated rarely with tuffaceous sandstone and lapilli tuff."
+    },
+    {
+      "unit_name": "Wadagawa Formation",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u022",
+          "row_key": "m1050_u022::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Wadagawa Formation",
+          "fields": [
+            "environment",
+            "unit_description",
+            "lithology",
+            "max_thickness",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "environment": "a deep marine sequence",
+        "unit_description": "The Middle Miocene Wadagawa Formation is a deep marine sequence that is distributed in the northernmost part of the district.",
+        "lithology": "composed of hard mudstone"
+      },
+      "environment": "deep subtidal indet.",
+      "unit_description": "The Wadagawa Formation is a deep marine sequence distributed in the northernmost part of the district, composed of hard mudstone with occasionally tuffaceous sandstone and lapilli tuff.",
+      "lithology": "mudstone"
+    },
+    {
+      "unit_name": "Itadome Formation",
+      "_matched_targets": [
+        {
+          "unit_id": "m1050_u023",
+          "row_key": "m1050_u023::1|2",
+          "column_ids": [
+            "1",
+            "2"
+          ],
+          "unit_name": "Itadome Formation",
+          "fields": [
+            "environment",
+            "unit_description",
+            "lithology",
+            "max_thickness",
+            "lateral_relationship"
+          ]
+        }
+      ],
+      "_quotes": {
+        "unit_description": "The Middle Miocene Itadome Formation occurs locally in the southwest part of the district.",
+        "lithology": "consists of altered dacite lavas"
+      },
+      "unit_description": "The Itadome Formation occurs locally in the southwest part of the district and consists of altered dacite lavas.",
+      "lithology": "dacite"
+    }
+  ],
+  "dropped": [
+    {
+      "unit_name": "Shichinohe Terrace Deposits",
+      "reason": "minor_lith: 引用が無い"
+    },
+    {
+      "unit_name": "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+      "reason": "unit_description: 引用が原文に無い ('The Hakkōda 1st-stage Pyroclastic Flow D')"
+    },
+    {
+      "unit_name": "Dochi Formation",
+      "reason": "minor_lith: 引用が無い"
+    },
+    {
+      "unit_name": "Talus deposits",
+      "reason": "no requested verified fields"
+    }
+  ],
+  "migrated_from_job_id": "pll_e1da937b4e1dbe83d078",
+  "migration_validation": "exact canonical targets and all candidate quotes reverified"
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "llm-probe-results/1.0",
+  "generated_at": "2026-08-12T02:46:48.570510Z",
+  "results": [
+    {
+      "provider": "bedrock",
+      "configured": true,
+      "ok": true,
+      "http_status": 200,
+      "requested_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "actual_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "response": "OK",
+      "error": null,
+      "latency_ms": 1401,
+      "capabilities": [
+        "text",
+        "vision",
+        "multi_image"
+      ],
+      "image_count": 2
+    }
+  ]
+}

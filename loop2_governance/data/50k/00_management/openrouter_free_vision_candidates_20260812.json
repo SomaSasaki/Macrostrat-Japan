@@ -1,0 +1,80 @@
+{
+  "schema_version": "openrouter-vision-candidates/1.0",
+  "generated_at": "2026-08-12T16:48:21.931463Z",
+  "source": "https://openrouter.ai/api/v1/models",
+  "filters": {
+    "fixed_model_suffix": ":free",
+    "zero_prompt_price": true,
+    "zero_completion_price": true,
+    "requires_image_input": true,
+    "min_context": 65536,
+    "min_output": 8192
+  },
+  "candidates": [
+    {
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "name": "Google: Gemma 4 26B A4B  (free)",
+      "context_window": 262144,
+      "max_output_tokens": 32768,
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "structured_outputs": true,
+      "created": 1775227989
+    },
+    {
+      "model": "google/gemma-4-31b-it:free",
+      "name": "Google: Gemma 4 31B (free)",
+      "context_window": 262144,
+      "max_output_tokens": 32768,
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "structured_outputs": true,
+      "created": 1775148486
+    },
+    {
+      "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
+      "context_window": 128000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "structured_outputs": false,
+      "created": 1761675565
+    },
+    {
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "context_window": 256000,
+      "max_output_tokens": 65536,
+      "input_modalities": [
+        "audio",
+        "image",
+        "text",
+        "video"
+      ],
+      "structured_outputs": false,
+      "created": 1777393095
+    },
+    {
+      "model": "nvidia/nemotron-3.5-content-safety:free",
+      "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+      "context_window": 128000,
+      "max_output_tokens": 8192,
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "structured_outputs": false,
+      "created": 1780581864
+    }
+  ]
+}

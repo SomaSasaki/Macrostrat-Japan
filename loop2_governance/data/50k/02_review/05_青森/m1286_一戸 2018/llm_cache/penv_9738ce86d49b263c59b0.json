@@ -1,0 +1,273 @@
+{
+  "schema_version": "pdf-environment-analysis/1.0",
+  "stage": "pdf_environment_multimodal",
+  "prompt_version": "body-figure-environment-v2",
+  "status": "complete",
+  "job_id": "penv_9738ce86d49b263c59b0",
+  "model": "gemini-3.6-flash",
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "prompt_sha256": "fc962745fb505aa075919c7cdddbae4df238cd60579061a281796865428d3ca9",
+  "target_sha256": "5eee476138a549631624f11efff4cba98c33ff540750897190fa1480fd306a3e",
+  "image_sha256s": [
+    "80d9d736714462b93dbaec468fcda53c9c02c83363316d3a7c89e4b8f12808df",
+    "f3ee9a7980661d203bdefb0d3112db777cbc77bf45f99d731b2dfeb3d9047f52",
+    "737bbfc74cb28e900d7c4d48ae5aa7ad8775efc1035e366af93fe2b6ce6e6cdc"
+  ],
+  "completed_at": "2026-08-11T12:56:28+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1286_p024",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "fluvial indet.",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "月内川水系の早渡段丘堆積物からなるどちらも礫層及地域全体の断層の特徴を述べるび砂層及からなり洞爺火山灰には覆われない",
+      "figure_ids": [],
+      "figure_observation": "",
+      "reason": "The Hayawatari terrace deposits represent middle river terrace sediments along river valleys, composed of gravel and sand.",
+      "features": [
+        "gravel",
+        "sand",
+        "terrace deposits"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1286_p024_5e7b17eb5e16",
+        "section": null,
+        "pdf_page": 21,
+        "printed_page": 11
+      }
+    },
+    {
+      "unit_id": "m1286_p028",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "shallow subtidal",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "穴牛礫岩部層は斜交層理が顕著な礫岩砂岩からなる",
+      "figure_ids": [],
+      "figure_observation": "",
+      "reason": "Cross-stratified sandstone and conglomerate at the base of the shallow-marine Suenomatuyama Formation reflect shallow subtidal high-energy deposition.",
+      "features": [
+        "cross-stratification",
+        "conglomerate",
+        "sandstone"
+      ],
+      "alternatives": [
+        "shoreface"
+      ],
+      "context": {
+        "context_id": "ctx_m1286_p028_121ff989d02b",
+        "section": null,
+        "pdf_page": 17,
+        "printed_page": 7
+      }
+    },
+    {
+      "unit_id": "m1286_p003",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "deep-water indet.",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_3"
+      ],
+      "figure_observation": "Figure 3 illustrates stratigraphic columns S1 to S7 of the Kassenba Formation consisting of repeated chert, siliceous mudstone, and interbedded sandstone-mudstone sequences.",
+      "reason": "In Figure 3, the chert-clastic sequence (chert, siliceous mudstone, slate) forming an accretionary complex unit indicates a deep-water marine basin setting.",
+      "features": [
+        "chert",
+        "siliceous mudstone",
+        "interbedded sandstone and mudstone"
+      ],
+      "alternatives": [
+        "inferred marine",
+        "basinal"
+      ],
+      "context": {
+        "context_id": "ctx_m1286_p003_064727fcf121",
+        "section": null,
+        "pdf_page": 21,
+        "printed_page": 11
+      }
+    },
+    {
+      "unit_id": "m1286_p001",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "deep-water indet.",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_2"
+      ],
+      "figure_observation": "Figure 2 illustrates columns T1 to T3 of the Takayashiki Formation comprising basal basaltic greenstone and chert overlain by slate and sandstone-mudstone interbeds.",
+      "reason": "In Figure 2, the ocean-floor stratigraphy sequence (basaltic greenstone, chert, slate, and trench turbidite interbeds) supports deep-water marine accretionary complex deposition.",
+      "features": [
+        "basaltic greenstone",
+        "chert",
+        "slate",
+        "sandstone-mudstone interbeds"
+      ],
+      "alternatives": [
+        "inferred marine",
+        "basinal"
+      ],
+      "context": {
+        "context_id": "ctx_m1286_p001_296055f11461",
+        "section": null,
+        "pdf_page": 120,
+        "printed_page": 110
+      }
+    }
+  ],
+  "dropped": [
+    {
+      "unit_id": "m1286_p041",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p043",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p044",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p045",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p046",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p047",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p048",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p049",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p050",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p023",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p021",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p018",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p019",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p016",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p013",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p014",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p015",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p029",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p030",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p031",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p032",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p034",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p035",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p037",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p039",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p040",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p008",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "reason": "not_applicable_requires_verified_quote"
+    },
+    {
+      "unit_id": "m1286_p006",
+      "reason": "not_applicable_requires_verified_quote"
+    },
+    {
+      "unit_id": "m1286_p004",
+      "reason": "no_verified_text_or_figure_evidence"
+    }
+  ],
+  "unresolved": [],
+  "estimated_tokens": 97388,
+  "usage_tokens": 83396
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "cb2c67565a18f368f93d5ada6ac6b36a9271ff7157fa4bc363e1efee2f2bfa68",
+  "job_id": "pbootd_77ca63b1437d7454e7f9",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:27:17+00:00",
+  "units": [
+    {
+      "unit_name": "Rendaino terrace deposits"
+    },
+    {
+      "unit_name": "Horino terrace deposits"
+    },
+    {
+      "unit_name": "Ibonai terrace deposits"
+    },
+    {
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits"
+    },
+    {
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits"
+    },
+    {
+      "unit_name": "Toya Formation",
+      "b_age_ma": 6,
+      "t_age_ma": 5,
+      "age_quote": "the Toya: 6–5 Ma",
+      "lithology": "pyroclastic flow deposits, conglomerate, sandstone and mudstone",
+      "lith_quote": "composed of pyroclastic flow deposits, conglomerate, sandstone and mudstone",
+      "environment": "subaerial",
+      "env_quote": "Subaerial"
+    },
+    {
+      "unit_name": "Shitazaki Formation",
+      "b_age_ma": 10.5,
+      "t_age_ma": 8.5,
+      "age_quote": "the Shitazaki: 10.5–8.5 Ma",
+      "lithology": "siltstone",
+      "lith_quote": "mainly composed of sublittoral siltstone",
+      "environment": "shelf",
+      "env_quote": "Shelf"
+    },
+    {
+      "unit_name": "Yanagisawa Formation",
+      "b_age_ma": 12,
+      "t_age_ma": 10.5,
+      "age_quote": "the Yanagisawa: 12–10.5 Ma",
+      "lithology": "diatomite and diatomite-origined porcelanite",
+      "lith_quote": "composed of diatomite and diatomite-origined porcelanite"
+    }
+  ]
+}

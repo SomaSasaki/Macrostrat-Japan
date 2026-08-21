@@ -1,0 +1,308 @@
+{
+  "schema_version": "geothesaurus-jp/1.0",
+  "generated_at": "2026-08-13T23:35:11.270486Z",
+  "description": "Japanese Geological Thesaurus for MacroStrat Normalization",
+  "lithology": {
+    "ja_to_en": {
+      "泥岩": "mudstone",
+      "頁岩": "shale",
+      "粘板岩": "slate",
+      "シルト岩": "siltstone",
+      "砂岩": "sandstone",
+      "粗粒砂岩": "coarse sandstone",
+      "中粒砂岩": "medium sandstone",
+      "細粒砂岩": "fine sandstone",
+      "礫岩": "conglomerate",
+      "角礫岩": "breccia",
+      "石灰岩": "limestone",
+      "苦灰岩": "dolostone",
+      "ドロマイト": "dolostone",
+      "チャート": "chert",
+      "珪質泥岩": "siliceous mudstone",
+      "珪藻土": "diatomite",
+      "泥炭": "peat",
+      "石炭": "coal",
+      "凝灰岩": "tuff",
+      "軽石凝灰岩": "pumice tuff",
+      "火山灰": "volcanic ash",
+      "凝灰角礫岩": "tuff breccia",
+      "火山角礫岩": "volcanic breccia",
+      "集塊岩": "agglomerate",
+      "凝灰質砂岩": "tuffaceous sandstone",
+      "凝灰質泥岩": "tuffaceous mudstone",
+      "火砕流堆積物": "pyroclastic flow deposit",
+      "安山岩": "andesite",
+      "玄武岩": "basalt",
+      "デイサイト": "dacite",
+      "石英安山岩": "dacite",
+      "流紋岩": "rhyolite",
+      "花崗岩": "granite",
+      "閃緑岩": "diorite",
+      "斑れい岩": "gabbro",
+      "斑糲岩": "gabbro",
+      "かんらん岩": "peridotite",
+      "橄欖岩": "peridotite",
+      "蛇紋岩": "serpentinite",
+      "花崗閃緑岩": "granodiorite",
+      "片麻岩": "gneiss",
+      "結晶片岩": "schist",
+      "片岩": "schist",
+      "千枚岩": "phyllite",
+      "ホルンフェルス": "hornfels",
+      "大理石": "marble",
+      "結晶質石灰岩": "marble",
+      "珪岩": "quartzite",
+      "砂": "sand",
+      "泥": "mud",
+      "粘土": "clay",
+      "シルト": "silt",
+      "礫": "gravel",
+      "ローム": "loam",
+      "沖積層": "alluvium",
+      "段丘堆積物": "terrace deposit",
+      "扇状地堆積物": "alluvial fan deposit",
+      "崖錐堆積物": "talus deposit"
+    },
+    "macrostrat_official_count": 214
+  },
+  "environment": {
+    "ja_to_en": {
+      "浅海": "shallow marine",
+      "内湾": "bay",
+      "沿岸": "coastal",
+      "干潟": "tidal flat",
+      "潮間帯": "intertidal",
+      "サンゴ礁": "reef",
+      "礁": "reef",
+      "大陸棚": "continental shelf",
+      "外洋": "open marine",
+      "半深海": "bathyal",
+      "深海": "deep marine",
+      "海溝": "trench",
+      "タービダイト": "submarine fan",
+      "陸成": "terrestrial",
+      "河川": "fluvial",
+      "氾濫原": "floodplain",
+      "扇状地": "alluvial fan",
+      "三角州": "deltaic",
+      "デルタ": "deltaic",
+      "湖沼": "lacustrine",
+      "湖": "lacustrine",
+      "湿原": "marsh",
+      "沼沢": "swamp",
+      "汽水": "brackish",
+      "河口": "estuarine",
+      "風成": "eolian",
+      "砂丘": "dune",
+      "氷河": "glacial",
+      "火山": "volcanic",
+      "カルデラ": "caldera",
+      "クレーター": "crater",
+      "火砕流": "pyroclastic",
+      "海底火山": "submarine volcanic"
+    },
+    "macrostrat_official_count": 87
+  },
+  "geochronology": {
+    "ja_to_interval": {
+      "第四紀": {
+        "en": "Quaternary",
+        "b_age": 2.58,
+        "t_age": 0.0
+      },
+      "完新世": {
+        "en": "Holocene",
+        "b_age": 0.0117,
+        "t_age": 0.0
+      },
+      "更新世": {
+        "en": "Pleistocene",
+        "b_age": 2.58,
+        "t_age": 0.0117
+      },
+      "後期更新世": {
+        "en": "Late Pleistocene",
+        "b_age": 0.129,
+        "t_age": 0.0117
+      },
+      "中期更新世": {
+        "en": "Middle Pleistocene",
+        "b_age": 0.774,
+        "t_age": 0.129
+      },
+      "前期更新世": {
+        "en": "Early Pleistocene",
+        "b_age": 2.58,
+        "t_age": 0.774
+      },
+      "新第三紀": {
+        "en": "Neogene",
+        "b_age": 23.03,
+        "t_age": 2.58
+      },
+      "鮮新世": {
+        "en": "Pliocene",
+        "b_age": 5.333,
+        "t_age": 2.58
+      },
+      "中新世": {
+        "en": "Miocene",
+        "b_age": 23.03,
+        "t_age": 5.333
+      },
+      "後期中新世": {
+        "en": "Late Miocene",
+        "b_age": 11.63,
+        "t_age": 5.333
+      },
+      "中期中新世": {
+        "en": "Middle Miocene",
+        "b_age": 15.97,
+        "t_age": 11.63
+      },
+      "前期中新世": {
+        "en": "Early Miocene",
+        "b_age": 23.03,
+        "t_age": 15.97
+      },
+      "古第三紀": {
+        "en": "Paleogene",
+        "b_age": 66.0,
+        "t_age": 23.03
+      },
+      "漸新世": {
+        "en": "Oligocene",
+        "b_age": 33.9,
+        "t_age": 23.03
+      },
+      "始新世": {
+        "en": "Eocene",
+        "b_age": 56.0,
+        "t_age": 33.9
+      },
+      "暁新世": {
+        "en": "Paleocene",
+        "b_age": 66.0,
+        "t_age": 56.0
+      },
+      "中生代": {
+        "en": "Mesozoic",
+        "b_age": 251.9,
+        "t_age": 66.0
+      },
+      "白亜紀": {
+        "en": "Cretaceous",
+        "b_age": 145.0,
+        "t_age": 66.0
+      },
+      "後期白亜紀": {
+        "en": "Late Cretaceous",
+        "b_age": 100.5,
+        "t_age": 66.0
+      },
+      "前期白亜紀": {
+        "en": "Early Cretaceous",
+        "b_age": 145.0,
+        "t_age": 100.5
+      },
+      "ジュラ紀": {
+        "en": "Jurassic",
+        "b_age": 201.4,
+        "t_age": 145.0
+      },
+      "三畳紀": {
+        "en": "Triassic",
+        "b_age": 251.9,
+        "t_age": 201.4
+      },
+      "古生代": {
+        "en": "Paleozoic",
+        "b_age": 538.8,
+        "t_age": 251.9
+      },
+      "ペルム紀": {
+        "en": "Permian",
+        "b_age": 298.9,
+        "t_age": 251.9
+      },
+      "二畳紀": {
+        "en": "Permian",
+        "b_age": 298.9,
+        "t_age": 251.9
+      },
+      "石炭紀": {
+        "en": "Carboniferous",
+        "b_age": 358.9,
+        "t_age": 298.9
+      },
+      "デボン紀": {
+        "en": "Devonian",
+        "b_age": 419.2,
+        "t_age": 358.9
+      },
+      "泥見紀": {
+        "en": "Devonian",
+        "b_age": 419.2,
+        "t_age": 358.9
+      },
+      "シルル紀": {
+        "en": "Silurian",
+        "b_age": 443.8,
+        "t_age": 419.2
+      },
+      "志留紀": {
+        "en": "Silurian",
+        "b_age": 443.8,
+        "t_age": 419.2
+      },
+      "オルドビス紀": {
+        "en": "Ordovician",
+        "b_age": 485.4,
+        "t_age": 443.8
+      },
+      "カンブリア紀": {
+        "en": "Cambrian",
+        "b_age": 538.8,
+        "t_age": 485.4
+      }
+    }
+  },
+  "stratigraphic_ranks": [
+    {
+      "pattern": "(?:累層群|層群|群|グループ|Group)$",
+      "rank": "Group"
+    },
+    {
+      "pattern": "(?:累層|層|フォーメーション|Formation)$",
+      "rank": "Formation"
+    },
+    {
+      "pattern": "(?:部層|メンバー|Member)$",
+      "rank": "Member"
+    },
+    {
+      "pattern": "(?:単層|層準|Bed)$",
+      "rank": "Bed"
+    },
+    {
+      "pattern": "(?:コンプレックス|複合体|Complex)$",
+      "rank": "Complex"
+    },
+    {
+      "pattern": "(?:岩体|深成岩体|貫入岩体|Pluton|Body)$",
+      "rank": "Pluton"
+    },
+    {
+      "pattern": "(?:溶岩|Lava)$",
+      "rank": "Lava"
+    },
+    {
+      "pattern": "(?:火砕流|火砕流堆積物|Pyroclastic Flow)$",
+      "rank": "Pyroclastic Flow"
+    },
+    {
+      "pattern": "(?:堆積物|段丘堆積物|Deposits|Terrace)$",
+      "rank": "Deposits"
+    }
+  ]
+}

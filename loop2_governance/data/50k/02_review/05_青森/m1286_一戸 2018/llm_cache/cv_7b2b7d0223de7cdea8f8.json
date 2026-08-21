@@ -1,0 +1,59 @@
+{
+  "schema_version": "column-vision/1.0",
+  "stage": "column_geography_vision",
+  "prompt_version": "column-geography-age-v3",
+  "job_id": "cv_7b2b7d0223de7cdea8f8",
+  "model": "gemini-3.6-flash",
+  "pdf_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "image_sha256": "8bf974b7df7341ef1ec3b35e2ad9f4de22f58eca066e8525075a34a7fa622af5",
+  "source_text_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "f79d31a93a98d860706198b2258160c5f092700b1562d2bfca9e451891c1cd3b",
+  "status": "complete",
+  "completed_at": "2026-08-10T21:52:29+00:00",
+  "proposal": {
+    "schema_version": "column-vision/1.0",
+    "status": "candidate_review",
+    "assignment_ready": true,
+    "columns": [
+      {
+        "column_id": "unsplit",
+        "column_name": "Unsplit candidate",
+        "region_description": "Ichinohe district",
+        "region_quote": "",
+        "quote_verified": false,
+        "pdf_page": null,
+        "printed_page": null,
+        "figure_pdf_page": 0,
+        "figure_printed_page": null,
+        "constraints": [],
+        "confidence": "C"
+      }
+    ],
+    "units": [
+      {
+        "unit_id": "m1286_p001",
+        "unit_name": "NO_DATA",
+        "memberships": [
+          {
+            "column_id": "unsplit",
+            "sort_order": 1
+          }
+        ],
+        "age": {
+          "t_int": null,
+          "b_int": null,
+          "visual_label": ""
+        },
+        "confidence": "C"
+      }
+    ],
+    "validation": {
+      "canonical_units": 1,
+      "matched_units": 1,
+      "columns": 1,
+      "verified_region_quotes": 0
+    }
+  },
+  "dropped": [],
+  "usage_tokens": 11630
+}

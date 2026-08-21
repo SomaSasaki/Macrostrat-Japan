@@ -1,0 +1,41 @@
+{
+  "schema_version": "llm-qualification-verdict/1.0",
+  "evaluated_at": "2026-08-12T20:25:51.669393Z",
+  "stage": "column_geography_vision",
+  "provider": "bedrock",
+  "requested_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "qualified": false,
+  "valid_until": "2026-08-26T02:37:51.993207Z",
+  "route_enabled": false,
+  "required_probe_capability": "vision",
+  "prompt_version": "column-detection-closed-v1+column-membership-batched-v1",
+  "validator_version": "closed-world-vision-validator-v2",
+  "metrics": {
+    "cases": 3,
+    "expected_items": 42,
+    "true_positive": 10,
+    "false_positive": 30,
+    "false_negative": 32,
+    "validator_pass_rate": 1.0,
+    "precision": 0.25,
+    "recall": 0.238095,
+    "critical_failures": 0
+  },
+  "thresholds": {
+    "min_cases": 3,
+    "min_expected_items": 3,
+    "min_validator_pass_rate": 1.0,
+    "min_precision": 1.0,
+    "min_recall": 0.85,
+    "max_critical_failures": 0
+  },
+  "probe": {
+    "generated_at": "2026-08-12T02:37:51.993207Z",
+    "ok": true,
+    "actual_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+  },
+  "reasons": [
+    "precision_below_threshold",
+    "recall_below_threshold"
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "schema_version": "pdf-environment-analysis/1.0",
+  "stage": "pdf_environment_multimodal",
+  "prompt_version": "body-figure-environment-v2",
+  "status": "complete",
+  "job_id": "penv_bf1f78cd16b724a7fd16",
+  "model": "gemini-3.6-flash",
+  "source_sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+  "prompt_sha256": "5274eff357ab0bb0d0fcec4b404e389738de8796416a739ea2851f53b4756147",
+  "target_sha256": "729cecafcc7803b9c1ca79c6a4be47411cf2a2c340a78df19ec1bb3380720050",
+  "image_sha256s": [
+    "c1424e4c07e8fe9a27936a70e5af7bfd05acb5257c69656481107de8f8d7f7ce",
+    "d23fbc68ff2eafed80da46b23c06a8e669a74a5435024e3830bcceeed559327f",
+    "6853ad1583893e6d9c54848985f720ab811237782e358d48a3684e4c8ee3b318"
+  ],
+  "completed_at": "2026-08-10T16:08:08+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1050_u006",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "しばしば炭化木片を含む．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Fig. 1 indicates a subaerial environment for the Towada-Hachinohe Pyroclastic Flow Deposits.",
+      "reason": "The pyroclastic flow deposit frequently contains carbonized wood fragments and buried tree trunks, and is designated as subaerial in Fig. 1, indicating non-marine deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "carbonized wood fragments"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u006_9644f65849da",
+        "section": "4.11",
+        "pdf_page": 56,
+        "printed_page": 48
+      }
+    },
+    {
+      "unit_id": "m1050_u007",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "本堆積物はしばしば炭化木片を含む．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Fig. 1 places the Towada-Ofudo Pyroclastic Flow Deposits in a subaerial setting.",
+      "reason": "The presence of carbonized wood fragments in the ignimbrite coupled with the subaerial setting depicted in Fig. 1 supports a non-marine environment.",
+      "features": [
+        "pyroclastic flow deposits",
+        "carbonized wood fragments"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u007_1c3b268a0659",
+        "section": "4.10",
+        "pdf_page": 54,
+        "printed_page": 46
+      }
+    },
+    {
+      "unit_id": "m1050_u008",
+      "column_ids": [
+        "1"
+      ],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "安山岩質のスコリア流堆積物である．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Fig. 1 shows the Towada-Okuse Pyroclastic Flow Deposits positioned within a subaerial setting.",
+      "reason": "The terrestrial scoria flow deposit is designated as subaerial in Fig. 1, establishing a non-marine environment.",
+      "features": [
+        "scoria flow deposits"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u008_e4e583c81621",
+        "section": "4.9",
+        "pdf_page": 3,
+        "printed_page": null
+      }
+    },
+    {
+      "unit_id": "m1050_u011",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "十和田湖町百目木の第4-12地点（付図2）では，層厚2～3mの礫混じり褐色土壌層を挟んで八甲田第1期火砕流堆積物を覆う（第4. 4図）．",
+      "figure_ids": [
+        "fig_1",
+        "fig_3"
+      ],
+      "figure_observation": "Fig. 1 places the Hakkoda 2nd-stage PFD in a subaerial environment, while Fig. 3 shows associated fall tephra and pyroclastic surge units.",
+      "reason": "Intercalation of a brown soil layer beneath the ignimbrite unit and subaerial classification in Fig. 1 confirm non-marine deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "soil layer",
+        "pyroclastic surge deposits"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u011_2b8fa671c504",
+        "section": "4.6",
+        "pdf_page": 4,
+        "printed_page": null
+      }
+    },
+    {
+      "unit_id": "m1050_u013",
+      "column_ids": [
+        "1"
+      ],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "八甲田第2期火砕流堆積物と八甲田第1期火砕流堆積物の間には層厚2～3 mの礫混じり褐色土壌層が挟まれる．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Fig. 1 depicts the Hakkoda 1st-stage PFD in a subaerial setting.",
+      "reason": "The terrestrial pyroclastic flow deposit is bounded by soil layers and assigned to a subaerial environment in Fig. 1, indicating non-marine deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "welded tuff",
+        "soil layer"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u013_265038ffbe4f",
+        "section": "4.4",
+        "pdf_page": 4,
+        "printed_page": null
+      }
+    },
+    {
+      "unit_id": "m1050_u014",
+      "column_ids": [
+        "1"
+      ],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "強溶結のデイサイト質火砕流堆積物である（第4. 3図）．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Fig. 1 displays the Hakkoda-Takatoge PFD in a subaerial depositional environment.",
+      "reason": "The welded terrestrial ignimbrite is shown in a subaerial setting in Fig. 1, indicating non-marine deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "welded tuff"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u014_94dd4ab8e388",
+        "section": "4.3",
+        "pdf_page": 41,
+        "printed_page": 33
+      }
+    },
+    {
+      "unit_id": "m1050_u019",
+      "column_ids": [
+        "1"
+      ],
+      "field": "environment",
+      "candidate": "shallow subtidal",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "本岩類と指交関係にある小増沢層が海成層であり，本岩類中にはハイアロクラスタイトが見られることから，本岩類は海底火山体であったと考えられる．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Fig. 1 places the Tsukihiyama Volcanics and interfingering Komasuzawa Formation within a Shallow sea environment.",
+      "reason": "The unit forms submarine volcano hyaloclastites interfingering with the marine Komasuzawa Formation, mapped under a shallow sea environment in Fig. 1, indicating a shallow subtidal setting.",
+      "features": [
+        "hyaloclastite",
+        "lava flow",
+        "submarine volcano"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u019_a2748b077ea9",
+        "section": "3.6",
+        "pdf_page": 3,
+        "printed_page": null
+      }
+    },
+    {
+      "unit_id": "m1050_u023",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "field": "environment",
+      "candidate": "deep-water indet.",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "変質したデイサイト溶岩より構成される．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Fig. 1 shows the Itadome Formation in a Deep sea environment at the base of the Middle Miocene stratigraphy.",
+      "reason": "Fig. 1 assigns the Middle Miocene Itadome Formation to a deep sea setting, supporting deep-water indet.",
+      "features": [
+        "dacite lava",
+        "altered volcanic rocks"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u023_89f74a711ab6",
+        "section": "3.2",
+        "pdf_page": 85,
+        "printed_page": 77
+      }
+    }
+  ],
+  "dropped": [],
+  "unresolved": [],
+  "estimated_tokens": 31179,
+  "usage_tokens": 28761
+}

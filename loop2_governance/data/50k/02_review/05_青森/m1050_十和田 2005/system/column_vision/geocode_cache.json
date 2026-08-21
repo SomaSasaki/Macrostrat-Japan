@@ -1,0 +1,16 @@
+{
+  "schema_version": "geocode-cache/1.0",
+  "entries": {
+    "77ea66e16be5a89e14aec769": {
+      "name": "Ōu Backbone Range",
+      "context": "m1050_十和田 2005, 05_青森, Japan",
+      "bbox": [
+        140.99646148340068,
+        40.50271445577412,
+        141.24644612791803,
+        40.66936775887206
+      ],
+      "candidates": []
+    }
+  }
+}

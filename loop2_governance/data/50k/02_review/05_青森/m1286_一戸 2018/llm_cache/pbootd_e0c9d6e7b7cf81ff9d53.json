@@ -1,0 +1,74 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "6723e2a8ad01450c7eb76eab2765ec70cc3a9d35ccf4e4738517d806e3352992",
+  "job_id": "pbootd_e0c9d6e7b7cf81ff9d53",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:40:57+00:00",
+  "units": [
+    {
+      "unit_name": "Kadonosawa Formation",
+      "b_age_ma": 16.5,
+      "t_age_ma": 15,
+      "age_quote": "the Kadonosawa: ca. 16.5 Ma (Early to Middle Miocene)",
+      "lithology": "sandstone and siltstone",
+      "lith_quote": "subdivided into the Tate Sandstone and Sikonai Siltstone members",
+      "environment": "bay to subbathyal",
+      "env_quote": "reflect the change of depositional environments from shallow marine to subbathyal",
+      "basal_surface": "conformably",
+      "basal_quote": "conformably overlies the Yotuyaku Formation",
+      "lateral_relationship": "interfingering",
+      "lat_quote": "These members partly interfinger with each other"
+    },
+    {
+      "unit_name": "Tate Sandstone Member",
+      "lithology": "sandstone",
+      "lith_quote": "the Tate yields numerous littoral marine molluscs",
+      "environment": "shallow marine",
+      "env_quote": "littoral marine"
+    },
+    {
+      "unit_name": "Sikonai Siltstone Member",
+      "lithology": "siltstone",
+      "lith_quote": "Sikonai Siltstone members"
+    },
+    {
+      "unit_name": "Yotuyaku Formation",
+      "b_age_ma": 18,
+      "t_age_ma": 16.5,
+      "age_quote": "the Yotuyaku: 18–16.5 Ma (late Early Miocene)",
+      "lithology": "siliciclastic rocks",
+      "lith_quote": "subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members",
+      "environment": "subaerial",
+      "env_quote": "were mainly deposited on land, except for the Koiwai, which yields numerous marine molluscs",
+      "basal_surface": "unconformable",
+      "basal_quote": "unconformably overlies the previous rocks"
+    },
+    {
+      "unit_name": "Matsukura Siliciclastic Rock Member",
+      "lithology": "siliciclastic rock",
+      "lith_quote": "the Matsukura Siliciclastic Rock"
+    },
+    {
+      "unit_name": "Koiwai Mudstone Member",
+      "lithology": "mudstone",
+      "lith_quote": "the Koiwai Mudstone",
+      "environment": "marine",
+      "env_quote": "yields numerous marine molluscs"
+    },
+    {
+      "unit_name": "Keiseitoge Volcanic Rock Member",
+      "lithology": "volcanic rock",
+      "lith_quote": "the Keiseitoge Volcanic Rock"
+    },
+    {
+      "unit_name": "Sukohata Siliciclastic Rock Member",
+      "lithology": "siliciclastic rock",
+      "lith_quote": "the Sukohata Siliciclastic Rock"
+    }
+  ]
+}

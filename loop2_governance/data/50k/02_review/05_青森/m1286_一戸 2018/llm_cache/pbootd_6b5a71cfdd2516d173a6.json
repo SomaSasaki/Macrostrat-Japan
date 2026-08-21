@@ -1,0 +1,46 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "8adb3d9b873f88ae3980f5cc04c8cb32882ce13e97a9211ac2266b50870e252a",
+  "job_id": "pbootd_6b5a71cfdd2516d173a6",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:27:25+00:00",
+  "units": [
+    {
+      "unit_name": "Takayashiki Formation",
+      "lithology": "dismembered sandstone and mudstone, slaty mudstone, chert, siliceous mudstone, mafic rocks",
+      "lith_quote": "consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amount of chert, siliceous mudstone, and mafic rocks"
+    },
+    {
+      "unit_name": "Seki Formation",
+      "lithology": "slaty mudstone, laminated silty mudstone, chert, siliceous mudstone, sandstone",
+      "lith_quote": "consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone"
+    },
+    {
+      "unit_name": "Kassenba Formation",
+      "lithology": "sandstone, chert, siliceous mudstone, slaty mudstone, laminated silty mudstone",
+      "lith_quote": "consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone"
+    },
+    {
+      "unit_name": "Kuzumaki Formation",
+      "lithology": "phyllitic mudstone, pelitic mixed rock, mafic rock, limestone, chert, siliceous mudstone, sandstone",
+      "lith_quote": "consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone"
+    },
+    {
+      "unit_name": "Landslide deposits"
+    },
+    {
+      "unit_name": "Floodplain and valley-floor deposits"
+    },
+    {
+      "unit_name": "Colluvial and alluvial cone deposits"
+    },
+    {
+      "unit_name": "River bed deposits"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "schema_version": "gsj-50k-pilot/2.0",
+  "status": "complete",
+  "generated_at": "2026-08-14T07:44:55+00:00",
+  "map_id": "1286",
+  "legacy_workbook_read": false,
+  "source_priority": [
+    "ZFK",
+    "Shapefile",
+    "PDF/LLM"
+  ],
+  "sources": {
+    "workspace_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\source_manifest.json",
+    "pdf": {
+      "available": true,
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\references\\GSJ_MAP_G050_05048_2018_D.pdf",
+      "sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985"
+    },
+    "shape": {
+      "available": false
+    },
+    "zfk": {
+      "available": false,
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1286",
+      "unit_json": 0,
+      "geojson": 0
+    },
+    "column_config": {
+      "available": false
+    },
+    "column_mode": "local_pdf_vector",
+    "column_warning": ""
+  },
+  "llm": {
+    "model": "gemini-3.6-flash",
+    "external_calls": 0,
+    "cache_hits": 3,
+    "added_evidence": 425,
+    "usage_before": {
+      "calls": 0,
+      "tokens": 0
+    },
+    "usage_after": {
+      "calls": 0,
+      "tokens": 0
+    },
+    "usage_delta": {
+      "calls": 0,
+      "tokens": 0
+    },
+    "legacy_cache_files_migrated": 0,
+    "compatible_cache_jobs_migrated": 0,
+    "stage": "pdf_unit_bootstrap",
+    "status": "complete",
+    "error": null,
+    "quota_exhausted": false,
+    "quota_error": null,
+    "pdf_body_routing": {
+      "contexts": 29,
+      "unresolved_units": 1,
+      "context_characters": 51417
+    },
+    "pdf_alias_mapping": {
+      "schema_version": "pdf-unit-aliases/1.0",
+      "stage": "pdf_unit_alias_mapping",
+      "status": "complete",
+      "job_id": "pam_9974456772abd6cbba1c",
+      "provider": "gemini",
+      "requested_model": "gemini-3.6-flash",
+      "actual_model": "gemini-3.6-flash",
+      "model": "gemini-3.6-flash",
+      "external_calls": 0,
+      "cache_hits": 1,
+      "mapped_units": 29,
+      "dropped_count": 1,
+      "cache_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\llm_cache\\pam_9974456772abd6cbba1c.json",
+      "route_attempts": []
+    },
+    "local_age_notes": {
+      "schema_version": "local-age-notes/1.0",
+      "stage": "local_age_notes",
+      "status": "complete",
+      "external_calls": 0,
+      "added_evidence": 12,
+      "notes": 12,
+      "units": 12,
+      "formation_boundary_supported": 9
+    },
+    "local_abstract_science": {
+      "schema_version": "local-abstract-science/1.0",
+      "stage": "local_abstract_science",
+      "status": "complete",
+      "external_calls": 0,
+      "added_evidence": 151,
+      "units": 30,
+      "fields": {
+        "b_age_ma": 9,
+        "b_int": 22,
+        "basal_surface": 9,
+        "environment": 21,
+        "lithology": 30,
+        "max_thickness": 3,
+        "min_thickness": 2,
+        "minor_lith": 8,
+        "strat_name": 16,
+        "t_age_ma": 9,
+        "t_int": 22
+      }
+    },
+    "local_japanese_science": {
+      "schema_version": "local-japanese-science/1.0",
+      "stage": "local_japanese_science",
+      "status": "complete",
+      "external_calls": 0,
+      "added_evidence": 54,
+      "units": 23,
+      "raw_pdf_pages_read": 79,
+      "fields": {
+        "basal_surface": 15,
+        "environment": 4,
+        "lithology": 4,
+        "max_thickness": 16,
+        "min_thickness": 13,
+        "minor_lith": 2
+      }
+    },
+    "pdf_body": {
+      "schema_version": "pdf-field-enrichment/1.0",
+      "stage": "pdf_body_field_enrichment",
+      "status": "complete",
+      "job_id": "pfe_c64c382d752ebf90ffdb",
+      "provider": "revalidated_prior_cache_bundle",
+      "requested_model": "source-bound-cache",
+      "actual_model": "source-bound-cache",
+      "model": "source-bound-cache",
+      "external_calls": 0,
+      "cache_hits": 1,
+      "added_evidence": 3,
+      "dropped_count": 1,
+      "pending_calls": 0,
+      "estimated_tokens": 0,
+      "cache_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\llm_cache\\pfe_c64c382d752ebf90ffdb.json",
+      "route_attempts": []
+    },
+    "pdf_environment": {
+      "schema_version": "pdf-environment-analysis/1.0",
+      "stage": "pdf_environment_multimodal",
+      "status": "disabled",
+      "external_calls": 0,
+      "cache_hits": 0,
+      "added_evidence": 0
+    },
+    "age_interpolation": {
+      "schema_version": "age-interpolation/1.0",
+      "stage": "age_interpolation",
+      "status": "complete",
+      "external_calls": 0,
+      "interpolated_units": 0,
+      "added_evidence": 0,
+      "unresolved_units": []
+    },
+    "column_vision": {
+      "schema_version": "column-vision/1.0",
+      "stage": "column_geography_local_vector",
+      "status": "source_only_geometry",
+      "map_id": "1286",
+      "source_pdf": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\references\\GSJ_MAP_G050_05048_2018_D.pdf",
+      "pdf_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+      "external_calls": 0,
+      "cache_hits": 0,
+      "assignment_ready": true,
+      "matched_units": 30,
+      "memberships": 42,
+      "unassigned_source_inventory": [
+        "m1286_p013",
+        "m1286_p014",
+        "m1286_p015",
+        "m1286_p017",
+        "m1286_p019",
+        "m1286_p028",
+        "m1286_p029",
+        "m1286_p030",
+        "m1286_p031",
+        "m1286_p032",
+        "m1286_p034",
+        "m1286_p035",
+        "m1286_p037",
+        "m1286_p038",
+        "m1286_p039",
+        "m1286_p040",
+        "m1286_p044",
+        "m1286_p046"
+      ],
+      "gold_inputs_used": false
+    }
+  },
+  "column_geography": {
+    "schema_version": "column-geography/1.0",
+    "status": "verified",
+    "shape": null,
+    "shape_warnings": [],
+    "geocode_context": "m1286_一戸 2018, 05_青森, Japan",
+    "geocodes": [],
+    "columns": [
+      {
+        "col_id": "western",
+        "col_name": "Western Area",
+        "region_quote": "",
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "west"
+          }
+        ],
+        "selected": {
+          "lng": 141.30890944,
+          "lat": 40.25277773,
+          "score": 0.0,
+          "inside_assigned_region": false,
+          "major_code": null,
+          "unit_name": null,
+          "assignment_method": "PDF-direction anchor in GSJ map extent",
+          "reasons": [
+            "Source summary figure assigns this Column to the west map area"
+          ]
+        },
+        "alternatives": [],
+        "candidate_count": 1,
+        "coordinate_verified": true
+      },
+      {
+        "col_id": "central",
+        "col_name": "Central Area",
+        "region_quote": "",
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "central"
+          }
+        ],
+        "selected": {
+          "lng": 141.37138071,
+          "lat": 40.25277773,
+          "score": 0.0,
+          "inside_assigned_region": false,
+          "major_code": null,
+          "unit_name": null,
+          "assignment_method": "PDF-direction anchor in GSJ map extent",
+          "reasons": [
+            "Source summary figure assigns this Column to the central map area"
+          ]
+        },
+        "alternatives": [],
+        "candidate_count": 1,
+        "coordinate_verified": true
+      },
+      {
+        "col_id": "eastern",
+        "col_name": "Eastern Area",
+        "region_quote": "",
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "east"
+          }
+        ],
+        "selected": {
+          "lng": 141.43385198,
+          "lat": 40.25277773,
+          "score": 0.0,
+          "inside_assigned_region": false,
+          "major_code": null,
+          "unit_name": null,
+          "assignment_method": "PDF-direction anchor in GSJ map extent",
+          "reasons": [
+            "Source summary figure assigns this Column to the east map area"
+          ]
+        },
+        "alternatives": [],
+        "candidate_count": 1,
+        "coordinate_verified": true
+      }
+    ]
+  },
+  "canonical": {
+    "units": 30,
+    "columns": 3,
+    "evidence": 450,
+    "orphaned_evidence_count": 0,
+    "evidence_by_source": {
+      "Macrostrat": 18,
+      "PDF": 432
+    },
+    "status_counts": {
+      "OK": 0,
+      "CHECK": 30,
+      "MISSING": 0
+    },
+    "interval_normalizations": []
+  },
+  "map": {
+    "generated": true,
+    "matched_units": 0,
+    "unmatched_units": 0,
+    "warnings": []
+  },
+  "qa": {
+    "inspection": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\qa\\inspection.ndjson",
+    "build_inspection": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\qa\\build_inspection.ndjson",
+    "submission_check": {
+      "return_code": 0,
+      "errors": 1,
+      "warnings": 1,
+      "ready_for_submission": false,
+      "scientific_coverage": {
+        "units": 30,
+        "missing_column_membership": 0,
+        "missing_lithology": 0,
+        "missing_age_boundary": 0,
+        "unverified_columns": 0,
+        "orphaned_evidence": 0
+      },
+      "semantic_errors": [
+        "[ERROR] 30 canonical unit row(s) still carry CHECK/MISSING status; scientific review or higher-confidence source resolution is required."
+      ]
+    },
+    "workbook_warning": null
+  },
+  "artifacts": {
+    "review_excel": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\m1286_review.candidate-20260814T074455Z.xlsx",
+    "compiled_json": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\compiled.json",
+    "evidence_json": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\evidence.json",
+    "derived_previews_json": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\derived_previews.json",
+    "environment_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\environment_analysis\\environment_manifest.json",
+    "pilot_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\pilot_manifest.json",
+    "column_proposal": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\column_vision\\column_proposal.json",
+    "coordinate_candidates": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\column_vision\\coordinate_candidates.json",
+    "vision_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\system\\column_vision\\vision_manifest.json",
+    "column_map_png": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\column_map.png"
+  }
+}

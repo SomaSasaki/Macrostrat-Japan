@@ -1,0 +1,54 @@
+{
+  "schema_version": "pdf-unit-bootstrap/1.0",
+  "stage": "pdf_unit_bootstrap",
+  "prompt_version": "pdf-unit-inventory-batched-v1",
+  "validator_version": "pdf-unit-bootstrap/1.0",
+  "map_id": "1286",
+  "source_sha256": "4444579510bfada2f420f882ce3546461336478b87148f865b2bf92ca47bee76",
+  "prompt_sha256": "311a2d7d8539743d50f330e02744b358c33e1aee94c12271c404940494a5e872",
+  "job_id": "pbootd_cb83bbced5dcfd416c02",
+  "status": "complete",
+  "completed_at": "2026-08-13T02:35:31+00:00",
+  "units": [
+    {
+      "unit_name": "Mukaikawara terrace deposits",
+      "lithology": "gravel sand silt",
+      "lith_quote": "comprise gravel, sand and silt beds"
+    },
+    {
+      "unit_name": "Kusagi terrace deposits",
+      "lithology": "gravel sand",
+      "lith_quote": "comprise gravel and sand beds"
+    },
+    {
+      "unit_name": "Hayawatari terrace deposits",
+      "lithology": "gravel sand",
+      "lith_quote": "comprise gravel and sand beds"
+    },
+    {
+      "unit_name": "Maisawa terrace deposits",
+      "lithology": "gravel sand silt",
+      "lith_quote": "comprise gravel, sand and silt beds"
+    },
+    {
+      "unit_name": "Rendaino terrace deposits",
+      "lithology": "gravel sand silt",
+      "lith_quote": "comprise gravel, sand and silt beds"
+    },
+    {
+      "unit_name": "Horino terrace deposits",
+      "lithology": "gravel sand",
+      "lith_quote": "comprise gravel and sand beds"
+    },
+    {
+      "unit_name": "Ibonai terrace deposits",
+      "lithology": "gravel sand",
+      "lith_quote": "comprise gravel and sand beds"
+    },
+    {
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+      "lithology": "pyroclastic flow deposits",
+      "lith_quote": "pyroclastic flow deposits"
+    }
+  ]
+}

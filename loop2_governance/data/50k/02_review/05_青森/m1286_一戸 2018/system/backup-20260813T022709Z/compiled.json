@@ -1,0 +1,5719 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-13T02:12:16+00:00",
+  "map": {
+    "map_id": "1286",
+    "source_review": "data\\02_review\\05_青森\\m1286_一戸 2018\\m1286_review.xlsx",
+    "metadata": {},
+    "columns": [
+      {
+        "col_id": "ichinohe-west",
+        "col_name": "Ichinohe District, western area",
+        "region_basis": "Ichinohe District",
+        "lat": 40.21,
+        "lng": 141.3,
+        "geom": "141.304199,  40.242052",
+        "rgeom": null,
+        "evidence": null,
+        "status": "verified",
+        "ref_ids": "tuzino2018"
+      },
+      {
+        "col_id": "ichinohe-central",
+        "col_name": "Ichinohe District, central area",
+        "region_basis": "Ichinohe District",
+        "lat": 40.21,
+        "lng": 141.3,
+        "geom": "141.377440, 40.266711",
+        "rgeom": null,
+        "evidence": null,
+        "status": "verified",
+        "ref_ids": "tuzino2018"
+      },
+      {
+        "col_id": "ichinohe-east",
+        "col_name": "Ichinohe District, eastern area",
+        "region_basis": "Ichinohe District",
+        "lat": 40.21,
+        "lng": 141.3,
+        "geom": "141.452405, 40.252992",
+        "rgeom": null,
+        "evidence": null,
+        "status": "verified",
+        "ref_ids": "tuzino2018"
+      }
+    ]
+  },
+  "units": [
+    {
+      "row_key": "m1286_p044::ichinohe-west",
+      "unit_id": "m1286_p044",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p044",
+        "column_id": "ichinohe-west",
+        "sort_order": 18,
+        "position": 18,
+        "section_id": null,
+        "t_pos": 19,
+        "unit_name": "river-bed deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": 2.1,
+        "max_thickness": 2.1,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p044",
+        "column_id": "ichinohe-west",
+        "sort_order": 18,
+        "position": 18,
+        "section_id": null,
+        "t_pos": 19,
+        "unit_name": "river-bed deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": 2.1,
+        "max_thickness": 2.1,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "t_pos": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p042::ichinohe-west",
+      "unit_id": "m1286_p042",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p042",
+        "column_id": "ichinohe-west",
+        "sort_order": 18,
+        "position": 18,
+        "section_id": null,
+        "t_pos": 19,
+        "unit_name": "flood-plain and valley-floor deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits",
+        "lithology": "gravel; sand; mud",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p042",
+        "column_id": "ichinohe-west",
+        "sort_order": 18,
+        "position": 18,
+        "section_id": null,
+        "t_pos": 19,
+        "unit_name": "flood-plain and valley-floor deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits",
+        "lithology": "gravel; sand; mud",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "t_pos": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "MISSING",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:physical_evidence",
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p028::ichinohe-west",
+      "unit_id": "m1286_p028",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p028",
+        "column_id": "ichinohe-west",
+        "sort_order": 17,
+        "position": 17,
+        "section_id": null,
+        "t_pos": 19,
+        "unit_name": "Horino terrace deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": 0.214,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The deposits of the lower lower terrace are the Horino and the Ibonai terrace deposits distributed along the Mabechi and Setsukinai-Yukiya rivers respectively.",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": 1.8,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p028",
+        "column_id": "ichinohe-west",
+        "sort_order": 17,
+        "position": 17,
+        "section_id": null,
+        "t_pos": 19,
+        "unit_name": "Horino terrace deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": 0.214,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The deposits of the lower lower terrace are the Horino and the Ibonai terrace deposits distributed along the Mabechi and Setsukinai-Yukiya rivers respectively.",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": 1.8,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "t_pos": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "min_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p029::ichinohe-west",
+      "unit_id": "m1286_p029",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p029",
+        "column_id": "ichinohe-west",
+        "sort_order": 16,
+        "position": 16,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Maisawa terrace deposits",
+        "t_int": "Holocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.214,
+        "b_prop": 0.9684,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The deposits of the higher lower terrace are the Maisawa and the Rendaino terrace deposits distributed along the Mabechi and Setsukinai and Yukiya rivers respectively.",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": 0.6,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p029",
+        "column_id": "ichinohe-west",
+        "sort_order": 16,
+        "position": 16,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Maisawa terrace deposits",
+        "t_int": "Holocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.214,
+        "b_prop": 0.9684,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The deposits of the higher lower terrace are the Maisawa and the Rendaino terrace deposits distributed along the Mabechi and Setsukinai and Yukiya rivers respectively.",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": 0.6,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "min_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p047::ichinohe-west",
+      "unit_id": "m1286_p047",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p047",
+        "column_id": "ichinohe-west",
+        "sort_order": 15,
+        "position": 15,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.9684,
+        "b_prop": 0.968,
+        "strat_name": null,
+        "environment": "pyroclastic flow",
+        "unit_description": "The pyroclastic flow deposits, derived from Towada volcano, are subdivided into two deposits, namely Towada-Ofudo and Towada-Hachinohe Pyroclastic Flow Deposits. These deposits are intercalated between the middle and lower terrace deposits.",
+        "lithology": "pumice lapilli; ash",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": 20,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p047",
+        "column_id": "ichinohe-west",
+        "sort_order": 15,
+        "position": 15,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.9684,
+        "b_prop": 0.968,
+        "strat_name": null,
+        "environment": "pyroclastic flow",
+        "unit_description": "The pyroclastic flow deposits, derived from Towada volcano, are subdivided into two deposits, namely Towada-Ofudo and Towada-Hachinohe Pyroclastic Flow Deposits. These deposits are intercalated between the middle and lower terrace deposits.",
+        "lithology": "pumice lapilli; ash",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": 20,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "max_thickness": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p030::ichinohe-west",
+      "unit_id": "m1286_p030",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p030",
+        "column_id": "ichinohe-west",
+        "sort_order": 14,
+        "position": 14,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.796,
+        "b_prop": 0.793,
+        "strat_name": null,
+        "environment": "pyroclastic flow",
+        "unit_description": "The pyroclastic flow deposits, derived from Towada volcano, are subdivided into two deposits, namely Towada-Ofudo and Towada-Hachinohe Pyroclastic Flow Deposits. These deposits are intercalated between the middle and lower terrace deposits.",
+        "lithology": "pumice lapilli; ash",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": 7,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p030",
+        "column_id": "ichinohe-west",
+        "sort_order": 14,
+        "position": 14,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.796,
+        "b_prop": 0.793,
+        "strat_name": null,
+        "environment": "pyroclastic flow",
+        "unit_description": "The pyroclastic flow deposits, derived from Towada volcano, are subdivided into two deposits, namely Towada-Ofudo and Towada-Hachinohe Pyroclastic Flow Deposits. These deposits are intercalated between the middle and lower terrace deposits.",
+        "lithology": "pumice lapilli; ash",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": 7,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "max_thickness": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p031::ichinohe-west",
+      "unit_id": "m1286_p031",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p031",
+        "column_id": "ichinohe-west",
+        "sort_order": 13,
+        "position": 13,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kusagi terrace deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.792,
+        "b_prop": 0.145,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The middle terrace deposits are subdivided into the Kusagi and Hayawatari terrace deposits. The former is developed along the Mabechi River... The both comprise gravel and sand beds.",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": 2,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p031",
+        "column_id": "ichinohe-west",
+        "sort_order": 13,
+        "position": 13,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kusagi terrace deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.792,
+        "b_prop": 0.145,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The middle terrace deposits are subdivided into the Kusagi and Hayawatari terrace deposits. The former is developed along the Mabechi River... The both comprise gravel and sand beds.",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": 2,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "min_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p032::ichinohe-west",
+      "unit_id": "m1286_p032",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p032",
+        "column_id": "ichinohe-west",
+        "sort_order": 12,
+        "position": 12,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Asanai terrace deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Chibanian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.077,
+        "b_prop": 0.998,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The higher terrace deposits are subdivided into the Asanai and the Mukaikawara terrace deposits. The former is distributed along the Mabechi River... The both comprise gravel, sand and silt beds.",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": 2,
+        "max_thickness": 5,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p032",
+        "column_id": "ichinohe-west",
+        "sort_order": 12,
+        "position": 12,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Asanai terrace deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Chibanian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.077,
+        "b_prop": 0.998,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The higher terrace deposits are subdivided into the Asanai and the Mukaikawara terrace deposits. The former is distributed along the Mabechi River... The both comprise gravel, sand and silt beds.",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": 2,
+        "max_thickness": 5,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p022::ichinohe-west",
+      "unit_id": "m1286_p022",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p022",
+        "column_id": "ichinohe-west",
+        "sort_order": 11,
+        "position": 11,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Nanashigure Volcanic Fan Deposits",
+        "t_int": "Chibanian",
+        "b_int": "Calabrian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.998,
+        "b_prop": 0.78,
+        "strat_name": null,
+        "environment": "alluvial fan",
+        "unit_description": "The Nanashigure Volcanic Fan Deposits, distributed only in the southwestern corner of this district, is mainly composed of gravel which was derived from Nanashigure volcano",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": 30,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p022",
+        "column_id": "ichinohe-west",
+        "sort_order": 11,
+        "position": 11,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Nanashigure Volcanic Fan Deposits",
+        "t_int": "Chibanian",
+        "b_int": "Calabrian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.998,
+        "b_prop": 0.78,
+        "strat_name": null,
+        "environment": "alluvial fan",
+        "unit_description": "The Nanashigure Volcanic Fan Deposits, distributed only in the southwestern corner of this district, is mainly composed of gravel which was derived from Nanashigure volcano",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": 30,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p018::ichinohe-west",
+      "unit_id": "m1286_p018",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p018",
+        "column_id": "ichinohe-west",
+        "sort_order": 10,
+        "position": 10,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Shitazaki Formation",
+        "t_int": "Tortonian",
+        "b_int": "Tortonian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.714,
+        "b_prop": 0.258,
+        "strat_name": "Shitazaki Formation, Sannohe Group",
+        "environment": null,
+        "unit_description": "The Shitazaki Formation conformably overlies the Yanagisawa Formation with erosional surface at its basal part. The formation is mainly composed of sublittoral siltstone. Sandstone beds (Kamimetoki Sandstone Member) lies in the lowermost parts, and alternating beds of sandstone and siltstone lie in the uppermost parts.",
+        "lithology": "siltstone",
+        "minor_lith": "sandstone; tuff",
+        "min_thickness": 200,
+        "max_thickness": 200,
+        "basal_surface": "disconformable; locally conformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p018",
+        "column_id": "ichinohe-west",
+        "sort_order": 10,
+        "position": 10,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Shitazaki Formation",
+        "t_int": "Tortonian",
+        "b_int": "Tortonian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.714,
+        "b_prop": 0.258,
+        "strat_name": "Shitazaki Formation, Sannohe Group",
+        "environment": null,
+        "unit_description": "The Shitazaki Formation conformably overlies the Yanagisawa Formation with erosional surface at its basal part. The formation is mainly composed of sublittoral siltstone. Sandstone beds (Kamimetoki Sandstone Member) lies in the lowermost parts, and alternating beds of sandstone and siltstone lie in the uppermost parts.",
+        "lithology": "siltstone",
+        "minor_lith": "sandstone; tuff",
+        "min_thickness": 200,
+        "max_thickness": 200,
+        "basal_surface": "disconformable; locally conformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:environment"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p016::ichinohe-west",
+      "unit_id": "m1286_p016",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p016",
+        "column_id": "ichinohe-west",
+        "sort_order": 9,
+        "position": 9,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Yanagisawa Formation",
+        "t_int": "Tortonian",
+        "b_int": "Serravallian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.258,
+        "b_prop": 0.831,
+        "strat_name": "Yanagisawa Formation, Sannohe Group",
+        "environment": null,
+        "unit_description": "The Yanagisawa Formation conformably overlies the Zyūmonzi Formation, and is composed of diatomite and diatomite-origined porcelanite (Kawaguchi Porcelanite Member).",
+        "lithology": "diatomite; diatomaceous mudstone; hard shale; porcellanite",
+        "minor_lith": null,
+        "min_thickness": 24,
+        "max_thickness": 60,
+        "basal_surface": "conformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p016",
+        "column_id": "ichinohe-west",
+        "sort_order": 9,
+        "position": 9,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Yanagisawa Formation",
+        "t_int": "Tortonian",
+        "b_int": "Serravallian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.258,
+        "b_prop": 0.831,
+        "strat_name": "Yanagisawa Formation, Sannohe Group",
+        "environment": null,
+        "unit_description": "The Yanagisawa Formation conformably overlies the Zyūmonzi Formation, and is composed of diatomite and diatomite-origined porcelanite (Kawaguchi Porcelanite Member).",
+        "lithology": "diatomite; diatomaceous mudstone; hard shale; porcellanite",
+        "minor_lith": null,
+        "min_thickness": 24,
+        "max_thickness": 60,
+        "basal_surface": "conformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:environment",
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p012::ichinohe-west",
+      "unit_id": "m1286_p012",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p012",
+        "column_id": "ichinohe-west",
+        "sort_order": 8,
+        "position": 8,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Zyūmonzi Formation",
+        "t_int": "Serravallian",
+        "b_int": "Langhian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.831,
+        "b_prop": 0.454,
+        "strat_name": "Zyūmonzi Formation, Sannohe Group",
+        "environment": "shallow marine",
+        "unit_description": "The Zyūmonzi Formation overlies the Suenomatuyama Formation with slightly-angular unconformity. The formation is characterised by shallow marine sandstone, partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member), coquina conglomerate (Metoki Coquina Conglomerate Member), and reworked volcaniclastic rocks (Shimotomai Volcaniclastic Rock Member). A glauconite-rich sandstone bed is intercalated within the upper part of this formation.",
+        "lithology": "sandstone",
+        "minor_lith": "conglomerate; coquina conglomerate; volcaniclastic",
+        "min_thickness": 100,
+        "max_thickness": 150,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p012",
+        "column_id": "ichinohe-west",
+        "sort_order": 8,
+        "position": 8,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Zyūmonzi Formation",
+        "t_int": "Serravallian",
+        "b_int": "Langhian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.831,
+        "b_prop": 0.454,
+        "strat_name": "Zyūmonzi Formation, Sannohe Group",
+        "environment": "shallow marine",
+        "unit_description": "The Zyūmonzi Formation overlies the Suenomatuyama Formation with slightly-angular unconformity. The formation is characterised by shallow marine sandstone, partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member), coquina conglomerate (Metoki Coquina Conglomerate Member), and reworked volcaniclastic rocks (Shimotomai Volcaniclastic Rock Member). A glauconite-rich sandstone bed is intercalated within the upper part of this formation.",
+        "lithology": "sandstone",
+        "minor_lith": "conglomerate; coquina conglomerate; volcaniclastic",
+        "min_thickness": 100,
+        "max_thickness": 150,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p011::ichinohe-west",
+      "unit_id": "m1286_p011",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p011",
+        "column_id": "ichinohe-west",
+        "sort_order": 7,
+        "position": 7,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Suenomatuyama Formation",
+        "t_int": "Langhian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.454,
+        "b_prop": 0.884,
+        "strat_name": "Suenomatuyama Formation, Shiratorigawa Group",
+        "environment": "shallow marine",
+        "unit_description": "The Suenomatuyama Formation conformably / slightly-unconformably overlies the Kadonosawa Formation. The formation is also of marine deposits, and is subdivided into the five members, namely the Anausi Conglomerate, the Itukamati Sandstone, the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock, and Mainosawa Sandstone members, generally ascending order; the Aikawa and the Nakuidake are underlain on the almost same horizon.",
+        "lithology": "sandstone",
+        "minor_lith": "conglomerate; volcaniclastic; lava; intrusive rocks; mudstone",
+        "min_thickness": 200,
+        "max_thickness": 400,
+        "basal_surface": "conformable; locally disconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p011",
+        "column_id": "ichinohe-west",
+        "sort_order": 7,
+        "position": 7,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Suenomatuyama Formation",
+        "t_int": "Langhian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.454,
+        "b_prop": 0.884,
+        "strat_name": "Suenomatuyama Formation, Shiratorigawa Group",
+        "environment": "shallow marine",
+        "unit_description": "The Suenomatuyama Formation conformably / slightly-unconformably overlies the Kadonosawa Formation. The formation is also of marine deposits, and is subdivided into the five members, namely the Anausi Conglomerate, the Itukamati Sandstone, the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock, and Mainosawa Sandstone members, generally ascending order; the Aikawa and the Nakuidake are underlain on the almost same horizon.",
+        "lithology": "sandstone",
+        "minor_lith": "conglomerate; volcaniclastic; lava; intrusive rocks; mudstone",
+        "min_thickness": 200,
+        "max_thickness": 400,
+        "basal_surface": "conformable; locally disconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p010::ichinohe-west",
+      "unit_id": "m1286_p010",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p010",
+        "column_id": "ichinohe-west",
+        "sort_order": 6,
+        "position": 6,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kadonosawa Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.884,
+        "b_prop": 0.8837,
+        "strat_name": "Kadonosawa Formation, Shiratorigawa Group",
+        "environment": "shallow marine to bathyal",
+        "unit_description": "The Kadonosawa Formation conformably overlies the Yotuyaku Formation and unconformably overlies the Jurassic, the Cretaceous and the Nisatai Formation. The formation is subdivided into the Tate Sandstone and Sikonai Siltstone members, in ascending order. The Tate yields numerous littoral marine molluscs, named as 'Kadonosawa Fauna,' and both members reflect the change of depositional environments from shallow marine to subbathyal.",
+        "lithology": "siltstone",
+        "minor_lith": "mudstone; sandstone; sandy mudstone; conglomerate",
+        "min_thickness": null,
+        "max_thickness": 80,
+        "basal_surface": "conformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p010",
+        "column_id": "ichinohe-west",
+        "sort_order": 6,
+        "position": 6,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kadonosawa Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.884,
+        "b_prop": 0.8837,
+        "strat_name": "Kadonosawa Formation, Shiratorigawa Group",
+        "environment": "shallow marine to bathyal",
+        "unit_description": "The Kadonosawa Formation conformably overlies the Yotuyaku Formation and unconformably overlies the Jurassic, the Cretaceous and the Nisatai Formation. The formation is subdivided into the Tate Sandstone and Sikonai Siltstone members, in ascending order. The Tate yields numerous littoral marine molluscs, named as 'Kadonosawa Fauna,' and both members reflect the change of depositional environments from shallow marine to subbathyal.",
+        "lithology": "siltstone",
+        "minor_lith": "mudstone; sandstone; sandy mudstone; conglomerate",
+        "min_thickness": null,
+        "max_thickness": 80,
+        "basal_surface": "conformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p009::ichinohe-west",
+      "unit_id": "m1286_p009",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p009",
+        "column_id": "ichinohe-west",
+        "sort_order": 5,
+        "position": 5,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Yotuyaku Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.8837,
+        "b_prop": 0.548,
+        "strat_name": "Yotuyaku Formation, Shiratorigawa Group",
+        "environment": "fluvial indet.; lacustrine indet.; shallow marine",
+        "unit_description": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members, generally in ascending order. These members partly interfinger with each other, and were mainly deposited on land, except for the Koiwai, which yields numerous marine molluscs.",
+        "lithology": "conglomerate; sandstone; mudstone",
+        "minor_lith": "volcaniclastic; intrusive rocks; muddy sandstone",
+        "min_thickness": null,
+        "max_thickness": 600,
+        "basal_surface": "unconformable",
+        "lateral_relationship": "interfingering",
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p009",
+        "column_id": "ichinohe-west",
+        "sort_order": 5,
+        "position": 5,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Yotuyaku Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.8837,
+        "b_prop": 0.548,
+        "strat_name": "Yotuyaku Formation, Shiratorigawa Group",
+        "environment": "fluvial indet.; lacustrine indet.; shallow marine",
+        "unit_description": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members, generally in ascending order. These members partly interfinger with each other, and were mainly deposited on land, except for the Koiwai, which yields numerous marine molluscs.",
+        "lithology": "conglomerate; sandstone; mudstone",
+        "minor_lith": "volcaniclastic; intrusive rocks; muddy sandstone",
+        "min_thickness": null,
+        "max_thickness": 600,
+        "basal_surface": "unconformable",
+        "lateral_relationship": "interfingering",
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "max_thickness": "review",
+        "basal_surface": "review",
+        "lateral_relationship": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p008::ichinohe-west",
+      "unit_id": "m1286_p008",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p008",
+        "column_id": "ichinohe-west",
+        "sort_order": 4,
+        "position": 4,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Ainoyama Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.101,
+        "b_prop": 0.1005,
+        "strat_name": "Ainoyama Formation",
+        "environment": "non-marine",
+        "unit_description": "The Ainoyama Formation is composed of dacitic lava and conglomerate. On the basis of their ages and distributions, they have been originated from the different volcanic activities.",
+        "lithology": "dacite lava",
+        "minor_lith": "conglomerate",
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "fault",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p008",
+        "column_id": "ichinohe-west",
+        "sort_order": 4,
+        "position": 4,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Ainoyama Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.101,
+        "b_prop": 0.1005,
+        "strat_name": "Ainoyama Formation",
+        "environment": "non-marine",
+        "unit_description": "The Ainoyama Formation is composed of dacitic lava and conglomerate. On the basis of their ages and distributions, they have been originated from the different volcanic activities.",
+        "lithology": "dacite lava",
+        "minor_lith": "conglomerate",
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "fault",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p007::ichinohe-west",
+      "unit_id": "m1286_p007",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p007",
+        "column_id": "ichinohe-west",
+        "sort_order": 3,
+        "position": 3,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Nisatai Formation",
+        "t_int": "Aquitanian",
+        "b_int": "Aquitanian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.402,
+        "b_prop": 0.015,
+        "strat_name": "Nisatai Formation",
+        "environment": "non-marine",
+        "unit_description": "The Nisatai Formation is composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate, sandstone, and mudstone. This formation is non-marine deposits, and unconformably covers the Jurassic strata and the Cretaceous plutonic rocks.",
+        "lithology": "rhyolite lapilli tuff",
+        "minor_lith": "tuff breccia; conglomerate; sandstone; mudstone; lignite",
+        "min_thickness": 150,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p007",
+        "column_id": "ichinohe-west",
+        "sort_order": 3,
+        "position": 3,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Nisatai Formation",
+        "t_int": "Aquitanian",
+        "b_int": "Aquitanian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.402,
+        "b_prop": 0.015,
+        "strat_name": "Nisatai Formation",
+        "environment": "non-marine",
+        "unit_description": "The Nisatai Formation is composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate, sandstone, and mudstone. This formation is non-marine deposits, and unconformably covers the Jurassic strata and the Cretaceous plutonic rocks.",
+        "lithology": "rhyolite lapilli tuff",
+        "minor_lith": "tuff breccia; conglomerate; sandstone; mudstone; lignite",
+        "min_thickness": 150,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "min_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p005::ichinohe-west",
+      "unit_id": "m1286_p005",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p005",
+        "column_id": "ichinohe-west",
+        "sort_order": 2,
+        "position": 2,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Ichinohe Pluton",
+        "t_int": "Early Cretaceous",
+        "b_int": "Early Cretaceous",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Ichinohe Pluton",
+        "environment": null,
+        "unit_description": "The Ichinohe Pluton is lithologically characterised by two facies; monzogabbro and quartz monzonite. The monzogabbro facies consists mainly of mediumgrained quartz monzogabbro with biotite, clinopyroxene, orthopyroxene, hornblende, and olivine. The quartz monzonite facies consists of medium grained biotite hornblende quartz monzonite.",
+        "lithology": "monzodiorite; quartz monzonite",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "intrusive",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p005",
+        "column_id": "ichinohe-west",
+        "sort_order": 2,
+        "position": 2,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Ichinohe Pluton",
+        "t_int": "Early Cretaceous",
+        "b_int": "Early Cretaceous",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Ichinohe Pluton",
+        "environment": null,
+        "unit_description": "The Ichinohe Pluton is lithologically characterised by two facies; monzogabbro and quartz monzonite. The monzogabbro facies consists mainly of mediumgrained quartz monzogabbro with biotite, clinopyroxene, orthopyroxene, hornblende, and olivine. The quartz monzonite facies consists of medium grained biotite hornblende quartz monzonite.",
+        "lithology": "monzodiorite; quartz monzonite",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "intrusive",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "strat_name": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:environment",
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p004::ichinohe-west",
+      "unit_id": "m1286_p004",
+      "column_ids": [
+        "ichinohe-west"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p004",
+        "column_id": "ichinohe-west",
+        "sort_order": 1,
+        "position": 1,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kuzumaki Formation",
+        "t_int": "Middle Jurassic",
+        "b_int": "Middle Jurassic",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Kuzumaki Formation",
+        "environment": "deep marine",
+        "unit_description": "The Kuzumaki Formation consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone. The thickness attains 6,000 m. The mudstone of this formation yielded early to middle Jurassic radioralian fossils, which suggest the depositional ages.",
+        "lithology": "phyllitic mudstone; pelitic mixed rock",
+        "minor_lith": "mafic; limestone; chert; siliceous mudstone; sandstone",
+        "min_thickness": null,
+        "max_thickness": 6000,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p004",
+        "column_id": "ichinohe-west",
+        "sort_order": 1,
+        "position": 1,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kuzumaki Formation",
+        "t_int": "Middle Jurassic",
+        "b_int": "Middle Jurassic",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Kuzumaki Formation",
+        "environment": "deep marine",
+        "unit_description": "The Kuzumaki Formation consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone. The thickness attains 6,000 m. The mudstone of this formation yielded early to middle Jurassic radioralian fossils, which suggest the depositional ages.",
+        "lithology": "phyllitic mudstone; pelitic mixed rock",
+        "minor_lith": "mafic; limestone; chert; siliceous mudstone; sandstone",
+        "min_thickness": null,
+        "max_thickness": 6000,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "max_thickness": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p044::ichinohe-central",
+      "unit_id": "m1286_p044",
+      "column_ids": [
+        "ichinohe-central"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p044",
+        "column_id": "ichinohe-central",
+        "sort_order": 7,
+        "position": 7,
+        "section_id": null,
+        "t_pos": 8,
+        "unit_name": "river-bed deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p044",
+        "column_id": "ichinohe-central",
+        "sort_order": 7,
+        "position": 7,
+        "section_id": null,
+        "t_pos": 8,
+        "unit_name": "river-bed deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "t_pos": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "MISSING",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:physical_evidence",
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p042::ichinohe-central",
+      "unit_id": "m1286_p042",
+      "column_ids": [
+        "ichinohe-central"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p042",
+        "column_id": "ichinohe-central",
+        "sort_order": 7,
+        "position": 7,
+        "section_id": null,
+        "t_pos": 8,
+        "unit_name": "flood-plain and valley-floor deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits",
+        "lithology": "gravel; sand; mud",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p042",
+        "column_id": "ichinohe-central",
+        "sort_order": 7,
+        "position": 7,
+        "section_id": null,
+        "t_pos": 8,
+        "unit_name": "flood-plain and valley-floor deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits",
+        "lithology": "gravel; sand; mud",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "t_pos": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "MISSING",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:physical_evidence",
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p012::ichinohe-central",
+      "unit_id": "m1286_p012",
+      "column_ids": [
+        "ichinohe-central"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p012",
+        "column_id": "ichinohe-central",
+        "sort_order": 6,
+        "position": 6,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Zyūmonzi Formation",
+        "t_int": "Serravallian",
+        "b_int": "Langhian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.831,
+        "b_prop": 0.454,
+        "strat_name": "Zyūmonzi Formation, Sannohe Group",
+        "environment": "shallow marine",
+        "unit_description": "The Zyūmonzi Formation overlies the Suenomatuyama Formation with slightly-angular unconformity. The formation is characterised by shallow marine sandstone, partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member), coquina conglomerate (Metoki Coquina Conglomerate Member), and reworked volcaniclastic rocks (Shimotomai Volcaniclastic Rock Member). A glauconite-rich sandstone bed is intercalated within the upper part of this formation.",
+        "lithology": "sandstone",
+        "minor_lith": "conglomerate; coquina conglomerate; volcaniclastic",
+        "min_thickness": 100,
+        "max_thickness": 150,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p012",
+        "column_id": "ichinohe-central",
+        "sort_order": 6,
+        "position": 6,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Zyūmonzi Formation",
+        "t_int": "Serravallian",
+        "b_int": "Langhian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.831,
+        "b_prop": 0.454,
+        "strat_name": "Zyūmonzi Formation, Sannohe Group",
+        "environment": "shallow marine",
+        "unit_description": "The Zyūmonzi Formation overlies the Suenomatuyama Formation with slightly-angular unconformity. The formation is characterised by shallow marine sandstone, partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member), coquina conglomerate (Metoki Coquina Conglomerate Member), and reworked volcaniclastic rocks (Shimotomai Volcaniclastic Rock Member). A glauconite-rich sandstone bed is intercalated within the upper part of this formation.",
+        "lithology": "sandstone",
+        "minor_lith": "conglomerate; coquina conglomerate; volcaniclastic",
+        "min_thickness": 100,
+        "max_thickness": 150,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p011::ichinohe-central",
+      "unit_id": "m1286_p011",
+      "column_ids": [
+        "ichinohe-central"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p011",
+        "column_id": "ichinohe-central",
+        "sort_order": 5,
+        "position": 5,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Suenomatuyama Formation",
+        "t_int": "Langhian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.454,
+        "b_prop": 0.884,
+        "strat_name": "Suenomatuyama Formation, Shiratorigawa Group",
+        "environment": "shallow marine",
+        "unit_description": "The Suenomatuyama Formation conformably / slightly-unconformably overlies the Kadonosawa Formation. The formation is also of marine deposits, and is subdivided into the five members, namely the Anausi Conglomerate, the Itukamati Sandstone, the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock, and Mainosawa Sandstone members, generally ascending order; the Aikawa and the Nakuidake are underlain on the almost same horizon.",
+        "lithology": "sandstone",
+        "minor_lith": "conglomerate; volcaniclastic; lava; intrusive rocks; mudstone",
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "conformable; locally disconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p011",
+        "column_id": "ichinohe-central",
+        "sort_order": 5,
+        "position": 5,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Suenomatuyama Formation",
+        "t_int": "Langhian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.454,
+        "b_prop": 0.884,
+        "strat_name": "Suenomatuyama Formation, Shiratorigawa Group",
+        "environment": "shallow marine",
+        "unit_description": "The Suenomatuyama Formation conformably / slightly-unconformably overlies the Kadonosawa Formation. The formation is also of marine deposits, and is subdivided into the five members, namely the Anausi Conglomerate, the Itukamati Sandstone, the Aikawa Volcanic Rock, the Nakuidake Volcanic Rock, and Mainosawa Sandstone members, generally ascending order; the Aikawa and the Nakuidake are underlain on the almost same horizon.",
+        "lithology": "sandstone",
+        "minor_lith": "conglomerate; volcaniclastic; lava; intrusive rocks; mudstone",
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "conformable; locally disconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p010::ichinohe-central",
+      "unit_id": "m1286_p010",
+      "column_ids": [
+        "ichinohe-central"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p010",
+        "column_id": "ichinohe-central",
+        "sort_order": 4,
+        "position": 4,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kadonosawa Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.884,
+        "b_prop": 0.8837,
+        "strat_name": "Kadonosawa Formation, Shiratorigawa Group",
+        "environment": "shallow marine to bathyal",
+        "unit_description": "The Kadonosawa Formation conformably overlies the Yotuyaku Formation and unconformably overlies the Jurassic, the Cretaceous and the Nisatai Formation. The formation is subdivided into the Tate Sandstone and Sikonai Siltstone members, in ascending order. The Tate yields numerous littoral marine molluscs, named as 'Kadonosawa Fauna,' and both members reflect the change of depositional environments from shallow marine to subbathyal.",
+        "lithology": "siltstone",
+        "minor_lith": "mudstone; sandstone; sandy mudstone; conglomerate",
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "conformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p010",
+        "column_id": "ichinohe-central",
+        "sort_order": 4,
+        "position": 4,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kadonosawa Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.884,
+        "b_prop": 0.8837,
+        "strat_name": "Kadonosawa Formation, Shiratorigawa Group",
+        "environment": "shallow marine to bathyal",
+        "unit_description": "The Kadonosawa Formation conformably overlies the Yotuyaku Formation and unconformably overlies the Jurassic, the Cretaceous and the Nisatai Formation. The formation is subdivided into the Tate Sandstone and Sikonai Siltstone members, in ascending order. The Tate yields numerous littoral marine molluscs, named as 'Kadonosawa Fauna,' and both members reflect the change of depositional environments from shallow marine to subbathyal.",
+        "lithology": "siltstone",
+        "minor_lith": "mudstone; sandstone; sandy mudstone; conglomerate",
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "conformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p009::ichinohe-central",
+      "unit_id": "m1286_p009",
+      "column_ids": [
+        "ichinohe-central"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p009",
+        "column_id": "ichinohe-central",
+        "sort_order": 3,
+        "position": 3,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Yotuyaku Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.8837,
+        "b_prop": 0.548,
+        "strat_name": "Yotuyaku Formation, Shiratorigawa Group",
+        "environment": "fluvial indet.; lacustrine indet.; shallow marine",
+        "unit_description": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members, generally in ascending order. These members partly interfinger with each other, and were mainly deposited on land, except for the Koiwai, which yields numerous marine molluscs.",
+        "lithology": "conglomerate; sandstone; mudstone",
+        "minor_lith": "volcaniclastic; intrusive rocks; muddy sandstone",
+        "min_thickness": null,
+        "max_thickness": 600,
+        "basal_surface": "unconformable",
+        "lateral_relationship": "interfingering",
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p009",
+        "column_id": "ichinohe-central",
+        "sort_order": 3,
+        "position": 3,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Yotuyaku Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.8837,
+        "b_prop": 0.548,
+        "strat_name": "Yotuyaku Formation, Shiratorigawa Group",
+        "environment": "fluvial indet.; lacustrine indet.; shallow marine",
+        "unit_description": "The Yotuyaku Formation unconformably overlies the previous rocks, and can be subdivided into four members, namely the Matsukura Siliciclastic Rock, the Koiwai Mudstone, the Keiseitoge Volcanic Rock, and the Sukohata Siliciclastic Rock members, generally in ascending order. These members partly interfinger with each other, and were mainly deposited on land, except for the Koiwai, which yields numerous marine molluscs.",
+        "lithology": "conglomerate; sandstone; mudstone",
+        "minor_lith": "volcaniclastic; intrusive rocks; muddy sandstone",
+        "min_thickness": null,
+        "max_thickness": 600,
+        "basal_surface": "unconformable",
+        "lateral_relationship": "interfingering",
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "max_thickness": "review",
+        "basal_surface": "review",
+        "lateral_relationship": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p007::ichinohe-central",
+      "unit_id": "m1286_p007",
+      "column_ids": [
+        "ichinohe-central"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p007",
+        "column_id": "ichinohe-central",
+        "sort_order": 2,
+        "position": 2,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Nisatai Formation",
+        "t_int": "Aquitanian",
+        "b_int": "Aquitanian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.402,
+        "b_prop": 0.015,
+        "strat_name": "Nisatai Formation",
+        "environment": "non-marine",
+        "unit_description": "The Nisatai Formation is composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate, sandstone, and mudstone. This formation is non-marine deposits, and unconformably covers the Jurassic strata and the Cretaceous plutonic rocks.",
+        "lithology": "rhyolite lapilli tuff",
+        "minor_lith": "tuff breccia; conglomerate; sandstone; mudstone; lignite",
+        "min_thickness": 200,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p007",
+        "column_id": "ichinohe-central",
+        "sort_order": 2,
+        "position": 2,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Nisatai Formation",
+        "t_int": "Aquitanian",
+        "b_int": "Aquitanian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.402,
+        "b_prop": 0.015,
+        "strat_name": "Nisatai Formation",
+        "environment": "non-marine",
+        "unit_description": "The Nisatai Formation is composed of upper welded rhyolitic pumice lapilli tuff and lower conglomerate, sandstone, and mudstone. This formation is non-marine deposits, and unconformably covers the Jurassic strata and the Cretaceous plutonic rocks.",
+        "lithology": "rhyolite lapilli tuff",
+        "minor_lith": "tuff breccia; conglomerate; sandstone; mudstone; lignite",
+        "min_thickness": 200,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "min_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p004::ichinohe-central",
+      "unit_id": "m1286_p004",
+      "column_ids": [
+        "ichinohe-central"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p004",
+        "column_id": "ichinohe-central",
+        "sort_order": 1,
+        "position": 1,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kuzumaki Formation",
+        "t_int": "Middle Jurassic",
+        "b_int": "Middle Jurassic",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Kuzumaki Formation",
+        "environment": "deep marine",
+        "unit_description": "The Kuzumaki Formation consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone. The thickness attains 6,000 m. The mudstone of this formation yielded early to middle Jurassic radioralian fossils, which suggest the depositional ages.",
+        "lithology": "phyllitic mudstone; pelitic mixed rock",
+        "minor_lith": "mafic; limestone; chert; siliceous mudstone; sandstone",
+        "min_thickness": null,
+        "max_thickness": 6000,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p004",
+        "column_id": "ichinohe-central",
+        "sort_order": 1,
+        "position": 1,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kuzumaki Formation",
+        "t_int": "Middle Jurassic",
+        "b_int": "Middle Jurassic",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Kuzumaki Formation",
+        "environment": "deep marine",
+        "unit_description": "The Kuzumaki Formation consists mainly of phyllitic mudstone and pelitic mixed rock, accompanied by blocks of mafic rock, limestone, chert, siliceous mudstone, and sandstone. The thickness attains 6,000 m. The mudstone of this formation yielded early to middle Jurassic radioralian fossils, which suggest the depositional ages.",
+        "lithology": "phyllitic mudstone; pelitic mixed rock",
+        "minor_lith": "mafic; limestone; chert; siliceous mudstone; sandstone",
+        "min_thickness": null,
+        "max_thickness": 6000,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "max_thickness": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p044::ichinohe-east",
+      "unit_id": "m1286_p044",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p044",
+        "column_id": "ichinohe-east",
+        "sort_order": 15,
+        "position": 15,
+        "section_id": null,
+        "t_pos": 16,
+        "unit_name": "river-bed deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p044",
+        "column_id": "ichinohe-east",
+        "sort_order": 15,
+        "position": 15,
+        "section_id": null,
+        "t_pos": 16,
+        "unit_name": "river-bed deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "other young and minor deposits, such as landslide deposits, flood-plain and valley-floor deposits, colluvial and alluvial cone deposits, and river-bed deposits",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "t_pos": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "MISSING",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:physical_evidence",
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p026::ichinohe-east",
+      "unit_id": "m1286_p026",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p026",
+        "column_id": "ichinohe-east",
+        "sort_order": 14,
+        "position": 14,
+        "section_id": null,
+        "t_pos": 16,
+        "unit_name": "Ibonai terrace deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": 0.214,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The deposits of the lower lower terrace are the Horino and the Ibonai terrace deposits distributed along the Mabechi and Setsukinai-Yukiya rivers respectively.",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p026",
+        "column_id": "ichinohe-east",
+        "sort_order": 14,
+        "position": 14,
+        "section_id": null,
+        "t_pos": 16,
+        "unit_name": "Ibonai terrace deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": 0.214,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The deposits of the lower lower terrace are the Horino and the Ibonai terrace deposits distributed along the Mabechi and Setsukinai-Yukiya rivers respectively.",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "t_pos": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "MISSING",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:physical_evidence",
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p025::ichinohe-east",
+      "unit_id": "m1286_p025",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p025",
+        "column_id": "ichinohe-east",
+        "sort_order": 13,
+        "position": 13,
+        "section_id": null,
+        "t_pos": 15,
+        "unit_name": "Rendaino terrace deposits",
+        "t_int": "Holocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.214,
+        "b_prop": 0.793,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The deposits of the higher lower terrace are the Maisawa and the Rendaino terrace deposits distributed along the Mabechi and Setsukinai and Yukiya rivers respectively.",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": 3.5,
+        "max_thickness": 3.5,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p025",
+        "column_id": "ichinohe-east",
+        "sort_order": 13,
+        "position": 13,
+        "section_id": null,
+        "t_pos": 15,
+        "unit_name": "Rendaino terrace deposits",
+        "t_int": "Holocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.214,
+        "b_prop": 0.793,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The deposits of the higher lower terrace are the Maisawa and the Rendaino terrace deposits distributed along the Mabechi and Setsukinai and Yukiya rivers respectively.",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": 3.5,
+        "max_thickness": 3.5,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "t_pos": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p047::ichinohe-east",
+      "unit_id": "m1286_p047",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p047",
+        "column_id": "ichinohe-east",
+        "sort_order": 12,
+        "position": 12,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.9684,
+        "b_prop": 0.968,
+        "strat_name": null,
+        "environment": "pyroclastic flow",
+        "unit_description": "The pyroclastic flow deposits, derived from Towada volcano, are subdivided into two deposits, namely Towada-Ofudo and Towada-Hachinohe Pyroclastic Flow Deposits. These deposits are intercalated between the middle and lower terrace deposits.",
+        "lithology": "pumice lapilli; ash",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": 20,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p047",
+        "column_id": "ichinohe-east",
+        "sort_order": 12,
+        "position": 12,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.9684,
+        "b_prop": 0.968,
+        "strat_name": null,
+        "environment": "pyroclastic flow",
+        "unit_description": "The pyroclastic flow deposits, derived from Towada volcano, are subdivided into two deposits, namely Towada-Ofudo and Towada-Hachinohe Pyroclastic Flow Deposits. These deposits are intercalated between the middle and lower terrace deposits.",
+        "lithology": "pumice lapilli; ash",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": 20,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "max_thickness": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p024::ichinohe-east",
+      "unit_id": "m1286_p024",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p024",
+        "column_id": "ichinohe-east",
+        "sort_order": 11,
+        "position": 11,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Hayawatari terrace deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.793,
+        "b_prop": 0.145,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The middle terrace deposits are subdivided into the Kusagi and Hayawatari terrace deposits. The former is developed along the Mabechi River, and the later is mainly along Setsukinai River. The both comprise gravel and sand beds.",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": 1.6,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p024",
+        "column_id": "ichinohe-east",
+        "sort_order": 11,
+        "position": 11,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Hayawatari terrace deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.793,
+        "b_prop": 0.145,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The middle terrace deposits are subdivided into the Kusagi and Hayawatari terrace deposits. The former is developed along the Mabechi River, and the later is mainly along Setsukinai River. The both comprise gravel and sand beds.",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": 1.6,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "min_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p023::ichinohe-east",
+      "unit_id": "m1286_p023",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p023",
+        "column_id": "ichinohe-east",
+        "sort_order": 10,
+        "position": 10,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Mukaikawara terrace deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Chibanian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.111,
+        "b_prop": 0.998,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The higher terrace deposits are subdivided into the Asanai and the Mukaikawara terrace deposits. The former is distributed along the Mabechi River, and the latter is along the Yukiya River. The both comprise gravel, sand and silt beds.",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": 1,
+        "max_thickness": 5,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p023",
+        "column_id": "ichinohe-east",
+        "sort_order": 10,
+        "position": 10,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Mukaikawara terrace deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Chibanian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.111,
+        "b_prop": 0.998,
+        "strat_name": null,
+        "environment": "fluvial indet.",
+        "unit_description": "The higher terrace deposits are subdivided into the Asanai and the Mukaikawara terrace deposits. The former is distributed along the Mabechi River, and the latter is along the Yukiya River. The both comprise gravel, sand and silt beds.",
+        "lithology": "gravel; sand; silt",
+        "minor_lith": null,
+        "min_thickness": 1,
+        "max_thickness": 5,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p027::ichinohe-east",
+      "unit_id": "m1286_p027",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p027",
+        "column_id": "ichinohe-east",
+        "sort_order": 9,
+        "position": 9,
+        "section_id": null,
+        "t_pos": 16,
+        "unit_name": "Oritsumedake fan deposits",
+        "t_int": "Holocene",
+        "b_int": "Chibanian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": 0.58,
+        "strat_name": null,
+        "environment": null,
+        "unit_description": "The Oritsumedake fan deposits unconformably overlies the Esashika Formation and comprises loose gravel and sand beds.",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": 20,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p027",
+        "column_id": "ichinohe-east",
+        "sort_order": 9,
+        "position": 9,
+        "section_id": null,
+        "t_pos": 16,
+        "unit_name": "Oritsumedake fan deposits",
+        "t_int": "Holocene",
+        "b_int": "Chibanian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": 0.58,
+        "strat_name": null,
+        "environment": null,
+        "unit_description": "The Oritsumedake fan deposits unconformably overlies the Esashika Formation and comprises loose gravel and sand beds.",
+        "lithology": "gravel; sand",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": 20,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "t_pos": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "b_prop": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:environment",
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p021::ichinohe-east",
+      "unit_id": "m1286_p021",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p021",
+        "column_id": "ichinohe-east",
+        "sort_order": 8,
+        "position": 8,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Esashika Formation",
+        "t_int": "Chibanian",
+        "b_int": "Calabrian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.58,
+        "b_prop": 0.195,
+        "strat_name": "Esashika Formation",
+        "environment": null,
+        "unit_description": "The Esashika Formation, distributed only along the eastern foot of the Oritsume Mountains, unconformably overlie the Toya Formation, and is mainly composed of gravel bed,",
+        "lithology": "gravel",
+        "minor_lith": "sand; mud",
+        "min_thickness": null,
+        "max_thickness": 80,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p021",
+        "column_id": "ichinohe-east",
+        "sort_order": 8,
+        "position": 8,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Esashika Formation",
+        "t_int": "Chibanian",
+        "b_int": "Calabrian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.58,
+        "b_prop": 0.195,
+        "strat_name": "Esashika Formation",
+        "environment": null,
+        "unit_description": "The Esashika Formation, distributed only along the eastern foot of the Oritsume Mountains, unconformably overlie the Toya Formation, and is mainly composed of gravel bed,",
+        "lithology": "gravel",
+        "minor_lith": "sand; mud",
+        "min_thickness": null,
+        "max_thickness": 80,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:environment"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p020::ichinohe-east",
+      "unit_id": "m1286_p020",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p020",
+        "column_id": "ichinohe-east",
+        "sort_order": 7,
+        "position": 7,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Toya Formation",
+        "t_int": "Zanclean",
+        "b_int": "Messinian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.192,
+        "b_prop": 0.651,
+        "strat_name": "Toya Formation",
+        "environment": "non-marine",
+        "unit_description": "The Toya Formation unconformably overlies the Jurassic strata, the Kadonosawa and the Zyūmonzi formations. The formation is non-marine deposits, composed of pyroclastic flow deposits, conglomerate, sandstone and mudstone.",
+        "lithology": "pumice lapilli tuff",
+        "minor_lith": "tuff; mudstone; sandstone; conglomerate; lignite",
+        "min_thickness": null,
+        "max_thickness": 170,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p020",
+        "column_id": "ichinohe-east",
+        "sort_order": 7,
+        "position": 7,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Toya Formation",
+        "t_int": "Zanclean",
+        "b_int": "Messinian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.192,
+        "b_prop": 0.651,
+        "strat_name": "Toya Formation",
+        "environment": "non-marine",
+        "unit_description": "The Toya Formation unconformably overlies the Jurassic strata, the Kadonosawa and the Zyūmonzi formations. The formation is non-marine deposits, composed of pyroclastic flow deposits, conglomerate, sandstone and mudstone.",
+        "lithology": "pumice lapilli tuff",
+        "minor_lith": "tuff; mudstone; sandstone; conglomerate; lignite",
+        "min_thickness": null,
+        "max_thickness": 170,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p012::ichinohe-east",
+      "unit_id": "m1286_p012",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p012",
+        "column_id": "ichinohe-east",
+        "sort_order": 6,
+        "position": 6,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Zyūmonzi Formation",
+        "t_int": "Serravallian",
+        "b_int": "Langhian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.831,
+        "b_prop": 0.454,
+        "strat_name": "Zyūmonzi Formation, Sannohe Group",
+        "environment": "shallow marine",
+        "unit_description": "The Zyūmonzi Formation overlies the Suenomatuyama Formation with slightly-angular unconformity. The formation is characterised by shallow marine sandstone, partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member), coquina conglomerate (Metoki Coquina Conglomerate Member), and reworked volcaniclastic rocks (Shimotomai Volcaniclastic Rock Member). A glauconite-rich sandstone bed is intercalated within the upper part of this formation.",
+        "lithology": "sandstone",
+        "minor_lith": "conglomerate; coquina conglomerate; volcaniclastic",
+        "min_thickness": 100,
+        "max_thickness": 150,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p012",
+        "column_id": "ichinohe-east",
+        "sort_order": 6,
+        "position": 6,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Zyūmonzi Formation",
+        "t_int": "Serravallian",
+        "b_int": "Langhian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.831,
+        "b_prop": 0.454,
+        "strat_name": "Zyūmonzi Formation, Sannohe Group",
+        "environment": "shallow marine",
+        "unit_description": "The Zyūmonzi Formation overlies the Suenomatuyama Formation with slightly-angular unconformity. The formation is characterised by shallow marine sandstone, partly intercalated with the basal conglomerate (Hinosawa Conglomerate Member), coquina conglomerate (Metoki Coquina Conglomerate Member), and reworked volcaniclastic rocks (Shimotomai Volcaniclastic Rock Member). A glauconite-rich sandstone bed is intercalated within the upper part of this formation.",
+        "lithology": "sandstone",
+        "minor_lith": "conglomerate; coquina conglomerate; volcaniclastic",
+        "min_thickness": 100,
+        "max_thickness": 150,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p010::ichinohe-east",
+      "unit_id": "m1286_p010",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p010",
+        "column_id": "ichinohe-east",
+        "sort_order": 5,
+        "position": 5,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kadonosawa Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.884,
+        "b_prop": 0.8837,
+        "strat_name": "Kadonosawa Formation, Shiratorigawa Group",
+        "environment": "shallow marine to bathyal",
+        "unit_description": "The Kadonosawa Formation conformably overlies the Yotuyaku Formation and unconformably overlies the Jurassic, the Cretaceous and the Nisatai Formation. The formation is subdivided into the Tate Sandstone and Sikonai Siltstone members, in ascending order. The Tate yields numerous littoral marine molluscs, named as 'Kadonosawa Fauna,' and both members reflect the change of depositional environments from shallow marine to subbathyal.",
+        "lithology": "siltstone",
+        "minor_lith": "mudstone; sandstone; sandy mudstone; conglomerate",
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p010",
+        "column_id": "ichinohe-east",
+        "sort_order": 5,
+        "position": 5,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kadonosawa Formation",
+        "t_int": "Burdigalian",
+        "b_int": "Burdigalian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 0.884,
+        "b_prop": 0.8837,
+        "strat_name": "Kadonosawa Formation, Shiratorigawa Group",
+        "environment": "shallow marine to bathyal",
+        "unit_description": "The Kadonosawa Formation conformably overlies the Yotuyaku Formation and unconformably overlies the Jurassic, the Cretaceous and the Nisatai Formation. The formation is subdivided into the Tate Sandstone and Sikonai Siltstone members, in ascending order. The Tate yields numerous littoral marine molluscs, named as 'Kadonosawa Fauna,' and both members reflect the change of depositional environments from shallow marine to subbathyal.",
+        "lithology": "siltstone",
+        "minor_lith": "mudstone; sandstone; sandy mudstone; conglomerate",
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "unconformable",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p006::ichinohe-east",
+      "unit_id": "m1286_p006",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p006",
+        "column_id": "ichinohe-east",
+        "sort_order": 4,
+        "position": 4,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Tsukanaigawa Pluton",
+        "t_int": "Early Cretaceous",
+        "b_int": "Early Cretaceous",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Tsukanaigawa Pluton",
+        "environment": null,
+        "unit_description": "The Tsukanaigawa Pluton is composed of medium-grained biotite hornblende granodiorite.",
+        "lithology": "granodiorite",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "intrusive",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p006",
+        "column_id": "ichinohe-east",
+        "sort_order": 4,
+        "position": 4,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Tsukanaigawa Pluton",
+        "t_int": "Early Cretaceous",
+        "b_int": "Early Cretaceous",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Tsukanaigawa Pluton",
+        "environment": null,
+        "unit_description": "The Tsukanaigawa Pluton is composed of medium-grained biotite hornblende granodiorite.",
+        "lithology": "granodiorite",
+        "minor_lith": null,
+        "min_thickness": null,
+        "max_thickness": null,
+        "basal_surface": "intrusive",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "strat_name": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "unresolved",
+          "method": null,
+          "origin": null,
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "reasons": [
+            "no_candidate"
+          ]
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "missing_optional:environment",
+        "unresolved:minor_lith"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p003::ichinohe-east",
+      "unit_id": "m1286_p003",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p003",
+        "column_id": "ichinohe-east",
+        "sort_order": 3,
+        "position": 3,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kassenba Formation",
+        "t_int": "Kimmeridgian",
+        "b_int": "Oxfordian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 1,
+        "b_prop": 0.5,
+        "strat_name": "Kassenba Formation",
+        "environment": "deep marine",
+        "unit_description": "The Kassenba Formation is characterised by at least two repetitions of chert-clastic sequence, and consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone. The thickness exceeds 2,000 m. Radioralian fossils suggests the deposition and accretion in middle to late Jurassic Period.",
+        "lithology": "sandstone",
+        "minor_lith": "siliceous mudstone; slaty mudstone; laminated mudstone; chert",
+        "min_thickness": 2000,
+        "max_thickness": null,
+        "basal_surface": "fault",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p003",
+        "column_id": "ichinohe-east",
+        "sort_order": 3,
+        "position": 3,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Kassenba Formation",
+        "t_int": "Kimmeridgian",
+        "b_int": "Oxfordian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": 1,
+        "b_prop": 0.5,
+        "strat_name": "Kassenba Formation",
+        "environment": "deep marine",
+        "unit_description": "The Kassenba Formation is characterised by at least two repetitions of chert-clastic sequence, and consists mostly of sandstone, with chert, siliceous mudstone, slaty mudstone, and laminated silty mudstone. The thickness exceeds 2,000 m. Radioralian fossils suggests the deposition and accretion in middle to late Jurassic Period.",
+        "lithology": "sandstone",
+        "minor_lith": "siliceous mudstone; slaty mudstone; laminated mudstone; chert",
+        "min_thickness": 2000,
+        "max_thickness": null,
+        "basal_surface": "fault",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "t_int": "review",
+        "b_int": "review",
+        "t_prop": "review",
+        "b_prop": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "min_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0,
+          "present_fields": [
+            "t_int",
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "OK",
+      "status_reasons": [],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p002::ichinohe-east",
+      "unit_id": "m1286_p002",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p002",
+        "column_id": "ichinohe-east",
+        "sort_order": 2,
+        "position": 2,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Seki Formation",
+        "t_int": null,
+        "b_int": "Kimmeridgian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Seki Formation",
+        "environment": "deep marine",
+        "unit_description": "The Seki Formation is characterised by at least three repetitions of chert-clastic sequence, and consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone. The thickness attains 2,000–2,800 m. Radioralian fossils suggest the deposition and accretion in late Jurassic Period.",
+        "lithology": "slaty mudstone; laminated mudstone",
+        "minor_lith": "chert; siliceous mudstone; sandstone",
+        "min_thickness": 2000,
+        "max_thickness": 2800,
+        "basal_surface": "fault",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p002",
+        "column_id": "ichinohe-east",
+        "sort_order": 2,
+        "position": 2,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Seki Formation",
+        "t_int": null,
+        "b_int": "Kimmeridgian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Seki Formation",
+        "environment": "deep marine",
+        "unit_description": "The Seki Formation is characterised by at least three repetitions of chert-clastic sequence, and consists mainly of slaty mudstone and laminated silty mudstone, accompanied by chert and small amount of siliceous mudstone and sandstone. The thickness attains 2,000–2,800 m. Radioralian fossils suggest the deposition and accretion in late Jurassic Period.",
+        "lithology": "slaty mudstone; laminated mudstone",
+        "minor_lith": "chert; siliceous mudstone; sandstone",
+        "min_thickness": 2000,
+        "max_thickness": 2800,
+        "basal_surface": "fault",
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "b_int": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "min_thickness": "review",
+        "max_thickness": "review",
+        "basal_surface": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "present_fields": [
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "age_requires_review"
+      ],
+      "human_status": "verified"
+    },
+    {
+      "row_key": "m1286_p001::ichinohe-east",
+      "unit_id": "m1286_p001",
+      "column_ids": [
+        "ichinohe-east"
+      ],
+      "review_values": {
+        "unit_id": "m1286_p001",
+        "column_id": "ichinohe-east",
+        "sort_order": 1,
+        "position": 1,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Takayashiki Formation",
+        "t_int": null,
+        "b_int": "Oxfordian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Takayashiki Formation",
+        "environment": "deep marine",
+        "unit_description": "The Takayashiki Formation consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amount of chert, siliceous mudstone, and mafic rocks. The thickness of this formation attains 3,500 m within the district.",
+        "lithology": "dismembered sandstone; dismembered mudstone; slaty mudstone",
+        "minor_lith": "chert; siliceous mudstone; mafic",
+        "min_thickness": null,
+        "max_thickness": 3500,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "values": {
+        "unit_id": "m1286_p001",
+        "column_id": "ichinohe-east",
+        "sort_order": 1,
+        "position": 1,
+        "section_id": null,
+        "t_pos": null,
+        "unit_name": "Takayashiki Formation",
+        "t_int": null,
+        "b_int": "Oxfordian",
+        "t_age_ma": null,
+        "b_age_ma": null,
+        "t_prop": null,
+        "b_prop": null,
+        "strat_name": "Takayashiki Formation",
+        "environment": "deep marine",
+        "unit_description": "The Takayashiki Formation consists mainly of alternating beds of dismembered sandstone and mudstone, and slaty mudstone with small amount of chert, siliceous mudstone, and mafic rocks. The thickness of this formation attains 3,500 m within the district.",
+        "lithology": "dismembered sandstone; dismembered mudstone; slaty mudstone",
+        "minor_lith": "chert; siliceous mudstone; mafic",
+        "min_thickness": null,
+        "max_thickness": 3500,
+        "basal_surface": null,
+        "lateral_relationship": null,
+        "comments": null
+      },
+      "value_origins": {
+        "unit_id": "review",
+        "column_id": "review",
+        "sort_order": "review",
+        "position": "review",
+        "unit_name": "review",
+        "b_int": "review",
+        "strat_name": "review",
+        "environment": "review",
+        "unit_description": "review",
+        "lithology": "review",
+        "minor_lith": "review",
+        "max_thickness": "review"
+      },
+      "field_resolution": {
+        "lithology": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "minor_lith": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": false,
+          "conflict_count": 0
+        },
+        "age": {
+          "state": "present",
+          "method": "human_review",
+          "origin": "review",
+          "evidence_ids": [],
+          "requires_review": true,
+          "conflict_count": 0,
+          "present_fields": [
+            "b_int"
+          ]
+        }
+      },
+      "formulas": {},
+      "age_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "context_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "physical_evidence": {
+        "status": "OK",
+        "summary": "No supporting evidence",
+        "best_by_field": {},
+        "evidence_ids": [],
+        "conflict_count": 0,
+        "inferred_count": 0
+      },
+      "status": "CHECK",
+      "status_reasons": [
+        "age_requires_review"
+      ],
+      "human_status": "verified"
+    }
+  ],
+  "summary": {
+    "unit_count": 42,
+    "column_count": 3,
+    "evidence_count": 0,
+    "orphaned_evidence_count": 0,
+    "orphaned_evidence_ids": [],
+    "status_counts": {
+      "OK": 17,
+      "CHECK": 25,
+      "MISSING": 0
+    },
+    "field_resolution_counts": {
+      "lithology": {
+        "present": 42,
+        "explicitly_absent": 0,
+        "unresolved": 0
+      },
+      "minor_lith": {
+        "present": 21,
+        "explicitly_absent": 0,
+        "unresolved": 21
+      },
+      "age": {
+        "present": 42,
+        "explicitly_absent": 0,
+        "unresolved": 0
+      }
+    },
+    "field_resolution_metrics": {
+      "lithology_present_rate": 1.0,
+      "minor_lith_disposition_rate": 0.5,
+      "age_present_rate": 1.0,
+      "age_interval_pair_rate": 0.9523809523809523
+    },
+    "unresolved_age_unit_ids": []
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "schema_version": "pdf-unit-aliases/1.0",
+  "stage": "pdf_unit_alias_mapping",
+  "status": "complete",
+  "job_id": "pam_27bdf1f03612e39bbc7b",
+  "prompt_version": "pdf-toc-aliases-v1",
+  "prompt_sha256": "00c6c67ad00832a07a9f587fc392bf6398ed26761c12e6bbae7392a8839d495c",
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "provider": "groq",
+  "requested_model": "llama-3.3-70b-versatile",
+  "actual_model": "llama-3.3-70b-versatile",
+  "model": "llama-3.3-70b-versatile",
+  "attempt_id": "llma_c7fce6821e30467fbb96a57d362b7e87",
+  "accepted": [
+    {
+      "unit_id": "m1286_p027",
+      "unit_name": "Oritsumedake Fan Deposits",
+      "japanese_alias": "七時雨火山扇状地堆積物",
+      "toc_quote": "七時雨火山扇状地堆積物",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p021",
+      "unit_name": "Esashika Formation",
+      "japanese_alias": "江刺家層",
+      "toc_quote": "江刺家層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p022",
+      "unit_name": "Nanashigure Volcanic Fan Deposits",
+      "japanese_alias": "相ノ山層",
+      "toc_quote": "相ノ山層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p045",
+      "unit_name": "Asanai terrace deposits",
+      "japanese_alias": "浅内段丘堆積物",
+      "toc_quote": "浅内段丘堆積物",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p023",
+      "unit_name": "Mukaikawara terrace deposits",
+      "japanese_alias": "向川原段丘堆積物",
+      "toc_quote": "向川原段丘堆積物",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p046",
+      "unit_name": "Kusagi terrace deposits",
+      "japanese_alias": "草木段丘堆積物",
+      "toc_quote": "草木段丘堆積物",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p024",
+      "unit_name": "Hayawatari terrace deposits",
+      "japanese_alias": "早渡段丘堆積物",
+      "toc_quote": "早渡段丘堆積物",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p049",
+      "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+      "japanese_alias": "十和田大不動火砕流堆積物",
+      "toc_quote": "十和田大不動火砕流堆積物",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p050",
+      "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+      "japanese_alias": "十和田八戸火砕流堆積物",
+      "toc_quote": "十和田八戸火砕流堆積物",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p016",
+      "unit_name": "Yanagisawa Formation",
+      "japanese_alias": "仁左平層",
+      "toc_quote": "仁左平層",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p012",
+      "unit_name": "Zyūmonzi Formation",
+      "japanese_alias": "高屋敷層",
+      "toc_quote": "高屋敷層",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p013",
+      "unit_name": "Hinosawa Conglomerate Member",
+      "japanese_alias": "関層",
+      "toc_quote": "関層",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p014",
+      "unit_name": "Metoki Coquina Conglomerate Member",
+      "japanese_alias": "合戦場層",
+      "toc_quote": "合戦場層",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p015",
+      "unit_name": "Shimotomai Volcaniclastic Rock Member",
+      "japanese_alias": "葛巻層",
+      "toc_quote": "葛巻層",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p011",
+      "unit_name": "Suenomatuyama Formation",
+      "japanese_alias": "一戸深成岩体",
+      "toc_quote": "一戸深成岩体",
+      "pdf_page": 4
+    },
+    {
+      "unit_id": "m1286_p028",
+      "unit_name": "Anausi Conglomerate Member",
+      "japanese_alias": "門ノ沢層",
+      "toc_quote": "門ノ沢層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p029",
+      "unit_name": "Itukamati Sandstone Member",
+      "japanese_alias": "末ノ松山層",
+      "toc_quote": "末ノ松山層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p030",
+      "unit_name": "Aikawa Volcanic Rock Member",
+      "japanese_alias": "十文字層",
+      "toc_quote": "十文字層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p031",
+      "unit_name": "Nakuidake Volcanic Rock Member",
+      "japanese_alias": "下斗米火山砕屑岩部層",
+      "toc_quote": "下斗米火山砕屑岩部層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p032",
+      "unit_name": "Mainosawa Sandstone Member",
+      "japanese_alias": "柳沢層",
+      "toc_quote": "柳沢層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p034",
+      "unit_name": "Tate Sandstone Member",
+      "japanese_alias": "合川火山岩部層",
+      "toc_quote": "合川火山岩部層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p035",
+      "unit_name": "Sikonai Siltstone Member",
+      "japanese_alias": "名久井岳火山岩部層",
+      "toc_quote": "名久井岳火山岩部層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p009",
+      "unit_name": "Yotuyaku Formation",
+      "japanese_alias": "米沢砂岩部層",
+      "toc_quote": "米沢砂岩部層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p037",
+      "unit_name": "Matsukura Siliciclastic Rock Member",
+      "japanese_alias": "五日町砂岩部層",
+      "toc_quote": "五日町砂岩部層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p038",
+      "unit_name": "Koiwai Mudstone Member",
+      "japanese_alias": "小祝泥岩部層",
+      "toc_quote": "小祝泥岩部層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p039",
+      "unit_name": "Keiseitoge Volcanic Rock Member",
+      "japanese_alias": "傾城峠火山岩部層",
+      "toc_quote": "傾城峠火山岩部層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p040",
+      "unit_name": "Sukohata Siliciclastic Rock Member",
+      "japanese_alias": "双畑砕屑岩部層",
+      "toc_quote": "双畑砕屑岩部層",
+      "pdf_page": 5
+    },
+    {
+      "unit_id": "m1286_p008",
+      "unit_name": "Ainoyama Formation",
+      "japanese_alias": "門ノ沢層",
+      "toc_quote": "門ノ沢層",
+      "pdf_page": 5
+    }
+  ],
+  "dropped": [
+    {
+      "unit_id": "m1286_p041",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p042",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p043",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p044",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p047",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p048",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p020",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p018",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p019",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p010",
+      "reason": "alias_not_on_cited_page"
+    },
+    {
+      "unit_id": "m1286_p007",
+      "reason": "alias_not_on_cited_page"
+    }
+  ],
+  "estimated_tokens": 6545,
+  "route_attempts": [
+    {
+      "attempt_id": "llma_c7fce6821e30467fbb96a57d362b7e87",
+      "provider": "groq",
+      "model": "llama-3.3-70b-versatile",
+      "actual_model": "llama-3.3-70b-versatile",
+      "status": "accepted",
+      "validation": "partial"
+    }
+  ]
+}

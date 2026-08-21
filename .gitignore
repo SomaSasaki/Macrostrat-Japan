@@ -1,0 +1,64 @@
+# ================================================================
+# .gitignore — Macrostrat Japan
+# 公開方針: Loop 1 / Loop 2 / Loop 3 すべて Public
+# 除外対象: 秘匿情報・大容量再生成物・実行時一時ファイルのみ
+# ================================================================
+
+# ---- 絶対除外: 秘匿情報（APIキー等） ----
+config/secrets.json
+config/secret.json
+config/llm_usage.json
+**/config/secret.json
+**/config/secrets.json
+**/config/llm_usage.json
+
+# ---- 絶対除外: LLM実行時データベース ----
+**/00_management/llm_runtime.sqlite
+**/00_management/llm_runtime.sqlite-shm
+**/00_management/llm_runtime.sqlite-wal
+**/00_management/llm_qualification/
+**/00_management/llm_probe_*.json
+**/00_management/llm_gold_*.json
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# ---- Excel 一時ファイル（開いている間だけ生成される） ----
+~$*.xlsx
+*.bak_*.xlsx
+
+# ---- 大容量・再生成可能なキャッシュ／取得物 ----
+data/raw/
+data/50k/cache/
+data/200k/cache/
+data/50k/raw/
+data/200k/raw/
+data/**/references/
+**/data/50k/cache/
+**/data/200k/cache/
+**/data/50k/raw/
+**/data/200k/raw/
+**/02_review/**/references/
+**/dashboard/data/
+
+# ---- ツール実行時状態 ----
+.pytest_cache/
+.obsidian/workspace.json
+outputs/_agent_tmp/
+
+# ---- サーバ・ランチャー（自動生成物） ----
+dashboard_static.html
+crash.log
+loop2_governance/logs/
+start_dashboard.bat
+start_dashboard_hidden.vbs
+stop_dashboard.bat
+make_static_dashboard.bat
+indestructible_server.py
+daemon_server.bat
+run_daemon.vbs
+git_bootstrap.bat
+*.log

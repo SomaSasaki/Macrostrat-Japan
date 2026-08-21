@@ -1,0 +1,168 @@
+{
+  "schema_version": "pdf-environment-analysis/1.0",
+  "stage": "pdf_environment_multimodal",
+  "prompt_version": "body-figure-environment-v1",
+  "status": "complete",
+  "job_id": "penv_ed5a75ca3311a9292503",
+  "model": "gemini-3.6-flash",
+  "source_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "prompt_sha256": "9565869f92e3df1c98b5d1dfa41720a32a6eccaa590ae60f4b6414461e70e910",
+  "target_sha256": "993e228d260cf2b4c851382ef6852e505adc66d16804b45e4eef7707641a1d06",
+  "image_sha256s": [
+    "80d9d736714462b93dbaec468fcda53c9c02c83363316d3a7c89e4b8f12808df",
+    "f3ee9a7980661d203bdefb0d3112db777cbc77bf45f99d731b2dfeb3d9047f52",
+    "737bbfc74cb28e900d7c4d48ae5aa7ad8775efc1035e366af93fe2b6ce6e6cdc"
+  ],
+  "completed_at": "2026-08-10T10:56:05+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1286_p016",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "deep-water indet.",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "The text accompanying Figure 1 explicitly states that during Sannohe Group deposition, deepening occurred resulting in mudstone dominance, and specifically notes bathyal conditions (漸深海) with minimal terrigenous clastic supply for the diatomite and hard shale facies of the Yanagisawa Formation.",
+      "reason": "The explanatory text in Figure 1 explicitly identifies a bathyal/deep-water environment with suppressed terrigenous input during deposition of the Yanagisawa Formation.",
+      "features": [
+        "diatomite",
+        "porcellanite",
+        "mudstone"
+      ],
+      "alternatives": [
+        "basinal"
+      ],
+      "context": {
+        "context_id": "ctx_m1286_p016_38fd6a14f721",
+        "section": null,
+        "pdf_page": 21,
+        "printed_page": 11
+      }
+    },
+    {
+      "unit_id": "m1286_p017",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "deep-water indet.",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 text explicitly describes the depositional setting of the hard shale (Kawaguchi Porcelanite Member) as bathyal (漸深海) with minimal terrigenous sediment input.",
+      "reason": "Figure 1 explicitly specifies a bathyal (deep-water) depositional environment with very low terrigenous input for this hard shale unit within the Yanagisawa Formation.",
+      "features": [
+        "hard shale",
+        "porcellanite"
+      ],
+      "alternatives": [
+        "deep subtidal indet."
+      ],
+      "context": {
+        "context_id": "ctx_m1286_p017_fdc19126cab6",
+        "section": null,
+        "pdf_page": 102,
+        "printed_page": 92
+      }
+    },
+    {
+      "unit_id": "m1286_p019",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "offshore shelf",
+      "assertion": "inferred",
+      "confidence": "C",
+      "quote": "",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 text notes that above the bathyal diatomite/hard shale, the Kamimetoki Sandstone Member developed, leading to shelf mudstone deposition.",
+      "reason": "The source text explicitly states that shallowing occurred to establish a shelf (offshore shelf) depositional environment.",
+      "features": [
+        "sandstone",
+        "cross-stratification"
+      ],
+      "alternatives": [
+        "shallow subtidal"
+      ],
+      "context": {
+        "context_id": "ctx_m1286_p019_a0172cd6012b",
+        "section": null,
+        "pdf_page": 20,
+        "printed_page": 10
+      }
+    }
+  ],
+  "dropped": [
+    {
+      "unit_id": "m1286_p005",
+      "reason": "not_applicable_requires_verified_quote"
+    },
+    {
+      "unit_id": "m1286_p006",
+      "reason": "not_applicable_requires_verified_quote"
+    },
+    {
+      "unit_id": "m1286_p008",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p014",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p021",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p023",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "reason": "no_verified_text_or_figure_evidence"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "reason": "no_verified_text_or_figure_evidence"
+    }
+  ],
+  "unresolved": [
+    {
+      "unit_id": "m1286_p001",
+      "column_ids": [],
+      "reason": "The text and column show lithic constituents of a Jurassic accretionary complex, but the provided context does not explicitly specify a single depositional environment term."
+    },
+    {
+      "unit_id": "m1286_p003",
+      "column_ids": [],
+      "reason": "The provided text and figure describe structural and stratigraphic relationships, but do not state a specific depositional environment."
+    },
+    {
+      "unit_id": "m1286_p004",
+      "column_ids": [],
+      "reason": "The text describes structural orientation without sufficient depositional environment indicators."
+    },
+    {
+      "unit_id": "m1286_p013",
+      "column_ids": [],
+      "reason": "The provided text context only describes fault contacts and lithic unit naming without detailed depositional evidence."
+    },
+    {
+      "unit_id": "m1286_p015",
+      "column_ids": [],
+      "reason": "The text mentions redeposited volcaniclastic material, which indicates process but is insufficient to specify the exact depositional environment."
+    }
+  ],
+  "estimated_tokens": 46687,
+  "usage_tokens": 44747
+}

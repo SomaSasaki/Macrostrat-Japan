@@ -1,0 +1,64 @@
+﻿{
+  "schema_version": "environment-gold-fixture/1.0",
+  "map_id": "1286",
+  "gold_snapshot_manifest": "claude_work/gold_snapshots/m1286/v1/manifest.json",
+  "source_workbook": "claude_work/reports/Ichinohe_reference_GOLD.xlsx",
+  "source_workbook_sha256": "db7663006b7cb7c0ca270374ab2261fa56aca7fef24ff88eee0574a7e4f16cbb",
+  "workspace": "data/50k/02_review/05_青森/m1286_一戸 2018",
+  "compiled_sha256": "5ceadc991d74ef99a2de3fb276fbf07aad1c0a456de363330b9fb5cd1f6575b7",
+  "routed_contexts_sha256": "0832d9142d18d881014e24d591c4cc57b6785a511ef61177e22c6fe9d6d6f930",
+  "figure_manifest_sha256": "4ff155967b671811fe9f1fbbda0754ddcfa51431eb2abc4a0489acefc5d1ed5f",
+  "pdf_sha256": "7ea95c9d7eb2762813bb957840ac2f748cbdbe656a1726e31249d95e83103985",
+  "figures": [
+    {
+      "pdf_page": 16,
+      "image_sha256": "bcc00d86d9a6f58510a0a5e218a12e1f828ebb8e84b717448ece3af3d3b56fa3"
+    },
+    {
+      "pdf_page": 27,
+      "image_sha256": "f3ee9a7980661d203bdefb0d3112db777cbc77bf45f99d731b2dfeb3d9047f52"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "oritsumedake-fan",
+      "unit_id": "m1286_p027",
+      "unit_name": "Oritsumedake fan deposits",
+      "expected_environment": "alluvial fan",
+      "reference_sheet": "units",
+      "reference_row": 35
+    },
+    {
+      "case_id": "esashika-fan",
+      "unit_id": "m1286_p021",
+      "unit_name": "Esashika Formation",
+      "expected_environment": "alluvial fan",
+      "reference_sheet": "units",
+      "reference_row": 36
+    },
+    {
+      "case_id": "shitazaki-sublittoral",
+      "unit_id": "m1286_p018",
+      "unit_name": "Shitazaki Formation",
+      "expected_environment": "sublittoral",
+      "reference_sheet": "units",
+      "reference_row": 11
+    },
+    {
+      "case_id": "yanagisawa-bathyal",
+      "unit_id": "m1286_p016",
+      "unit_name": "Yanagisawa Formation",
+      "expected_environment": "bathyal",
+      "reference_sheet": "units",
+      "reference_row": 12
+    },
+    {
+      "case_id": "tsukanaigawa-not-applicable",
+      "unit_id": "m1286_p006",
+      "unit_name": "Tsukanaigawa Pluton",
+      "expected_environment": "not_applicable",
+      "reference_sheet": "units",
+      "reference_row": 40
+    }
+  ]
+}

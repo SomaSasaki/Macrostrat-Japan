@@ -1,0 +1,285 @@
+{
+  "schema_version": "gsj-50k-pilot/2.0",
+  "status": "complete",
+  "generated_at": "2026-08-09T15:21:01+00:00",
+  "map_id": "1050",
+  "legacy_workbook_read": false,
+  "source_priority": [
+    "ZFK",
+    "Shapefile",
+    "PDF/LLM"
+  ],
+  "sources": {
+    "workspace_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\system\\source_manifest.json",
+    "pdf": {
+      "available": true,
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_D.pdf",
+      "sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7"
+    },
+    "shape": {
+      "available": true,
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_V01\\shp\\geo_A.shp",
+      "sha256": "7ff81804e140c6b9548f7d32727dabd2ada2a81926c7cec03811fd5f81530d12"
+    },
+    "zfk": {
+      "available": true,
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\raw\\zfk\\m1050"
+    },
+    "column_config": {
+      "available": true,
+      "path": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\config\\pilots\\m1050_columns.json",
+      "sha256": "e1f3b04f33b8fe5d3f092c94394c815fdec746d7b0949c66374e9f7efa00ccf7"
+    },
+    "column_mode": "reviewed_config",
+    "column_warning": ""
+  },
+  "llm": {
+    "model": "gemini-3.6-flash",
+    "external_calls": 0,
+    "cache_hits": 2,
+    "added_evidence": 41,
+    "usage_before": {
+      "calls": 1,
+      "tokens": 13322
+    },
+    "usage_after": {
+      "calls": 1,
+      "tokens": 13322
+    },
+    "usage_delta": {
+      "calls": 0,
+      "tokens": 0
+    },
+    "legacy_cache_files_migrated": 0,
+    "compatible_cache_jobs_migrated": 0,
+    "stage": "towada_pdf_llm",
+    "status": "complete",
+    "error": null,
+    "column_vision": {
+      "schema_version": "column-vision/1.0",
+      "stage": "column_geography_vision",
+      "prompt_version": "column-geography-v2",
+      "generated_at": "2026-08-09T14:36:36+00:00",
+      "map_id": "1050",
+      "model": "gemini-3.6-flash",
+      "job_id": "cv_e4803a0b65dfa31243e6",
+      "source_pdf": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_D.pdf",
+      "pdf_sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+      "figure_image": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\column_vision\\candidates\\page_0086_candidate.png",
+      "image_sha256": "c1424e4c07e8fe9a27936a70e5af7bfd05acb5257c69656481107de8f8d7f7ce",
+      "figure_pdf_page": 86,
+      "figure_printed_page": 78,
+      "source_text_sha256": "f7aae26d50a9996d71287c9fffa9dc540fe26f2a0b2de28bc4d484d367bdc6dd",
+      "prompt_sha256": "5b703c91f3cb987617a7ffe6c7d5fbcf192cee5ff4df8024d8b9687376edc8f4",
+      "external_calls": 0,
+      "cache_hits": 1,
+      "usage_tokens": 13322,
+      "proposal_status": "rejected_review_required",
+      "assignment_ready": false,
+      "dropped_count": 2,
+      "cache_file": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\llm_cache\\cv_e4803a0b65dfa31243e6.json"
+    }
+  },
+  "column_geography": {
+    "schema_version": "column-geography/1.0",
+    "status": "candidate_review",
+    "shape": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\references\\GSJ_MAP_G050_05031_2005_V01\\shp\\geo_A.shp",
+    "shape_warnings": [],
+    "geocode_context": "m1050_十和田 2005, 05_青森, Japan",
+    "geocodes": [
+      {
+        "name": "Ōu Backbone Range",
+        "selected": null,
+        "candidates": [],
+        "cache_key": "77ea66e16be5a89e14aec769"
+      }
+    ],
+    "columns": [
+      {
+        "col_id": "1",
+        "col_name": "Towada-west",
+        "region_quote": "The western part of the map area consists of the eastern margin of the Ōu Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.",
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "west",
+            "place_name": null
+          },
+          {
+            "kind": "margin_of",
+            "direction": "east",
+            "place_name": "Ōu Backbone Range"
+          }
+        ],
+        "selected": {
+          "lng": 141.05707612,
+          "lat": 40.52520445,
+          "score": 7.9398,
+          "inside_assigned_region": true,
+          "major_code": "18",
+          "unit_name": "Tsukihiyama Volcanics",
+          "assignment_method": "exclusive unit",
+          "reasons": [
+            "inside assigned GSJ Shape polygon",
+            "exclusive-unit polygon",
+            "PDF map direction west: +3.94"
+          ]
+        },
+        "alternatives": [
+          {
+            "lng": 141.05821627,
+            "lat": 40.5929481,
+            "score": 6.9822,
+            "inside_assigned_region": true,
+            "major_code": "18",
+            "unit_name": "Tsukihiyama Volcanics",
+            "assignment_method": "exclusive unit",
+            "reasons": [
+              "inside assigned GSJ Shape polygon",
+              "exclusive-unit polygon",
+              "PDF map direction west: +3.98"
+            ]
+          },
+          {
+            "lng": 141.0599121,
+            "lat": 40.58973432,
+            "score": 6.9729,
+            "inside_assigned_region": true,
+            "major_code": "14",
+            "unit_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+            "assignment_method": "exclusive unit",
+            "reasons": [
+              "inside assigned GSJ Shape polygon",
+              "exclusive-unit polygon",
+              "PDF map direction west: +3.97"
+            ]
+          }
+        ],
+        "candidate_count": 223
+      },
+      {
+        "col_id": "2",
+        "col_name": "Towada-east",
+        "region_quote": "The western part of the map area consists of the eastern margin of the Ōu Backbone Range, and the eastern part of the map area is characterized by a hill and terrace surface topography.",
+        "constraints": [
+          {
+            "kind": "map_direction",
+            "direction": "east",
+            "place_name": null
+          }
+        ],
+        "selected": {
+          "lng": 141.18892204,
+          "lat": 40.55043763,
+          "score": 7.0133,
+          "inside_assigned_region": true,
+          "major_code": "17",
+          "unit_name": "Togawa Formation",
+          "assignment_method": "exclusive unit",
+          "reasons": [
+            "inside assigned GSJ Shape polygon",
+            "exclusive-unit polygon",
+            "PDF map direction east: +3.84"
+          ]
+        },
+        "alternatives": [
+          {
+            "lng": 141.18571349,
+            "lat": 40.53312372,
+            "score": 6.9778,
+            "inside_assigned_region": true,
+            "major_code": "17",
+            "unit_name": "Togawa Formation",
+            "assignment_method": "exclusive unit",
+            "reasons": [
+              "inside assigned GSJ Shape polygon",
+              "exclusive-unit polygon",
+              "PDF map direction east: +3.94"
+            ]
+          },
+          {
+            "lng": 141.18303845,
+            "lat": 40.66283985,
+            "score": 6.9718,
+            "inside_assigned_region": true,
+            "major_code": "12",
+            "unit_name": "Noheji Formation",
+            "assignment_method": "exclusive unit",
+            "reasons": [
+              "inside assigned GSJ Shape polygon",
+              "exclusive-unit polygon",
+              "PDF map direction east: +3.97"
+            ]
+          }
+        ],
+        "candidate_count": 445
+      }
+    ]
+  },
+  "canonical": {
+    "units": 23,
+    "columns": 2,
+    "evidence": 466,
+    "evidence_by_source": {
+      "Macrostrat": 3,
+      "PDF": 80,
+      "Shapefile": 101,
+      "ZFK": 282
+    },
+    "status_counts": {
+      "OK": 0,
+      "CHECK": 23,
+      "MISSING": 0
+    },
+    "interval_normalizations": [
+      {
+        "unit_id": "m1050_u011",
+        "field": "b_int",
+        "from": "Early Pleistocene",
+        "to": "Chibanian",
+        "age_ma": 0.4
+      },
+      {
+        "unit_id": "m1050_u013",
+        "field": "b_int",
+        "from": "Early Pleistocene",
+        "to": "Chibanian",
+        "age_ma": 0.76
+      },
+      {
+        "unit_id": "m1050_u014",
+        "field": "b_int",
+        "from": "Early Pleistocene",
+        "to": "Calabrian",
+        "age_ma": 0.99
+      }
+    ]
+  },
+  "map": {
+    "generated": true,
+    "matched_units": 23,
+    "unmatched_units": 0,
+    "warnings": []
+  },
+  "qa": {
+    "inspection": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\qa\\inspection.ndjson",
+    "build_inspection": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\qa\\build_inspection.ndjson",
+    "submission_check": {
+      "return_code": 0,
+      "errors": 0,
+      "warnings": 4,
+      "ready_for_submission": true
+    }
+  },
+  "artifacts": {
+    "review_excel": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\m1050_review.xlsx",
+    "compiled_json": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\compiled.json",
+    "evidence_json": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\evidence.json",
+    "pilot_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\pilot_manifest.json",
+    "column_proposal": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\column_vision\\column_proposal.json",
+    "coordinate_candidates": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\column_vision\\coordinate_candidates.json",
+    "vision_manifest": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\system\\column_vision\\vision_manifest.json",
+    "column_map_png": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\column_map.png",
+    "column_map_kml": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1050_十和田 2005\\candidate\\column_map.kml"
+  }
+}

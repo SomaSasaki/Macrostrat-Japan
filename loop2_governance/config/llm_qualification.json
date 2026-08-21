@@ -1,0 +1,50 @@
+{
+  "schema_version": "llm-qualification-policy/1.0",
+  "probe_max_age_days": 14,
+  "gold_max_age_days": 90,
+  "default_policy": {
+    "min_cases": 3,
+    "min_expected_items": 3,
+    "min_validator_pass_rate": 1.0,
+    "min_precision": 1.0,
+    "min_recall": 0.85,
+    "max_critical_failures": 0
+  },
+  "stages": {
+    "pdf_unit_alias_mapping": {
+      "prompt_version": "pdf-toc-aliases-v1",
+      "validator_version": "pdf-unit-aliases/1.0",
+      "required_probe_capability": "text",
+      "min_recall": 0.9
+    },
+    "pdf_body_field_enrichment": {
+      "prompt_version": "japanese-body-fields-v2-lithology-roles",
+      "validator_version": "pdf-field-enrichment/1.0",
+      "required_probe_capability": "text",
+      "min_cases": 4
+    },
+    "pdf_unit_bootstrap": {
+      "prompt_version": "pdf-unit-inventory-v2",
+      "validator_version": "pdf-unit-bootstrap-validator/1.2",
+      "required_probe_capability": "text",
+      "min_recall": 0.95
+    },
+    "towada_pdf_llm": {
+      "prompt_version": "towada-canonical-v1",
+      "validator_version": "towada-canonical-validator-v2",
+      "required_probe_capability": "text",
+      "min_cases": 4,
+      "min_recall": 0.9
+    },
+    "column_geography_vision": {
+      "prompt_version": "column-geography-age-v3",
+      "validator_version": "column-geography-validator-v2",
+      "required_probe_capability": "vision"
+    },
+    "pdf_environment_multimodal": {
+      "prompt_version": "body-figure-environment-v3",
+      "validator_version": "pdf-environment-validator-v2",
+      "required_probe_capability": "multi_image"
+    }
+  }
+}

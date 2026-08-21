@@ -1,0 +1,22 @@
+{
+  "schema_version": "llm-probe-results/1.0",
+  "generated_at": "2026-08-12T02:21:09.337342Z",
+  "results": [
+    {
+      "provider": "bedrock",
+      "configured": true,
+      "ok": false,
+      "http_status": null,
+      "requested_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "actual_model": null,
+      "response": null,
+      "error": "Model use case details have not been submitted for this account. Fill out the Anthropic use case details form before using the model. If you have already filled out the form, try again in 15 minutes.",
+      "latency_ms": 603,
+      "capabilities": [
+        "text",
+        "vision"
+      ],
+      "image_count": 1
+    }
+  ]
+}

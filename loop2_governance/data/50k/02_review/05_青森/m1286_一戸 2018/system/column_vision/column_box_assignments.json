@@ -1,0 +1,426 @@
+{
+  "schema_version": "column-box-assignments/1.0",
+  "prompt_version": "english-summary-pdf-vector-v1",
+  "box_locator_mode": "local_english_summary",
+  "provider": "local_pdf_vector",
+  "requested_model": null,
+  "figure_pdf_page": 171,
+  "geometry_box_count": 31,
+  "box_assignments": {
+    "m1286_p048": [
+      "B04"
+    ],
+    "m1286_p026": [
+      "B05"
+    ],
+    "m1286_p049": [
+      "B06"
+    ],
+    "m1286_p025": [
+      "B07"
+    ],
+    "m1286_p052": [
+      "B11"
+    ],
+    "m1286_p024": [
+      "B12"
+    ],
+    "m1286_p053": [
+      "B13"
+    ],
+    "m1286_p023": [
+      "B14"
+    ],
+    "m1286_p020": [
+      "B17"
+    ],
+    "m1286_p018": [
+      "B18"
+    ],
+    "m1286_p019": [],
+    "m1286_p016": [
+      "B19"
+    ],
+    "m1286_p017": [],
+    "m1286_p013": [],
+    "m1286_p014": [],
+    "m1286_p015": [],
+    "m1286_p011": [
+      "B21"
+    ],
+    "m1286_p028": [],
+    "m1286_p029": [],
+    "m1286_p030": [],
+    "m1286_p031": [],
+    "m1286_p032": [],
+    "m1286_p010": [
+      "B22"
+    ],
+    "m1286_p034": [],
+    "m1286_p035": [],
+    "m1286_p009": [
+      "B23"
+    ],
+    "m1286_p037": [],
+    "m1286_p038": [],
+    "m1286_p039": [],
+    "m1286_p040": [],
+    "m1286_p008": [
+      "B24"
+    ],
+    "m1286_p007": [
+      "B25"
+    ],
+    "m1286_p005": [
+      "B26"
+    ],
+    "m1286_p006": [
+      "B27"
+    ],
+    "m1286_p004": [
+      "B31"
+    ],
+    "m1286_p003": [
+      "B29"
+    ],
+    "m1286_p002": [
+      "B28"
+    ],
+    "m1286_p001": [
+      "B30"
+    ],
+    "m1286_p044": [],
+    "m1286_p045": [
+      "B01"
+    ],
+    "m1286_p046": [],
+    "m1286_p047": [
+      "B01",
+      "B02"
+    ],
+    "m1286_p050": [
+      "B08",
+      "B09"
+    ],
+    "m1286_p051": [
+      "B10"
+    ],
+    "m1286_p027": [
+      "B03"
+    ],
+    "m1286_p022": [
+      "B15"
+    ],
+    "m1286_p021": [
+      "B16"
+    ],
+    "m1286_p012": [
+      "B20"
+    ]
+  },
+  "evidence": [
+    {
+      "unit_id": "m1286_p048",
+      "box_ids": [
+        "B04"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p026",
+      "box_ids": [
+        "B05"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p049",
+      "box_ids": [
+        "B06"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p025",
+      "box_ids": [
+        "B07"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p052",
+      "box_ids": [
+        "B11"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p024",
+      "box_ids": [
+        "B12"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p053",
+      "box_ids": [
+        "B13"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p023",
+      "box_ids": [
+        "B14"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p020",
+      "box_ids": [
+        "B17"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p018",
+      "box_ids": [
+        "B18"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p019",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p016",
+      "box_ids": [
+        "B19"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p017",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p013",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p014",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p015",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p011",
+      "box_ids": [
+        "B21"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p028",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p029",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p030",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p031",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p032",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p010",
+      "box_ids": [
+        "B22"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p034",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p035",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p009",
+      "box_ids": [
+        "B23"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p037",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p038",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p039",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p040",
+      "box_ids": [],
+      "method": "member_not_boxed"
+    },
+    {
+      "unit_id": "m1286_p008",
+      "box_ids": [
+        "B24"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p007",
+      "box_ids": [
+        "B25"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p005",
+      "box_ids": [
+        "B26"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p006",
+      "box_ids": [
+        "B27"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p004",
+      "box_ids": [
+        "B31"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p003",
+      "box_ids": [
+        "B29"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p002",
+      "box_ids": [
+        "B28"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p001",
+      "box_ids": [
+        "B30"
+      ],
+      "method": "english_pdf_text_or_leader"
+    },
+    {
+      "unit_id": "m1286_p044",
+      "box_ids": [],
+      "method": "no_visible_box"
+    },
+    {
+      "unit_id": "m1286_p045",
+      "box_ids": [
+        "B01"
+      ],
+      "method": "english_summary_abbreviation"
+    },
+    {
+      "unit_id": "m1286_p046",
+      "box_ids": [],
+      "method": "no_visible_box"
+    },
+    {
+      "unit_id": "m1286_p047",
+      "box_ids": [
+        "B01",
+        "B02"
+      ],
+      "method": "english_summary_abbreviation"
+    },
+    {
+      "unit_id": "m1286_p050",
+      "box_ids": [
+        "B08",
+        "B09"
+      ],
+      "method": "english_summary_abbreviation"
+    },
+    {
+      "unit_id": "m1286_p051",
+      "box_ids": [
+        "B10"
+      ],
+      "method": "english_summary_abbreviation"
+    },
+    {
+      "unit_id": "m1286_p027",
+      "box_ids": [
+        "B03"
+      ],
+      "method": "english_summary_abbreviation"
+    },
+    {
+      "unit_id": "m1286_p022",
+      "box_ids": [
+        "B15"
+      ],
+      "method": "english_summary_abbreviation"
+    },
+    {
+      "unit_id": "m1286_p021",
+      "box_ids": [
+        "B16"
+      ],
+      "method": "english_summary_abbreviation"
+    },
+    {
+      "unit_id": "m1286_p012",
+      "box_ids": [
+        "B20"
+      ],
+      "method": "english_summary_abbreviation"
+    }
+  ],
+  "gold_inputs_used": false
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "column-map-thumbnail/1.0",
+  "source_image": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\references\\GSJ_MAP_G050_05048_2018\\GSJ_MAP_G050_05048_2018_F1_geotiff.tif",
+  "source_sha256": "0ff50e22b2f37aae3525546ded7fe090d9a976d62157e4b025ddb97e15c9957a",
+  "bbox": [
+    141.246438165,
+    40.169479464999995,
+    141.496323255,
+    40.336075994999995
+  ],
+  "png": "C:\\Users\\somas\\OneDrive\\デスクトップ\\summer research 2026\\MacroStrat\\data\\02_review\\05_青森\\m1286_一戸 2018\\column_map.png",
+  "columns": [
+    {
+      "col_id": "western",
+      "col_name": "Western Area",
+      "lat": 40.25277773,
+      "lng": 141.30890944,
+      "method": "PDF regional-header direction anchored inside the official GSJ georeferenced map extent. Selected score 0.0000. Source summary figure assigns this Column to the west map area",
+      "inside_region": false
+    },
+    {
+      "col_id": "central",
+      "col_name": "Central Area",
+      "lat": 40.25277773,
+      "lng": 141.37138071,
+      "method": "PDF regional-header direction anchored inside the official GSJ georeferenced map extent. Selected score 0.0000. Source summary figure assigns this Column to the central map area",
+      "inside_region": false
+    },
+    {
+      "col_id": "eastern",
+      "col_name": "Eastern Area",
+      "lat": 40.25277773,
+      "lng": 141.43385198,
+      "method": "PDF regional-header direction anchored inside the official GSJ georeferenced map extent. Selected score 0.0000. Source summary figure assigns this Column to the east map area",
+      "inside_region": false
+    }
+  ]
+}

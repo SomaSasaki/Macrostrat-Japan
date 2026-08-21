@@ -1,0 +1,183 @@
+{
+  "schema_version": "pdf-environment-analysis/1.0",
+  "stage": "pdf_environment_multimodal",
+  "prompt_version": "body-figure-environment-v2",
+  "status": "complete",
+  "job_id": "penv_5cf1c926a6770f8e183d",
+  "model": "gemini-3.6-flash",
+  "source_sha256": "732186b96f9b2f7f4dae9d0ba9b18ddd9b39d45cc0e36fd0d7e1521a5d67baf7",
+  "prompt_sha256": "1c5e217f80e1854b1d06afd9ee4235ebb44b17e6b6661628d0f332f913feb802",
+  "target_sha256": "991ce648099ad537cfd03b526d2a9fd716764247112d192fb1c0df7bfb21ebd5",
+  "image_sha256s": [
+    "c1424e4c07e8fe9a27936a70e5af7bfd05acb5257c69656481107de8f8d7f7ce",
+    "d23fbc68ff2eafed80da46b23c06a8e669a74a5435024e3830bcceeed559327f",
+    "6853ad1583893e6d9c54848985f720ab811237782e358d48a3684e4c8ee3b318"
+  ],
+  "completed_at": "2026-08-10T18:03:15+00:00",
+  "accepted": [
+    {
+      "unit_id": "m1050_u006",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "砂土路川沿いの第4-31地点（付図3）では，本堆積物下部に埋没樹幹密集部が観察される（第4.20図）．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 lists the Towada-Hachinohe PFD in the Late Pleistocene Quaternary succession.",
+      "reason": "The presence of abundant buried tree trunks transported within the pyroclastic flow deposit indicates terrestrial subaerial (non-marine) deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "buried tree trunks",
+        "pumice"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u006_9644f65849da",
+        "section": "4.11",
+        "pdf_page": 56,
+        "printed_page": 48
+      }
+    },
+    {
+      "unit_id": "m1050_u007",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "本堆積物はしばしば炭化木片を含む．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 lists the Towada-Ofudo PFD in the Late Pleistocene succession.",
+      "reason": "The presence of charcoal wood fragments within the pyroclastic flow deposits indicates subaerial terrestrial (non-marine) deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "charcoal fragments",
+        "pumice"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u007_1c3b268a0659",
+        "section": "4.10",
+        "pdf_page": 54,
+        "printed_page": 46
+      }
+    },
+    {
+      "unit_id": "m1050_u011",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "十和田湖町百目木の第4-12地点（付図2）では，層厚2～3mの礫混じり褐色土壌層を挟んで八甲田第1期火砕流堆積物を覆う（第4.4図）．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 explicitly marks the environment for the Pleistocene Western Area pyroclastic succession, including Hakkoda 2nd-stage PFD, as Subaerial.",
+      "reason": "Interbedded gravelly brown soil layer and talus/debris deposits, combined with Figure 1 explicitly labeling the environment as Subaerial, support a terrestrial (non-marine) setting.",
+      "features": [
+        "pyroclastic flow deposits",
+        "welded tuff",
+        "soil layer"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u011_2b8fa671c504",
+        "section": "4.6",
+        "pdf_page": 4,
+        "printed_page": null
+      }
+    },
+    {
+      "unit_id": "m1050_u013",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "八甲田第2期火砕流堆積物と八甲田第1期火砕流堆積物の間には層厚2～3 mの礫混じり褐色土壌層が挟まれる．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 shows the Hakkoda 1st-stage Pyroclastic Flow Deposits in the Western Area under a Subaerial environment designation.",
+      "reason": "An interbedded terrestrial soil layer at the upper boundary and the Subaerial environment label in Figure 1 indicate non-marine deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "welded tuff",
+        "soil layer"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u013_265038ffbe4f",
+        "section": "4.4",
+        "pdf_page": 4,
+        "printed_page": null
+      }
+    },
+    {
+      "unit_id": "m1050_u014",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "non-marine",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "高峠付近と立惣辺山付近の八甲田高峠火砕流堆積物はメーサ状の火砕流台地を構成している（第1.3図）．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 includes the Hakkoda-Takatoge Pyroclastic Flow Deposits in the Western Area column with a Subaerial environment label.",
+      "reason": "The formation of a mesa-like pyroclastic plateau geomorphology together with the Subaerial environment classification in Figure 1 indicates non-marine land-surface deposition.",
+      "features": [
+        "pyroclastic flow deposits",
+        "welded tuff",
+        "pyroclastic plateau"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u014_94dd4ab8e388",
+        "section": "4.3",
+        "pdf_page": 41,
+        "printed_page": 33
+      }
+    },
+    {
+      "unit_id": "m1050_u023",
+      "column_ids": [],
+      "field": "environment",
+      "candidate": "deep-water indet.",
+      "assertion": "inferred",
+      "confidence": "B",
+      "quote": "変質したデイサイト溶岩より構成される．",
+      "figure_ids": [
+        "fig_1"
+      ],
+      "figure_observation": "Figure 1 lists the Itadome Formation at the base of the Middle Miocene succession in the Western Area and explicitly shows a Deep sea environment.",
+      "reason": "Figure 1 explicitly designates the depositional environment of the Middle Miocene Itadome Formation as Deep sea, which maps to deep-water indet.",
+      "features": [
+        "dacite lava"
+      ],
+      "alternatives": [],
+      "context": {
+        "context_id": "ctx_m1050_u023_89f74a711ab6",
+        "section": "3.2",
+        "pdf_page": 85,
+        "printed_page": 77
+      }
+    }
+  ],
+  "dropped": [],
+  "unresolved": [
+    {
+      "unit_id": "m1050_u008",
+      "column_ids": [],
+      "reason": "The source text describes scoria flow deposits without clear indicators of the depositional environment, and pyroclastic lithology alone does not uniquely establish the setting."
+    }
+  ],
+  "estimated_tokens": 28659,
+  "usage_tokens": 25713
+}

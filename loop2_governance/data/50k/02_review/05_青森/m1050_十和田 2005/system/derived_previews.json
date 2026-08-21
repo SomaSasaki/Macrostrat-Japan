@@ -1,0 +1,998 @@
+{
+  "schema_version": "derived-previews/1.0",
+  "map_id": "1050",
+  "generated_at": "2026-08-14T03:48:19+00:00",
+  "rows": [
+    {
+      "row_key": "m1050_u001::1|2",
+      "unit_id": "m1050_u001",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "22, 22",
+        "section_id": null,
+        "t_pos": "23, 23",
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 22,
+          "section_id": null,
+          "t_pos": 23
+        },
+        "2": {
+          "position": 22,
+          "section_id": null,
+          "t_pos": 23
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 1,
+        "unit_name": "Present river bed deposits",
+        "strat_name": "Present river bed deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": 0,
+        "b_age_ma": 0.0117
+      },
+      "dependency_sha256": "eadc69f53407c02f8d29bf9f353c931df6e14e111f8d1e7b397fc54830706ceb",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u002::1|2",
+      "unit_id": "m1050_u002",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "22, 22",
+        "section_id": null,
+        "t_pos": "23, 23",
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 22,
+          "section_id": null,
+          "t_pos": 23
+        },
+        "2": {
+          "position": 22,
+          "section_id": null,
+          "t_pos": 23
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 1,
+        "unit_name": "Talus deposits",
+        "strat_name": "Talus deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": 0,
+        "b_age_ma": 0.0117
+      },
+      "dependency_sha256": "040f5d0b9b95cb987c774d102ee7518a45274072dd8f1d05a8c6f83ab3f5a7de",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u003::1|2",
+      "unit_id": "m1050_u003",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "21, 21",
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 21,
+          "section_id": null,
+          "t_pos": null
+        },
+        "2": {
+          "position": 21,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 2,
+        "unit_name": "Akedo Terrace Deposits",
+        "strat_name": "Akedo Terrace Deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": 0,
+        "b_age_ma": 0.0117
+      },
+      "dependency_sha256": "fc517a9ac003de295a617f1cce18cc3c02a47ff2a8d8d3865ff3a1b22e8e5607",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u004::1|2",
+      "unit_id": "m1050_u004",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "20, 20",
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 20,
+          "section_id": null,
+          "t_pos": null
+        },
+        "2": {
+          "position": 20,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 3,
+        "unit_name": "Shimokirida Terrace Deposits",
+        "strat_name": "Shimokirida Terrace Deposits",
+        "t_int": "Holocene",
+        "b_int": "Holocene",
+        "t_age_ma": 0,
+        "b_age_ma": 0.0117
+      },
+      "dependency_sha256": "277a102b80ffe1c8ceac1f09903ba1ad13579f54367ab78d8dea9690c9152b21",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u005::1|2",
+      "unit_id": "m1050_u005",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "19, 19",
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 19,
+          "section_id": null,
+          "t_pos": null
+        },
+        "2": {
+          "position": 19,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 4,
+        "unit_name": "Towada Terrace Deposits",
+        "strat_name": "Towada Terrace Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": 0.0117,
+        "b_age_ma": 0.129
+      },
+      "dependency_sha256": "88b0e989b69098a19135a978f7ee0775f0c6ee30d4768ca1207ecc327f11df34",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u006::1|2",
+      "unit_id": "m1050_u006",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "18, 18",
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 18,
+          "section_id": null,
+          "t_pos": null
+        },
+        "2": {
+          "position": 18,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 5,
+        "unit_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "strat_name": "Towada-Hachinohe Pyroclastic Flow Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": 0.0117,
+        "b_age_ma": 0.129
+      },
+      "dependency_sha256": "00b89012f10ef8188a86b490635dab9bf9523a17412df65eefbd1aeb8d5cec0f",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u007::1|2",
+      "unit_id": "m1050_u007",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "17, 17",
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 17,
+          "section_id": null,
+          "t_pos": null
+        },
+        "2": {
+          "position": 17,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 6,
+        "unit_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+        "strat_name": "Towada-Ofudo Pyroclastic Flow Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": 0.0117,
+        "b_age_ma": 0.129
+      },
+      "dependency_sha256": "1b04a6c8bbf9da1e4b9d38909a8d99d5b6d323de385cc5d0dfe455e0d13c755b",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u008::1",
+      "unit_id": "m1050_u008",
+      "column_ids": [
+        "1"
+      ],
+      "derived": {
+        "position": 16,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 16,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1"
+        ],
+        "sort_order": 7,
+        "unit_name": "Towada-Okuse Pyroclastic Flow Deposits",
+        "strat_name": "Towada-Okuse Pyroclastic Flow Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": 0.0117,
+        "b_age_ma": 0.129
+      },
+      "dependency_sha256": "ba22b202d76a41735e3cb8cf3e69c81ffde499be808def9ebd177fbd9a903a94",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u009::2",
+      "unit_id": "m1050_u009",
+      "column_ids": [
+        "2"
+      ],
+      "derived": {
+        "position": 15,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "2": {
+          "position": 15,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "2"
+        ],
+        "sort_order": 8,
+        "unit_name": "Shichinohe Terrace Deposits",
+        "strat_name": "Shichinohe Terrace Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Late Pleistocene",
+        "t_age_ma": 0.0117,
+        "b_age_ma": 0.129
+      },
+      "dependency_sha256": "a42c145f32dfcb088fee3e8220e5bdec26417cb5d3b99832d39b2ed577498840",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u010::1",
+      "unit_id": "m1050_u010",
+      "column_ids": [
+        "1"
+      ],
+      "derived": {
+        "position": 14,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 14,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1"
+        ],
+        "sort_order": 9,
+        "unit_name": "Urushihata Terrace Deposits",
+        "strat_name": "Urushihata Terrace Deposits",
+        "t_int": "Late Pleistocene",
+        "b_int": "Gelasian",
+        "t_age_ma": null,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "960fae5b0982d9cd76692f26fd543bc11ca544c73a76e03e70c4dc504b2b0494",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u011::1|2",
+      "unit_id": "m1050_u011",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "13, 13",
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 13,
+          "section_id": null,
+          "t_pos": null
+        },
+        "2": {
+          "position": 13,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 10,
+        "unit_name": "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+        "strat_name": "Hakkoda 2nd-stage Pyroclastic Flow Deposits",
+        "t_int": "Chibanian",
+        "b_int": "Gelasian",
+        "t_age_ma": 0.129,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "ebfc6e1cc967b334cfe9cd559997a29e351b33fb2ea2d4a3cbc01b813990316d",
+      "event_age_bracket": true,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u012::2",
+      "unit_id": "m1050_u012",
+      "column_ids": [
+        "2"
+      ],
+      "derived": {
+        "position": 12,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "2": {
+          "position": 12,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "2"
+        ],
+        "sort_order": 11,
+        "unit_name": "Noheji Formation",
+        "strat_name": "Noheji Formation",
+        "t_int": "Chibanian",
+        "b_int": "Gelasian",
+        "t_age_ma": 0.129,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "e0ed19d6773340954a6aad4d7abc9d9bc686f07362390b9301dcbe53a980eec5",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u013::1",
+      "unit_id": "m1050_u013",
+      "column_ids": [
+        "1"
+      ],
+      "derived": {
+        "position": 11,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 11,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1"
+        ],
+        "sort_order": 12,
+        "unit_name": "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+        "strat_name": "Hakkoda 1st-stage Pyroclastic Flow Deposits",
+        "t_int": "Chibanian",
+        "b_int": "Gelasian",
+        "t_age_ma": 0.129,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "395bd5788783070a4d5655126e4eb5a7ccc47bde8418eff8013db4a51b884982",
+      "event_age_bracket": true,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u014::1",
+      "unit_id": "m1050_u014",
+      "column_ids": [
+        "1"
+      ],
+      "derived": {
+        "position": 10,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 10,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1"
+        ],
+        "sort_order": 13,
+        "unit_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+        "strat_name": "Hakkoda-Takatoge Pyroclastic Flow Deposits",
+        "t_int": "Chibanian",
+        "b_int": "Gelasian",
+        "t_age_ma": 0.129,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "7c37a6f8261d0039af5fda0f87508ee8257175fb9e02aad4759e8233059cefbf",
+      "event_age_bracket": true,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u015::1|2",
+      "unit_id": "m1050_u015",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "9, 9",
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": null,
+        "b_prop": null
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 9,
+          "section_id": null,
+          "t_pos": null
+        },
+        "2": {
+          "position": 9,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 14,
+        "unit_name": "Takamoriyama Formation",
+        "strat_name": "Takamoriyama Formation",
+        "t_int": "Chibanian",
+        "b_int": "Gelasian",
+        "t_age_ma": 0.129,
+        "b_age_ma": null
+      },
+      "dependency_sha256": "ce93ce5b067621be23231dfe00d605ffd610ca2fcc7aa80904ed7736da5ea720",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence",
+        "t_prop": "insufficient_evidence",
+        "b_prop": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u016::1",
+      "unit_id": "m1050_u016",
+      "column_ids": [
+        "1"
+      ],
+      "derived": {
+        "position": 8,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 8,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1"
+        ],
+        "sort_order": 15,
+        "unit_name": "Horyo-kita Lava",
+        "strat_name": "Horyo-kita Lava",
+        "t_int": "Pliocene",
+        "b_int": "Pliocene",
+        "t_age_ma": 2.58,
+        "b_age_ma": 5.333
+      },
+      "dependency_sha256": "b402d129ac01fc58887416b8b87ed95fb26fda22d4d95b9a9acf0d659c56e361",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u017::2",
+      "unit_id": "m1050_u017",
+      "column_ids": [
+        "2"
+      ],
+      "derived": {
+        "position": 7,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "2": {
+          "position": 7,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "2"
+        ],
+        "sort_order": 16,
+        "unit_name": "Togawa Formation",
+        "strat_name": "Togawa Formation",
+        "t_int": "Pliocene",
+        "b_int": "Pliocene",
+        "t_age_ma": 2.58,
+        "b_age_ma": 5.333
+      },
+      "dependency_sha256": "f53559d6df8f5dd9bcf5750569737d5e05bf376b3632ac18ad4ad2311ed9d4a9",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u018::1",
+      "unit_id": "m1050_u018",
+      "column_ids": [
+        "1"
+      ],
+      "derived": {
+        "position": 6,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 6,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1"
+        ],
+        "sort_order": 17,
+        "unit_name": "Tsukihiyama Volcanics",
+        "strat_name": "Tsukihiyama Volcanics",
+        "t_int": "Messinian",
+        "b_int": "Tortonian",
+        "t_age_ma": 5.333,
+        "b_age_ma": 11.63
+      },
+      "dependency_sha256": "d0de28399f38391c9642d85aac6594e29ea9f6575b6ffdbfecde88b6093bbdfd",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u019::1",
+      "unit_id": "m1050_u019",
+      "column_ids": [
+        "1"
+      ],
+      "derived": {
+        "position": 5,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 5,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1"
+        ],
+        "sort_order": 18,
+        "unit_name": "Tsukihiyama Volcanics",
+        "strat_name": "Tsukihiyama Volcanics",
+        "t_int": "Messinian",
+        "b_int": "Tortonian",
+        "t_age_ma": 5.333,
+        "b_age_ma": 11.63
+      },
+      "dependency_sha256": "6a7659c1affd8ad61ae6c1be5843a8e395b6eb55a8acbdfc4c335fa2b72589aa",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u020::2",
+      "unit_id": "m1050_u020",
+      "column_ids": [
+        "2"
+      ],
+      "derived": {
+        "position": 4,
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "2": {
+          "position": 4,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "2"
+        ],
+        "sort_order": 19,
+        "unit_name": "Komasuzawa Formation",
+        "strat_name": "Komasuzawa Formation",
+        "t_int": "Messinian",
+        "b_int": "Tortonian",
+        "t_age_ma": 5.333,
+        "b_age_ma": 11.63
+      },
+      "dependency_sha256": "c2d818ea094d4447cce76a70acb85d4a3ae1ab84a49b49fcd21e9b8b4ed3ddf2",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u021::1|2",
+      "unit_id": "m1050_u021",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "3, 3",
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 3,
+          "section_id": null,
+          "t_pos": null
+        },
+        "2": {
+          "position": 3,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 20,
+        "unit_name": "Dochi Formation",
+        "strat_name": "Dochi Formation",
+        "t_int": "Messinian",
+        "b_int": "Tortonian",
+        "t_age_ma": 5.333,
+        "b_age_ma": 11.63
+      },
+      "dependency_sha256": "55f78b2cad2b6db6b1d6e2e05c4c03531166b2b7e6efaaf720a508ef91f93200",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u022::1|2",
+      "unit_id": "m1050_u022",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "2, 2",
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 2,
+          "section_id": null,
+          "t_pos": null
+        },
+        "2": {
+          "position": 2,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 21,
+        "unit_name": "Wadagawa Formation",
+        "strat_name": "Wadagawa Formation",
+        "t_int": "Serravallian",
+        "b_int": "Langhian",
+        "t_age_ma": 11.63,
+        "b_age_ma": 15.98
+      },
+      "dependency_sha256": "108cd60f739c7b8c77bb36bb7697499f95937d4b508492033c12b3d24eb5d66f",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    },
+    {
+      "row_key": "m1050_u023::1|2",
+      "unit_id": "m1050_u023",
+      "column_ids": [
+        "1",
+        "2"
+      ],
+      "derived": {
+        "position": "1, 1",
+        "section_id": null,
+        "t_pos": null,
+        "t_prop": 1.0,
+        "b_prop": 0.0
+      },
+      "derived_by_column": {
+        "1": {
+          "position": 1,
+          "section_id": null,
+          "t_pos": null
+        },
+        "2": {
+          "position": 1,
+          "section_id": null,
+          "t_pos": null
+        }
+      },
+      "dependencies": {
+        "column_ids": [
+          "1",
+          "2"
+        ],
+        "sort_order": 22,
+        "unit_name": "Itadome Formation",
+        "strat_name": "Itadome Formation",
+        "t_int": "Serravallian",
+        "b_int": "Langhian",
+        "t_age_ma": 11.63,
+        "b_age_ma": 15.98
+      },
+      "dependency_sha256": "88e8923f568c3db63c6e460bc0895a8b57324edaba776ad8e14aabdf43538e12",
+      "event_age_bracket": false,
+      "missing_reasons": {
+        "section_id": "insufficient_evidence",
+        "t_pos": "insufficient_evidence"
+      }
+    }
+  ]
+}
